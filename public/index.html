@@ -44,7 +44,11 @@
   .cc{font-weight:700;font-size:11px;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--ink)}
   .empty{color:var(--muted);text-align:center;padding:40px}
   .toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none}
+  .btn{font:inherit;background:var(--accent);color:var(--accent-ink);border:1px solid var(--accent);border-radius:8px;padding:8px 12px;cursor:pointer;font-weight:600}
+  .btn:disabled{opacity:.6;cursor:default}
   .theme{margin-left:auto;background:none;border:1px solid var(--line);border-radius:8px;color:var(--muted);padding:8px 10px;cursor:pointer}
+  #age{font-weight:600}
+  #age.stale{color:#c0392b}
   li.item.off{opacity:.5}
   .tier{font-size:10px;text-transform:uppercase;letter-spacing:.04em;padding:1px 6px;border-radius:5px;border:1px solid var(--line)}
   .tier.sea{background:#1f5fb0;color:#fff;border-color:#1f5fb0}
@@ -59,7 +63,7 @@
 <div class="wrap">
   <header>
     <h1>SCSDI — South China Sea News Watch</h1>
-    <p>Keyword-matched articles from tracked outlets · <span id="gen">loading…</span></p>
+    <p>Keyword-matched articles from tracked outlets · <span id="gen">loading…</span> · data age <span id="age">—</span></p>
   </header>
 
   <div class="bar">
@@ -78,6 +82,8 @@
         <option value="outlet">By outlet</option>
       </select>
       <label class="toggle"><input type="checkbox" id="relonly" checked> relevant only</label>
+      <button class="btn" id="refresh" title="Reload the latest crawled data">↻ Refresh</button>
+      <label class="toggle"><input type="checkbox" id="auto"> auto</label>
       <button class="theme" id="theme">◐ theme</button>
     </div>
     <div class="chips" id="chips"></div>
@@ -138,30 +144,55 @@ function render(){
 
 function boot(d){
   state.items=d.items||[];
+  state.generated=d.generated;
   $("#gen").textContent="last crawl "+new Date(d.generated).toLocaleString()+" · "+(d.window_days??"—")+"-day window";
+  updateAge();
   $("#n-rel").textContent=d.n_relevant ?? "—";
   $("#n-items").textContent=d.n_items ?? state.items.length;
   $("#n-new").textContent=d.new_this_run ?? "—";
   $("#n-arch").textContent=d.archive_total ?? "—";
-  const countries=[...new Set(state.items.map(i=>i.country))].sort();
-  const sel=$("#country"); sel.innerHTML='<option value="">All countries</option>'+countries.map(c=>`<option>${c}</option>`).join("");
-  const chips=$("#chips");
-  countries.forEach(c=>{
-    const n=state.items.filter(i=>i.country===c).length;
-    const el=document.createElement("span"); el.className="chip"; el.textContent=`${c} ${n}`;
-    el.onclick=()=>{ el.classList.toggle("on"); el.classList.contains("on")?state.cc.add(c):state.cc.delete(c); render(); };
-    chips.append(el);
-  });
+  if(!state.controlsBuilt){
+    const countries=[...new Set(state.items.map(i=>i.country))].sort();
+    const sel=$("#country"); sel.innerHTML='<option value="">All countries</option>'+countries.map(c=>`<option>${c}</option>`).join("");
+    const chips=$("#chips"); chips.innerHTML="";
+    countries.forEach(c=>{
+      const el=document.createElement("span"); el.className="chip"; el.textContent=c;
+      el.onclick=()=>{ el.classList.toggle("on"); el.classList.contains("on")?state.cc.add(c):state.cc.delete(c); render(); };
+      chips.append(el);
+    });
+    state.controlsBuilt=true;
+  }
   render();
 }
 
-// Prefer the inlined data file (works on file://); fall back to fetch.
-if (window.FEED_DATA) {
-  boot(window.FEED_DATA);
-} else {
-  fetch("feed.json").then(r=>r.json()).then(boot)
-    .catch(e=>{ $("#gen").textContent="could not load feed data ("+e+")"; });
+// Live "data age" indicator (how long since the last crawl).
+function updateAge(){
+  const el=$("#age"); if(!state.generated){el.textContent="—";return;}
+  const mins=Math.max(0,Math.round((Date.now()-new Date(state.generated).getTime())/60000));
+  el.textContent = mins<1 ? "just now" : mins<60 ? mins+"m ago" : Math.floor(mins/60)+"h "+(mins%60)+"m ago";
+  el.classList.toggle("stale", mins>45);   // a 30-min crawl is overdue past ~45m
 }
+setInterval(updateAge, 30000);
+
+// Reload the latest crawled data (bypassing cache). Used by the Refresh button
+// and the auto-refresh timer. Falls back to the inlined data on file://.
+function reload(){
+  const btn=$("#refresh"); btn.disabled=true; const label=btn.textContent; btn.textContent="↻ …";
+  return fetch("feed.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{boot(d);})
+    .catch(()=>{ if(window.FEED_DATA) boot(window.FEED_DATA); })
+    .finally(()=>{ btn.disabled=false; btn.textContent=label; });
+}
+
+// First paint: inlined data (instant, works on file://), then try a fresh pull.
+if (window.FEED_DATA) boot(window.FEED_DATA);
+reload();
+
+$("#refresh").onclick=reload;
+let autoTimer=null;
+$("#auto").onchange=e=>{
+  clearInterval(autoTimer); autoTimer=null;
+  if(e.target.checked) autoTimer=setInterval(reload, 60000);
+};
 
 $("#q").oninput=e=>{state.q=e.target.value.toLowerCase().trim();render();};
 $("#country").onchange=e=>{state.country=e.target.value;render();};
