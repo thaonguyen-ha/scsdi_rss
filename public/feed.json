@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T19:58:51.271129+00:00",
+  "generated": "2026-10-26T20:18:36.684106+00:00",
   "window_days": 14,
   "n_sources": 0,
   "n_items": 1266,
@@ -8573,7 +8573,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-26T20:12:45.489247+00:00",
+      "resolved_url": "https://www.chinadaily.com.cn/a/202610/21/WS6ad8bccfe4b06d4aa05640a4.html",
+      "text_file": "archive/text/9b37c70f52e87112.txt",
+      "text_chars": 675,
+      "text_relevant": true,
+      "text_scs_hits": 5,
+      "text_actor_hits": 7,
+      "wayback_url": "https://web.archive.org/web/20261026201252/https://www.chinadaily.com.cn/a/202610/21/WS6ad8bccfe4b06d4aa05640a4.html",
+      "archive_status": "ok"
     },
     {
       "key": "中國海警 關鍵字新聞",
@@ -14327,7 +14337,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-26T20:13:21.076701+00:00",
+      "resolved_url": "https://www.chinadaily.com.cn/a/202610/16/WS6ad2087de4b06d4aa05633dc.html",
+      "text_file": "archive/text/4e49ab88bc9404d1.txt",
+      "text_chars": 2842,
+      "text_relevant": true,
+      "text_scs_hits": 17,
+      "text_actor_hits": 7,
+      "wayback_url": "https://web.archive.org/web/20261017111530/https://www.chinadaily.com.cn/a/202610/16/WS6ad2087de4b06d4aa05633dc.html",
+      "archive_status": "ok"
     },
     {
       "key": "war crimes by japanese invaders in china undeniable chinese military spokesman",
@@ -14397,7 +14417,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-26T20:13:57.358516+00:00",
+      "resolved_url": "https://news.cgtn.com/news/2026-10-16/Chinese-military-says-will-deter-sabotaging-moves-in-South-China-Sea-1Ri2YqUXYI0/p.html",
+      "text_file": "archive/text/48948814a24248d3.txt",
+      "text_chars": 591,
+      "text_relevant": true,
+      "text_scs_hits": 2,
+      "text_actor_hits": 2,
+      "wayback_url": "https://web.archive.org/web/20261026201405/https://news.cgtn.com/news/2026-10-16/Chinese-military-says-will-deter-sabotaging-moves-in-South-China-Sea-1Ri2YqUXYI0/p.html",
+      "archive_status": "ok"
     },
     {
       "key": "south china sea issue chinese military says will deter sabotaging moves in south china sea",

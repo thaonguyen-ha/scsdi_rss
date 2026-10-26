@@ -1,0 +1,3 @@
+# Feed generation (build_feed.py) is standard-library only.
+# Content archiving (archive_text.py) needs trafilatura for body extraction.
+trafilatura>=2.0

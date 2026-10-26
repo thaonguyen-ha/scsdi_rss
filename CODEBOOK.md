@@ -160,8 +160,22 @@ Every recorded article is one JSON line in [`archive/articles.jsonl`](archive/)
 | `title`, `link` | headline and Google News link |
 | `pubDate`, `first_seen` | published date; when we first recorded it |
 | `outlet`, `source_name`, `country`, `domain` | provenance |
-| `relevant`, `tier` | inclusion flag and matched tier |
-| `text_archived` | whether full article text has been archived (see below) |
+| `relevant`, `tier` | headline inclusion flag and matched tier |
+| `text_archived` | whether the body text has been archived |
+| `resolved_url` | the real article URL (Google News redirect decoded) |
+| `wayback_url` | Internet Archive snapshot (citable, link-rot-proof) |
+| `text_file` | path to the extracted body text under `archive/text/` |
+| `text_relevant` | **body-level** relevance: names a place **and** an incident/actor term |
+
+### Body-level relevance (stage 4b)
+
+Once an article's text is archived, a second rule-based check marks it
+`text_relevant` only if the body contains **both** a place term (SEA or FEATURE)
+**and** an incident/actor term (coast guard, militia, water cannon, ram, blockade,
+patrol, exercise, dispute, sovereignty, …). This is what distinguishes a genuine
+incident from a weather report that merely names *Biển Đông*. It is an added
+signal, not yet the feed gate (see limitations), and is the step an LLM
+classifier would eventually replace.
 
 ---
 
@@ -173,10 +187,9 @@ Every recorded article is one JSON line in [`archive/articles.jsonl`](archive/)
    is missed. The planned fix is a second pass over the **archived article text**
    (rule-based on the body, or an LLM classifier) — this is the open design
    decision.
-2. **Full article text is not yet archived.** The Google News feed carries only
-   the headline + a redirect link, not the body (see the pipeline README). Text
-   archiving requires resolving the redirect to the real URL, then fetching and
-   extracting the body — a planned step.
+2. **Body-level relevance is an added signal, not the feed gate.** `text_relevant`
+   exists only for text-archived articles, and archiving runs incrementally, so
+   inclusion in `feed.xml` is still decided by the headline rule above.
 3. **Outlets Google News indexes poorly** return nothing via this method
    (currently: Ta Kung Pao, Kompas search subdomain, Gatra, BBC `bbc.com`,
    Mongabay, AMTI, The Defense Post, NHK, The Sun, VTC). These need a native feed

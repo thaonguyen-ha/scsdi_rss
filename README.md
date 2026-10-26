@@ -20,6 +20,7 @@ ships a small dashboard to browse it.
 | `public/index.html` | Browsable dashboard (relevant-only toggle, country/search/sort) |
 | `public/status.json`| Latest crawl report: per-source new counts, totals |
 | `archive/articles.jsonl` | **Permanent** append-only record of every article ever seen (this is the dedup state — committed so it persists across runs) |
+| `archive/text/*.txt`| Extracted body text of archived relevant articles |
 | `reports/run-*.json`| One per-run report kept for history |
 
 ## How it works
@@ -42,6 +43,22 @@ ships a small dashboard to browse it.
 
   `python build_feed.py --no-crawl` re-tags the whole archive and rebuilds
   outputs **without** fetching — use it after changing the relevance rules.
+
+- **`archive_text.py`** — for each relevant, not-yet-archived article it (1)
+  resolves the Google News redirect to the real URL (via Google's `batchexecute`
+  endpoint), (2) fetches and extracts the body with **trafilatura**, (3) runs a
+  rule-based **text** relevance check (a place term *and* an incident/actor term,
+  which separates an incident from a weather report that just names the sea), and
+  (4) snapshots the real URL to the **Wayback Machine**. It stores the extracted
+  text under `archive/text/` and writes `resolved_url`, `wayback_url`,
+  `text_relevant` and hit counts back into the archive. Runs incrementally
+  (`--limit`, default 12) to respect Wayback's rate limits. Needs
+  `pip install -r requirements.txt`.
+
+  **Durability:** the extracted text lives in the repo (your copy) and the
+  Wayback URL is the public citation. Raw HTML isn't committed by default to
+  avoid repo bloat; `--save-html` keeps gzipped originals locally. Because full
+  text is stored, **keep the repo private.**
 
 ### Relevance filter (v1, rule-based)
 
@@ -101,15 +118,16 @@ python extract_sources.py
 
 ## Known limits (pilot)
 
-- **Relevance is title-only (v1).** It can't tell "typhoon in the East Sea /
-  Biển Đông" from "China Coast Guard in the East Sea," and ambiguous proper
-  nouns can slip through. Real relevance needs the **article text** + an
-  incident classifier (rule-based on text, or an LLM). That depends on
-  text archiving (below) and is the main open item.
-- **No text archiving yet.** The archive stores metadata (title, link, outlet,
-  date, first-seen), not the article body. Fetching full text requires resolving
-  the Google News **redirect** links to the real article URL first — the next
-  build step.
+- **Feed gating is still title-only.** `feed.xml` and the dashboard mark
+  relevance from the headline. A better **text** relevance signal
+  (`text_relevant`: a place term *and* an incident/actor term) now exists, but
+  only for articles that have been text-archived, and archiving is incremental —
+  so the feed isn't gated on it yet. An LLM classifier over the archived text is
+  the planned precision upgrade.
+- **Text archiving is best-effort.** Redirect resolution or extraction can fail
+  (paywalls, bot-blocking, or Google changing its endpoint); failures are
+  recorded and retried up to 3 times. Paywalled outlets (Asahi, Nikkei) may yield
+  little body text — the Wayback snapshot still captures what's public.
 - **No results (10 outlets):** takungpao, kompas (search subdomain), gatra,
   bbc.com, mongabay.co.id, amti.csis.org, thedefensepost, nhk.or.jp,
   thesundaily, vtc.vn — poorly indexed by Google News or a domain mismatch.

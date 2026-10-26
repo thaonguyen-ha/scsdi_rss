@@ -133,10 +133,12 @@ function render(){
     const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener noreferrer"; a.textContent=it.title;
     const meta=document.createElement("div"); meta.className="meta";
     const tier=it.tier||(it.relevant?"sea":"none");
+    const wb = it.wayback_url ? ` · <a href="${it.wayback_url}" target="_blank" rel="noopener noreferrer">archived</a>` : "";
+    const tr = it.text_archived ? ` · text ${it.text_relevant?"✓":"✗"}` : "";
     meta.innerHTML=`<span class="cc">${it.country||"?"}</span>`+
                    `<span class="tier ${tier}">${tier}</span>`+
                    ` <span>${it.outlet||it.source_name||""}</span>`+
-                   (it.pubDate?` · <span>${fmtDate(it.pubDate)}</span>`:"");
+                   (it.pubDate?` · <span>${fmtDate(it.pubDate)}</span>`:"")+wb+tr;
     li.append(a,meta); frag.append(li);
   }
   list.append(frag);

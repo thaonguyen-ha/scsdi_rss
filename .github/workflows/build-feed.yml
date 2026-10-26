@@ -26,8 +26,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install deps (for text archiving)
+        run: pip install -r requirements.txt
+
       - name: Build feed
         run: python build_feed.py --days 14 --delay 2.0
+
+      - name: Archive article text (incremental)
+        run: python archive_text.py --limit 8 --delay 3
+
+      - name: Refresh outputs with archive data
+        run: python build_feed.py --days 14 --no-crawl
 
       - name: Commit refreshed feed + archive
         run: |
