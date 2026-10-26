@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-26T19:29:39.641645+00:00",
+  "generated": "2026-10-26T19:58:51.271129+00:00",
   "window_days": 14,
   "n_sources": 0,
   "n_items": 1266,
-  "n_relevant": 80,
+  "n_relevant": 78,
   "new_this_run": 0,
   "archive_total": 1329,
   "items": [
@@ -5574,8 +5574,8 @@
       "source_name": "CNA",
       "country": "TW",
       "domain": "cna.com.tw",
-      "relevant": true,
-      "tier": "sea",
+      "relevant": false,
+      "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false
     },
@@ -8584,8 +8584,8 @@
       "source_name": "CNA",
       "country": "TW",
       "domain": "cna.com.tw",
-      "relevant": true,
-      "tier": "actor",
+      "relevant": false,
+      "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false
     },

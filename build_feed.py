@@ -168,8 +168,21 @@ REL_ACTOR = [  # maritime actors / incident vocabulary
 ]
 
 
+# Google News mixes non-article index pages into results: author profiles
+# (titles beginning with "#"), keyword/tag pages and reporter article lists.
+# These are never codeable events, so they are excluded before relevance.
+NONARTICLE_MARKERS = ["關鍵字新聞", "关键字新闻", "記者文章列表", "记者文章列表"]
+
+
+def is_nonarticle(title: str) -> bool:
+    t = (title or "").strip()
+    return t.startswith("#") or any(m in t for m in NONARTICLE_MARKERS)
+
+
 def relevance(title: str):
     """Return (is_relevant, tier) for an article title."""
+    if is_nonarticle(title):
+        return False, "none"
     low = (title or "").lower()
     def hit(terms):
         # All term lists are lowercase; Unicode .lower() covers Vietnamese
