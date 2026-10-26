@@ -1,0 +1,42 @@
+name: build-feed
+
+# Regenerate the pilot feed on a schedule and commit it. Vercel is connected to
+# this repo, so each commit to public/ triggers a redeploy -- no Vercel token
+# needed here. The generator is stdlib-only, so there is nothing to install.
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # daily at 22:00 UTC (~early morning SE Asia)
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build feed
+        run: python build_feed.py --days 14 --delay 2.0
+
+      - name: Commit refreshed feed
+        run: |
+          git config user.name  "scsdi-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/feed.xml public/feed.json
+          if git diff --quiet --cached; then
+            echo "No feed changes."
+          else
+            git commit -m "feed: refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
