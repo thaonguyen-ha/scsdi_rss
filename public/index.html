@@ -43,7 +43,14 @@
   .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px;font-size:12px;color:var(--muted)}
   .cc{font-weight:700;font-size:11px;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--ink)}
   .empty{color:var(--muted);text-align:center;padding:40px}
+  .toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none}
   .theme{margin-left:auto;background:none;border:1px solid var(--line);border-radius:8px;color:var(--muted);padding:8px 10px;cursor:pointer}
+  li.item.off{opacity:.5}
+  .tier{font-size:10px;text-transform:uppercase;letter-spacing:.04em;padding:1px 6px;border-radius:5px;border:1px solid var(--line)}
+  .tier.sea{background:#1f5fb0;color:#fff;border-color:#1f5fb0}
+  .tier.feature{background:#2e8b74;color:#fff;border-color:#2e8b74}
+  .tier.actor{background:#9a6a2e;color:#fff;border-color:#9a6a2e}
+  .tier.none{color:var(--muted)}
   footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
   code{background:var(--chip);padding:1px 5px;border-radius:4px}
 </style>
@@ -57,9 +64,10 @@
 
   <div class="bar">
     <div class="stats">
-      <div class="stat"><b id="n-items">—</b><span>articles</span></div>
-      <div class="stat"><b id="n-src">—</b><span>outlets</span></div>
-      <div class="stat"><b id="n-win">—</b><span>day window</span></div>
+      <div class="stat"><b id="n-rel">—</b><span>relevant</span></div>
+      <div class="stat"><b id="n-items">—</b><span>in window</span></div>
+      <div class="stat"><b id="n-new">—</b><span>new this run</span></div>
+      <div class="stat"><b id="n-arch">—</b><span>archived</span></div>
       <div class="stat"><b id="n-shown">—</b><span>showing</span></div>
     </div>
     <div class="controls">
@@ -69,6 +77,7 @@
         <option value="date">Newest first</option>
         <option value="outlet">By outlet</option>
       </select>
+      <label class="toggle"><input type="checkbox" id="relonly" checked> relevant only</label>
       <button class="theme" id="theme">◐ theme</button>
     </div>
     <div class="chips" id="chips"></div>
@@ -79,13 +88,15 @@
 
   <footer>
     Pilot feed · <a href="feed.xml">feed.xml</a> · <a href="feed.json">feed.json</a> ·
-    links open via Google News redirect · auto-generated, do not treat as coded events
+    links open in a new tab via Google News redirect · auto-generated, do not treat as coded events
   </footer>
 </div>
 
+<!-- Self-contained data (works on file://). Falls back to fetch() if absent. -->
+<script src="feed-data.js" onerror="window.__noDataFile=1"></script>
 <script>
 const $ = s => document.querySelector(s);
-const state = {items:[], country:"", q:"", sort:"date", cc:new Set()};
+const state = {items:[], country:"", q:"", sort:"date", cc:new Set(), relOnly:true};
 
 // theme toggle (per-viewer convenience only)
 try{ const t=localStorage.getItem("scsdi-theme"); if(t) document.documentElement.dataset.theme=t; }catch(e){}
@@ -100,6 +111,7 @@ function fmtDate(s){ const d=new Date(s); return isNaN(d)?"":d.toLocaleString(un
 function render(){
   const list=$("#list"); list.innerHTML="";
   let items=state.items.filter(it=>{
+    if(state.relOnly && !it.relevant) return false;
     if(state.country && it.country!==state.country) return false;
     if(state.cc.size && !state.cc.has(it.country)) return false;
     if(state.q && !(it.title||"").toLowerCase().includes(state.q)) return false;
@@ -111,22 +123,26 @@ function render(){
   $("#empty").hidden=items.length>0;
   const frag=document.createDocumentFragment();
   for(const it of items.slice(0,400)){
-    const li=document.createElement("li"); li.className="item";
+    const li=document.createElement("li"); li.className="item"+(it.relevant?"":" off");
     const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener noreferrer"; a.textContent=it.title;
     const meta=document.createElement("div"); meta.className="meta";
-    meta.innerHTML=`<span class="cc">${it.country||"?"}</span> <span>${it.outlet||it.source_name||""}</span>`+
+    const tier=it.tier||(it.relevant?"sea":"none");
+    meta.innerHTML=`<span class="cc">${it.country||"?"}</span>`+
+                   `<span class="tier ${tier}">${tier}</span>`+
+                   ` <span>${it.outlet||it.source_name||""}</span>`+
                    (it.pubDate?` · <span>${fmtDate(it.pubDate)}</span>`:"");
     li.append(a,meta); frag.append(li);
   }
   list.append(frag);
 }
 
-fetch("feed.json").then(r=>r.json()).then(d=>{
+function boot(d){
   state.items=d.items||[];
-  $("#gen").textContent="generated "+new Date(d.generated).toLocaleString();
+  $("#gen").textContent="last crawl "+new Date(d.generated).toLocaleString()+" · "+(d.window_days??"—")+"-day window";
+  $("#n-rel").textContent=d.n_relevant ?? "—";
   $("#n-items").textContent=d.n_items ?? state.items.length;
-  $("#n-src").textContent=d.n_sources ?? "—";
-  $("#n-win").textContent=d.window_days ?? "—";
+  $("#n-new").textContent=d.new_this_run ?? "—";
+  $("#n-arch").textContent=d.archive_total ?? "—";
   const countries=[...new Set(state.items.map(i=>i.country))].sort();
   const sel=$("#country"); sel.innerHTML='<option value="">All countries</option>'+countries.map(c=>`<option>${c}</option>`).join("");
   const chips=$("#chips");
@@ -137,11 +153,20 @@ fetch("feed.json").then(r=>r.json()).then(d=>{
     chips.append(el);
   });
   render();
-}).catch(e=>{ $("#gen").textContent="could not load feed.json ("+e+")"; });
+}
+
+// Prefer the inlined data file (works on file://); fall back to fetch.
+if (window.FEED_DATA) {
+  boot(window.FEED_DATA);
+} else {
+  fetch("feed.json").then(r=>r.json()).then(boot)
+    .catch(e=>{ $("#gen").textContent="could not load feed data ("+e+")"; });
+}
 
 $("#q").oninput=e=>{state.q=e.target.value.toLowerCase().trim();render();};
 $("#country").onchange=e=>{state.country=e.target.value;render();};
 $("#sort").onchange=e=>{state.sort=e.target.value;render();};
+$("#relonly").onchange=e=>{state.relOnly=e.target.checked;render();};
 </script>
 </body>
 </html>

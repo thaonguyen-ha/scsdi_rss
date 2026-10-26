@@ -6,8 +6,8 @@ name: build-feed
 
 on:
   schedule:
-    - cron: "0 22 * * *"   # daily at 22:00 UTC (~early morning SE Asia)
-  workflow_dispatch:        # allow manual runs from the Actions tab
+    - cron: "*/30 * * * *"  # every 30 min (GitHub may delay/skip under load)
+  workflow_dispatch:         # allow manual runs from the Actions tab
 
 permissions:
   contents: write
@@ -29,13 +29,15 @@ jobs:
       - name: Build feed
         run: python build_feed.py --days 14 --delay 2.0
 
-      - name: Commit refreshed feed
+      - name: Commit refreshed feed + archive
         run: |
           git config user.name  "scsdi-feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/feed.xml public/feed.json
+          # archive/ holds the persistent dedup state -- it MUST be committed or
+          # every run would see all articles as new.
+          git add public/ archive/ reports/
           if git diff --quiet --cached; then
-            echo "No feed changes."
+            echo "No changes."
           else
             git commit -m "feed: refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push

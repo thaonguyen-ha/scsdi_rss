@@ -33,6 +33,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SOURCES = HERE / "sources.json"
 OUT_DIR = HERE / "public"
+ARCHIVE_DIR = HERE / "archive"
+ARCHIVE_FILE = ARCHIVE_DIR / "articles.jsonl"   # append-only permanent record
+REPORTS_DIR = HERE / "reports"                   # one JSON per crawl run
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -132,6 +135,72 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
 
 
+# ---- Relevance (rule-based v1) -------------------------------------------
+# Google News does not strictly enforce the exact phrase, so broad outlets
+# (e.g. Military Times) return off-topic items. An item is "relevant" if its
+# title contains a South China Sea sea-name, a named feature/shoal, or a
+# maritime-actor term, in any of the tracked languages. This is a recall-
+# first heuristic meant to be auditable and later replaced/augmented by an
+# LLM classifier over the archived text.
+REL_SEA = [  # the sea itself (strong signal)
+    "south china sea", "west philippine sea", "dagat kanlurang pilipinas",
+    "dagat timog tsina", "laut china selatan", "laut cina selatan",
+    "laut natuna utara", "biển đông", "bien dong",
+    "南シナ海", "南海", "南中國海", "南中国海",
+]
+REL_FEATURE = [  # named features / shoals / islands
+    "scarborough", "panatag", "bajo de masinloc", "huangyan", "黄岩", "黃岩",
+    "spratly", "nansha", "南沙", "kalayaan", "paracel", "xisha", "西沙",
+    "hoàng sa", "hoang sa", "trường sa", "truong sa",
+    "second thomas", "ayungin", "ren'ai", "renai", "仁爱", "仁愛",
+    "sabina", "escoda", "xianbin", "仙宾", "仙賓",
+    "thitu", "pag-asa", "pagasa", "zhongye", "中業", "中业",
+    "whitsun", "julian felipe", "niu'e", "牛轭",
+    "reed bank", "recto bank", "natuna", "mischief reef", "panganiban",
+    "美济", "美濟", "subi reef", "渚碧", "half moon shoal",
+    # NOTE: dropped bare "zamora"/"meiji"/"subi" -- ambiguous with a common
+    # Filipino surname, the Japanese era, and ordinary words.
+]
+REL_ACTOR = [  # maritime actors / incident vocabulary
+    "coast guard", "china coast guard", "ccg", "maritime militia",
+    "water cannon", "海警", "海上民兵", "cảnh sát biển", "canh sat bien",
+    "dân quân biển", "penjaga pantai", "bakamla", "grey-zone", "gray-zone",
+]
+
+
+def relevance(title: str):
+    """Return (is_relevant, tier) for an article title."""
+    low = (title or "").lower()
+    def hit(terms):
+        # All term lists are lowercase; Unicode .lower() covers Vietnamese
+        # diacritics and is a no-op for CJK, so one case-folded check works.
+        return any(term in low for term in terms)
+    if hit(REL_SEA):
+        return True, "sea"
+    if hit(REL_FEATURE):
+        return True, "feature"
+    if hit(REL_ACTOR):
+        return True, "actor"
+    return False, "none"
+
+
+def load_archive():
+    """Return (records_by_key, ordered_list) from the append-only archive."""
+    by_key, ordered = {}, []
+    if ARCHIVE_FILE.exists():
+        for line in ARCHIVE_FILE.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            by_key[rec["key"]] = rec
+            ordered.append(rec)
+    return by_key, ordered
+
+
 def build_rss(items, title, desc, self_url=""):
     now = dt.datetime.now(dt.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     parts = [
@@ -148,16 +217,17 @@ def build_rss(items, title, desc, self_url=""):
         parts.append(f'<atom:link href="{esc(self_url)}" rel="self" type="application/rss+xml"/>')
     for it in items:
         cat = f'{it["country"]} / {esc(it["source_name"])}'
-        desc_txt = f'[{it["country"]} · {esc(it["source_name"])}] South China Sea watch'
+        tier = it.get("tier", "")
+        desc_txt = f'[{it["country"]} · {esc(it["source_name"])}] match: {esc(tier)}'
         parts += [
             "<item>",
             f"<title>{esc(it['title'])}</title>",
             f"<link>{esc(it['link'])}</link>",
-            f"<guid isPermaLink=\"false\">{esc(norm_key(it))}</guid>",
+            f"<guid isPermaLink=\"false\">{esc(it.get('key') or norm_key(it))}</guid>",
             f"<category>{cat}</category>",
             f"<description>{desc_txt}</description>",
         ]
-        if it["pubDate"]:
+        if it.get("pubDate"):
             parts.append(f"<pubDate>{esc(it['pubDate'])}</pubDate>")
         parts.append("</item>")
     parts += ["</channel>", "</rss>"]
@@ -170,6 +240,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only", default="")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests")
+    ap.add_argument("--no-crawl", action="store_true",
+                    help="skip fetching; re-tag relevance on the archive and rebuild outputs")
     args = ap.parse_args()
 
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
@@ -179,8 +251,28 @@ def main():
     if args.limit:
         sources = sources[: args.limit]
 
-    OUT_DIR.mkdir(exist_ok=True)
-    all_items, seen, report = [], set(), []
+    for d in (OUT_DIR, ARCHIVE_DIR, REPORTS_DIR):
+        d.mkdir(exist_ok=True)
+
+    # Persistent state: everything we have ever seen, keyed by normalized title.
+    by_key, _ = load_archive()
+    seen = set(by_key)
+    now = dt.datetime.now(dt.timezone.utc)
+    now_iso = now.isoformat()
+    now_naive = now.replace(tzinfo=None)
+
+    new_records, per_source = [], []
+
+    if args.no_crawl:
+        # Maintenance mode: recompute relevance for the whole archive (e.g. after
+        # the filter changed) and rewrite it; don't fetch or touch status/reports.
+        sources = []
+        for rec in by_key.values():
+            rec["relevant"], rec["tier"] = relevance(rec["title"])
+        with ARCHIVE_FILE.open("w", encoding="utf-8") as f:
+            for rec in by_key.values():
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        print(f"Re-tagged {len(by_key)} archived records.")
 
     for i, s in enumerate(sources, 1):
         url = gnews_url(s["domain"], args.days, s["hl"], s["gl"], s["ceid"], s["country"])
@@ -190,45 +282,105 @@ def main():
             status = "ok"
         except Exception as e:  # noqa: BLE001
             items, status = [], f"ERROR: {e}"
-        kept = 0
+        n_new = n_new_rel = 0
         for it in items:
             k = norm_key(it)
-            if k in seen:
+            if k in seen:          # already recorded in a previous run -> duplicate
                 continue
             seen.add(k)
-            all_items.append(it)
-            kept += 1
-        report.append((s["domain"], s["hl"], len(items), kept, status))
+            rel, tier = relevance(it["title"])
+            rec = {
+                "key": k, "title": it["title"], "link": it["link"],
+                "pubDate": it["pubDate"], "outlet": it["outlet"],
+                "source_name": it["source_name"], "country": it["country"],
+                "domain": it["domain"], "relevant": rel, "tier": tier,
+                "first_seen": now_iso, "text_archived": False,
+            }
+            new_records.append(rec)
+            by_key[k] = rec
+            n_new += 1
+            n_new_rel += int(rel)
+        per_source.append({
+            "domain": s["domain"], "country": s["country"], "hl": s["hl"],
+            "fetched": len(items), "new": n_new, "new_relevant": n_new_rel,
+            "status": status,
+        })
         print(f"[{i:>2}/{len(sources)}] {s['domain']:<28} {s['hl']:<6} "
-              f"items={len(items):<3} new={kept:<3} {status}", flush=True)
+              f"fetched={len(items):<3} new={n_new:<3} new_rel={n_new_rel:<3} {status}",
+              flush=True)
         if i < len(sources):
             time.sleep(args.delay)
 
-    all_items.sort(key=lambda x: x["pub_dt"] or dt.datetime.min, reverse=True)
+    # Append new records to the permanent archive (append-only).
+    if new_records:
+        with ARCHIVE_FILE.open("a", encoding="utf-8") as f:
+            for rec in new_records:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
-    feed = build_rss(
-        all_items,
+    # Rolling outputs are built from the FULL archive within the time window.
+    cutoff = now_naive - dt.timedelta(days=args.days)
+
+    def rec_dt(rec):
+        d = parse_date(rec.get("pubDate") or "")
+        if d is None:
+            try:
+                d = dt.datetime.fromisoformat(rec["first_seen"])
+            except (ValueError, KeyError):
+                return dt.datetime.min
+        return d.astimezone(dt.timezone.utc).replace(tzinfo=None) if d.tzinfo else d
+
+    window = sorted((r for r in by_key.values() if rec_dt(r) >= cutoff),
+                    key=rec_dt, reverse=True)
+    relevant = [r for r in window if r["relevant"]]
+
+    # feed.xml: the high-signal coder feed -> relevant items only.
+    (OUT_DIR / "feed.xml").write_text(build_rss(
+        relevant,
         title="SCSDI — South China Sea news watch (pilot)",
-        desc=f"Keyword-matched articles from {len(sources)} tracked outlets, last {args.days} days. Auto-generated.",
-    )
-    (OUT_DIR / "feed.xml").write_text(feed, encoding="utf-8")
+        desc=f"Relevance-filtered SCS articles from {len(sources)} tracked outlets, "
+             f"last {args.days} days. Auto-generated.",
+    ), encoding="utf-8")
 
-    # Machine-readable mirror for a future coding UI / dashboard.
-    (OUT_DIR / "feed.json").write_text(json.dumps({
-        "generated": dt.datetime.now(dt.timezone.utc).isoformat(),
+    # feed.json / feed-data.js: ALL windowed items with a relevance flag, so the
+    # dashboard can show everything and let a coder audit the filter.
+    payload = {
+        "generated": now_iso,
         "window_days": args.days,
         "n_sources": len(sources),
-        "n_items": len(all_items),
-        "items": [{k: v for k, v in it.items() if k != "pub_dt"} for it in all_items],
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
+        "n_items": len(window),
+        "n_relevant": len(relevant),
+        "new_this_run": len(new_records),
+        "archive_total": len(by_key),
+        "items": window,
+    }
+    (OUT_DIR / "feed.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    (OUT_DIR / "feed-data.js").write_text(
+        "window.FEED_DATA=" + json.dumps(payload, ensure_ascii=False) + ";",
+        encoding="utf-8")
 
-    ok = sum(1 for r in report if r[4] == "ok")
-    print(f"\nSources queried: {len(sources)}  ok: {ok}  "
-          f"total unique items: {len(all_items)}")
-    print(f"Wrote {OUT_DIR/'feed.xml'} and feed.json")
-    empties = [r[0] for r in report if r[4] == "ok" and r[2] == 0]
-    if empties:
-        print(f"No results ({len(empties)}): {', '.join(empties)}")
+    # Per-run report: how many NEW, non-duplicate articles each source produced.
+    report = {
+        "generated": now_iso,
+        "window_days": args.days,
+        "new_this_run": len(new_records),
+        "new_relevant_this_run": sum(1 for r in new_records if r["relevant"]),
+        "archive_total": len(by_key),
+        "per_source": sorted(per_source, key=lambda r: r["new"], reverse=True),
+    }
+    # In --no-crawl rebuilds, keep the last real run's status/report intact.
+    if not args.no_crawl:
+        report_json = json.dumps(report, ensure_ascii=False, indent=2)
+        (OUT_DIR / "status.json").write_text(report_json, encoding="utf-8")
+        stamp = now.strftime("%Y%m%dT%H%M%SZ")
+        (REPORTS_DIR / f"run-{stamp}.json").write_text(report_json, encoding="utf-8")
+
+    ok = sum(1 for r in per_source if r["status"] == "ok")
+    print(f"\nSources ok: {ok}/{len(sources)}  |  new this run: {len(new_records)} "
+          f"({report['new_relevant_this_run']} relevant)  |  archive total: {len(by_key)}")
+    print(f"Window: {len(window)} items ({len(relevant)} relevant) -> feed.xml")
+    print("Wrote feed.xml, feed.json, feed-data.js"
+          + ("" if args.no_crawl else ", status.json, reports/run-*.json"))
 
 
 if __name__ == "__main__":
