@@ -1,61 +1,25 @@
 {
-  "generated": "2026-10-27T19:03:29.810488+00:00",
+  "generated": "2026-10-27T23:01:57.886152+00:00",
   "window_days": 14,
-  "new_this_run": 280,
-  "new_relevant_this_run": 3,
-  "archive_total": 1609,
+  "new_this_run": 54,
+  "new_relevant_this_run": 5,
+  "archive_total": 1663,
   "per_source": [
-    {
-      "domain": "antaranews.com",
-      "country": "ID",
-      "hl": "id",
-      "fetched": 91,
-      "new": 46,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "asahi.com",
-      "country": "JP",
-      "hl": "ja",
-      "fetched": 67,
-      "new": 39,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "rappler.com",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 100,
-      "new": 38,
-      "new_relevant": 2,
-      "status": "ok"
-    },
     {
       "domain": "inquirer.net",
       "country": "PH",
       "hl": "en",
-      "fetched": 100,
-      "new": 38,
+      "fetched": 86,
+      "new": 15,
       "new_relevant": 1,
-      "status": "ok"
-    },
-    {
-      "domain": "philstar.com",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 100,
-      "new": 32,
-      "new_relevant": 0,
       "status": "ok"
     },
     {
       "domain": "militarytimes.com",
       "country": "INT",
       "hl": "en",
-      "fetched": 100,
-      "new": 19,
+      "fetched": 76,
+      "new": 9,
       "new_relevant": 0,
       "status": "ok"
     },
@@ -63,8 +27,35 @@
       "domain": "nst.com.my",
       "country": "MY",
       "hl": "en",
+      "fetched": 24,
+      "new": 8,
+      "new_relevant": 1,
+      "status": "ok"
+    },
+    {
+      "domain": "rappler.com",
+      "country": "PH",
+      "hl": "en",
       "fetched": 100,
-      "new": 13,
+      "new": 6,
+      "new_relevant": 3,
+      "status": "ok"
+    },
+    {
+      "domain": "scmp.com",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 56,
+      "new": 3,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "asahi.com",
+      "country": "JP",
+      "hl": "ja",
+      "fetched": 66,
+      "new": 3,
       "new_relevant": 0,
       "status": "ok"
     },
@@ -72,35 +63,8 @@
       "domain": "cna.com.tw",
       "country": "TW",
       "hl": "zh-TW",
-      "fetched": 66,
-      "new": 11,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "scmp.com",
-      "country": "CN",
-      "hl": "en",
-      "fetched": 64,
-      "new": 9,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "chinadaily.com.cn",
-      "country": "CN",
-      "hl": "en",
-      "fetched": 36,
-      "new": 5,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "thestar.com.my",
-      "country": "MY",
-      "hl": "en",
-      "fetched": 39,
-      "new": 4,
+      "fetched": 77,
+      "new": 3,
       "new_relevant": 0,
       "status": "ok"
     },
@@ -108,97 +72,25 @@
       "domain": "vietnamnet.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 38,
-      "new": 4,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "mb.com.ph",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 54,
+      "fetched": 41,
       "new": 3,
       "new_relevant": 0,
       "status": "ok"
     },
     {
-      "domain": "cnnindonesia.com",
-      "country": "ID",
-      "hl": "id",
-      "fetched": 12,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "detik.com",
-      "country": "ID",
-      "hl": "id",
-      "fetched": 8,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "malaymail.com",
-      "country": "MY",
+      "domain": "chinadaily.com.cn",
+      "country": "CN",
       "hl": "en",
-      "fetched": 9,
-      "new": 2,
+      "fetched": 35,
+      "new": 1,
       "new_relevant": 0,
       "status": "ok"
     },
     {
-      "domain": "pna.gov.ph",
+      "domain": "philstar.com",
       "country": "PH",
       "hl": "en",
-      "fetched": 15,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "anninhthudo.vn",
-      "country": "VN",
-      "hl": "vi",
-      "fetched": 14,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "cgtn.com",
-      "country": "CN",
-      "hl": "en",
-      "fetched": 11,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "en.people.cn",
-      "country": "CN",
-      "hl": "en",
-      "fetched": 6,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "abc.net.au",
-      "country": "INT",
-      "hl": "en",
-      "fetched": 4,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "thanhnien.vn",
-      "country": "VN",
-      "hl": "vi",
-      "fetched": 30,
+      "fetched": 100,
       "new": 1,
       "new_relevant": 0,
       "status": "ok"
@@ -213,38 +105,29 @@
       "status": "ok"
     },
     {
-      "domain": "viettimes.vn",
-      "country": "VN",
-      "hl": "vi",
-      "fetched": 2,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "soha.vn",
-      "country": "VN",
-      "hl": "vi",
-      "fetched": 18,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
       "domain": "zingnews.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 24,
+      "fetched": 25,
       "new": 1,
       "new_relevant": 0,
       "status": "ok"
     },
     {
-      "domain": "rfi.fr",
-      "country": "VN",
-      "hl": "vi",
-      "fetched": 15,
-      "new": 1,
+      "domain": "cgtn.com",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 11,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "en.people.cn",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 6,
+      "new": 0,
       "new_relevant": 0,
       "status": "ok"
     },
@@ -262,6 +145,15 @@
       "country": "ID",
       "hl": "en",
       "fetched": 3,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "cnnindonesia.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 12,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -288,7 +180,7 @@
       "domain": "kumparan.com",
       "country": "ID",
       "hl": "id",
-      "fetched": 17,
+      "fetched": 18,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -303,10 +195,28 @@
       "status": "ok"
     },
     {
+      "domain": "antaranews.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 91,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
       "domain": "mongabay.co.id",
       "country": "ID",
       "hl": "id",
       "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "detik.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 8,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -325,6 +235,15 @@
       "country": "INT",
       "hl": "en",
       "fetched": 13,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "abc.net.au",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 4,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -351,7 +270,7 @@
       "domain": "nikkei.com",
       "country": "JP",
       "hl": "ja",
-      "fetched": 15,
+      "fetched": 14,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -366,6 +285,15 @@
       "status": "ok"
     },
     {
+      "domain": "malaymail.com",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 9,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
       "domain": "thesundaily.my",
       "country": "MY",
       "hl": "en",
@@ -375,10 +303,37 @@
       "status": "ok"
     },
     {
+      "domain": "thestar.com.my",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 36,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "mb.com.ph",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 53,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "pna.gov.ph",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 15,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
       "domain": "straitstimes.com",
       "country": "SG",
       "hl": "en",
-      "fetched": 18,
+      "fetched": 19,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -393,10 +348,46 @@
       "status": "ok"
     },
     {
+      "domain": "thanhnien.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 30,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
       "domain": "baophapluat.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 22,
+      "fetched": 21,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "anninhthudo.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 14,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "viettimes.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 2,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "soha.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 18,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"
@@ -424,6 +415,15 @@
       "country": "VN",
       "hl": "vi",
       "fetched": 3,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ok"
+    },
+    {
+      "domain": "rfi.fr",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 15,
       "new": 0,
       "new_relevant": 0,
       "status": "ok"

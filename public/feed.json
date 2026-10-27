@@ -1,12 +1,138 @@
 {
-  "generated": "2026-10-27T19:16:10.145148+00:00",
+  "generated": "2026-10-27T23:08:15.748512+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 1448,
-  "n_relevant": 76,
+  "n_items": 1494,
+  "n_relevant": 79,
   "new_this_run": 0,
-  "archive_total": 1609,
+  "archive_total": 1663,
   "items": [
+    {
+      "key": "tỉnh nào của nước ta có 3 mặt giáp biển",
+      "title": "Tỉnh nào của nước ta có 3 mặt giáp biển? - Báo VietNamNet",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6Vl9NNjJkeEpraHpmemxIWXBwZGJHZlNMYWEzMGRlOGlVTzRIcWZNXzZNTVBmYXVVdnVmWXpvM1loLXVpQlV1SExjWWpwS21UQllGV1RSUE9oVW5BQVhTZlNLZ0xTclRxZWs2cUhHMzRZenl0U2FnMEY1cTZZWGM?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 22:10:00 GMT",
+      "outlet": "Báo VietNamNet",
+      "source_name": "Vietnamnet",
+      "country": "VN",
+      "domain": "vietnamnet.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "thời tiết hôm nay 28 10 nam bộ mưa chiều trung bộ mưa rất to",
+      "title": "Thời tiết hôm nay 28-10: Nam Bộ mưa chiều, Trung Bộ mưa rất to - Tuổi Trẻ",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRERsR1psSnlBd2FvRVRxOXhFV0Jnd1VXVWdYeDdyTjA5V0ZFcGRVZHYwTzA4NmFsZTB6R282NldrQjMzbHF5QnFrcTZsSmNzY0VFV2NyWWZ0YTNJYWF2aXRtOFdtckdqZXowcmRubXh0ZXh0UUMxbmZjQWd2dDlrTU4xVFVCUExXbWZRZnlqbERlSU9BY0tNVTdkbHFlSGVwVWd4cQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 22:07:00 GMT",
+      "outlet": "Tuổi Trẻ",
+      "source_name": "Tuoi Tre",
+      "country": "VN",
+      "domain": "tuoitre.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "miền trung mưa lớn tâm mưa từ hà tĩnh đến đà nẵng",
+      "title": "Miền Trung mưa lớn, tâm mưa từ Hà Tĩnh đến Đà Nẵng - Znews",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcVRoSHZsb0YyNnRsS3c1b0g1OXZBenBnOHFIcjhlZHhPdGRtcjdEaUJmNlV0YVZrcHlFcGZRWFRvRjFILTA2T3I1TE9Bbm0wVVVjSi1jVXFUaWV1Q0sybmVIejVPaERFYWcyalRDbEptSW5lUnNmVy11Y0FfWHhfa0taM1FtbWZTazNvSXZwWUlHWGFZWXhqY3VQRy0?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 22:01:04 GMT",
+      "outlet": "Znews",
+      "source_name": "Zing news",
+      "country": "VN",
+      "domain": "zingnews.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "5 things to watch out for in 2027 us defence bill aimed at countering china",
+      "title": "5 things to watch out for in 2027 US defence bill aimed at countering China - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZE9WQ0ZmZEZpSy11LVJjR29LTkNRUHMyYUNjcEpZa2F4NzBHUVdjWUI3ZHIxWi05bURqR0xnOUFCSzlFMEtsRG8yZ0JabHp6YVBmaTN1NjJkU2txd3pMMWw4UUhwWUN3OWN1N0I1RmZ6dFhFOTN3X2IzbHg3SThibDlHcWJxSlVKdktVWjRGUTZPV3ZYUU5vNzFCTjF3Zi1LaUtmUm1GakNneDR6R0JVd3RMQkNpOTRoSllaNdIBvAFBVV95cUxNdDFMTHJQNlRWbW1mRE9pdml6UUpjZ2l2UDFwc25xUGVEMkZlSmtvRkxzLTNkaWxTYndWRVhiUWxVa01mYS1fVjhRTVRNME1zMmZ6UW9QMFI4MjREMWtGS240RzNsdUZ2eU1GN01TT295LU1wdFQ0b2UwVlg5UFU5MVVKYjgtODZPaTliclg0Z29CYXJpRjQ1RG1QcjZKa3hrYlh6eXRNaTJWaXBDWjVRLUhLQlBqb0JQMWtQeQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 20:58:44 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "hope hodge seck",
+      "title": "Hope Hodge Seck - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84dEpaWmRrVzBvT0pyWlVHQktiNmpTUkFlT2c4UVhKLVc1ekcwbWpDZjBWMEQ2VTBQLVhWWGpGYnJ2bkZUb09ESDJtMHEyeEhwU2RJOQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 20:53:56 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "us air force awards lockheed martin 694m hypersonic missile production contract",
+      "title": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT1JLOGxTZEp1c2ZTTEZycms2em9mS2VpNWNuVk9pQWU4cGk2M21zNk12VjhaQnRGUzZoV01VMWt6MkMwbXo2bmRMSWJ2ZUk1WktSc3NTYldmeWkzWW9rWm9PY0NxRWltQm14VzRBME8telV0RmgzOWVUSEJoS3Z6NG44dXBvQWRiWWVrYjR5N2NFUG11aEVzZTZRcG84UTN5OWF2Q0x2TlNhOUZkZW96d3NUXzh2Z1dCWUZGdXBjWVA1RTFJREdnT094QlJSNExLeEVXU1Qwcw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 19:53:42 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pentagon creates advisory council on human performance health",
+      "title": "Pentagon creates advisory council on human performance, health - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkozNTFDblo4LU5hVFNzYVdtUTlIeXpzdXhiazNCVmptVkplWThQS3JJeW14bUpzTzczSHR6eFJFdXdGWGRNcV9mUTJ3ZkFBUkJPNTJ2TjdadHE0eF9oLTF2OWFqalZVT2dqS01JUHZ2NU9CdGhYcUl2RHcyb0w5WmhRd09uYXFxT196ZWtzLUFQMklyMXVabGZaQV8ySGJtYlZlOXo5cjRsbTdJVndvUXl3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 19:23:58 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "a shipwreck two nazi spies and the boy scout who noticed",
+      "title": "A shipwreck, two Nazi spies and the Boy Scout who noticed - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUzF4Y2lIcjVIR1VCdkY3a29Fcm5LZ1NmejE0b3Q1ZDE1cExIMkhja0JOOEdsd1JrcUNOeDh0OFp5cVFybFRtY0FIR3JmeDVRZzd5VzVmSnNnWG5qZnBiSmFFVjZIQy12VFZXbDV2Ylg1Zy1ua1N2Mm4yMWgzZEYxU0ZQbnFQaFZoYkQyMnJOOWlJLUw1TGVGY3Z2S1ZnMURsTnJTMENR?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 19:23:46 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "us army queries industry s ability to build 21 000 infantry squad vehicles",
+      "title": "US Army queries industry’s ability to build 21,000 Infantry Squad Vehicles - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ3pralJQYlFpYXNmT3RjZnRreWk5Q0lhMlJhNDZfMnFjT0ZZQ3VuZFI2UThxRm5SX2p4X29FYjJRdDM0dDllNFRsRG5ROFdyQ1ctVFNXNzY1bzdyU21iU3JWNVItTWNIbFhSaGNWOGFpMGJ5ZE9HZXZ5ZUNKNlFuS3kzeHZocDRaeDhyX3BoMVB1U2t1OWRFSEd5TnpWQmVSUkxiU0hieV9FMDBBTi1UTnpNTHdmbjV5MU5BRG5aZWM?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 19:22:30 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
     {
       "key": "navy identifies nas pensacola sailors killed in car crash",
       "title": "Navy identifies NAS Pensacola sailors killed in car crash - Military Times",
@@ -19,6 +145,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "hitler s eagle s nest mountain retreat burned down",
+      "title": "Hitler’s Eagle’s Nest mountain retreat burned down - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2lESTktTDVsVEdFZ0pmQWNLUkJSTDJsSV9McUdRQVNzZmpvVmc5eFBlNEdTWWVTRkVlX3ZjZ0EwaFFOMzRKNUtRd3NuOXJidnNuNEMxbEZaLVFTVmZkLU41d1Nhb294dm9acmtBRFFaQ0p3VjFJbm1xVFB1ZTVzdWY4dFRKaWtQR0o2SGdxZE9JTkxDOF9TM1pHTQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 18:41:23 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -568,6 +708,20 @@
       "text_archived": false
     },
     {
+      "key": "why are turkey pakistan qatar and indonesia joining forces",
+      "title": "Why are Turkey, Pakistan, Qatar and Indonesia joining forces? - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRnd2Qm9hWTBPZzF5ZmV2SXpIWi12b0FQT3hjRWh2QXJlZ0xfcC1qNUlaNDhHanBhUVg3Wk96bG9SaWVPTmFKeDlWZTFGR2xMbWZpSkJzS3ZpQWs1c0RuaHJ4YVlDemU5UzNBQ3pFOFBzR0FLdFhkY1N3X05rVVpQdVp4TWo4a3E1aktZcDFwSWVBQS1HekhtdmhEeS1kYmNZdHJpNEhkVi1QV3lnZlVNa1ZlZzDSAbQBQVVfeXFMT0Z3dkJvYVkwT2cxeWZldkl6SFotdm9BUE94Y0VodkFyZWdMX3AtajVJWjQ4R2pwYVFYN1pPemxvUmllT05hSng5VmUxRkdsTG1maUpCc0t2aUFrNXNEbmhyeGFZQ3plOVMzQUN6RThQc0dBS3RYZGNTd19Oa1VaUHVaeE1qOGtxNWpLWXAxcEllQUEtR3pIbXZoRHktZGJjWXRyaTRIZFYtUFd5Z2ZVTWtWZWcw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 02:23:17 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "zahid urges public to stay alert as northeast monsoon begins today",
       "title": "Zahid urges public to stay alert as northeast monsoon begins today - Malay Mail",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdFpkNmtfSDhudklrMTNXbDdkc0xXbm1UbVgxUl9VaUYyOU9rMl9DSUY4WE5aYjFLbFIzUF8wTjR6SWZjc0hwQm1LR2JSQnEzM1ZqWlhBNlNxR0Ixa1pCQWxXZ2JkOTFNcGxLalJ2T090ZllodUQtd2gyZTI1R1dMbHpkOHB3Nk5zeEpxQUhEbUd4al9YdDhvSi1FTTN4Ym9PX1I2Qm4yWTJ4U1dyTTM0dmtPeXNWUkNxdTZpLVByZ1dqUdIBxwFBVV95cUxQenIycFcyQl9vVHF5RWI4YklzZ3lQRTc3ampvQTAyY3BQbE9WVzdrSGdJQ2ZTSC1UVlZNOFItSFhONXhCcERvTE5hYVh3WnNHRDFGU2JMTElEWmtNenlrN29ScHc5clBsR0s1cFhuRTJ6bWJjWnVuckZTNkxSMGZVNUJaWkhBSUVUS2xoMnpkX2tHRUk4QUtQYkFEQ1NzX0s0U0pfY0s5WmJyRzIxbldwbEY2dlNmYU1TNEx2S3dvMU9PVjRKcHZJ?oc=5",
@@ -649,6 +803,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "commercial imaging companies solved the data access problem now they must tackle reliability clone",
+      "title": "Commercial imaging companies solved the data access problem; now they must tackle reliability. - Clone - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONi02NzRnbTNiWVJwSkY0aE9IQjNaUVZScndNbmRUMmUwaVJJQ1JhbjhOaV9fY2lTTzJZcXlKVFNLY2p1LTZyeER5cldISmt2N3RrY0Q5VHNFZndKNWZOVF9LQmJ6V0dDdEVKb0RnUnpJTWlNY1dtbGM3TlpUM2lraGtRVzg3dlRIT0NlYVE4LV9SeTZIQ3V6d3dnWmVvY3ZXRGRuUkVnQWt4WmU3NkFiMmxEYjRiZDNXMERaRTNQbTA0VjlpeFJUZmFRZ3NNUUhIOHk4dE1xNDh1X2xkNGktNS1sdmI5WFZ3MFNxbA?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 00:57:38 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -1870,6 +2038,20 @@
       "text_archived": false
     },
     {
+      "key": "watch ph coast guard opens upgraded station in pag asa island",
+      "title": "WATCH: PH Coast Guard opens upgraded station in Pag-asa Island - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc25xXzcxS1FwR2Q2OTloTlFiRThiN0VhczB2THBBaGZ2QVhvNzNlZUE2ZzI1OUpOLUhxZm1EQ3IydmViT2h6Z1dITVFkMmRzMDlneXptWnEwcVZpdGlNOHZDTHZrdWFBMHE0d2RrWC0zYUJ6dTI4LXVEZjVCdThERUZHNk43ekhVMXlpRDhXY2FsNDhqcUh3bTlqNzZzcXVBWTJ0cEp3?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 06:36:22 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": true,
+      "tier": "feature",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "kumpulan berita antara perubahan iklim",
       "title": "Kumpulan Berita antara perubahan iklim - Antara News jatim",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55dUlOU3E3dUhQeUdsNV9TbnYzQVpEam1DTDRLN05Fa1RVZm82cm1XUDVEQnNpLVJNSmxieWlOa21JNGlJNjlhMjNFU0Q3WWdOT3F5MFdXTV95QnJEWllpLW13eUdfSXA0?oc=5",
@@ -2665,6 +2847,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china s liaoning carrier and uss theodore roosevelt converge in philippine sea",
+      "title": "China’s Liaoning carrier and USS Theodore Roosevelt converge in Philippine Sea - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR2tHXzJmZjdaajVsZlJ0ZWQyQ1BvRVlDWU16TlZqeDU0N3pKOWQ3dnBTRWI2RS1BR3NwaEdxdFlVQUZtU29rRlpKNnpoVHNJQWxWTWJ3d0NfajVzcTBEUGVySkVTeHZyVmkzRVctaEttdF9GSkFjdEVmaUQxc0ZhLVhEVFphanhDaXpIUWZvSnRnUzZWcVBUa05RMURKbVMtWklPWlJnbU15NklVSGQ2dlhndnFTQW9hbi1KRXdEUThaX1RsRmN4VWtsT0U4bWdLYUstSDdjRdIB1wFBVV95cUxPR2tHXzJmZjdaajVsZlJ0ZWQyQ1BvRVlDWU16TlZqeDU0N3pKOWQ3dnBTRWI2RS1BR3NwaEdxdFlVQUZtU29rRlpKNnpoVHNJQWxWTWJ3d0NfajVzcTBEUGVySkVTeHZyVmkzRVctaEttdF9GSkFjdEVmaUQxc0ZhLVhEVFphanhDaXpIUWZvSnRnUzZWcVBUa05RMURKbVMtWklPWlJnbU15NklVSGQ2dlhndnFTQW9hbi1KRXdEUThaX1RsRmN4VWtsT0U4bWdLYUstSDdjRQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 12:13:45 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -6224,6 +6420,20 @@
       "text_archived": false
     },
     {
+      "key": "海巡署 關鍵字新聞",
+      "title": "海巡署| 關鍵字新聞 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE82Nmo0aWxNNVFkc0Ywc2pwQmt0R253Y0tpcFc5cjNjZU5ZRkZSeXZmZjJDbDVqSlUwMlJtYUZXOGJjaG9CRVlodQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 08:19:42 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "kumpulan berita prasarana",
       "title": "Kumpulan Berita prasarana - ANTARA News Jambi",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2N1drdDc1VUMyc25YUHh0eTZidk1ZSWJ2NWFhbU5VcXdhV2QzMUJuZEtvRnNnWjZxWWo2TUdJckQ2MmdwNVQ3TERtM3p5S2lHb1ZUcFRIUWE?oc=5",
@@ -6599,6 +6809,48 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "experts urge focus on cyber air and maritime security in rm22bil defence budget",
+      "title": "Experts urge focus on cyber, air and maritime security in RM22bil defence budget - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQREZ6TU54TGxpSlp6b1VEMWtXS1RXWEdpNUFWaUhNNTEta3d2SXItUTE4TTNKbGxIVlpwb2JUajJwUDUwRDNPeVVmNmdTb1pNS2JsTU53TlQ1OWxFZGRVRFZDSnFtSjU1VFE1Q3Z2dlotMXNYTDhod25rXzE0Ql9IZC1ocEtNY1EyRmZGMDFpZ3hfeHF4ZDRTS0Y3YmNlb3d1YmlFRUZuRlhPSjc0c3ZMNmRVYU1yVTR60gG-AUFVX3lxTFAwVHlZYjJQUkw5cjF0ODFtVXFrRl9NTldteEFEX3VtLVpXbGJ1RE9aZ1V0cFJ1MzdJbHBKMUVTcTUtRFVJblc4MjVRdFJsMUZQOGZYYkZiNERQR2EzNnpibUJ1dlR1MUN3dHlXSndUakNWNnVuZUZzazJvbzhOR2ZSa2l3bUpvamZ5ZDVDUlg0ME1Gd2RXOV9tN0c0TEhldERXMElKQVhsWUExandLdFZTd1drdy01NnNMbTVWMmc?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 03:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "seven states identified as smuggling hot spots",
+      "title": "Seven states identified as smuggling hot spots - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXNXd1pidUJrN1lCYWd1TmRwN0p0QzFsdEppMDFaay14TG1LYWRKRHpYYWhseEtGUTBvZHVqNEZRWUFvUDRja0hLN1FqY2hxaHBYLVlxYlZvNHI2Y21JTktZemV2ZkJfRm96NFFaMVUydms1MGVsZ3RvUm9Nd1RObi04MzFNb0lwcEhoVjRFb05NSVhwVUhLWkhOTnpwaVRaM1hMSm10QXlCZ0Fj0gGfAUFVX3lxTE81MTBpcWJnd1FrX0pHaUoxVC1EZ2tXV3luWGlPSTlBSTM5M05wSVowTmpVOXhsc1NOb1lJMDNGY3F2NTNDTjVDczA3NEhqay1RekE1d2tPUUdPZnIzQ3lUUHhfbzFtMi0wWHZIbFlfUHhSVFhlaDBDQlJUbFhFTHFYOUNOMVdhbDQtWVpUN3h0YnlWSTljdWEzTkZYemliQQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 03:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "haze leaves kuantan fishermen racing against time before monsoon season",
+      "title": "Haze leaves Kuantan fishermen racing against time before monsoon season - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMGo4SWFpak16R3JvNXRHQ2lWa2NCMGFuUXdCVlpyVGVmQ2tiMFh4RUZJVU5WUFFMTUFLSjJMNXFoNXBqY0IzMzJLTGs3cXdpVnMzX3R6N1h3NDlQcm93V0RNQ2M2MzdYUWtmb3hYSVhsQTBMMHRFbFhRUGxJOWlHWWltRGI3eE9wUlhIaHZDZ0xZck5raERPazhCR09WX3Z3LUY5cENBQUxtWnpyelkzMGFBdzBFTWFM0gG-AUFVX3lxTE9Oc0xsbjllNmlYSTVzTEhTWjF3RE5aOWZ4NHNOeUFPcEduSi1MZF84WXRQd1dYTFRuWUpKX0hiZXlqcnl4UDVvZ0JtY0lnUmdGZnMxOHp3clM4Y1oyNmpQRDBOMG1LUXI5YlhZdEdiZjJZUzhZRkJKUHlhRWZlTnhQZm1UVW8wYWdUVC1ReVFGcEZfeUZwOUhKbzF4aURNbkZjSDVDX0RGNS1QaHNqUHhINTRnUzhWdFNOWEJ1QkE?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 03:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -7075,6 +7327,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "military times rss feeds",
+      "title": "Military Times RSS Feeds - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15UTM2ajZfdnFfbWtINC1sY0p4eFQ5THNFaEk5QTNUcVc3ZlhXaXFMcUxkU0hMc3ptT2NCQ2x2QjliWFpBR1oxSFpLNA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 21:31:53 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -7593,6 +7859,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "thời tiết cuối tuần 24 25 10 cả nước nắng oi hà nội có nơi trên 34 độ",
+      "title": "Thời tiết cuối tuần 24-25/10: Cả nước nắng oi, Hà Nội có nơi trên 34 độ - Báo VietNamNet",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa1JZaGUxWVVTeHpPbHg3ejA5NTZaRUlEeUZOTmsydzlUQndZd3dITmJObEExNnZuMW5NLXkyR3liLUFZSTBuWEsweEk0Y2xRdXR6Y2xhY1p1WFdOb2hWTTVKYVpGNTR0QkdKUmNDMnQ2bHVWTGF3dTNyT0tseEZDYWtMNDA1c2tDLS11czV5aW1wbzI0T1BHUjZDdkZGWkNvSHJncFFsSQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 11:26:00 GMT",
+      "outlet": "Báo VietNamNet",
+      "source_name": "Vietnamnet",
+      "country": "VN",
+      "domain": "vietnamnet.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -8408,6 +8688,20 @@
       "text_archived": false
     },
     {
+      "key": "きっかけは似た配色 金麦 豊潤 が信州ブレイブウォリアーズを応援 長野県",
+      "title": "きっかけは似た配色 金麦〈豊潤〉が信州ブレイブウォリアーズを応援 [長野県] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JYUpDRWVORjVlWkUwY0ZtQnY1c0pTODUyYUtsUTNSSXU4UlljOHRNUThVQ25JUFVFTXhrRzVEemtlTnhZRGJqNURtNHA4Z0lRNzF6Z0l4RHFIOU8xQ1pCLVgya2x0cXNZUXA1RE5R?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 02:15:01 GMT",
+      "outlet": "朝日新聞",
+      "source_name": "Asahi",
+      "country": "JP",
+      "domain": "asahi.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "star shark bukangi freed from busan canal after month long confinement",
       "title": "Star shark ‘Bukangi’ freed from Busan canal after month-long confinement - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRDRWVEt3TU5qOHVUVkZITWxUdXVCb3hiQWJYWnJ4d2FTdks5VVRRRlBJNHpzSm1OWXVQSWo3dndNYTlQalJBY1FTWXZnZlFvQkdBa2FGNldXcmFSQ2hpV3lPcGJ3SV9lekM5RVkyYURXUzkxenRGOGRtT1FLbDhRSHFTaTkxX0haUGo4VnItOExxOE0zM3Jlc2Etbzh0TUxEdjNnbzBqS055YUJQR2RNWWtEd1dOWXM0Ry0tVk5HNGpOM2t4cWVNQkRyTQ?oc=5",
@@ -8475,6 +8769,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "滋賀の観光地 黒壁スクエア 来街者6千万人 節目は福井の2人組 滋賀県",
+      "title": "滋賀の観光地・黒壁スクエア、来街者6千万人 節目は福井の2人組 [滋賀県] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45M1kxc2hOaDVScXpCUWFiM0tHMnZtNThOZ0dkMkJJNTJGenpJc3BlYVIxSG42U0NudVgzS3JidnBQUjBfanZXa1JLQWYtaVBUcndjTEMxRXNhY0xMeFdvQTBhRTBLd1U?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 01:45:00 GMT",
+      "outlet": "朝日新聞",
+      "source_name": "Asahi",
+      "country": "JP",
+      "domain": "asahi.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -9707,7 +10015,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:03:51.550780+00:00",
+      "resolved_url": "https://kumparan.com/kumparannews/dudung-soal-konflik-laut-china-selatan-perkuat-maritim-ri-tetap-bebas-aktif-28QNuo98VfD",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "siêu bão champi gây biển động mạnh",
@@ -10001,6 +10313,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "毒品 關鍵字新聞",
+      "title": "毒品 | 關鍵字新聞 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rd3k5TDNpOHlPbVYzV2pNbF9wQUktSnBnQVdXMVBUaWRRS0dWanlSWmZ4QVRQRkUtUEl3eXlpNmJ4ZlpKOXA5UA?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 05:15:12 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -12047,7 +12373,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:03:48.346656+00:00",
+      "resolved_url": "https://www.cnnindonesia.com/tag/kapal-tempur-as-di-laut-china-selatan",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "closer cooperation with japan to boost nation s maritime defence",
@@ -12089,7 +12419,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:03:45.136908+00:00",
+      "resolved_url": "https://www.cnnindonesia.com/internasional/20261021084450-106-1417798/china-marah-kirim-kapal-buntuti-kapal-perang-as-di-laut-china-selatan",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "共機 關鍵字新聞",
@@ -12747,7 +13081,11 @@
       "relevant": true,
       "tier": "actor",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:03:55.679364+00:00",
+      "resolved_url": "https://kumparan.com/dimasfrrsadk/coast-guard-di-garis-tipis-antara-penegakan-hukum-dan-tekanan-geopolitik-28MN2VrAKG0",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "marine corps creates first medium missile battalion",
@@ -13303,7 +13641,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:06:30.429992+00:00",
+      "resolved_url": "https://news.detik.com/internasional/d-8715735/tegang-china-kirim-pasukan-awasi-kapal-perang-as-di-laut-china-selatan",
+      "text_file": "archive/text/930430a126f286bd.txt",
+      "text_chars": 2025,
+      "text_relevant": true,
+      "text_scs_hits": 8,
+      "text_actor_hits": 1,
+      "wayback_url": "http://web.archive.org/web/20261027230706/https://news.detik.com/internasional/d-8715735/tegang-china-kirim-pasukan-awasi-kapal-perang-as-di-laut-china-selatan",
+      "archive_status": "ok"
     },
     {
       "key": "supreme court coa audit not needed for ombudsman to probe officials",
@@ -14069,7 +14417,17 @@
       "relevant": true,
       "tier": "feature",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:03:59.813857+00:00",
+      "resolved_url": "https://kepri.antaranews.com/berita/270529/cuaca-kepri-hari-ini-natuna-anambas-hujan-batam-masih-berkabut-asap",
+      "text_file": "archive/text/d1f70553e963e5b1.txt",
+      "text_chars": 2299,
+      "text_relevant": false,
+      "text_scs_hits": 7,
+      "text_actor_hits": 0,
+      "wayback_url": "https://web.archive.org/web/20261027230405/https://kepri.antaranews.com/berita/270529/cuaca-kepri-hari-ini-natuna-anambas-hujan-batam-masih-berkabut-asap",
+      "archive_status": "ok"
     },
     {
       "key": "6 hlv nguy cơ bị sa thải ở premier league",
@@ -14545,6 +14903,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "teodoro china uses propaganda to sow division among filipinos",
+      "title": "Teodoro: China uses propaganda to sow division among Filipinos - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZDJJSjByUmd6UWllaGx4LU1JUWJWdVFzNjdsLVNHeUtpV0pPZmEtWFlvQUVsS1BzZzBRd3ZRUGQxUFFmWWotU1dxS25UMnV2d25tREVUVHBTS1lVU3AyOE41LVJXVUdfN3Z0azdEQUp1YUZxYlhKc0k2WGZzc2syeGVJQWRFYWVVS3EwaXFLTF9mdi11ZVpRbERB?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 14:21:46 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -15248,6 +15620,20 @@
       "text_archived": false
     },
     {
+      "key": "ph senate reso urging dfa to declare jing quan persona non grata filed",
+      "title": "PH Senate reso urging DFA to declare Jing Quan persona non grata filed - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZURPdGlzLWJ2MHNOMmFwUzRXWmFPeHpzQXU0MTB4OWFIaVk4UEpFVVg4cU5pNHVEcVNzVW5kOXJmcE5DdnM1VUpiVU5UR1ZsbXk0WVd0bG9KaDlJdHF1YW9YSXo4aUNwNlg3TFh4dTNQMXhDaHdJbGYtWUpSZ1EzNkdXejhZRmVwVFI3aUxpNjJWWEtjTmZVR3MySTJHSkRCZGtkRXJ3?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 08:14:54 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines summons china s envoy over remarks conveying threat",
       "title": "Philippines summons China's envoy over remarks conveying 'threat' - Reuters",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3FaTkFtc3lTTUZRVGV2WlV4elBHTVlNb2JlcGVIbDEwd29YNlk2Sm1CR043SG1EYmFlT1F6d3Fwb0g2SFl5RHA2c2hkTVZ4TXpnYldWOUZ0N1pvbW90dDlkejFxaUtvRHNfOWJqOGt6Y1Q2Q295c3MtMDJvVlpZVDlFZ3RmQW5nZ2JIUjQwbWl6UDI2cG12YXBhQ0JDR0xEUHlmRDc3eUtKMVRFMENJ?oc=5",
@@ -15259,6 +15645,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "west philippine sea teodoro reiterates ph troops not troublemakers",
+      "title": "West Philippine Sea: Teodoro reiterates PH troops not troublemakers - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEVsaUs5bkMyTDRZMUVGbmNPd2hRb3RJaVBwVFhFMUw0MXVsVmlGU2lPUVEwdzF6TG9DelNkbnNMczVBZzNMZGNlYWFVcVRSUkprWU04cTV4eXAwdDFjOUdFSFNWY2pCWWV5dlpLUVhxUWlRY3JhdWNJcTh2QS11Y1NPZW10aUktVzhremhSVVNBZUNEemVyaS1tenRCTkpi?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 08:02:32 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -15444,6 +15844,20 @@
       "text_archived": false
     },
     {
+      "key": "marcos prefers diplomacy over declaring chinese envoy persona non grata",
+      "title": "Marcos prefers diplomacy over declaring Chinese envoy persona non grata - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNYzdIRXQteV90NDFDdmZwNTBxUFByRnZNZ0hWT1RhQnk3a3BzM2xObHNFVVZoMXpNNHRwRGxGX0c5dldCQW1xREdWQ1REMmx0SWU5TzFVdkFlWGRMdWk1eU41dmN0NUhBNGFpdHNsYWJDYlVwaVhHbHVrUHJjc00?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "indian festival events turn deadly with incidents involving stampede and an out of control truck",
       "title": "Indian festival events turn deadly with incidents involving stampede and an out-of-control truck - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ2JRZkxXdzN5RzRUMzZacjdBVk4xdUlfVnluSlN1SWFLdXhMWHBxLWJiZHh5OU9KbHFfWlluak0xUHdrRDQ2VWhfQWpIYUg1WEFyNDA2VGpCbWIxRWs4eDdleXNFUjNmRXFYRjJ0bDFyakRSaEY0RG9kNUtpX1NzQkl1bUFCd3ZwRnFYUGMxNEJJTlZQM0pfM3AtVmdLRTZnQ3hqU2pYRy1UVGlzSERUX1c5MS1VRk50aEFiQUszUDZ6dTFi?oc=5",
@@ -15469,6 +15883,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "dfa summons chinese envoy over may easily win west ph sea remark",
+      "title": "DFA summons Chinese envoy over ‘may easily win’ West PH Sea remark - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzkzclFaRW9JRGx4OU55b0JRVXhBSXVRNm1KYTNYR1F5UTdwdGloTjVYcEEwR2VEdFpsdDJEYVpQVkxWYjI5eFBvcmFxOUNxdXE5a1VONHYtdFlfdjNhX3FfVUFaSWJJb1d6OVd0SzJPaThVcjBLZDFCSUhwZ05QRF9tRzdHbUk4ZExFWnA4Z3ZOcFpua2p4QnM3RDEtZw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 06:40:53 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -15861,6 +16289,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "từ vụ người phụ nữ ở hà nội kê giường chặn lối vào thửa đất xử lý tranh chấp đất đai lối đi thế nào",
+      "title": "Từ vụ người phụ nữ ở Hà Nội kê giường chặn lối vào thửa đất: Xử lý tranh chấp đất đai, lối đi thế nào? - Báo VietNamNet",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjJmeHNHSHZOT1NoTDV5N1FfSmhkRDBXTC02WjZHOGQ0V05JMHZ4aF95TXY5NkJJSzhxY2g3bFB5aUpvLXBKblVVMUxJYjVkZzJlaFNOdUpveXBXRGxMdU1CdFFHdm9fQ3JuTGM0bk5hWGVBN3B3Rmw2T0tfcTYtWWRPellicnFmMFZ2aHhtX1czNkxVamo4ZnpsWnBfNHlGc21rVERwSGl3VUk?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 22:00:00 GMT",
+      "outlet": "Báo VietNamNet",
+      "source_name": "Vietnamnet",
+      "country": "VN",
+      "domain": "vietnamnet.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -16799,7 +17241,17 @@
       "relevant": true,
       "tier": "feature",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-27T23:04:30.318539+00:00",
+      "resolved_url": "https://kl.antaranews.com/berita/46441/kantor-sar-natuna-jemput-nelayan-anambas-yang-hanyut-ke-malaysia",
+      "text_file": "archive/text/fd5de0bf1e99ad61.txt",
+      "text_chars": 2753,
+      "text_relevant": true,
+      "text_scs_hits": 9,
+      "text_actor_hits": 1,
+      "wayback_url": "http://web.archive.org/web/20261027230435/https://kl.antaranews.com/berita/46441/kantor-sar-natuna-jemput-nelayan-anambas-yang-hanyut-ke-malaysia",
+      "archive_status": "ok"
     },
     {
       "key": "dinagat islands breaks ground on p164 m soil lab ecotourism boardwalk",
@@ -17320,6 +17772,90 @@
       "text_archived": false
     },
     {
+      "key": "malaysia eyes bigger role in global maritime dispute resolution chief justice",
+      "title": "Malaysia eyes bigger role in global maritime dispute resolution - Chief Justice - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQS1nQWNpNUFVbmQxdmI2eEV2NEhIRXpTelhnME04NW5QNlVtUzJKTVJxblZ3MldabUtaQUV4VFQ0RExrV21MMklDcFRKVFJkckdTcXJEbVBVUUhxcFc5RVE2aWNBUVRyb1NMMGhrT05pbkpyZHFnNVpJa2ZWQzRFblJoYmVZNDVsWUNnZjNuT2hDUXZEb19fQ1QyZTNqbTZlbXlZaFl1MV9KOFJ2UjRCdzg5YzQzelg2bkxBZ25LNkFYTlVvcUV6R3F1ONIBvgFBVV95cUxQUmw2Ti13azRpZTJVczQxUW85UUQ2RTNZMUxqR0ExS1JrV2tRanFPbzBfdkRaQS1XdkhKa2Y2aUlYQ3BRcEFpeXlJZnFyRWRDdl80d1ExcHR3Z0JsT1ZCNUFwRlpDd0FEdHRWZ1BGLXBEYkZ2LWtqbjJnRm5rMEc0V3ZMd1NocWxBS25yTmdKb2hVVkZPTkJ1ZE1wX1JaV2N0bmR5Z3FtNktKeC1yaWEyNEN5NUxUaXpicFh4S2FR?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "underwater mountains canyons hold secrets of malaysia s seas",
+      "title": "Underwater mountains, canyons hold secrets of Malaysia's seas - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaklNZlpRTkdNR3FFTHRtR2xldjZENlBpZzlLVXcydkhqQmFEWm5YV1FWZXRMaklqcVpObTZ5Ni01ZFlJZlR2TjBqbHFJcXdxcklZNTVxOVl0X1V1QXFJSmhweVFKQlpleWRZMjJZQ0QyRWtzVHZhb2l2dUdpVTcyVDdabHFZd1U5MjVJcVJpSW1HM3lkNzBNWlZ1WXZyMUpCbWNvbVl0d195cUXSAbABQVVfeXFMTzVud0dDZnA4Y3dLZkdUXzZQbmp6SGFlamNTaEpkOTFwWHd0b252WmZDaVFxR3pUdGZHVTM3NFNlb1AzaENXZVhIeGJWdE1ZYzlNOURBSjdRZXVVT1pyeldYWERDbDVaSWxvZzhEdnVnRjU1R29PZ1VyVnlmTlYwak5LVzNGV242VlhRczVYZVlCTEVKUlVYLXRfRm9BS3owaEc5WldsX3VRcHBpbzdDbVQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "one survey ship falls short of mapping malaysia s vast maritime domain watch",
+      "title": "One survey ship falls short of mapping Malaysia's vast maritime domain [WATCH] - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWJGWFFEeWlISEVZMi1ER1hfRHlQSnllUnZGS2wwblc1QmZjYVVPaWlMZ0prUm5UWjhlMGI5QnpCSmJJeDRWcUVZVF9sdmZQYm1XOWtySWk0clZoRnViZFVKU0tjeVRtZGNpTnBxYVd0cnhtakxIUjJYa3dSQXdkeEJqOU53dUczQVpmU3pLU3Q0dU1KZnRxX1laTkdSZ1FPWkFPYlMwT2Y5LWhlMEhHM2E1TmlSaWFreHFMbVJUeUJQX1JFZ2JSSk5fUdIBvgFBVV95cUxQcUFoLVhkTHktdVlLVXNEUk8zeTJUaE9MZFBrMEtadVpQOG0wVG5POEIya29ieFRNVG1BOWFjWmtIZlQ5R3JyS2d6cjVlSTJMQkNZLTY0OGpCbk0yX1NSdjdTZGlCYlRwMlluY1dRTmRhYXdWOEhnemxUdkwzdlZqRVNiOHlJdHRETEZJMHozTXp3NFJWRFRJWVNDT2hZV1psMjJHZW56dHFvVlYxb3QtaHl1cEs0Mjlja25KVXB3?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "solon wants chinese envoy expelled after embassy s stop bluffing dare",
+      "title": "Solon wants Chinese envoy expelled after embassy’s ‘stop bluffing’ dare - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeEdJajY1Rlh0cjVPaDZjblJ5c3VsY29uWXd5Rm9uTjN2VGt2eUdjWTBJMGtkcE00azJGempncnJHUEFSbDFyYlZwZDhHOW5MbTFaMV95UzE4NzluVFVlRnVaQnpnN2h2UUxZUjd0c2pWUW1CWEFDLTg1dF9Ja3R0T29vTElrSE95SHdZUWp4MHJiSmxRNlhwUWlEZjZoRm5wQ0Fn?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "sino envoy s quip sounds like a threat marcos",
+      "title": "Sino envoy’s quip ‘sounds like a threat’ — Marcos - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ3V3aHdHQTg3RlFaQVA4OV9YQkVFWTN0QlBJWWc4czI2RTE4RTBZamtYcUNveFZ5bDV6WkJMTUNTbFZzNHU5SnVYbkxpNmNocW5ncWlGZlFNc2lkOUlmYmpLaHB1a2ZMeF9jdDFyV1ZzRlhXUW9mYkY2dzBqUUQwZEYtcw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pangilinan ejercito to chinese envoy jing quan go home",
+      "title": "Pangilinan, Ejercito to Chinese envoy Jing Quan: Go home - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYzJIZjBEMXAxVk9uMmtEMnZCdFRyeU5JRVlQUDROMmdhODF6QTl1bFNtUnBheF8teFEyY1pyMU95c01JZzI2NVhDSnF4ckhxWHpYa01xOExfY3p0TVE5bGhiNEFGbWtfdUl2aXFEd1hRM1NFc0VBVU5HVldxbEc1eUpfYllPdE43ck54MEFOeVM?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "el nino rất mạnh bắt đầu tác động nắng nóng bất thường xâm nhập mặn ở nam bộ xuất hiện từ tháng 12",
       "title": "El Nino rất mạnh bắt đầu tác động, nắng nóng bất thường, xâm nhập mặn ở Nam Bộ xuất hiện từ tháng 12 - Báo Tuổi Trẻ",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNjhPcU9VWFRsY3RqNzBkYXVwdGFFbVBTQ2hHNTNjRXVvTGhEdmFVZnE3TEdQb3YwdXF0cXM4b09nOFZYemdQZlpPWHhuVHN5LUs2WGZ3OEotTWg3VTZHTWFNOWV2QWlRbUdfa2h3eWRSZGNEbXloS0Q4d2lGdnNmaWtvSmlyTXBmNWRxd0l4cGdjQVRMdnJ4REpIay1WajlmSUhVX2Iwc19Rdk5YUEFWS0lnZzhNTy1QeWZxbkxqYmRDRVpkRHVJWk54OXFzMnVVNTluTDZENA?oc=5",
@@ -17509,6 +18045,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "chinese scholar rejects china shock narrative",
+      "title": "Chinese scholar rejects 'China Shock' narrative - China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuUDltS2lkd3RIMmtQbGtpbVVzYjZFWDBDTklXbks5LTR5ZTBRTVpqNzJsaGxDNkRwUkVtT0VtejRqakR5b0lRQzVGQVNzcGhvOE1SU1p6WTZtSXdiWi1ZeGp5NFFhM25mZ0RpdUZweUVUcEhXa001cGdVOHBVZw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 10:37:38 GMT",
+      "outlet": "China Daily",
+      "source_name": "China Daily",
+      "country": "CN",
+      "domain": "chinadaily.com.cn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -18323,6 +18873,48 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "社説 コストは 平和利用との整合性は 原潜導入 尽きぬ疑問 高市政権の安保見直し 安全保障関連3文書",
+      "title": "【社説】コストは？ 平和利用との整合性は？ 原潜導入、尽きぬ疑問 [高市政権の安保見直し][安全保障関連3文書] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CaF92TzY4Mm4yZEwweWh5N3VZV1JweWRUaUJ5N1RNMGNrZkFxc1QwdTlQZE00U0d5SkQzVll0bHM2VE9EM1B1Wk42V0xGNTJZRWdNZGM0b0VmNXN1VkxRVU4tSVB1clE?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "outlet": "朝日新聞",
+      "source_name": "Asahi",
+      "country": "JP",
+      "domain": "asahi.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china is stronger but fight for wps already won by ph de lima",
+      "title": "China is stronger, but fight for WPS already won by PH – de Lima - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS3dCd0JkaWJ4Rl9TSTNmbllpNV8ydGM0clZfa0lKN054bkhEWDhlSUVneHR4NU4tTXV0NmVMNUwtQkIxanRPMUdHU3pMSnE5QWxIeTZpNEEwX3RPWnNyVmZQNTlGZkV4eTlUajhNNUt4SmVQLWF2Ujg1d2ZFMHNMbWMxUXc0VU45YlhnU0xzaHBNR2lJNFk1RGhB?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "chinese envoy welcomes talks after marcos says he ll summon him",
+      "title": "Chinese envoy welcomes talks after Marcos says he’ll summon him - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWZfNzZtbjFIbDN5V3VzSDRLZjMtWVhydFpRS3dVOGhjRzBud3pOQkxTNE8ycVJDcFhzSmN0M2V2NmpEcmI2R0hkcXJCQjJ5eG9EQTFEMWpZUlFoWXJIQWVMWDBtQkdYRWpYbnhadDVWZTlZZlZBWkxCOEo5d2l0N1VTNjExbHBsLVl4U243SjZmdnJ1SzM4OUd3cw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
@@ -19390,6 +19982,48 @@
       "text_archived": false
     },
     {
+      "key": "teodoro to sara duterte china alone is troublemaker",
+      "title": "Teodoro to Sara Duterte: ‘China alone is troublemaker’ - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbjdiZkxtOU9zR3JhcEdVT1dYTlpzNFNiZ2xmV3FsOXdicURwWWF0UFF4ZjhocVpGVXNkZnkxb0s2M2FSUGpZS2ZLSWZxenF4aTQzNm1xbU9CeC1VQjdCQXlYOEV2em5VcWJBemlEd2hMZjJiaVI2eWJSdWp0ZlE1SmYwSHJaU3Y1VGJKQQ?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pcg fends off chinese vessel 4 small boats off lawak island in palawan",
+      "title": "PCG fends off Chinese vessel, 4 small boats off Lawak Island in Palawan - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOUtLT3R4b1VYNHMtR0l0QzFONUdOOTJtVl9hdWNVejA3bzhkN0JBVWc4TW5IR2pGbDJ0ZGFmeGN2YXNTbGVhMFZPQ2owQUdJZm5JR19GRkVHTTlGVHFHNkZ2ZWxfbEdMUEg4Qy1ZcnRyU2R6d01UUTR5NnNRMGh6STM5QndZVW9TdmZDMW9oTmpxRHo3YXB5WXNZQzIyaFBhTzgxNlBR?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "dfa rebukes chinese envoy over thinly veiled threat vs ph",
+      "title": "DFA rebukes Chinese envoy over ‘thinly veiled threat’ vs PH - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMlV0N2FMYmhZNFF6OUlUekpMVm5Wc3hQU0QwaGRGcTJlZ2JldmRGWUhmV3Zrc0hCQWxaSm9OazVDWDBrcEhxbHE2UUdFY0F0Ti1JNmZ3UVUxRklVaXM5VzViWU5keWhhWnlWRzVDY3dSNlNQM1F0TVFrOFl0X1VuRWQ1aW9TWkdYVUV4RXp1aG16b21n?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
       "key": "quảng ninh dành 9 700 tỷ đồng thực hiện các chương trình mục tiêu quốc gia",
       "title": "Quảng Ninh dành 9.700 tỷ đồng thực hiện các chương trình mục tiêu quốc gia - Pháp Luật Plus",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOWdEdjVUcGZjY3ZpdDRhMUlHYnJrUTItcmFGa3F2Y1FKZWt4MFM2d20wU1hMTHhMRlJLSUFrVUZ4dU1EMWVYbUN0V0doOGQwN0puMW1YVlRqM2daVWpwSmZVaTBnMlNxZndOMUtpQ2FVSGxXWjRwWnRxM0dCOU16Z1Z4NGdVZlhHSkVDTWpKZ0gxdGJEVkFySGtfdWZhWmlYcE1Qd3RsaUVmbXFiU3hWUHRWYkxWQQ?oc=5",
@@ -20321,6 +20955,62 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "south china sea protecting economic rights preventing confrontation in focus",
+      "title": "South China Sea: Protecting economic rights, preventing confrontation in focus - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZzV1c3pDSTNsbkc4NV82Yk5venpLNW5BN3h5VXRkSDZBS25GNnlMX2VlTzZVN3lQZWg2cVphN1hwWWQ2Z0gwNnJaSlQ4dlZGZ1pmWDV0b2FESktlaC1NbHVjSXpHZ0R4YTNFeUQyOUdaT20tZmc2YTQ3cmdCVTg2U2hmblVWbDdaS3BuRDVIX1hEMGhPQlZMc255a21lMTMwbzlWaEh3Y1czWTJuSkJILUQ3ZWJWbFozUy1WeTlRWWt4cHBncDFZYkVmVkrSAb8BQVVfeXFMUDhLelZtb3JGWkVVWHRSNHZrRlF2TlA2Um9DVVVGTEZZQUtLeWhyUHNYSkctajFIRHVUOGFnQkthNldxUHdVSDIyWTlwVlFXdWtZbkh4WUV5Ym1UZ1UwYVRRT0ZOZURKcFZ3ck1hdFN6akdJTmVjcnplcHk3Yjg2MHZ1WGtMa1JiVDdNNmVkcnF1OXVnNGxqWlp5dk1yNGlPOGtkZ3lhci1GNzB5Rkkza2xTRFpDWmlRTml6SXBUalE?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "teodoro china must drop baseless claims before military talks resume",
+      "title": "Teodoro: China must drop baseless claims before military talks resume - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcmg5ejd0TmxRWXd4blE4M09SQXJTaXcwSjRPTWJfa0hXOTJYUXZIV3BHNWdIOVRQbnBDRUx3T3QybzMya0ZnMWJJNUU5UmJTVEUwa0pjR1VwRXdYMlJDTHdDdFRtWVRFazN1SzFUdFlwN1VqZVFaUlRnSy1PaUduU1JZWlV5clpsWE03ZUFNMzFzYTF1UnNKLU1BSV90aVJzSVA0?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china alone is the troublemaker in the region teodoro",
+      "title": "China alone is the troublemaker in the region – Teodoro - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcjFSTHBoTmtIMExON2pKekhBYlgxNkhZRVkzazVId2NjSERMT1NQZWcwekEySC1pNzFQUnNCdTQwZmRaQk83N0JMam1VZHd0ZmNZN21wUS0tZ0JUOTZBcy1hRWh3M3RZMFZpeWtPQzBRY1l5a0ZJSWNZX3JfV0liR3VrMlRyZ1kwRFJjUTV2UQ?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "trump to fly to manila for asean summit first ph visit since 2017",
+      "title": "Trump to fly to Manila for ASEAN summit, first PH visit since 2017 - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORXVEc2JnTU5wWDJITmt5Sm10YTR5c3FlMDFyZFJtQ05nVHJud2pNZEUyb1VMRkxyQy1kb1YxR0JodHNYWWF2N2p0Tk96Vjd5ZllkOWxUc2hNWTlXYnMyZmpJTTRTR0tJcGRmdXJCNERncWJ1ZFpjOUhxTm5xSmp0bWFGOHRJa05sakZQMlAtVDVWcXdUOHJPY1E0QWIyTGgydTl2LVMySTIzS1JydEswLdIBrAFBVV95cUxPTWlhQWdmY0ZlSnBjMlZkMlloWHc3NkJMMFhRSy1EeUpDTGlGelhMR2dvb3BfOGdSMmVWbzFyMS1iMnktTHlNWkR0UFo5MkllUHdyd1dueUZEQ0o1dURxY2JqQ3l6eDhwc19ZUU5tY3FGM3p3YURfbHdjNDUyMVp1Q3VsSjdtdEoyQ0h2R013dTM3YzVuN1VzS1ZIeEdJRllUTEo3Z2V4S1F4T1FI?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-27T23:01:57.886152+00:00",
       "text_archived": false
     },
     {
