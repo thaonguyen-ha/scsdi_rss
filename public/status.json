@@ -1,135 +1,45 @@
 {
-  "generated": "2026-10-28T02:28:03.728860+00:00",
+  "generated": "2026-10-28T08:50:31.988896+00:00",
   "window_days": 14,
-  "new_this_run": 97,
-  "new_relevant_this_run": 2,
+  "new_this_run": 0,
+  "new_relevant_this_run": 0,
   "archive_total": 1760,
   "per_source": [
-    {
-      "domain": "rappler.com",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 98,
-      "new": 30,
-      "new_relevant": 1,
-      "status": "ok"
-    },
-    {
-      "domain": "philstar.com",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 97,
-      "new": 23,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "asahi.com",
-      "country": "JP",
-      "hl": "ja",
-      "fetched": 100,
-      "new": 20,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "antaranews.com",
-      "country": "ID",
-      "hl": "id",
-      "fetched": 61,
-      "new": 6,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "nst.com.my",
-      "country": "MY",
-      "hl": "en",
-      "fetched": 100,
-      "new": 6,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "scmp.com",
-      "country": "CN",
-      "hl": "en",
-      "fetched": 63,
-      "new": 3,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "inquirer.net",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 100,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "cna.com.tw",
-      "country": "TW",
-      "hl": "zh-TW",
-      "fetched": 65,
-      "new": 2,
-      "new_relevant": 0,
-      "status": "ok"
-    },
     {
       "domain": "chinadaily.com.cn",
       "country": "CN",
       "hl": "en",
-      "fetched": 36,
-      "new": 1,
+      "fetched": 0,
+      "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "cgtn.com",
       "country": "CN",
       "hl": "en",
-      "fetched": 11,
-      "new": 1,
-      "new_relevant": 1,
-      "status": "ok"
-    },
-    {
-      "domain": "kumparan.com",
-      "country": "ID",
-      "hl": "id",
-      "fetched": 19,
-      "new": 1,
+      "fetched": 0,
+      "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
-      "domain": "reuters.com",
-      "country": "INT",
+      "domain": "scmp.com",
+      "country": "CN",
       "hl": "en",
-      "fetched": 14,
-      "new": 1,
+      "fetched": 0,
+      "new": 0,
       "new_relevant": 0,
-      "status": "ok"
-    },
-    {
-      "domain": "pna.gov.ph",
-      "country": "PH",
-      "hl": "en",
-      "fetched": 16,
-      "new": 1,
-      "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "en.people.cn",
       "country": "CN",
       "hl": "en",
-      "fetched": 6,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "takungpao.com",
@@ -138,25 +48,25 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "thejakartapost.com",
       "country": "ID",
       "hl": "en",
-      "fetched": 3,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "cnnindonesia.com",
       "country": "ID",
       "hl": "id",
-      "fetched": 12,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "search.kompas.com",
@@ -165,7 +75,7 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "gatra.com",
@@ -174,7 +84,16 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "kumparan.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "bbc.com",
@@ -183,7 +102,16 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "antaranews.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "mongabay.co.id",
@@ -192,34 +120,43 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "detik.com",
       "country": "ID",
       "hl": "id",
-      "fetched": 8,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "tempo.co",
       "country": "ID",
       "hl": "id",
-      "fetched": 4,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "reuters.com",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "abc.net.au",
       "country": "INT",
       "hl": "en",
-      "fetched": 4,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "amti.csis.org",
@@ -228,16 +165,16 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "militarytimes.com",
       "country": "INT",
       "hl": "en",
-      "fetched": 73,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "thedefensepost.com",
@@ -246,16 +183,16 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "nikkei.com",
       "country": "JP",
       "hl": "ja",
-      "fetched": 14,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "nhk.or.jp",
@@ -264,16 +201,34 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "asahi.com",
+      "country": "JP",
+      "hl": "ja",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "nst.com.my",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "malaymail.com",
       "country": "MY",
       "hl": "en",
-      "fetched": 9,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "thesundaily.my",
@@ -282,106 +237,151 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "thestar.com.my",
       "country": "MY",
       "hl": "en",
-      "fetched": 37,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "rappler.com",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "mb.com.ph",
       "country": "PH",
       "hl": "en",
-      "fetched": 52,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "inquirer.net",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "philstar.com",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "pna.gov.ph",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "straitstimes.com",
       "country": "SG",
       "hl": "en",
-      "fetched": 18,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "channelnewsasia.com",
       "country": "SG",
       "hl": "en",
-      "fetched": 9,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "domain": "cna.com.tw",
+      "country": "TW",
+      "hl": "zh-TW",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "thanhnien.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 30,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "baophapluat.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 21,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "anninhthudo.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 13,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "tuoitre.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 55,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "viettimes.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 2,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "soha.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 18,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "zingnews.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 25,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "vtc.vn",
@@ -390,43 +390,43 @@
       "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "voatiengviet.com",
       "country": "VN",
       "hl": "vi",
-      "fetched": 8,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "bbc.com",
       "country": "VN",
       "hl": "vi",
-      "fetched": 3,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "vietnamnet.vn",
       "country": "VN",
       "hl": "vi",
-      "fetched": 38,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     },
     {
       "domain": "rfi.fr",
       "country": "VN",
       "hl": "vi",
-      "fetched": 15,
+      "fetched": 0,
       "new": 0,
       "new_relevant": 0,
-      "status": "ok"
+      "status": "ERROR: HTTP Error 503: Service Unavailable"
     }
   ]
 }
