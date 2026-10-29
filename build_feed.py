@@ -8,7 +8,7 @@ deduplicated, reverse-chronological feed the coding team can subscribe to.
 
 Why Google News RSS: the coding notes show the team already fell back to
 Google `site:` searches whenever an outlet's own search was broken, infinite-
-scrolling, or undated. This reproduces that, in every language, as a feed.
+scrolling, or undated. The below procedure aims to replicate this process. 
 
 Stdlib only -- runs the same locally, in GitHub Actions, or in a serverless fn.
 
@@ -41,6 +41,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 GNEWS = "https://news.google.com/rss/search"
 
+# Need to revise: 
 # Standardised multilingual term table. The procedure is uniform -- every site
 # is queried the same way -- but each site gets the OR string in ITS language,
 # because Google News gates results by locale (hl/gl): under a Japanese locale
@@ -49,6 +50,7 @@ GNEWS = "https://news.google.com/rss/search"
 # noise (bare 南海 means "Nankai" in Japanese: ferry, railway, the Nankai Trough
 # quake -- not the sea; Japanese must use 南シナ海). Short per-language queries
 # keep `site:` honoured and precision high.
+
 LANG_TERMS = {
     "en":    ["South China Sea", "West Philippine Sea"],
     "en-PH": ["South China Sea", "West Philippine Sea",
@@ -139,11 +141,14 @@ def esc(s: str) -> str:
 # Google News does not strictly enforce the exact phrase, so broad outlets
 # (e.g. Military Times) return off-topic items. An item is "relevant" if its
 # title contains a South China Sea sea-name, a named feature/shoal, or a
-# maritime-actor term, in any of the tracked languages. This is a recall-
-# first heuristic meant to be auditable and later replaced/augmented by an
-# LLM classifier over the archived text.
+# maritime-actor term, in any of the tracked languages. 
+
 REL_SEA = [  # the sea itself (strong signal)
-    "south china sea", "west philippine sea", "dagat kanlurang pilipinas",
+    "south china sea", "west philippine sea",
+    "wps",   # WPS = West Philippine Sea; common PH headline abbreviation
+    "philippine sea",   # the Philippine Sea (Pacific, E of PH) -- adjacent body of
+                        # water, included by team decision (distinct from the SCS)
+    "dagat kanlurang pilipinas",
     "dagat timog tsina", "laut china selatan", "laut cina selatan",
     "laut natuna utara", "biển đông", "bien dong",
     "南シナ海", "南海", "南中國海", "南中国海",
@@ -249,12 +254,20 @@ def build_rss(items, title, desc, self_url=""):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=7)
+    ap.add_argument("--days", type=int, default=7,
+                    help="Google fetch depth (when:Nd); kept at 7 to respect the "
+                         "~100-article/query cap (see codebook)")
+    ap.add_argument("--window-days", type=int, default=14,
+                    help="dashboard/feed display window in days, built from the "
+                         "accumulated archive; may exceed --days")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only", default="")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests")
     ap.add_argument("--no-crawl", action="store_true",
                     help="skip fetching; re-tag relevance on the archive and rebuild outputs")
+    ap.add_argument("--dedup", action="store_true",
+                    help="re-enable deduplication (default: OFF, per codebook Stage 3 -- "
+                         "every fetched item is recorded so duplicates stay visible)")
     args = ap.parse_args()
 
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
@@ -267,9 +280,12 @@ def main():
     for d in (OUT_DIR, ARCHIVE_DIR, REPORTS_DIR):
         d.mkdir(exist_ok=True)
 
-    # Persistent state: everything we have ever seen, keyed by normalized title.
-    by_key, _ = load_archive()
-    seen = set(by_key)
+    # Persistent state: `ordered` is the full append-only list (keeps duplicates);
+    # `by_key` collapses by normalized title. Dedup is OFF by default (codebook
+    # Stage 3), so we record every fetched item and build outputs from the full
+    # list; --dedup restores title-keyed skipping.
+    by_key, ordered = load_archive()
+    seen = set(by_key) if args.dedup else set()
     now = dt.datetime.now(dt.timezone.utc)
     now_iso = now.isoformat()
     now_naive = now.replace(tzinfo=None)
@@ -280,12 +296,12 @@ def main():
         # Maintenance mode: recompute relevance for the whole archive (e.g. after
         # the filter changed) and rewrite it; don't fetch or touch status/reports.
         sources = []
-        for rec in by_key.values():
+        for rec in ordered:
             rec["relevant"], rec["tier"] = relevance(rec["title"])
         with ARCHIVE_FILE.open("w", encoding="utf-8") as f:
-            for rec in by_key.values():
+            for rec in ordered:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-        print(f"Re-tagged {len(by_key)} archived records.")
+        print(f"Re-tagged {len(ordered)} archived records.")
 
     for i, s in enumerate(sources, 1):
         url = gnews_url(s["domain"], args.days, s["hl"], s["gl"], s["ceid"], s["country"])
@@ -298,9 +314,10 @@ def main():
         n_new = n_new_rel = 0
         for it in items:
             k = norm_key(it)
-            if k in seen:          # already recorded in a previous run -> duplicate
+            if args.dedup and k in seen:   # seen in a prior run/source -> skip
                 continue
-            seen.add(k)
+            if args.dedup:
+                seen.add(k)
             rel, tier = relevance(it["title"])
             rec = {
                 "key": k, "title": it["title"], "link": it["link"],
@@ -310,7 +327,8 @@ def main():
                 "first_seen": now_iso, "text_archived": False,
             }
             new_records.append(rec)
-            by_key[k] = rec
+            if args.dedup:
+                by_key[k] = rec
             n_new += 1
             n_new_rel += int(rel)
         per_source.append({
@@ -331,7 +349,7 @@ def main():
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     # Rolling outputs are built from the FULL archive within the time window.
-    cutoff = now_naive - dt.timedelta(days=args.days)
+    cutoff = now_naive - dt.timedelta(days=args.window_days)
 
     def rec_dt(rec):
         d = parse_date(rec.get("pubDate") or "")
@@ -342,7 +360,11 @@ def main():
                 return dt.datetime.min
         return d.astimezone(dt.timezone.utc).replace(tzinfo=None) if d.tzinfo else d
 
-    window = sorted((r for r in by_key.values() if rec_dt(r) >= cutoff),
+    # Build outputs from the full record list so duplicates stay visible when dedup
+    # is off; with --dedup, by_key holds one record per normalized title.
+    all_records = list(by_key.values()) if args.dedup else (ordered + new_records)
+    archive_total = len(all_records)
+    window = sorted((r for r in all_records if rec_dt(r) >= cutoff),
                     key=rec_dt, reverse=True)
     relevant = [r for r in window if r["relevant"]]
 
@@ -351,19 +373,19 @@ def main():
         relevant,
         title="SCSDI — South China Sea news watch (pilot)",
         desc=f"Relevance-filtered SCS articles from {len(sources)} tracked outlets, "
-             f"last {args.days} days. Auto-generated.",
+             f"last {args.window_days} days. Auto-generated.",
     ), encoding="utf-8")
 
     # feed.json / feed-data.js: ALL windowed items with a relevance flag, so the
     # dashboard can show everything and let a coder audit the filter.
     payload = {
         "generated": now_iso,
-        "window_days": args.days,
+        "window_days": args.window_days,
         "n_sources": len(sources),
         "n_items": len(window),
         "n_relevant": len(relevant),
         "new_this_run": len(new_records),
-        "archive_total": len(by_key),
+        "archive_total": archive_total,
         "items": window,
     }
     (OUT_DIR / "feed.json").write_text(
@@ -375,10 +397,10 @@ def main():
     # Per-run report: how many NEW, non-duplicate articles each source produced.
     report = {
         "generated": now_iso,
-        "window_days": args.days,
+        "window_days": args.window_days,
         "new_this_run": len(new_records),
         "new_relevant_this_run": sum(1 for r in new_records if r["relevant"]),
-        "archive_total": len(by_key),
+        "archive_total": archive_total,
         "per_source": sorted(per_source, key=lambda r: r["new"], reverse=True),
     }
     # In --no-crawl rebuilds, keep the last real run's status/report intact.
@@ -390,7 +412,7 @@ def main():
 
     ok = sum(1 for r in per_source if r["status"] == "ok")
     print(f"\nSources ok: {ok}/{len(sources)}  |  new this run: {len(new_records)} "
-          f"({report['new_relevant_this_run']} relevant)  |  archive total: {len(by_key)}")
+          f"({report['new_relevant_this_run']} relevant)  |  archive total: {archive_total}")
     print(f"Window: {len(window)} items ({len(relevant)} relevant) -> feed.xml")
     print("Wrote feed.xml, feed.json, feed-data.js"
           + ("" if args.no_crawl else ", status.json, reports/run-*.json"))

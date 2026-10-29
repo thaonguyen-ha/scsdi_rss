@@ -55,6 +55,8 @@
   .tier.feature{background:#2e8b74;color:#fff;border-color:#2e8b74}
   .tier.actor{background:#9a6a2e;color:#fff;border-color:#9a6a2e}
   .tier.none{color:var(--muted)}
+  .direct{color:#2e8b74;font-weight:600}
+  .via{color:var(--muted)}
   footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
   code{background:var(--chip);padding:1px 5px;border-radius:4px}
 </style>
@@ -94,7 +96,7 @@
 
   <footer>
     Pilot feed · <a href="feed.xml">feed.xml</a> · <a href="feed.json">feed.json</a> ·
-    links open in a new tab via Google News redirect · auto-generated, do not treat as coded events
+    article links open the resolved publisher URL where available, else the Google News redirect · auto-generated, do not treat as coded events
   </footer>
 </div>
 
@@ -130,15 +132,19 @@ function render(){
   const frag=document.createDocumentFragment();
   for(const it of items.slice(0,400)){
     const li=document.createElement("li"); li.className="item"+(it.relevant?"":" off");
-    const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener noreferrer"; a.textContent=it.title;
+    // Prefer the resolved publisher URL; fall back to the Google News redirect.
+    const a=document.createElement("a"); a.href=it.resolved_url||it.link; a.target="_blank"; a.rel="noopener noreferrer"; a.textContent=it.title;
+    if(it.resolved_url) a.title=it.resolved_url;
     const meta=document.createElement("div"); meta.className="meta";
     const tier=it.tier||(it.relevant?"sea":"none");
+    const lk = it.resolved_url ? ` · <span class="direct" title="${it.resolved_url}">direct ↗</span>`
+                               : ` · <span class="via" title="Google News redirect (not yet resolved)">via Google</span>`;
     const wb = it.wayback_url ? ` · <a href="${it.wayback_url}" target="_blank" rel="noopener noreferrer">archived</a>` : "";
     const tr = it.text_archived ? ` · text ${it.text_relevant?"✓":"✗"}` : "";
     meta.innerHTML=`<span class="cc">${it.country||"?"}</span>`+
                    `<span class="tier ${tier}">${tier}</span>`+
                    ` <span>${it.outlet||it.source_name||""}</span>`+
-                   (it.pubDate?` · <span>${fmtDate(it.pubDate)}</span>`:"")+wb+tr;
+                   (it.pubDate?` · <span>${fmtDate(it.pubDate)}</span>`:"")+lk+wb+tr;
     li.append(a,meta); frag.append(li);
   }
   list.append(frag);

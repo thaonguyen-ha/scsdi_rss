@@ -1,14 +1,9 @@
 # SCSDI News Watch — pilot RSS
 
-A pilot news-monitoring feed for the **South China Sea Documentation Initiative**.
-It reproduces, automatically, what the coding team did by hand: search a fixed
-list of ~47 outlets for South China Sea coverage, in each outlet's own language,
-and surface new articles for coders to review.
+This is pilot news-monitoring feed for the **South China Sea Documentation Initiative**. It uses **Google News RSS** to query for relevant articles from a pre-determined set of news outlets, reorganized in a dashboard for revision. This document contains details about design decisions related to the dashboard. 
 
-It queries **Google News RSS** per outlet (the same `site:` + keyword fallback the
-team already used when an outlet's own search was broken), merges everything into
-one deduplicated, reverse-chronological **RSS 2.0** feed plus a JSON mirror, and
-ships a small dashboard to browse it.
+Current status: 2026-10-28.
+
 
 ## Output
 
@@ -25,16 +20,15 @@ ships a small dashboard to browse it.
 
 ## How it works
 
-- **`sources.json`** — the 47 outlets with domain + Google News locale
-  (`hl`/`gl`/`ceid`). Generated from the `Progress` sheet of
-  `News coding 2024-2025.xlsx` by `extract_sources.py` (a local step; needs
-  `openpyxl` and the workbook, which are **not** in this repo).
-- **`build_feed.py`** — for each outlet, queries
+- **`sources.json`** — this file collects all 47 outlets with domain + Google News locale
+  (`hl`/`gl`/`ceid`). This data is extracted from the `Progress` sheet of
+  `News coding 2024-2025.xlsx`.
+- **`build_feed.py`** — The main workhorse of Google News. For each outlet, queries
   `"<terms>" site:<domain> when:<N>d` in that outlet's language. **Standard
   library only.** Each run:
   1. loads the archive (`archive/articles.jsonl`) to know what's already been seen;
   2. crawls every source and keeps only articles **not seen in any prior run**
-     (dedup by normalized title), appending them to the archive;
+     (dedup by normalized title), appending them to the archive; (Note: Pending. I'm disabling deduplication for now.)
   3. tags each new article's **relevance** (see below);
   4. rebuilds the rolling `feed.xml` (relevant only) and `feed.json`/dashboard
      (everything, flagged);
@@ -63,14 +57,11 @@ ships a small dashboard to browse it.
 ### Relevance filter (v1, rule-based)
 
 Google News doesn't strictly enforce the exact phrase, so broad outlets return
-off-topic items (e.g. Military Times car-crash stories). An article is tagged
+off-topic items (e.g. Military Times car-crash stories). The dashboard tags an article is
 **relevant** if its title contains, in any tracked language, a sea-name
 (`sea`), a named feature/shoal (`feature`), or a maritime-actor term (`actor`).
 `feed.xml` carries relevant items only; the dashboard shows everything so the
-filter can be audited. This is a deliberately simple, **high-precision /
-lower-recall** first pass — see *Known limits*.
-
-### Why a per-language term table, not one universal string
+filter can be audited. See the codebook for more details. 
 
 Each outlet is queried with the sea's name **in its own language**:
 
@@ -83,12 +74,16 @@ Each outlet is queried with the sea's name **in its own language**:
 | Japanese       | 南シナ海 |
 | Vietnamese     | Biển Đông |
 
-Bundling every language into one OR string was tested and **fails**: Google News
-(a) silently drops the `site:` filter once the query is long, flooding the feed
-with untracked outlets, and (b) in Japanese, bare `南海` means *Nankai* (ferry,
-railway, the Nankai Trough earthquake), not the sea. Locale gates which language
-Google returns, so only the matching language's terms ever fire — short,
-per-language queries keep `site:` honored and precision high.
+Typically in Factiva, one might try to bundle every language into one boolean OR string, but this approach is not the best for Google News.
+*Google News silently drops the `site:` filter once the query is long, flooding the feed
+with untracked outlets. 
+* In Japanese, bare `南海` means *Nankai* (ferry, railway, the Nankai Trough earthquake), not the sea. 
+
+## Deduplication
+
+We do not deduplicate for now. We want to make sure how duplicated news are generated before moving forward with the best approach. 
+
+## Direct links
 
 ## Run locally
 
@@ -107,27 +102,19 @@ python extract_sources.py
 
 ## Deployment
 
+TBD - in progress: Vercel + GitHub CI are the main pathway right now but we should set up things with future AWS host in mind. 
+
 - **Serving:** Vercel, static, from `public/` (see `vercel.json`). Connect this
   repo in the Vercel dashboard once; it redeploys on every push.
 - **Refresh:** `.github/workflows/build-feed.yml` runs `build_feed.py` **every
   30 minutes**, then commits `public/`, `archive/`, and `reports/` — which
-  triggers the Vercel redeploy. No Vercel token needed. The archive **must** be
-  committed, or each CI run would start empty and re-flag everything as new.
-  (GitHub's scheduled runs are best-effort and may be delayed or skipped under
-  load, so "every 30 min" is approximate.)
+  triggers the Vercel redeploy. 
 
-## Known limits (pilot)
+## Current limitations
 
-- **Feed gating is still title-only.** `feed.xml` and the dashboard mark
-  relevance from the headline. A better **text** relevance signal
-  (`text_relevant`: a place term *and* an incident/actor term) now exists, but
-  only for articles that have been text-archived, and archiving is incremental —
-  so the feed isn't gated on it yet. An LLM classifier over the archived text is
-  the planned precision upgrade.
 - **Text archiving is best-effort.** Redirect resolution or extraction can fail
-  (paywalls, bot-blocking, or Google changing its endpoint); failures are
-  recorded and retried up to 3 times. Paywalled outlets (Asahi, Nikkei) may yield
-  little body text — the Wayback snapshot still captures what's public.
+  (paywalls, bot-blocking, or Google changing its endpoint). 
+- **Paywalled sites exist.** (To-do: make a list).
 - **No results (10 outlets):** takungpao, kompas (search subdomain), gatra,
   bbc.com, mongabay.co.id, amti.csis.org, thedefensepost, nhk.or.jp,
   thesundaily, vtc.vn — poorly indexed by Google News or a domain mismatch.

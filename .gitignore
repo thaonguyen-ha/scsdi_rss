@@ -3,3 +3,6 @@ __pycache__/
 .vercel
 .DS_Store
 *.log
+
+# Regenerable CSV deliverables (fixed-seed, rebuilt by export_results.py / make_ra_batch.py)
+exports/

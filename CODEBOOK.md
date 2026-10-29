@@ -39,11 +39,7 @@ language** (its primary publishing language). Canonical list: `sources.json`.
 
 ## Stage 2 — Search procedure
 
-We do **not** use each outlet's on-site search (they are inconsistent: infinite
-scroll, no date filter, bot-blocking). Instead we use **Google News**, scoped to
-one outlet at a time with the `site:` operator, in that outlet's language. This
-is the same `site:` fallback the original coders used when a site's own search
-failed.
+We use **Google News** to generate a feed of news articles from a specific news outlet using the `site:` operator. 
 
 ### Search terms (sea-name, per language)
 
@@ -59,11 +55,6 @@ with **OR**:
 | Japanese | `"南シナ海"` |
 | Vietnamese | `"Biển Đông"` |
 
-> **Why per-language, not one combined string:** Google News returns results in
-> the locale's language only, so terms in other languages never fire and only
-> risk breaking the `site:` filter. Also, bare `南海` means "Nankai" in Japanese
-> (a railway/region/earthquake), so Japanese uses the disambiguated `南シナ海`.
-
 ### Manual steps (human coder)
 
 For each source in the frame:
@@ -78,37 +69,40 @@ For each source in the frame:
 
 ### Automated equivalent
 
-`build_feed.py` issues the Google **News RSS** query
+`build_feed.py` issues the Google News query
 `<terms> site:<domain> when:<N>d` under the source's locale (`hl`/`gl`/`ceid` in
-`sources.json`). The RSS and the manual Google News search return the same frame.
+`sources.json`). 
 
 ### Time window
 
-- Pilot default: **14 days** (`--days 14`).
+- Pilot default: **7 days** (`--days 7`).
 - Operational: the crawler runs every ~30 minutes and only records articles not
   seen before, so in practice it captures everything published since the last run.
-- A human doing a back-fill should set an explicit date range instead.
+
+We chose a short 7-day window to make sure that we don't exceed the 100-article limits of Google News. 
+
+(Can we use the same platform for backward coding?)
 
 ---
 
 ## Stage 3 — Deduplication
+TOGGLED OFF FOR NOW. 
 
 An article already recorded in a **previous run or from another source** is a
 duplicate and is **not** re-recorded.
 
-- **Key:** the headline, lower-cased, with a trailing " - Outlet" suffix removed
-  and punctuation collapsed. Two results with the same key are the same article.
-- **Human equivalent:** dedupe by headline (and by resolved URL where available);
-  a wire story republished by several outlets is counted once.
+- Clean the headline: lower-cased, with a trailing " - Outlet" suffix removed
+  and punctuation collapsed. Two results with the same key are the same article. 
+
+We may want to consider fuzzy matching later on. 
 
 ---
 
 ## Stage 4 — Relevance (inclusion criteria)
 
 Google News does not strictly enforce the exact phrase, so a search returns both
-on-topic and off-topic items. **Include an article if, and only if, its headline
-contains at least one term from the Term Dictionary below** (case-insensitive;
-the lists already contain the needed script/diacritic forms).
+on-topic and off-topic items. **Mark an article as relevant if its headline
+contains at least one term from the Term Dictionary below**.
 
 Assign exactly one **tier**, using the **first** category that matches in this
 order — **SEA → FEATURE → ACTOR**:
@@ -116,10 +110,11 @@ order — **SEA → FEATURE → ACTOR**:
 ### Term Dictionary
 
 **SEA** — the body of water itself:
-`South China Sea`, `West Philippine Sea`, `Dagat Kanlurang Pilipinas`,
+`South China Sea`, `West Philippine Sea` / `WPS`, `Dagat Kanlurang Pilipinas`,
 `Dagat Timog Tsina`, `Laut China Selatan`, `Laut Cina Selatan`,
 `Laut Natuna Utara`, `Biển Đông` / `bien dong`, `南シナ海`, `南海`,
-`南中國海`, `南中国海`
+`南中國海`, `南中国海`, `Philippine Sea` (the Pacific sea *east* of the
+archipelago — a different body of water from the SCS, included by team decision)
 
 **FEATURE** — a named reef / shoal / island / bank:
 `Scarborough` / `Panatag` / `Bajo de Masinloc` / `Huangyan` (`黄岩`/`黃岩`),
@@ -135,10 +130,7 @@ order — **SEA → FEATURE → ACTOR**:
 (`海上民兵`), `water cannon`, `cảnh sát biển`, `dân quân biển`,
 `penjaga pantai`, `Bakamla`, `grey-zone` / `gray-zone`
 
-> The tier records *why* an item matched, roughly strongest→weakest signal. It
-> is not a severity ranking. FEATURE items are usually the most incident-relevant;
-> ACTOR items carry the highest false-positive risk (matched only on an actor
-> word), so audit those first.
+> The tier records *why* an item matched, roughly strongest→weakest signal. Note that this hierarchy does not reflect how relevant an article might be. It's just an order-based matching algorithm. 
 
 ### Exclusions (not articles)
 
@@ -169,13 +161,12 @@ Every recorded article is one JSON line in [`archive/articles.jsonl`](archive/)
 
 ### Body-level relevance (stage 4b)
 
+PENDING. 
+
 Once an article's text is archived, a second rule-based check marks it
 `text_relevant` only if the body contains **both** a place term (SEA or FEATURE)
 **and** an incident/actor term (coast guard, militia, water cannon, ram, blockade,
-patrol, exercise, dispute, sovereignty, …). This is what distinguishes a genuine
-incident from a weather report that merely names *Biển Đông*. It is an added
-signal, not yet the feed gate (see limitations), and is the step an LLM
-classifier would eventually replace.
+patrol, exercise, dispute, sovereignty, …). 
 
 ---
 
@@ -184,19 +175,11 @@ classifier would eventually replace.
 1. **Relevance is headline-only (v1).** It cannot distinguish a *weather* report
    that mentions `Biển Đông` ("East Sea") from an *incident* in the same waters,
    and an article whose headline names neither the sea, a feature, nor an actor
-   is missed. The planned fix is a second pass over the **archived article text**
-   (rule-based on the body, or an LLM classifier) — this is the open design
-   decision.
-2. **Body-level relevance is an added signal, not the feed gate.** `text_relevant`
-   exists only for text-archived articles, and archiving runs incrementally, so
-   inclusion in `feed.xml` is still decided by the headline rule above.
-3. **Outlets Google News indexes poorly** return nothing via this method
+   is missed. 
+2. **Outlets Google News indexes poorly** return nothing via this method
    (currently: Ta Kung Pao, Kompas search subdomain, Gatra, BBC `bbc.com`,
    Mongabay, AMTI, The Defense Post, NHK, The Sun, VTC). These need a native feed
    or a per-site scraper.
-4. **Regional blocks** (e.g. BBC/RFI Vietnamese) may surface in the feed via
-   Google even when a coder cannot open them directly.
-
 ---
 
 **Version:** 1.0 — 2026-10-26. Matches `sources.json` and the `LANG_TERMS` /

@@ -1,3 +1,9 @@
 # Feed generation (build_feed.py) is standard-library only.
 # Content archiving (archive_text.py) needs trafilatura for body extraction.
 trafilatura>=2.0
+
+# Link resolution (resolve_links.py): decode Google News redirects to publisher URLs.
+# Pin selectolax < 1.0 -- googlenewsdecoder 0.1.7 imports the Modest backend,
+# which selectolax 1.0 removed.
+googlenewsdecoder>=0.1.7
+selectolax<1.0
