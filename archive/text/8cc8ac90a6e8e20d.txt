@@ -1,0 +1,295 @@
++ Follow Kalayaan Island Group Tag            
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [ArticleID] => 2559790
+                    [Title] => Philippine Coast Guard drives off Chinese militia vessel, 24 boats near Kota Island
+                    [Summary] => The PCG condemned the presence of Chinese militia vessels, saying it is China’s strategy to bolster its presence in the disputed territorial sea.
+[DatePublished] => 2026-09-29 15:51:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1808965
+                    [AuthorName] => Renalyn Ramirez
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/09/29/pcg-chinese-vessel-092926_2026-09-29_15-35-58451_thumbnail.jpg
+                )
+            [1] => Array
+                (
+                    [ArticleID] => 2528807
+                    [Title] => Chinese from survey ship land on sandbars within Pag-asa waters
+                    [Summary] => A Chinese oceanographic survey vessel and two China Coast Guard ships were spotted in the territorial waters of Pag-asa Island.
+[DatePublished] => 2026-05-18 10:01:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1807493
+                    [AuthorName] => Cristina Chi
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/05/18/chinese-vessel_2026-05-18_09-42-46_thumbnail.jpg
+                )
+            [2] => Array
+                (
+                    [ArticleID] => 2507102
+                    [Title] => ‘Agonizing, pointless,’ Lacson warns Carpio, Batongbacal on Marcoleta debate
+                    [Summary] => Lacson urged Carpio and Batongbacal to skip a proposed debate with Marcoleta.
+[DatePublished] => 2026-02-10 18:22:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1807953
+                    [AuthorName] => Ian Laqui
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/02/10/lacson-marcoleta_2026-02-10_16-57-05573_thumbnail.jpg
+                )
+            [3] => Array
+                (
+                    [ArticleID] => 2245653
+                    [Title] => Coast Guard ipinadala largest maritime asset matapos 'laser attack' ng Tsina
+                    [Summary] => Pinalakas ng Philippine Coast Guard ang presensya at operasyon nito sa West Philippine Sea matapos tutukan ng military-grade laser sa Ayungin Shoal sa pamamagitan ng pagtatalaga ng BRP Teresa Magbanua (MRRV-9701) sa Kalayaan Island Group.
+                    [DatePublished] => 2023-02-17 12:09:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1806091
+                    [AuthorName] => James Relativo
+                    [SectionName] => Bansa
+                    [SectionUrl] => bansa
+                    [URL] => https://media.philstar.com/photos/2023/02/17/331153690615656317039748793486368483325220n_2023-02-17_11-57-27217_thumbnail.jpg
+                )
+            [4] => Array
+                (
+                    [ArticleID] => 2226626
+                    [Title] => House bill seeks to declare parts of West Philippine Sea as marine protected areas
+                    [Summary] => A lawmaker in the House of Representatives has filed a bill that seeks to protect parts of the West Philippine Sea from “destructive human exploitation" by declaring these as marine protected areas.
+                    [DatePublished] => 2022-11-26 17:05:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1806909
+                    [AuthorName] => Xave Gregorio
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/04/24/pagasa-gmapsjpg2019-04-0414-52-26_2019-04-24_11-32-28129_thumbnail.jpg
+                )
+            [5] => Array
+                (
+                    [ArticleID] => 2114910
+                    [Title] => ‘Misinformation’ called out: Philippines’ claim on Kalayaan islands not 'erased' by arbitral win
+                    [Summary] => A maritime expert disputed what he called wildly circulating misinformation that the Philippines lost possession and sovereignty over the Kalayaan Island Group (KIG) because of its arbitral win in the South China Sea. 
+                    [DatePublished] => 2021-07-24 18:52:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 
+                    [AuthorName] => 
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2020/06/03/pagasa-beaching-ramp_2020-06-03_13-14-39_thumbnail.jpg
+                )
+            [6] => Array
+                (
+                    [ArticleID] => 2113580
+                    [Title] => Coast Guard challenges, follows Chinese warship out of West Philippine Sea
+                    [Summary] => BRP Cabra reported sighting a ship flying the Chinese flag and with Chinese markings at the bank, which is 147 nautical miles from El Nido, Palawan, on July 13.
+                    [DatePublished] => 2021-07-19 10:12:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 
+                    [AuthorName] => 
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2021/07/19/pcg-cabra_2021-07-19_10-13-16_thumbnail.jpg
+                )
+            [7] => Array
+                (
+                    [ArticleID] => 2035851
+                    [Title] => Kalayaan LGU names 6 sandbars, reefs in West Philippine Sea
+                    [Summary] => In a move to assert sovereignty over the country’s territory, the municipal government of Kalayaan islands in Palawan has officially named sandbars and reefs in the West Philippine Sea.
+                    [DatePublished] => 2020-08-17 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805663
+                    [AuthorName] => Romina Cabrera
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2020/08/16/kalayaan_2020-08-16_21-25-01511_thumbnail.jpg
+                )
+            [8] => Array
+                (
+                    [ArticleID] => 1937975
+                    [Title] => Lorenzana refutes Carpio’s claims on Sandy Cay
+                    [Summary] => The Philippines is still in control of Sandy Cay, contrary to claims by Supreme Court Senior Associate Justice Antonio Carpio that it has been taken over by the Chinese, Defense Secretary Delfin Lorenzana said yesterday.
+                    [DatePublished] => 2019-07-26 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805318
+                    [AuthorName] => Jaime Laude
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/07/25/12-delfin-lorenzana-kjrosales_2019-07-25_22-13-07442_thumbnail.jpg
+                )
+            [9] => Array
+                (
+                    [ArticleID] => 1932607
+                    [Title] => Beaching ramp in Pag-Asa 60% complete — DND
+                    [Summary] => The construction of a beaching ramp on Pag-Asa Island in the Kalayaan Island Group is expected to be completed by the end of the year, a development that would pave the way for the long-delayed repair of the Rancudo airfield in the municipality-cum-military outpost.
+                    [DatePublished] => 2019-07-07 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805318
+                    [AuthorName] => Jaime Laude
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/07/06/13-pag-asa-island_2019-07-06_23-17-37375_thumbnail.jpg
+                )
+        )
+)
+Kalayaan Island Group
+Array
+(
+    [results] => Array
+        (
+            [0] => Array
+                (
+                    [ArticleID] => 2559790
+                    [Title] => Philippine Coast Guard drives off Chinese militia vessel, 24 boats near Kota Island
+                    [Summary] => The PCG condemned the presence of Chinese militia vessels, saying it is China’s strategy to bolster its presence in the disputed territorial sea.
+[DatePublished] => 2026-09-29 15:51:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1808965
+                    [AuthorName] => Renalyn Ramirez
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/09/29/pcg-chinese-vessel-092926_2026-09-29_15-35-58451_thumbnail.jpg
+                )
+            [1] => Array
+                (
+                    [ArticleID] => 2528807
+                    [Title] => Chinese from survey ship land on sandbars within Pag-asa waters
+                    [Summary] => A Chinese oceanographic survey vessel and two China Coast Guard ships were spotted in the territorial waters of Pag-asa Island.
+[DatePublished] => 2026-05-18 10:01:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1807493
+                    [AuthorName] => Cristina Chi
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/05/18/chinese-vessel_2026-05-18_09-42-46_thumbnail.jpg
+                )
+            [2] => Array
+                (
+                    [ArticleID] => 2507102
+                    [Title] => ‘Agonizing, pointless,’ Lacson warns Carpio, Batongbacal on Marcoleta debate
+                    [Summary] => Lacson urged Carpio and Batongbacal to skip a proposed debate with Marcoleta.
+[DatePublished] => 2026-02-10 18:22:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1807953
+                    [AuthorName] => Ian Laqui
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2026/02/10/lacson-marcoleta_2026-02-10_16-57-05573_thumbnail.jpg
+                )
+            [3] => Array
+                (
+                    [ArticleID] => 2245653
+                    [Title] => Coast Guard ipinadala largest maritime asset matapos 'laser attack' ng Tsina
+                    [Summary] => Pinalakas ng Philippine Coast Guard ang presensya at operasyon nito sa West Philippine Sea matapos tutukan ng military-grade laser sa Ayungin Shoal sa pamamagitan ng pagtatalaga ng BRP Teresa Magbanua (MRRV-9701) sa Kalayaan Island Group.
+                    [DatePublished] => 2023-02-17 12:09:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1806091
+                    [AuthorName] => James Relativo
+                    [SectionName] => Bansa
+                    [SectionUrl] => bansa
+                    [URL] => https://media.philstar.com/photos/2023/02/17/331153690615656317039748793486368483325220n_2023-02-17_11-57-27217_thumbnail.jpg
+                )
+            [4] => Array
+                (
+                    [ArticleID] => 2226626
+                    [Title] => House bill seeks to declare parts of West Philippine Sea as marine protected areas
+                    [Summary] => A lawmaker in the House of Representatives has filed a bill that seeks to protect parts of the West Philippine Sea from “destructive human exploitation" by declaring these as marine protected areas.
+                    [DatePublished] => 2022-11-26 17:05:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1806909
+                    [AuthorName] => Xave Gregorio
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/04/24/pagasa-gmapsjpg2019-04-0414-52-26_2019-04-24_11-32-28129_thumbnail.jpg
+                )
+            [5] => Array
+                (
+                    [ArticleID] => 2114910
+                    [Title] => ‘Misinformation’ called out: Philippines’ claim on Kalayaan islands not 'erased' by arbitral win
+                    [Summary] => A maritime expert disputed what he called wildly circulating misinformation that the Philippines lost possession and sovereignty over the Kalayaan Island Group (KIG) because of its arbitral win in the South China Sea. 
+                    [DatePublished] => 2021-07-24 18:52:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 
+                    [AuthorName] => 
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2020/06/03/pagasa-beaching-ramp_2020-06-03_13-14-39_thumbnail.jpg
+                )
+            [6] => Array
+                (
+                    [ArticleID] => 2113580
+                    [Title] => Coast Guard challenges, follows Chinese warship out of West Philippine Sea
+                    [Summary] => BRP Cabra reported sighting a ship flying the Chinese flag and with Chinese markings at the bank, which is 147 nautical miles from El Nido, Palawan, on July 13.
+                    [DatePublished] => 2021-07-19 10:12:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 
+                    [AuthorName] => 
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2021/07/19/pcg-cabra_2021-07-19_10-13-16_thumbnail.jpg
+                )
+            [7] => Array
+                (
+                    [ArticleID] => 2035851
+                    [Title] => Kalayaan LGU names 6 sandbars, reefs in West Philippine Sea
+                    [Summary] => In a move to assert sovereignty over the country’s territory, the municipal government of Kalayaan islands in Palawan has officially named sandbars and reefs in the West Philippine Sea.
+                    [DatePublished] => 2020-08-17 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805663
+                    [AuthorName] => Romina Cabrera
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2020/08/16/kalayaan_2020-08-16_21-25-01511_thumbnail.jpg
+                )
+            [8] => Array
+                (
+                    [ArticleID] => 1937975
+                    [Title] => Lorenzana refutes Carpio’s claims on Sandy Cay
+                    [Summary] => The Philippines is still in control of Sandy Cay, contrary to claims by Supreme Court Senior Associate Justice Antonio Carpio that it has been taken over by the Chinese, Defense Secretary Delfin Lorenzana said yesterday.
+                    [DatePublished] => 2019-07-26 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805318
+                    [AuthorName] => Jaime Laude
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/07/25/12-delfin-lorenzana-kjrosales_2019-07-25_22-13-07442_thumbnail.jpg
+                )
+            [9] => Array
+                (
+                    [ArticleID] => 1932607
+                    [Title] => Beaching ramp in Pag-Asa 60% complete — DND
+                    [Summary] => The construction of a beaching ramp on Pag-Asa Island in the Kalayaan Island Group is expected to be completed by the end of the year, a development that would pave the way for the long-delayed repair of the Rancudo airfield in the municipality-cum-military outpost.
+                    [DatePublished] => 2019-07-07 00:00:00
+                    [ColumnID] => 0
+                    [Focus] => 1
+                    [AuthorID] => 1805318
+                    [AuthorName] => Jaime Laude
+                    [SectionName] => Headlines
+                    [SectionUrl] => headlines
+                    [URL] => https://media.philstar.com/photos/2019/07/06/13-pag-asa-island_2019-07-06_23-17-37375_thumbnail.jpg
+                )
+        )
+)
+abtest
