@@ -1,12 +1,96 @@
 {
-  "generated": "2026-10-29T19:34:24.682739+00:00",
+  "generated": "2026-10-29T23:36:07.110472+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 2071,
-  "n_relevant": 88,
+  "n_items": 2089,
+  "n_relevant": 89,
   "new_this_run": 0,
-  "archive_total": 2460,
+  "archive_total": 2479,
   "items": [
+    {
+      "key": "kris aquino praises marcos over west philippine sea stance admires first lady",
+      "title": "Kris Aquino praises Marcos over West Philippine Sea stance, admires First Lady - Manila Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcm9xMTRjdkdGbkxZc0RHZzRKVHo4NVZUaVBoVldVOTMwYjJ2aGNaVVI5QWs1N0dPS3N5eTZfNzNheDZyQm9KNzZyUTA5SlAxRGJ5NnVYT2xIcjdVVFQ4LTBVZEE5YXZ3a1haRkZBNTNSWDBGYVZBamstMkVsUnM3NEE4WkdvT1dUQmdpM3hzSDJzb2RzZHB4YzY4UWRlTW9XREM1WWY5Mk9ydw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:10:05 GMT",
+      "outlet": "Manila Bulletin",
+      "source_name": "Manila Bullentin",
+      "country": "PH",
+      "domain": "mb.com.ph",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "hasty us exit from europe could drive allies away from american arms rand says",
+      "title": "Hasty US exit from Europe could drive allies away from American arms, RAND says - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYVZqU2luTjgwdi1mLXN4LXRCVEdnbUNpVm5SRElmVWJOUGxUTGpLa1RnVmRfelhTVG14QlhEZzVKaFpRMUlURHVaVWo5NkZFMUNSYjliSE54NHBVWjJGQm9CMzk1Mzc5enU1RUpQLWxtRXFJQTcyekgyTmVKSjZmMmw2aGpLQUZlc1RYcjZCeDdDcWdkQjBHRjVtcDlTS0Z2bVlQdGR6azZTeDl6X0NCWGdONjJJeS1JYXNGUHQtT2Y1N2lDVU1jbw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:25:10 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "australia considers iron dome style missile shield",
+      "title": "Australia considers Iron Dome-style missile shield - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFh2d01CQllVTzVIRGFJOFN3RkhORjcxU0Q4T01aeHVoVnFHV0RSWFRQOTluNjVtSzBSbTFvdUlnS0ZSVUtOTFpjWjRtNi11cW0wcW1KaUhfNlNrLWFxV1lOZ2FEdXhWVFhRVFRnOVZzdURfQXJidUJlM2szS2ZyS1JaV0hvUWN3eXN0aExKWUtsQk51cmdLdkk4YVRnZnRpSjc40gGoAUFVX3lxTE0tZmxiYzROQ0xTcFNsdExkN2hYUHdoeUYwUTJKSXRMcmd2LTN6T2dINGlfcVV0dzljZjVhU1RCNnRpVmVoOHhZb09fNlF6YmFVdkZFS0FwNUxFa05VbWtFcUFYSVdLZGg1OWFPWE4xZkp2LWpKS2Y1dXZfa290dG5xek9Jdm5Xc0FfOGhxaExYbWNMVU9GVTJLN1pfYkdZWnJ2ek5ZeVlzcQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 22:01:23 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "ph to get additional us defense fund warship from japan",
+      "title": "PH to get additional US defense fund, warship from Japan - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0JDTlZLaVRlQWVVeVBQLVI3OUljeW1DMThENVJKV0Y1Wm42TVkxbVlsXzZxMm52akJvOGJhSG9VRWJHRVVUa2V2b2hzRUVFMDk5N3FTaGRPYmVzU3VrNFJPVmNURXp4VG91Q3BkTlVNdE1ZTi1fajRxemJOdDJNcHh2NlVVYnpXdXZiSlJoMFFhbnNUWkN3MHFkb3DSAaIBQVVfeXFMUHRCTU9XV0xxYnpmcDdfN25pSWY1cVk4RFQ3bDJ3OUlZMXB0QTFVSXdrMHdmOERHSGI3TXlIUEVtZmd0Z0l1UTQ0LUpFQmZSb2ppYzlsdl84LUl1T0dhZHUtRXc4OGNETG53SXVUdG5Dbm92elhBbXRSam8zR19GWFhpekdEMjl1R0UtbWlTcEhOSnNuY2lxMnlHbEpZMWNHNDZ3?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 21:44:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "gibo teodoro rejects china claim ph abused asean chairmanship",
+      "title": "Gibo Teodoro rejects China claim PH abused Asean chairmanship - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNajJVMVMtSURuVi1pY2V3a2ZVYjJtYlp2Qmtpc05TYjhIcldCTk9pU3ZRbU1qYnp3MGM2NUdPMVFEaTVRTFFQLUo1LUtmU3A3clhKd3NtdzAtOV9WQkc4bmVZeEZPSDJaUTQ3UEFwX2NyMEd1RGttTy1VbUNEaG5zMFFXWXFScnE3Z25GMFZUYjROWWI5dy1BOThuakc0WlFpLUd6UNIBqgFBVV95cUxQS2VDNEI5cXozeERVbUc5XzFiRG8xWk9wTGR4SS16TlpReGhPNk1qSDhEN0t0czdzR3pScjFhaHJXQmtGeG9aYkVESHk1Wk8xZHVsZUE5aVIxb0J2SWk3bVk2UWo2QTRKeEpOOGtIUXBFZGxaNk8tdXVidklMZmFaY1JpWmR1OHZWeDY0cHNudUpWeHpMS25fZTFjNnExZXUxMUsxUjBaazBQUQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 21:36:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "new tactical comms system for us ground troops aims to break network silos",
+      "title": "New tactical comms system for US ground troops aims to break network silos - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT1NqMS1BS0R4bWJnZE8xZ3ZiR2NGeW1fLVpvQV9wWjJwTTBydU5wZnJjbUpzQmZlYTJYQ3RnVXZPZDAyaUJ1R3RfX3VwMk10SFA5bEhUTXF4X2RBLXNKN1VRaFZKSEFYVUVKdTBudTQwN3lHeGMxUjF1Nk5wXzNEUnpaM21haGdKbEZNZ2xOc0RFWlkycFdyVTU4SjUxTnZHWXM0OTN0WlhXUHl3S2JCWWg5ZFBUWjV3Qlk5VUFFa25rcUg2SThnZFdEbTJzLW03?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 19:44:45 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
     {
       "key": "senior us general fired accused of leaking classified information",
       "title": "Senior US general fired, accused of leaking classified information - Military Times",
@@ -19,6 +103,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T19:20:17.301995+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "malversation graft charges filed vs 2 ex dpwh execs over gensan right of way scam",
+      "title": "Malversation, graft charges filed vs 2 ex-DPWH execs over GenSan right-of-way scam - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbDRad184TjRrWXJEcDRTZ3lrVUk3UEh1SmtuMnNVQmNfOTZTZ2FBSXN4b2taUGc5NDJMRkFtRnB0QWRiSmZqeEM1dlV1VnUwdWJhNDdzbzJaTHI3N3B3czRHTGlDWk45WXZlRU50T1p5bzlvMlNvNEZkb3NVeHFDMVFVcWxFc2YyQ1h5alBxSUg5LVBEQnZqNHg1NEh0WHZBNXJXc3huOEVkdmxOVXRoV29ndlB1bUlISXVETQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 18:40:46 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
       "text_archived": false
     },
     {
@@ -5454,6 +5552,48 @@
       "text_archived": false
     },
     {
+      "key": "editorial cebu branding a good idea but",
+      "title": "EDITORIAL - Cebu branding a good idea, but… - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTWVEUVg5X1BETm9sVjJxVEZtRmtjTW1FeXlhZ1hxSVpPZ2pqblhkNDNhOTFBa2dseGd5eUdoTXAxdDMxenRobWVXTkVyS3JrUjJ1Y0VrUVhBSDhtR1phR05yNmFTaVhZZWFQMno0dW1SWG5NeS1RTmpZa18wQzJnRlp3amFjM0F5T2RNSXdSa3UzR2RheVdaUktySkNheDVEVUpn0gGqAUFVX3lxTE5MSi14YjlYSERua1NYUlMyUXJLdkpMRW83NWNBdzlCNUdlanl2S19ocDNhV3VSOGtVcEUwalIwMGJYU1lLSmtlZ0RMLU1IUVFrVmtOMkg5UnF6b0ZaOXgxYm1GMDdmeThlbEJMNDlJNmhybVl3UXlCeXlaWC1KdDlqX2Y4OWxXUi0tNl9fdG1oNWFFeUdzMVBaVTgwNHQ0MHViMTEwem1TUGVB?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "keepers of the family tree",
+      "title": "Keepers of the family tree - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1dkelZ1akdYUjlKMHBqSUU2WWt5ajZ6RGs4QUpJRDdTRWdEZHBKZmY0dVQzOTJOYWtPOXh1QkpBak9tdnFlbzEzTktSaFllQXEwOUlSUFdmZTNLOV8yVll0RDhDYlJDblB5bzViWk16WjhDRW5iZHFPRlVhYXpsZnZkQjZhSmFXVTVJ0gGSAUFVX3lxTE8xNkNPMlpoaXhUQkNOa3J1UndCNXE1S1BSMi12NTF4cmlldkVEUDZhbm1WTkdBV0N2MXRpcUxxbFM3aEFYN3ZKeHBwcWpBWDgtbW5tVzdEMnJSTDJUbmd1cjN3aUhUeWpCX1d3OFgwRkVwS1F5Rzk2dFBKZjRtOHZDOWZYMjE3ZmtqZk9RSlB4am1R?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "bawos sa mga duterte",
+      "title": "Bawos sa mga Duterte - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQck11THBTOGN2Q0t2cG12bzZBdWlLeG45UXNOOUVodEJJbVg5bFBHSy1mN1RWWHlDVUNTdXVVMVFZVTZmcnJuZVdOZlozM3NKTjJVRlJCd0RpQ0VZbTZlak5rVmlwV3hwSUFRU2c3MC1kTXM3dlgwOGFkLS1waU1kbE5PVzhwS1VNRFhYYdIBkwFBVV95cUxQQXdydHBLOXpZUFg3T0VZTUFFWWZXakJ2XzkzNW1VUHM5Y19JT18wLTlzRlp3N1haeHYyQjQzampJQXJwbVI5YVZFSWtuZnFXWXNYcWFobDZfRm1wQ2FhOUZ5ZmJkX005U0hNRnoxVVpxWU4xdVF2ZlQwX0x6RTJSbmhYNFZqTVljNUFYV2I1MDVkX2s?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
       "key": "phố cổ hội an tổ chức lễ hội đèn lồng quốc tế mở chuỗi trải nghiệm",
       "title": "Phố cổ Hội An tổ chức Lễ hội Đèn lồng quốc tế, mở chuỗi trải nghiệm - Báo Thanh Niên",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZ6MmZ0RGMxRWpqdzc0Qm9VR3dtd1JUSmJ4blZpSFJYZXJDU1ZOcUVLMkpkVkZBcjBfV3pjRzNkSXkwVlBab1RVT0dXQVFFUEFnUFNEbEF0aVFZbFRpRHNZOGl6dEk0Z3NPZ252UExYT00xcEwwbmdYeVBYZk05bUwtV0s1VjAxaXFoNDN6aV95djZBMmFEZ3o2b0psa3k2ZDlRcTQ0QVlZdEtPRThr?oc=5",
@@ -7607,7 +7747,17 @@
       "relevant": true,
       "tier": "actor",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:29:49.532017+00:00",
+      "resolved_url": "https://baophapluat.vn/vung-canh-sat-bien-2-nang-cao-nang-luc-tham-muu-to-chuc-thuc-hien-nhiem-vu-quoc-phong-an-ninh.html",
+      "text_file": "archive/text/d4dfefc64ffaddea.txt",
+      "text_chars": 3331,
+      "text_relevant": true,
+      "text_scs_hits": 1,
+      "text_actor_hits": 5,
+      "wayback_url": "http://web.archive.org/web/20261029233101/https://baophapluat.vn/vung-canh-sat-bien-2-nang-cao-nang-luc-tham-muu-to-chuc-thuc-hien-nhiem-vu-quoc-phong-an-ninh.html",
+      "archive_status": "ok"
     },
     {
       "key": "maricel soriano maris racal tie for best actress at pmpc star awards 2026",
@@ -7817,6 +7967,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita kunjungan luar negeri presiden",
+      "title": "Kumpulan Berita kunjungan luar negeri presiden - Antara News jatim",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NalZad3RrRDZ5OE5kREY4VzdrM0dXSHVHUEZwX3FfRExsUl90OVN4WS1POFhYazZLYnNEbURxaHBnd09UdllnMS1MZVRtbGJjd1lLbnVSd0hoY2QxTTFGN1Bua01MQWtkc003SGhpdlEtdGFo?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 12:17:19 GMT",
+      "outlet": "Antara News jatim",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
       "text_archived": false
     },
     {
@@ -8545,6 +8709,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "south korea s winter style gets a colourful twist with brighter puffer jackets",
+      "title": "South Korea’s winter style gets a colourful twist with brighter puffer jackets - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0NQX094MHR0VDBTNDFNaTR3Ym5WOWJvUC05aUwwZF9fLWpFRWgtNWVBbThjVTR1TlNFM19LZ2p1X2dFaVJCaGlVSHhoTk1xTE1JdGFSN2JTZ1lwZVJrSF8zYk1OMEh4QUl6NHRGQVZkOVFPZ0RxT19zSXBJQ3VyNVJHWldlV3IwUXVhNjRNLXRxXzdZVDVQV3RCSjVPbndHaTMxQlkwN2dFSGV4X0stTHZ0NWloUEs2VFZtdWJZQUVDYVhSUlB6TTZKSQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
       "text_archived": false
     },
     {
@@ -11878,6 +12056,20 @@
       "text_archived": false
     },
     {
+      "key": "are we raising children to succeed or just to score",
+      "title": "Are We Raising Children to Succeed? Or Just to Score? - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13amVXZ3RPQndCZm5KRzdLTHItYkFDREtndk81ekVwbmo5b3ZtYW1oSXpWSWdYQlI3QzVmZWtFWDJ6UzBkZTBaWG9aMUFtT1ZwNHVLUQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 23:42:44 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
       "key": "pn ready to use pas logo if barred from using own in melaka polls",
       "title": "PN ready to use Pas logo if barred from using own in Melaka polls - NST Online",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wTV9DNlR6dzdNbUpVNmUxZTEzRXdpNWFCSTkwMzFfYW5jdElhRS1NQXBfNTNzWGRPYjIwcGwzX3Y3WTlKYmhJRmwxWXBvU284UUVCLTA1QXFiZWtjXzBTLUF0MzQtSHhTY3BfQ1VXUXFsQXdmRkFvaXZIdW1yVWM?oc=5",
@@ -13932,6 +14124,20 @@
       "text_archived": false
     },
     {
+      "key": "bato bounty fifty million for senator bato dela rosa",
+      "title": "Bato bounty Fifty million for Senator Bato dela Rosa? - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOakFJSnUyekZ0RV9tVV9MNmdWZ2ZTenhOME1YMVl3T3hKS2dNNF9ZQlFoLUZjcEZ5eGRSb0tpQmpMa3hoUVV2cmdueW01VXNQWURzbHY1TmJ4S3UwekswaUY2alpLdXdwanRxZHFzNmpLZ01QVzVxMGY5VGs2RFlDdG9KWUx3dlY1Uk9yenp4ajVzN3lfOGlVbW5FRGwyXzlOTHU0dmppS3BmajFZRmFyQUxn0gG4AUFVX3lxTE1BUFdubFltZmFlZjhaWlBVRGFkZFRmYlVrQ3lnQWVCRmtHVkV2SnM2QUQ2LTVXU3lZRGROVFk4SDdFaWY0M2JpVWhtRnc0U3d4N1VkSzd4SEhNLS1NeHBYTWM2bXBwRkxJOXo0VzFJVTZUZWcwckhzNHlKQVl0bmg1SXdGOU5IUHY5dFhKSVFqTjJZNi1WZzJqb0dobWhmT0l1bDdTZlc2XzQ4RnlXV1hUNEdQS1RGNTY?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
       "key": "cops seize nearly p2m in illegal drugs arrests 14 in western visayas",
       "title": "Cops seize nearly P2M in illegal drugs, arrests 14 in Western Visayas - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYjBWUEhMckxmQmdOT1NUc2hSOExEdVUybzc0RzQ3ZGgyRmtreDUwS1pMTVRybGtmME5aM1NqN0FZTy00aDl6RkdWWXNVTG5lck5CcThvbmxTOGNzUVo5QkJfbWpDY29sUW5pS3lYbmwzaGFFT2R5ZGNUWjVCSFFmWTFDalR0alpOcklieFhzb1lOYUZ1OHBsMXRiSWEtNm9TUDcxaWx5VXdpUdIBrwFBVV95cUxQUWl5bTYya3ZZdy05bWhSTmpVMXhzbUE3akI1emh3YVlkWm1rNEZhMVNUSDB3MnBQd2VWZmhzNzNpeUkzOW1LNTdnSFNXdWtFTjd6XzhoUmZzcHdSUkxmNVZKVUU1N2E2TV9mWDN0aGJWY1Z0a0x1Z3FJd2NxYkF4UFh2SlZQWjA0TFdLSUtuNzF6U2FfaWJIQWVob21pZFJwN1JuME1paVpmb1g1akY0?oc=5",
@@ -15189,6 +15395,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "fake royal scam exposed",
+      "title": "Fake royal scam exposed - The Star",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lRDhDZEE1YUhvc2VmTTBRdHJqY2lMNjRjcGROTG1PUFp2LUhWR3hEX1J3eVlET0NfT1JrUUoxV29sbDBYUzgtRkpGQVVxMUJ0OFVPR28wRTNkWUdxY1YxLWJpa0NjcjR0aldhT1A3R01iNlpUNmVVZVh5azYtQQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 00:40:12 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
       "text_archived": false
     },
     {
@@ -17098,6 +17318,20 @@
       "text_archived": false
     },
     {
+      "key": "impostor posing as raja muda s aide linked to 19 cases say police",
+      "title": "Impostor posing as Raja Muda’s aide linked to 19 cases, say Police - The Star",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT0xKeHA4MWlLTTZKdjlJVHlGdVRfaVc1dEhGWGg0ZVV0dXUxZHBHMVlvMjR5M0NXdXJEUGZKNFp0SERBX1htRDhNTy1aTDNQVFA3Z3BmVndWZi1GNUdkR1hEUFljeXZkY3VoUnRBWlNTQ3ZJZXk0YUpHTmNTSXJWYWdHT05paG1zM2gzUlhYbkFJODBINmd5V01wQTNxNndaNFMteEZUckRmSmM3SXVvODRYbFM?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 04:08:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
       "key": "cuaca sebagian besar wilayah indonesia hujan ringan pada jumat",
       "title": "Cuaca sebagian besar wilayah Indonesia hujan ringan pada Jumat - ANTARA News Sultra",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUC0xblVtODhVRjlKX2ZUYWVSQnp1MVU3UTNLYXpkeGN4UVZJOEZBaktQT3RfYnlEejh3ZlY0cGZKZ1VuQjBWTDY3Nk56YTlnVllNUzBmekxIbEF5ZWNQLUowMEJ5T0hUVmppV3BwOUdLNzA0RWdzbHpJZEdJTmRYVkJ5bzZQMzRXRV9UWDhsNXAybjFrZWdpR0FRMG91Zk1ldTNvT1MwTFVrQQ?oc=5",
@@ -17529,7 +17763,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:34:33.814291+00:00",
+      "resolved_url": "https://tuoitre.vn/bao-champi-tien-gan-dai-loan-tiep-tuc-gay-gio-manh-song-lon-o-dong-bac-bien-dong-100261023074830597.htm",
+      "text_file": "archive/text/98ec6037022d0c54.txt",
+      "text_chars": 2295,
+      "text_relevant": false,
+      "text_scs_hits": 6,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261029233549/https://tuoitre.vn/bao-champi-tien-gan-dai-loan-tiep-tuc-gay-gio-manh-song-lon-o-dong-bac-bien-dong-100261023074830597.htm",
+      "archive_status": "ok"
     },
     {
       "key": "tin tức sự kiện liên quan đến du bao bao champi tuổi trẻ online",
@@ -19317,6 +19561,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "rhb bank gets bank negara extension until feb 2027 for tokio marine deal talks",
+      "title": "RHB Bank gets Bank Negara extension until Feb 2027 for Tokio Marine deal talks - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUS1XY3A5c1hNa0VuLVBaaDBPZ3lKTlJwYVJ5QldjbGYtcHp1YnR0cUhwZ09HRTRjV0pKSm4xN3ZleEJnUUljSTdoYzlDd2xjaUNUWmJoRThtLTVHWEc0bmNESUx5R3FnMG82NnVqQjM3Wnd0ZFpCNWgxbHQ3ZTFpM0dzNWpJNUNnSWt0a3hzcmdpZFo1TldERU90NTZ0bXFnMXdQcnd2UEdXYW1lWGhQUE1Wblg0QUMyb1lwVHhnSzBHUzA2bDhYLVBDZUs3TG9JWHZrVUVn?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 05:21:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
       "text_archived": false
     },
     {
@@ -21215,7 +21473,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:34:21.565909+00:00",
+      "resolved_url": "https://anninhthudo.vn/sieu-bao-champi-la-con-bao-manh-nhat-thai-binh-duong-trong-nam-2026-khong-di-vao-bien-dong-post672779.antd",
+      "archive_status": "error: URLError"
     },
     {
       "key": "月数百円の少額投資でも意味ある nisa 利益出ても失敗しても",
@@ -23923,7 +24185,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:34:26.008714+00:00",
+      "resolved_url": "https://anninhthudo.vn/bao-champi-giat-cap-17-it-co-kha-nang-di-vao-bien-dong-post672651.antd",
+      "archive_status": "error: URLError"
     },
     {
       "key": "berikut prakiraan cuaca selasa di indonesia",
@@ -24947,7 +25213,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:32:49.871170+00:00",
+      "resolved_url": "https://baophapluat.vn/sieu-bao-champi-se-anh-huong-den-bien-dong.html",
+      "text_file": "archive/text/e085dfe5d6c7f4a0.txt",
+      "text_chars": 3293,
+      "text_relevant": false,
+      "text_scs_hits": 9,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261029233357/https://baophapluat.vn/sieu-bao-champi-se-anh-huong-den-bien-dong.html",
+      "archive_status": "ok"
     },
     {
       "key": "日本愛媛祭典山車翻倒副市長難波江明廣遭重壓不治 國際",
@@ -26161,7 +26437,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:34:29.970293+00:00",
+      "resolved_url": "https://anninhthudo.vn/sieu-bao-champi-giat-cap-17-o-thai-binh-duong-lieu-co-di-vao-bien-dong-post672517.antd",
+      "archive_status": "error: URLError"
     },
     {
       "key": "mayoritas wilayah indonesia berpotensi hujan ringan",
@@ -26441,7 +26721,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:31:25.108677+00:00",
+      "resolved_url": "https://baophapluat.vn/sieu-bao-champi-co-the-gay-gio-manh-tren-bien-dong.html",
+      "text_file": "archive/text/478d8d7ef229ba1c.txt",
+      "text_chars": 2237,
+      "text_relevant": false,
+      "text_scs_hits": 8,
+      "text_actor_hits": 0,
+      "wayback_url": "https://web.archive.org/web/20261029233227/https://baophapluat.vn/sieu-bao-champi-co-the-gay-gio-manh-tren-bien-dong.html",
+      "archive_status": "ok"
     },
     {
       "key": "kumpulan berita di afrika selatan",
@@ -27759,7 +28049,17 @@
       "relevant": true,
       "tier": "feature",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-29T23:28:13.983969+00:00",
+      "resolved_url": "https://thanhnien.vn/bao-tang-truong-sa-can-ky-vat-cua-cuu-chien-binh-ngu-dan-than-nhan-liet-si-185261012104626188.htm",
+      "text_file": "archive/text/31cf831ed6c56e82.txt",
+      "text_chars": 4350,
+      "text_relevant": false,
+      "text_scs_hits": 19,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261029232914/https://thanhnien.vn/bao-tang-truong-sa-can-ky-vat-cua-cuu-chien-binh-ngu-dan-than-nhan-liet-si-185261012104626188.htm",
+      "archive_status": "ok"
     },
     {
       "key": "từ chiếc xe bay của elon musk chuyên gia lo sinh viên chưa ra trường công nghệ đã bỏ xa",
@@ -29254,6 +29554,34 @@
       "text_archived": false
     },
     {
+      "key": "malaysia s data centre gpu funding expected to exceed bank lending limits in three years s p global ratings",
+      "title": "Malaysia's data centre, GPU funding expected to exceed bank lending limits in three years - S&P Global Ratings - The Star",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbDBlSFNjZ2pBMGRHOFJaRUhVWWF5ZG4wa3dVdVp3OF92WjVGa2hjcmtoSm9qclJhYjdCd2RjeWxMVEdDd3YxTHRpV1RNM2x0V1JzRS1IcnFOMjBGOHplWVM0Y21KbUxlRTlHem1rWlF1cGhYZmFxWjI1Nk1jTDdGcWhCWHVtcXkzTGF1ZjhRdTdDME1SWTY3SFdRWF9YbGhlM0VrVUE1OGx1WXZtWXE3YkJCV2dvM01qaUZ1b19xbURqY0Q1ZDNpNGZXaENjOUtmajFBRFh1S1o0Y3NrZVBMQy1oV0VqZFZYTUg1TE5LeTZ6cGp6Q3lpVF9pNFlRUVFU?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "malaysia data centre market projected to grow 33 cagr from 2025 2030",
+      "title": "Malaysia data centre market projected to grow 33% CAGR from 2025-2030 - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaERfa3g1WEVVVzlhUG5neUtwTS1URFJGSTRkbUh0NmZ1Q3dpTHdYX3hobEZrUU9ySTY2VXRJTzVxVkZTckV1Qm8tMThZdWo0V28tT1RnYUdRYjEzTVJXVnMwZ0VQWF9XTkZmN2pSWnV4amRFYWE0UmNWUkkxdGVSV1B1dkZwSXJaTGRqRkt1a0lUSXdmaGltSjlCeXlRUXRZM3RqS1JUYXBnaU5wU2xkbUE4RFJQWFRCRG5qanBsX1hhdVFqaHowUw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
       "key": "cứu nạn thành công thuyền viên nước ngoài bị bỏng trên tàu quốc tịch liberia",
       "title": "Cứu nạn thành công thuyền viên nước ngoài bị bỏng trên tàu quốc tịch Liberia - Pháp Luật Plus",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGVsdTZTbXpmcjdWRXl3YzJmMW03d2Q0MFMzck43eE4ycnU4V21qWjVzLXo3bGtibHlzOHk3LXdGQUNDdFZncG9fZDRzWE5IeXE1UWlmc0tVVDJLOTZ0eGh1UF90b3AyOFJ0aHQzTENoVEdHUEdKVnVWcWRFd0M4Yk85R3oydlgyY09BbE5fbGdGb3hZUHgxSjh2MzdkVDdIQW93QnppV2xGdVp6UUNULVAwWHk4MkMy?oc=5",
@@ -29389,20 +29717,6 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbVF2al9PVkZ1OHpsTnpNMEp4eUFYNkFnMEVNSG95M2plLXBjclluUjlkajN0S3JXNkdYVGZDNGxRek9rck1FX1JSVUkyY2toTlg2cUFvWko2TGRwQnExQUJwQzNYTzJoQjFBUGl2cm4tb0ZHeFQzUjZYQk91LTA3dm1VZjB2d0JjdWxMZjJXUmNXbmQ1ZFFNSG5yUFo0V3dJcFRtRG5jd0NOMUwtX0xoMkRsUXYtSFBiWDBlRTBsV1R6UQ?oc=5",
       "pubDate": "Fri, 16 Oct 2026 00:04:00 GMT",
       "outlet": "Pháp Luật Plus",
-      "source_name": "Bao Phap Luat",
-      "country": "VN",
-      "domain": "baophapluat.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "el nino tiếp tục duy trì cường độ rất mạnh đến tháng 1 2027",
-      "title": "El Nino tiếp tục duy trì cường độ rất mạnh đến tháng 1/2027 - Báo Pháp Luật Việt Nam",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWhuU21LT1VNVWZlb1dUemZqVzRyS2hRaWVDc3l2VmtROG5XaXdNNWR0Yzd1QzNPYXJRUWd1cjBETGVudjF5NGZHNXUyNk54ZHZjM2E1T256bTEtNXN6Q0EzSnlienhLSjZ3M2x1NFpHb3J4aVlmYjRjNDItMWl4OHotaUVXZ2RWd1Z1V214emU?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 22:50:00 GMT",
-      "outlet": "Báo Pháp Luật Việt Nam",
       "source_name": "Bao Phap Luat",
       "country": "VN",
       "domain": "baophapluat.vn",
