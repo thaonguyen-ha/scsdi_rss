@@ -1,12 +1,124 @@
 {
-  "generated": "2026-10-29T23:36:07.110472+00:00",
+  "generated": "2026-10-30T02:52:30.548504+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 2089,
-  "n_relevant": 89,
+  "n_items": 2120,
+  "n_relevant": 91,
   "new_this_run": 0,
-  "archive_total": 2479,
+  "archive_total": 2525,
   "items": [
+    {
+      "key": "australia sebut kekuatan militer china ciptakan tekanan di asean",
+      "title": "Australia Sebut Kekuatan Militer China Ciptakan 'Tekanan' di ASEAN - CNN Indonesia",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcDlxRUZ6cEJ4N01wWFR2YTNGUl9oNjhqWm02b0Zpd1gteVE4QTJMQ1ZvdDBjY0xSVUJjUy1Id1YwSXJqSWVENnUwR1VZRUlSM2dzNExFOTlfb0NWMHVQX2RKRlJ4V0tYa21ndjNVenJEVGtVNThUQklaSmJCaF9BZnJkSGdNMkpxc0t3X1lmN1dyMTJXak84Q0lOeXQ3VHc1TGdFM3gtdnh5ODMyZC01SF9vWDRkcm1QZndpSm5yMk1qMmJ1OGZDYzRZT1JRUGvSAdQBQVVfeXFMUFFubVlzUVZTUWZQT19OV05waWQ4LVBUaTY1MHlEellraVZ4cXN1S0pwdDdLSmJveEZTT1o4dFNXMVQ3bHNTNU1TX0w1Tzh0MkY5c2dZcHhjcnZrdXJLQURrMXNOcVlNelp6OGdyUnFoXzBLZkt2SUhiUHZlVEVVdFFZSnNNU2l0TkNRLVpTRUY3MUZ6ZENHZWZQbUJLMXpNZ0xNZFdBM0M3OVFyTGVnVnF5QWlwcDYxNm5sekpaX3IzeEl4akpvMDNQQ2RDY2hZa2dlRlY?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 01:30:21 GMT",
+      "outlet": "CNN Indonesia",
+      "source_name": "CNN Indonesia",
+      "country": "ID",
+      "domain": "cnnindonesia.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china accuses philippines of allowing certain politician to obstruct china s participation in admm plus",
+      "title": "China accuses Philippines of allowing certain politician to obstruct China's participation in ADMM-Plus - People's Daily Online",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlOU1CSG5xeXJjSDcyNVYzOWpxS1hfX0VYeDIyQV8xSUxvR0pnd1lLbXRFMU1vMXNZYlJPR1dkeEZOUVZCTG5KQVlId0l5a0N1YldfRHhGQndwQ29kQjV5cDZYV1A?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 01:30:00 GMT",
+      "outlet": "People's Daily Online",
+      "source_name": "People's Daily",
+      "country": "CN",
+      "domain": "en.people.cn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "tag west philippine sea",
+      "title": "Tag: west philippine sea - Manila Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CMjFRelczWW8zd1ZoWExxdWNESEFRZVFYbXVyakl0elR6SmtGT1FYMF90SFAzd29laU9fZFJ2OTZyQkRPYWNkbV9sdGxxOHBMczlDUGliQUVHMW5YNXRn?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 00:26:15 GMT",
+      "outlet": "Manila Bulletin",
+      "source_name": "Manila Bullentin",
+      "country": "PH",
+      "domain": "mb.com.ph",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "no right to deny access",
+      "title": "No right to deny access - The Star",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfUDA5LXN5N1ZicnBpVFpmRHZ4aVZ5OFRuWHM3QzBEQnBfeXNscEpWMFQ0d05LRHNUWG1nUlFyelNOZ3UxZi1ZTlNybU1rVW8teGhIYXlQbFAtTkpFVzBnakV3V3VublZOaG9zeXVpeHc3aE1VNFhmUjhuMnM4Zw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:39:28 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "anwar put national interests first",
+      "title": "Anwar: Put national interests first - The Star",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQemtSR0JETUhEcWNqbzNXTWh6bDZtM0I3XzRFUDFQSFJaNkxRZlRod0RfZVdPNUpaM3lsVS1sVDQ2dEM5MjhISTR3d3dwbTBMd2Y3VUFnd2s5eXI4Xy1VSm5vRU9qbWJlVTlubzhGaUlMRDVPbkF4Rl9BdUttblF1S2xpQjF2anlvdm1YWA?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:39:28 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "shuhaily returned to police force amid ongoing case",
+      "title": "Shuhaily returned to police force amid ongoing case - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVXdJOFZvWEF5aHg4TW1NaWpOQ0lkeUwzcDVPWEFrU0xiSDllclNYa0h0RkpIWVVrY0pSbGFwQkc5ZExFMkhHQ19NRlFIUmpzNEhYY0dETXJGQ2pkdEJjN2RxMHc0ZjFKMVgwTnJqdm5YWENMVGtJQ3JFQlNkZ0tmYjhmajQwa2hTVXh0RFo5R0lVMkdxVmQwLWdsMElYak9yTGFR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:39:28 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "khaled south china sea code of conduct must be given priority",
+      "title": "Khaled: South China Sea Code of Conduct must be given priority - The Star",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU201M1hXSFVpdmFQaUVEQmtFQzNYTzFBeS1FQjJUcWp4Umc0Z1Q5YkVWWmoycjJWZk5yeV9INTdhWDZ3a3IwejB4RWl1N09Gb2RaZU1MSnZ6aWRMMlprZlhMRDZsWnh4OWY2dExlanFiZHBDcmZqd1RSNmJyQ0ptUlpBMk1ZdTVadm4wVzNhOUM4ZlhYY1dUQUMwaWFhWm1CRFhvMFF5Q2MyS0FpcmxMVQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:34:58 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "integration speed is the next battlefield advantage",
+      "title": "Integration Speed Is the Next Battlefield Advantage - Military Times",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVzRMcHBHQ3pVTEJlV1NWR0FnMkplTk5wVTRVVXVpZ3IxT0dqSTAxRWwySHJ1RUZTb3Z6UGtET1VQclEzT3BaSUZvNEpSMEZicF9zaVNWUV8xX3hlQzB6TFJoVG53VHBIYUh0cFdIT1BkX2tudGRXVnlUZF8zSTFidWpuNXd5WDhhd1FkZjR3MDFoMHZRRk8ydUN5MmpzNnFzSTNSSVJVNl93c2pSTnlEag?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:12:47 GMT",
+      "outlet": "Military Times",
+      "source_name": "Military Times",
+      "country": "INT",
+      "domain": "militarytimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
     {
       "key": "kris aquino praises marcos over west philippine sea stance admires first lady",
       "title": "Kris Aquino praises Marcos over West Philippine Sea stance, admires First Lady - Manila Bulletin",
@@ -89,6 +201,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "園田耕司",
+      "title": "園田耕司 - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVUNWdXBielpvb1dJYV9MclV4UnNiMG5mbnRNRlc4Qm1MaXVxZmZEV3ZMMEpIREVOTjFBZFJkSWcxTTlULThPOVQ5dUZNZnZzaGxZbEN6ZW5qODRVUE9hbVdJM19ka2tWQl91YVNZemprVWZUdVF3RTNHZXFEVXA0RVRpeW1BT1pvb1lnbl8xb0hJOTktemE2T1NraWsyemtQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 19:05:58 GMT",
+      "outlet": "朝日新聞",
+      "source_name": "Asahi",
+      "country": "JP",
+      "domain": "asahi.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -456,6 +582,20 @@
       "text_archived": false
     },
     {
+      "key": "heavy rain causes kulai road to collapse",
+      "title": "Heavy rain causes Kulai road to collapse - The Star",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMG52NktYRTVwT1gtblNNZmdDS3J1WDh1QnNkRVpUdGdMRFF1Sk5ReFYyYkc1VDhod0RQcHR2N0JValN6Yl9IdWhiYkJ5S2txb1ZURUxHaDBJM3MxbW9vVGdlaFNldkhfY19jSG1GTVhuUjVSZ3NGa0I5eXlFTVRfUGw3ZUd1TlRjVEFJeGdJYkRQRTlw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:25:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "china says philippines erected obstacles to asean attendance",
       "title": "China says Philippines ‘erected obstacles’ to Asean attendance - Malay Mail",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMHZCYUJvcjhBVWRRR01VbExrWXhrUnlycDlQU2FmVzU3ak1MSXlZN3BMLUN3ZjlvMGdRRmlYRlBVSklNRVNrejlxQ3JEUXNoTFlxVEwzSlN5QnJiUmVPQWt5WjJ0YVRtUlVXMWxUT1FiZU4zVWR6a0h0RFFDbXpacFFBajNUOXpVLUdqQW1JaHZPeEJpbW0xTjNZeldTWHdUVzBRSGxENF96SW5EOUpvN1F2RDlaQdIBuwFBVV95cUxPMm5IeXFoUTFpY2ViQzhTNEdrQjd3T3JOdVgtdUhGYl9jbldaTlRMekU1YTg0M2ZLdnlRMV94cFVuY1dXWlRUVWx0Q2NveGQ1QUpPYnB4cFNheEZfalRheVhYd0VGcGVWaF9kRm9CTGRYUFNvX2RYN3hwaWQzZzVvd2REaVpKS0hOck1UNUJZNGt0Z3c2MHpyNlZpWGh6RlozUlJsUHRXWEJnTkVJUlA5WGNsZDNIZXFqOGRv?oc=5",
@@ -568,6 +708,20 @@
       "text_archived": false
     },
     {
+      "key": "china tensions resurface at the close of asean defense gathering",
+      "title": "China tensions resurface at the close of ASEAN defense gathering ​ - Interaksyon",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS0s0T2NDUmFDWHBVSENIQUxKQ2gtUEtGdEtyZV85cGZCNzdtMGIxdUUtVzQ1anR6U25yLUQzcExZTHdDV2FnT2REWFJPakZYZ3hoMGZtWWlibjBWLVFKMFZXR2VyMXdFRzU4RFBMTDUxbV9pSTdmUUJnRDVGakl4YlFvSHRFWjZOeWdVN3MyRVdXZFdPNktSMUpoeExDSUpfOXlBX1lqdkpELW5aVlZhcUpYX1AwSGM5QnFLREpxVG5VRDY5LU1ldFlZWlY5VzFNLWJvY3Z3SENiZw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 09:45:34 GMT",
+      "outlet": "Interaksyon",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "china slams philippines over obstacles to its participation in admm plus",
       "title": "China slams Philippines over obstacles to its participation in ADMM-Plus - CGTN",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVVJTeXRsdDRhblpGVmVNZHYxS09vSTdHRlRkcDkxLVpfdVV6VkViWUZRTUdnOE43SEVHOUlUSDhVZEVRVE1GbU0ybHRTSXV2YVdVZmpXQlZZVlN0WldDZ2JTUDJuSS13clpLb0NRM08zM1dPVUdiTHExV3dfX2tUOTVMVFpBUm5NbXB0MWJyNWktNzVBWElkaWFyTm8wN2hKbE8xSUg5U21sLTQyMTdBQWFIQnVndXRzazF6aHRYaHRES2oxa3c?oc=5",
@@ -677,6 +831,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "gibo snubs china at admm plus",
+      "title": "Gibo snubs China at ADMM-Plus - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUHF4ZHQ3cW9wNUVtdkx1alNYWE1DZ1laYnFrcllqYWVseF8ybjQ1YV9sWFp5WUVPeDBSNDNhN1ZEVjJ0Z3hEWS1pUW5SRzNjOHlKMlJ2VHU4emc2cDZHcVZST0cyenJQQnlWek9MbmZaOTk3elJMQ0laR0VIWVozMWdHbHA4YkNydXNNRnZLTTV1aXZZVmw0LWtDYnAxSlJHYndB?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 08:40:54 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -1083,6 +1251,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "teodoro skips personal welcome for chinese exec at asean defense talks",
+      "title": "Teodoro skips personal welcome for Chinese exec at Asean defense talks - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaU13WlU4My1OYnRUZW13cExyZDlRWDFsVWVoRzQyWk9ZSTQ3eHI5QkNfenYxdkdaV01QMzI4NkJ6THg3T1RvQTVkMlY5M3V6LVZEc0lzMklJaDJDWUtieDNSSlR3a3VLdm42QWFCOHYyZUlhdEhZV0tMUks0T0ZOYU96VnNWS0dHM096SWw4S2NDSHVIWDdUdGhqRzhIelNOVGZsNTJGWmJaS2hpTy1ubNIBtgFBVV95cUxOUk9YV0h5Zlg5UXltdDNjYkM4Qm1iY1EtRVdycUZvUTZvLXZNeVF4QXpFOU5NbUVvNkI4RXA2c0pwVDBMdmp2OElRWlVpTURxV0tHd2FWR1lTc3RFRlBBOENSeENBYnZhTkRxTGJZUk9WVlVzNTNDZXpDSHdfM0oxMUNJRmRrbWVtYVFZZ3JDdWFFSlRTTkRkMFdOWjBnSlROVTJGc0xaVVZzMnlCeUpuMlQxU1c0UQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 05:23:00 GMT",
+      "outlet": "Inquirer.net",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -5342,6 +5524,20 @@
       "text_archived": false
     },
     {
+      "key": "national bank of kyrgyzstan keeps key interest rate at 12 pct",
+      "title": "National Bank of Kyrgyzstan keeps key interest rate at 12 pct - The Star",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMV9haXVGR1hWdTE3TURwajZ0Qk5obFpHWWhxQWhqVWxaWmV1a1hsNk16dUZQaDMwT0ZmZ0JHcUc0UlN2eFk2NUVzRnhRNzV5RUJuYzdkRE5VNmF5aUFmYnZpN0kwZ1VpQkhxaW9MaVB3NjhsX1lkOUZsM1BCS3gxbUxpbFp0ZU9ONHptNnN4ZDJPYjRHdjZFUGJYN0VxMW1RblRQZFJVYXlOQmc2UG00?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 18:18:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "congressmen launch bipartisan military range test facility caucus",
       "title": "Congressmen launch bipartisan military range, test facility caucus - Military Times",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeU5Fd0luRWdLQUF5R3d0RXhyRG5UcjJNSUd2NU1KMW9CUTh5OXJpQXRqMmNjWm5qLTlKeW9FdGdpVi1TYjVONWJsamhBNTdQMEJud0k2YndSSkdNYi0wYmk4N2FqMS1UTVh6LV9rUVctUXhzR0ZIWENPNG8tUWI2MFpvR1hlcTRRZlNqU21SWUZWcWo1aXYtaTRaYXhOOXNSZFFTVnFjeGp2NUd2OEN1NmU2Q3FxajB3Q1ZQNm1ScFl4R2FsWEVsdkJB?oc=5",
@@ -5423,6 +5619,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "oracle expands chip supply deal with nvidia adds google and cerebras offerings",
+      "title": "Oracle expands chip supply deal with Nvidia, adds Google and Cerebras offerings - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNNkZwNzlIWFVIUUg0dnVmaVFudUctWFhOdGFjWkpTdDZCTnhOck1QeTZqRldvdExCMmhlRzBJQzNjOGdCOEI1akJKWWJlZWpEVThCdmtxZWkyb0JMZG00RVd6Tl9jNzhhUHdWN0MtTlpJWkcyVDktQl9feF9nTktRQ3JfQUxWTHpJVWZBYTBpWi1Cdm5EU3NvXzFUMDIwODhqcW9DUEFZdndrOHFVOXdOaWRCemt2a29teFd1YWZBZm1ITlQzQUJPbjFTRThkRFZ0dU9oUklLc2VrN09vbFZfTDlZOFo2dC05dFlDMFdCN3JSbDlEdWpPS1NaWEtXQjhXNEtlWExiSzUxQ0RfNDlfZzBUUExsNWhvazVWNjFPcm90SzlvSE43Sk8tcHUwNUwtMWt3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:20:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -5734,6 +5944,20 @@
       "text_archived": false
     },
     {
+      "key": "melaka polls voters receptive but test lies in turning words into votes says ayer keroh hopeful",
+      "title": "Melaka polls: Voters receptive but test lies in turning words into votes, says Ayer Keroh hopeful - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdjZKa0l2UzZ5U2doRFFiODhwd2puV0kySnVVUzZkbUFQeWU2dHlxTWI1X211R1FIVDg3c2hMZ3BtV2JZaVdqY0pRVzczY1BFYzF6Z0FFUmdZeXUtNW0tVXdQbGR1SVM5X0JEb0hGbmNnSXA0X1BfTzBWQWg1SGpUb2phaTJWSG1OM1k5Z3lGejhEUmotY2g2VU1GbXBMUDhyRHZiTHFnbVpSUFVmcFVWWUliQnVabWVWNlNmb1B1S1J2Y2Z4THd1UjNnUXdYenRRZ1Fsa0RZVUN4ZmxwZnc?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 12:04:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "us defense chief hegseth expected in cebu for asean defense meetings",
       "title": "US defense chief Hegseth expected in Cebu for ASEAN defense meetings - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTBoT0pObjR0VWpLRGJpSzRVdjZEZzlvNE1vRXgtMUdmNkVYT0x6aXNaa3ppampta2xweHpjVjcxRTI2eGdhN01EbENIWWllbE9iTVN2MW54MV9XTVBfNW41WlgzTVdaYUpzVklieUNhUmJ4b3hWX2xqcDRRRFdXQzREUEk3OXVEN0VWQWpGNFN5SE9Hd2VGc3RhOE9wbDhPZWFMX0wzblBCdGRkZi1TTVVFVdIBswFBVV95cUxOYTBoT0pObjR0VWpLRGJpSzRVdjZEZzlvNE1vRXgtMUdmNkVYT0x6aXNaa3ppampta2xweHpjVjcxRTI2eGdhN01EbENIWWllbE9iTVN2MW54MV9XTVBfNW41WlgzTVdaYUpzVklieUNhUmJ4b3hWX2xqcDRRRFdXQzREUEk3OXVEN0VWQWpGNFN5SE9Hd2VGc3RhOE9wbDhPZWFMX0wzblBCdGRkZi1TTVVFVQ?oc=5",
@@ -5815,6 +6039,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "for pope leo there was little choice but to go to latin america",
+      "title": "For Pope Leo, there was little choice but to go to Latin America - The Star",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTEVRNmpGUjRSNGRDejgtdTFDSUFMVERCcHpieUFySC12N21lT0d3VjlpYV90cW84RjZjVE5OdXVXeVQ3ZnZ3amtmREJqajVsYm5MTkpFU2dISkxjZkYwa1RtZXNwbVVfUmNhVEZteFY0bzFMUHBQUEtYR0tfSmN2ZnlZeE8wT1NPeDIzZzRSajF1M2hfejR6VXdFcmxRVHIwMTVDQzZwWTBUVFNlZXZOVjR3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 11:35:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -6571,6 +6809,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "battersea losses a lesson for future investments says pm",
+      "title": "Battersea losses a lesson for future investments, says PM - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLUVneHNXcTBjR0VJczRZbDNUUFdVR0pmWDkwNVNvQmpGY2JGU3JoVDdsNG8xT08zeWFtVmt4QVpPOHZNUFJrTGk0dEJLODZNMU5aNkIwbHF4b1V4cmZGdnlZWkdqWWxDaENlWnBlbkRQRUhmeUpudmNNX1dLeWNNVnRQU1ptQ1paQ1FQN2FzdkJsX24tR3o5MTBCVU1GeFRyMWR6dnJOaEpJZw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 03:49:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -7414,6 +7666,20 @@
       "text_archived": false
     },
     {
+      "key": "anthropic files for ipo reveals soaring revenue massive net losses",
+      "title": "Anthropic files for IPO, reveals soaring revenue, massive net losses - The Star",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFNhUE5EQmp3UDZBYkhwcUlLMm9zWTRMa2tGVzJhSUFDRHdsQ014RW9jd2tBVTIyejI4SDdBOW1rX2FWcFRWVDR4dldHSnJUcHVBU0pqOVFjNmswUWpYTXdZRDNTbVBDTVJyX2F1ZEdhOVpkRVo3QWpWVVZweUdEWnNiTVVNZnVocXphTkZ3d0xVNkJWSmxUZ212OHhLdUNESy03UFVxRUh6ejJuUG1Lel9rdUtYUQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 20:21:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "foxies chargers collide as semis race heats up",
       "title": "Foxies, Chargers collide as semis race heats up - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0RXdzUtRDNna2VWLXlORkVrTkMycWtWaUk2azRuel9RWW1idlI1Z2tPVldfLWVKMjltVGhvbDFMVU5zeVlaV3R4Mm9GMFQwVnowektISmFOczFsVHplZ2tMOGdDZm80SGNvc05jYzkxZUhHVks0TndKUC1MUWhpa1FPeWJDRGpr0gGOAUFVX3lxTE1HcHdxTl8yNDZZRTRieGxGOHVmUDdYdnZ5TmN0ZDZDOUZJcG1SUjFNUmpGQmZFUFFxNG4talhWTTdtYmNRY0MzOUZkcUlFcG1ndVNZRjNqS1lJTDYwVTBscW9mcTI0N3ZtUUwyQ29QanJ2QmFPUzJqcUxGX1JWanBVWnB4RFNWck82VHdTc1E?oc=5",
@@ -7523,6 +7789,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "protesters kill longtime nurse treating ebola patients in congo",
+      "title": "Protesters kill longtime nurse treating Ebola patients in Congo - The Star",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObmlMTUZJc3JocldoQjJrczYzbDEtZzE0ajBFcHVRRlZMbUthbTBCVk9aaXpuVHY4TW5Vc2lTcldzNzItVl9GWDNGTDh4ZGNSYjZ4aVFTZlh4M2cwbGNOaEoxcjYxTGM5dk4zUFhxTXBPNFpHeWZkT2MzcWx2cHkwN0cwbXNGSjNLc3J5U1drMktJVjh0LUh0UWFWa2VfbDdlSGpsVnVkRFg5cnZ4UGJBWmdn?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 16:51:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -7897,6 +8177,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "chess toledo xignex trojans again split matches in pcap wesley so cup",
+      "title": "Chess: Toledo-Xignex Trojans again split matches in PCAP Wesley So Cup - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaHFYbm9IbDYtQzM5VjJmU3hxSTc5UzV0cmdRTDRuYWI1U3R3RnUzUFdRYU1NZjBaa2M3cDhmVzZYM1lpLS1nUjgwVURtZGhkVVJJc0JaOFJhQXY2MVNUdHJIQS1yNWU3SHBMWkdWek5mVVRYOHQ3a1hDempjOVBRU2oxOXAxYTdwNTlSSGlGS1Z2MDlsTl82cElnVTZZQWxEWVBYTVFLSTNlbWZUdVM2ZNIBtgFBVV95cUxOVDY2bmZRYXdaUVZrXzhJc1ExYTl2ak94UlAzVFMxRXFGcWtQSDFIc05mT2ZCZmZMeTNOOEpvOWF1N1ZsVWhYTjFDak9vbDlXNEFwU1V1UzkzRGM2a0lpRExXaEVMMjctaThzNXNOUE9qNzJxQmU2SUxGdzhCZUZxWDN6eDI5Wk9GU1ZXLUYwcnFobVoxUVlOWlI2QUNhdHQxMUJ4YTlFZXkwc2lxUWsyWFN3MHQ0dw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 13:03:00 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -8555,6 +8849,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "bulgaria heads to presidential runoff after close vote",
+      "title": "Bulgaria heads to presidential runoff after close vote - The Star",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM2J1N3pKeXJHQjNvVnhoNkkyaXlKY19OVlhzNFpodlM1dEJ4c29rVlRaOVljM1N6VVRIVmtNeEJXMGZqeldoamRrckMtQlBXQ0ZEaXJTclA3OF9JdzE0V1lxYzBwXzVjTi1rbzdTam5pQXRxNkJhS1dmM3UwVGdCRzJOdFg3NmhKUHZUd0Jnd09QQTJyODhPeXJDWjU3aWxLd01wallR?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 08:03:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -9498,6 +9806,20 @@
       "text_archived": false
     },
     {
+      "key": "libya summons us envoy to protest at trump remarks",
+      "title": "Libya summons US envoy to protest at Trump remarks - The Star",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUEtDY2M0eVZaeENqN3BJU1VZaGR0cHB0MVhXVHdNdDlqUEtTLU40bTd4Ui02MXlENFQ1VXN1WERJaTRzdFJaVVpDTW1maEFwOW1DbWRBaXRQdXZPMjhxVFRWbmYtWGY1M3Yxa08tN0xNekZ5am9pNjV5UmZhX20wQTZaYXYzcHVZUjh1a1JJaS13UHpIUXYyMXBXcWR5czFo?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 00:01:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "brigiding s cake stages comeback on november 5",
       "title": "Brigiding’s CAKE stages comeback on November 5 - Interaksyon",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON09ZYWJkM3l3eGU5dUhidUJTNlpkeDdqRzNsenJIV0JZRm5ic3ZMUlZkaHkzYUt4ODQtR1p6R1ZTc25Mb0ZCd0I5cVBMWEhRUUFodmlqcVFZNTcxNDJkUDVDZkJvY1ppc0szRkNpdjktNDM1RXlCaVZydzlXaldvTkxkLUhVTlFGbTVzZUpzQnlHQVhxX1R2NVBiYXFnXzVVeTJKa0FlcWx4eE9TT2JBblhKMDVDQQ?oc=5",
@@ -10124,6 +10446,20 @@
       "text_archived": false
     },
     {
+      "key": "football soccer afc postpones al nassr al wasl champions league elite clash in riyadh",
+      "title": "Football: Soccer-AFC postpones Al Nassr-Al Wasl Champions League Elite clash in Riyadh - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZldqWjVzd0pxdEFNRldha25ST2NYZTQyRUtDcjFCOEZBSHJYdWhDXzE0UE1hdkxmOFRlVERkQ0lIYlFmWFA0anFabk1SLUp1YXZjS1pRbWw3ZzY4aEtOWDNWbjBUQV9yTnAyNDdiZTBUam80bUhrcEREdDd2enJwc0Y1R3otOG5HS3oyX2Q3dUx2VzdXZGQ4V1VQbklCLXlVS3BDRTd1T2xXWEJyWkxKX3B5dF9MM3RnMlg3VnZxUTU5VkgwRkJveg?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 15:56:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "kumpulan berita perikanan terumbu karang",
       "title": "Kumpulan Berita perikanan terumbu karang - Antara News jatim",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tTVJTWjNSWUhCNVVnWF95Tzltck5hMGpiemk2WFRKc282R2VUNkcxNjdjUGMydlA5VkFZWnRhendycm9hV05KYlo4TzBxcHRaVUlpOGViVVVXbktsTGJacUdkbkRCdDhR?oc=5",
@@ -10177,6 +10513,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "making ai good tech companies say they re turning to religion for help",
+      "title": "Making AI good: Tech companies say they’re turning to religion for help - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEFxNGVmSWZZNnBEMVlfX2RoSXpCSVd3dGtlYmpwRDNJNFFTalRMeHlaRlVCNk9fRHloZFdSVFFFWk1EQXVPODhQRk1zZ2NZUV80Y044bldkQVhRdU5SWGRWLTM0NlZ5ZmhkcUJ1RDdreW9RUlhFX2QxYkVSSkxuTDFtR0NMNjNGbTVxNWpiTF9mZGxxT281SFhidUo5SkR0V0NROFFrU0M0eWVhNk1sWdIBtgFBVV95cUxPM2RIZ05xUWpYRzk3YVVZRWs3dTBKY1BZS25Yb2ctOXpaalk1ckI0XzAzbTN0SEw5WW95TlYxb0NWTGVXNEJTNkxISHptWTMycjVTMVVFcE9QRnc2UXBROVZLcmpuTEZ3VGVZM1NZdGxpdjA2WFJfbkRJdFVkejh2QVVMSDVEdk96SDE2SjFSUGc3aVFYdlFBSk5UT1pNdmc4LU5TRGRMR1RJOUdybm9TcmtaakVqUQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 13:41:00 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -10513,6 +10863,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "ny archdiocese clergy abuse survivors agree to 800m settlement",
+      "title": "NY archdiocese, clergy abuse survivors, agree to $800M settlement - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRWFDOEdjRTRZUFFEa1dELVRvZU5YTlBuS1dQS2ZzSUo2MUpzVU5BYjNtOTVPMXh0aXhKMHh1U1lUblE0T2NlQzlLT2xUODQ2Y252N0FqNU1OSjUtRzdhSE9rdDh3by1yQUxmd1h0X2pjWkR1Um1jME5SM3kzZExvQmxwUWJaZzZOODhYX1Jrb0lmUk1uY2NndjJWSTRwWGJPSzVBOFhNbEJlNS1rTldHNFlpclJIVGxoSmFZbEJybzJWMkRyZEJSNXhoMNIB0AFBVV95cUxOMjZRN3plV1lfMnNsUVZ3UGJzYmlXd1JiaXppT21rRmlDM0FMX0xZQjc3ZXMzaXRCVnFSWkNqYlczUGFEOWtfbmJ4N3FtQkxNb1BmUjRpcUhxOEFoQXZtTG91ZnZLRm00OGFGS0lPRDJWM09qY3hkOHFTdUd3b0dhOWpuWHRoUXZrYW95cHAxSjRLOWEwSVBsYk0xdUdlSUtUYWI5ZllCNnBhQ1ItdUZnNGlJTmhDQkRXRmhDamtkVzJxQ1Q2cXV5c09YSDdsbUtO?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 07:30:00 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -11440,6 +11804,20 @@
       "text_archived": false
     },
     {
+      "key": "airbnb guests no longer have to wash the dishes or strip the beds at checkout",
+      "title": "Airbnb guests no longer have to wash the dishes or strip the beds at checkout - The Star",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmhyV29qamFMVzVRMXZBaDdCUHJlUEpYUHJKeVh6VDhRTEk1NWNyNUJkSEd0c0xXbDB5aEFHcjFFMDVKWEFWWmdrU3hMRnhNMEk2N0JVZFNKMjZWNFZLYTh1WmdQVUxRRnJYUENvVS1qYkRfQ3UwV243TkwtYi14TmhobGRVLTVlaUlOWXhmZkJvcHdTV05iSEM0ell2c2o4WnYzcl9pa0pZSG5Ba1o4aHZhSWdDZG9feHdzTw?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 02:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "japanese anti drone system to be deployed at strategic areas",
       "title": "Japanese anti-drone system to be deployed at strategic areas - The Star",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeEZidU1vbGpBWnByMVhYeFd0OVBYXzQ1V2g3R0lJWTR5NS1HZDFrMVR2czJHUlRMejZMWGtoQ3IySW5WTXZDb3gtc1NyNTdFaHJqUjZwT3VFYk81S1RHYWtXZHVpWkQzZUhlUlRUS21xS09PVThybHVHRmdYbDVIR2g3SFNNU3NrWVdXT3VBM0lnUzBMTnNFS1lSVV8yLUQtNXlWWUxkcVlJYlh2c1E?oc=5",
@@ -11790,6 +12168,20 @@
       "text_archived": false
     },
     {
+      "key": "football brunei believe there s still oil in engine room for unlikely comeback against jdt",
+      "title": "Football: Brunei believe there’s still oil in engine room for unlikely comeback against JDT - The Star",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRXZvV1lMdzZON2Z6bmllMjhQWC1JbzEzWUJ0alJEb3NzTElNUDVUc0V4aU1pSU45S2swTlZqN3RGWnZRRW1ZLS1xZmZZeXZySXYtY3IyaUF0eHVNZGVLOVc1bFBVUmRRQmo5OC1aMkFzQ3FzNmhRRGhXVVF3dkt6WU1FQzliN04xYmt1bWMwSXBGdEpOLUlpYlRkVThfYlhyQkVhWllTYi01Rm9nWXZ6cjJZZkVqazg4MFFycE9obnE0MHRtdGJ0S1U4Y1pDUQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 00:55:35 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "母さん見てる ようぺ の奇跡再び パーティーはまだ終わらない",
       "title": "母さん見てる？ 「ようぺ」の奇跡再び パーティーはまだ終わらない - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53VVpRQUkxSlktdzFuSmw4U21iSllJY3dKYTZ4Rk5BaTVyOXpSU3dZd1lFQWd3Q0Y0Y1B1aHd4NFFvTXdMbkh2aWJvYnRFNzh4TU90Y0FBUTNDaW9uMzdMZ0ZXaTlPZTJhcDlPbjZB?oc=5",
@@ -12011,6 +12403,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "who would buy flowers cebu vendors share fears ahead of kalag kalag",
+      "title": "‘Who would buy flowers?’: Cebu vendors share fears ahead of Kalag-kalag - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0JxQ3Q4SUR1S1hNcFRPZnBTbUdGc0JHaWdxZHFuQW5qd3Mwd0pOVnJDVmNkX0RkVXBnQjV3YzV6c3pXSmRTLUZHYndPZW9jbnhaTEJZVlkzNzYxdDlDcy13X0dRSjZqTFRuelEyazNtb0ZubGRUS19rQlUzTDNSUExhZWctN2h2cHBWWk5YMjZOSnFHS0RWY0VBMWJwYXBuRHV2Q9IBqgFBVV95cUxQeGRpdjFpQVhGdlVObHBYZl80YUVLNi1nNmF2a1djV1BwVEhBZ0d2Sm4tLVFMeVNfTzZIa2J4a2s4ZFNHWnp5elRIbWpTUGdjNHpabUlGLWxKYUpWeGc4MWktSGQtSUNTcmNUa1h2R0VFTFJiNU9ybFQxVDdhTy15QzRaS3M5TkRLcWRCeDhoRjVSUzBma0hKTmgyZGNKY05zRU9IQVg4Y2VnZw?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 00:04:55 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -14376,6 +14782,20 @@
       "text_archived": false
     },
     {
+      "key": "not all fatty foods are unhealthy some can help fight cancer",
+      "title": "Not all fatty foods are unhealthy, some can help fight cancer - The Star",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYWVHM2NCQTQxd21xM3M1RUUyVnIxejdWaVEzMThDcEcybzJMaUFjd2tFSmFYOVRLWEwtdDYwQTBuQUd0T2ptXzBGbXV6SEVQSUdwU01NczhfbVhkaUFZOGc3Ty1tWGw1ZW5acmxjdjNuZWNIZmlOY0hEVFZFYTluS09mUldyNGJhaDd6QjV2blI0Y0RsUUppdzNEbG1YbWZMNEgzTWoxcGVmdUgySEhBOUVmbUlvUQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 12:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "会津が最優秀 全日本合唱コンクール全国大会高校b",
       "title": "会津が最優秀 全日本合唱コンクール全国大会高校B - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93STVKckJXZ2d1QVlPQ1ZWbVgtaHdOUnhHdGc4MjRYZndmLTEwdEpOdXZaYzBodjFCaEpEWVBHVHh2ZjlkaVhCT2lJZ093T3Frd0VVWHUtOW1ZeFVkakNleERZYzQ3TW8?oc=5",
@@ -15412,6 +15832,20 @@
       "text_archived": false
     },
     {
+      "key": "bn election machinery told to work with pas",
+      "title": "BN election machinery told to work with PAS - The Star",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHZydjRDc2stSUVGR3hITnRZWXdLS1ljbGY0bmtXdHZKMEV0c3lnWXliS1Npd2hQMHVnS3VKaGU1SS1LazZTS181OFM2azFRUm5SeXcyOGZQQ2p5U0haU0VyamRWcGFmNy05VVJoWmxLR1RmU1R1WldsZnRCdkpUTnRxdkd6THhvYmZOQktRTm5tWnVkN1E?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 00:24:24 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "northeast monsoon set to bring flood risks",
       "title": "Northeast monsoon set to bring flood risks - The Star",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNalJ2cnhWWG5weXFqN3dVTlBDMFNIOVdKcXlYOWFhQWNHMi1MUXI5S2lLYTlxNFRhYlZ1NnR4WlhxRGVYbnpYWWJSYTMxMVZFRlRpVjlwRGNpRnU5M2I3NTk3UURZVzdka2NCWXBxeHJudndfQnlBNnNicGdvbmJZZ1REMXh4N0JTV2xBdkM4dkJjb2dXMlFv?oc=5",
@@ -15885,6 +16319,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "argentina drops probe into president milei and sister over meme coin scandal",
+      "title": "Argentina drops probe into President Milei and sister over meme coin scandal - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUE13T3gzMlEyWmd3N1pIbkhVTUpKRmJtZnROR215bnVTMFUzV0MwNUd5MWQ5UjNocTYzVTNTZHA0cWgybzRJYkxXNXJhWFFsTm4yd2hBcF9CQ1BHR3lpcGMxY1NKNDR1OWtYSEhMWmh5TzU5WS01eHY1bWVTaWkzX1RvOHJaNjVhYjh3QXFZUjhaV3VwVGxEQmdMa0Z4clFnVmxCeWgzWVBZb0ZfWDNlajBRNlFSU0pwZUJkcVpFaWRmeTA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 19:48:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "motorsport motor racing indycar returns to europe after 20 year absence with home race for palou",
+      "title": "Motorsport: Motor racing-Indycar returns to Europe after 20 year absence with home race for Palou - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNldZTW9QX3ByYXpfejVGR21NT2FpbVZwd0xYbXNwOU1HZDZjU1oyTVQ4QTJNQkNZQUl0czRiRzF5WlZ0TURIUlZRSXhwc0t5WUF0Z2ZMRDdtN0xWN2F4NW1KTGt6bmJJSVhuTk5VNU96TmZGcUI4WkFKMmNXOVgzU2ZzZl9GUDdJLUpFZlZpZW9RNVUxWU5WWVI5SlE3T094am9aZ1VBem1TaUg0dDZpdl94MUFnVlJrNHNTYnBmZzhJRVBsREVMRElvMnpQQWxLdWg4cXZlNA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 19:17:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -16413,6 +16875,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "british jets join french nuclear exercise for first time france says",
+      "title": "British jets join French nuclear exercise for first time, France says - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcHZzRXNXRHRXY1ljQm9PZ1ZzcGVZWWkzWGloMDhkbEFJTWJ0dktZVGw4bFliM3c1WVBuNVg4U0dLa2tRb1N4XzBVUnJGandNaWRsNXh5UngwRWRDMGRXN0dTRVJYSWJRQUczOXl1TzhleFFKZ0pDVlFnS2xFUmQxOXhyOEtOTWNmdzNOTDYycjFMNTJSbXZiUm9RcERpTWstSHBsOFJ3QWc1T0JIa2VEaERfVHhFVmVQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 11:34:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -17150,6 +17626,20 @@
       "text_archived": false
     },
     {
+      "key": "mallworld archives",
+      "title": "Mallworld Archives - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT2hSM2Z2eFVJYjJMdXVLWEw5VWJZZFlZQUFRd2NlclVMODZzUXRjaEI1R2k4QU9DeHBDc2lBb0ZCejZkQjk5UmRVZlFIcXI2M3JHelpzVDY2RXZabzc2TEF3QVdKRnVfX3QxRXZWVnA1NEMwUms3U1BOb213dHhTODBn?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 06:29:10 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
       "key": "red flags in 2027 agri budget coordinates at sea overpriced infra projects",
       "title": "Red flags in 2027 agri budget: Coordinates at sea, ‘overpriced’ infra projects - Rappler",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbHFKNE5MVnpwN1lKVHNtVjk5VEFCaUpOZGc3OUx3cFQ3OThlYmlwWWwzc3NXWHU0dkFMeVVvQ0JSU1ZtMFBldEx6bDdJcS01NFl0Znd3Z3dPR3BlaVB1OWNPN3lWOWFWWlV6WWJDaUJtS0l4U2phQkRJeGhic3c1STc3bTJtTTBYMWxJc1h3WjRNalRFZVItdFRCVlNwMFJr?oc=5",
@@ -17371,6 +17861,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "hawa terasa panas bmkg catat suhu udara mencapai 39 2 c kumparan com",
+      "title": "Hawa Terasa Panas? BMKG Catat Suhu Udara Mencapai 39,2°C - kumparan.com - Kumparan.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVNjdjNXVV9CbzRhQThRQ1Y1OWZFbkUyQlVoUUtkZmVERVk4Wld5cnVoS3ViZEVvNUtoTl9pT0tMT3FqRkVRZENSdFRBcFZZbGZpcWJoREp3azFGNS16OUJvTkx6dG1IR1dsUlpuc0F5ZHFIaWxldzBrUFVta0NXbzk4SVoySVBlSjlRWFRaQ2N5aWZHaUFTVlppbHRCTFU5UUs4N09R0gGuAUFVX3lxTE9tVTZvaFU5Z3VydUxEd3FPa3A5UTliYWd3RFFfVU1HNWotRHFteWNwVTd4dWVkRVFydjZ4QVdkaFFaOEE3YWJYRnpOVTR0RGxSZEsxdlExWm9IbGZZWWswOHZacHVpMk9kNkpXZFJKR0FpSERZVTdKOXdReGEwb2h4bDI0OTVGOUdTeXM5NlZMSWwwMVBFTHg1Ym9KUldaTzUtTE1mWFo1VGVjWmJ6UQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 03:22:00 GMT",
+      "outlet": "Kumparan.com",
+      "source_name": "Kumparan",
+      "country": "ID",
+      "domain": "kumparan.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T02:44:59.858088+00:00",
       "text_archived": false
     },
     {
@@ -17955,7 +18459,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T02:46:57.465801+00:00",
+      "resolved_url": "https://tuoitre.vn/thoi-tiet-hom-nay-23-10-thoi-tiet-dat-lien-tuong-doi-on-dinh-bao-xa-gay-song-gio-o-bac-bien-dong-10026102217262669.htm",
+      "text_file": "archive/text/d5e4e2c1991db952.txt",
+      "text_chars": 1742,
+      "text_relevant": false,
+      "text_scs_hits": 3,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261030024801/https://tuoitre.vn/thoi-tiet-hom-nay-23-10-thoi-tiet-dat-lien-tuong-doi-on-dinh-bao-xa-gay-song-gio-o-bac-bien-dong-10026102217262669.htm",
+      "archive_status": "ok"
     },
     {
       "key": "枕のにおいを頼りに不明女性発見 警察犬お手柄 ご褒美はジャーキー 群馬県",
@@ -19071,7 +19585,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T02:48:33.386545+00:00",
+      "resolved_url": "https://tuoitre.vn/sieu-bao-champi-giam-cap-co-the-gay-gio-giat-cap-10-11-o-dong-bac-bien-dong-100261022152209429.htm",
+      "text_file": "archive/text/447321cb0251fd49.txt",
+      "text_chars": 2227,
+      "text_relevant": false,
+      "text_scs_hits": 8,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261030024938/https://tuoitre.vn/sieu-bao-champi-giam-cap-co-the-gay-gio-giat-cap-10-11-o-dong-bac-bien-dong-100261022152209429.htm",
+      "archive_status": "ok"
     },
     {
       "key": "tin tức sự kiện liên quan đến sieu bao champi tuổi trẻ online",
@@ -19921,7 +20445,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T02:50:09.374808+00:00",
+      "resolved_url": "https://tuoitre.vn/hom-nay-sieu-bao-champi-bat-dau-gay-gio-manh-song-lon-o-dong-bac-bien-dong-100261021220940779.htm",
+      "text_file": "archive/text/0b855d32111c79ec.txt",
+      "text_chars": 2615,
+      "text_relevant": false,
+      "text_scs_hits": 5,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261022022517/https://tuoitre.vn/hom-nay-sieu-bao-champi-bat-dau-gay-gio-manh-song-lon-o-dong-bac-bien-dong-100261021220940779.htm",
+      "archive_status": "ok"
     },
     {
       "key": "manuel quezon",
@@ -21474,8 +22008,8 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-29T23:34:21.565909+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-10-30T02:46:45.251843+00:00",
       "resolved_url": "https://anninhthudo.vn/sieu-bao-champi-la-con-bao-manh-nhat-thai-binh-duong-trong-nam-2026-khong-di-vao-bien-dong-post672779.antd",
       "archive_status": "error: URLError"
     },
@@ -22965,7 +23499,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T02:50:31.529908+00:00",
+      "resolved_url": "https://tuoitre.vn/sieu-bao-champi-co-the-dat-cap-17-bien-dong-sap-co-gio-giat-cap-10-100261020191046772.htm",
+      "text_file": "archive/text/f560887489a9536e.txt",
+      "text_chars": 2349,
+      "text_relevant": false,
+      "text_scs_hits": 7,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261021190359/https://tuoitre.vn/sieu-bao-champi-co-the-dat-cap-17-bien-dong-sap-co-gio-giat-cap-10-100261020191046772.htm",
+      "archive_status": "ok"
     },
     {
       "key": "cơ quan chức năng xác minh cơ sở sản xuất khâu nhục lạng sơn đóng hộp ở hà nội",
@@ -23825,7 +24369,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T02:50:57.444893+00:00",
+      "resolved_url": "https://tuoitre.vn/hoan-luu-sieu-bao-champi-rong-hang-tram-cay-so-anh-huong-ra-sao-toi-bien-dong-100261020115607601.htm",
+      "text_file": "archive/text/430d3dc452e7f6af.txt",
+      "text_chars": 3052,
+      "text_relevant": false,
+      "text_scs_hits": 8,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261030025158/https://tuoitre.vn/hoan-luu-sieu-bao-champi-rong-hang-tram-cay-so-anh-huong-ra-sao-toi-bien-dong-100261020115607601.htm",
+      "archive_status": "ok"
     },
     {
       "key": "tin tức sự kiện liên quan đến bao champi tuổi trẻ online",
@@ -24186,8 +24740,8 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-29T23:34:26.008714+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-10-30T02:46:50.136462+00:00",
       "resolved_url": "https://anninhthudo.vn/bao-champi-giat-cap-17-it-co-kha-nang-di-vao-bien-dong-post672651.antd",
       "archive_status": "error: URLError"
     },
@@ -26438,8 +26992,8 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-29T23:34:29.970293+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-10-30T02:46:53.814962+00:00",
       "resolved_url": "https://anninhthudo.vn/sieu-bao-champi-giat-cap-17-o-thai-binh-duong-lieu-co-di-vao-bien-dong-post672517.antd",
       "archive_status": "error: URLError"
     },
@@ -29654,76 +30208,6 @@
       "archived_at": "2026-10-29T13:51:09.053865+00:00",
       "resolved_url": "https://mb.com.ph/2026/10/16/marcos-vows-to-strengthen-coast-guard-capabilities-amid-maritime-challenges",
       "archive_status": "error: HTTPError"
-    },
-    {
-      "key": "suspect held over claims of abuse unnatural sex at tuition centre",
-      "title": "Suspect held over claims of abuse, unnatural sex at tuition centre - The Star",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd0tnSXduOUJ4bzBqM2ZhcllYampXNDdqaVhVTUlfdDlfbS15Y2FHbElyM0tuMF93N2JhSHZPQnZzU2ZRaF9CcHcwYXhTMmYxYnNPYXNCSTZyRE5ad1RiSFhyNnkzVS10LW5GOW1LVWpsTFJYSGo0QnJCRlNMb1BIdkNhZ19LSGUyNkJJeThtU2dMMEpoaVJ5UDJuOU5XLUFRZWEtVGs0WkhZMC1mT0xuME5jQnlERWxIZjR1ZHF3?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 02:03:00 GMT",
-      "outlet": "The Star",
-      "source_name": "The Star (Malaysia)",
-      "country": "MY",
-      "domain": "thestar.com.my",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "hé lộ bảo tàng đặc biệt lưu giữ hơn 300 cổ vật quý giá",
-      "title": "Hé lộ bảo tàng đặc biệt lưu giữ hơn 300 cổ vật quý giá - Dân tộc và Phát triển",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQXlWUzN5OXUyLVh2dy1IUmM2VEZFc1V0S1BnanAxcFlqV252MDVLVVRMVDNEY1hVd2VJYzhSVjZKVURaU193VUd4R3dNQUVPb2l5VW9QODZRaVA3OXlTN2tKOWVVZVJyN00wczJaaVQzOF8tMnNQcFRmamlrcmFkbDU4Q05SZnRRMy1FcTFrSGhkNk04S1JwOGtYZ1hKcGZSX05CanNB?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 01:53:01 GMT",
-      "outlet": "Dân tộc và Phát triển",
-      "source_name": "Vietnamnet",
-      "country": "VN",
-      "domain": "vietnamnet.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "doanh nghiệp việt từ thầu phụ đến chủ cuộc chơi tỉ usd",
-      "title": "Doanh nghiệp Việt từ thầu phụ đến chủ 'cuộc chơi' tỉ USD - Báo Thanh Niên",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMXNWOGRERFROcllkZGFoYW8tVWVVZUtKR1U5VFBONS1tWE8wMm03Rkl5TlFJS1YzaUNLRmlIbUlIaEd2SEhWeGhCTW12OHMtd1lEbHM0VmVnaTBVM1RmRWxKb0lqWXRxc2dwTlRrTnZDT0lnRV9CY1pBMXpDVWdzSHRSOWpnZF9MNlVjN01ZSlAzWDhJRVdyYnpWU0ZlSkE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 01:22:00 GMT",
-      "outlet": "Báo Thanh Niên",
-      "source_name": "Thanh Nien",
-      "country": "VN",
-      "domain": "thanhnien.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "thủ tướng kiểm soát giá nhà hỗ trợ người trẻ thuê và mua với chi phí phù hợp",
-      "title": "Thủ tướng: Kiểm soát giá nhà, hỗ trợ người trẻ thuê và mua với chi phí phù hợp - Pháp Luật Plus",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDY5b2ZQa3Q5VzI2dFM1Qm5NN3c0X3NISjdzX0dNUlJwNXpKdWhfSDJtSFZhbTBDeEtkNUhwck1HZVI3eDJQejdGSjBwcnFQSTZTX0U3Y0t6aU10ejZuMHhwTWkzWmdteHZYV2d1Y0M2cGpFSHpSM1N6OS1IZlB2SW9yN1N4SE50R3UydFpoSmJ1VjF5ZXlZOWZKZHdiTktsX0otbVdQa21wWHR3S0VoWDhIOWFKdzlD?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 00:08:00 GMT",
-      "outlet": "Pháp Luật Plus",
-      "source_name": "Bao Phap Luat",
-      "country": "VN",
-      "domain": "baophapluat.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "phát hiện thêm 8 bộ hài cốt liệt sĩ tại công viên lê thị riêng nâng tổng số lên 739",
-      "title": "Phát hiện thêm 8 bộ hài cốt liệt sĩ tại Công viên Lê Thị Riêng, nâng tổng số lên 739 - Pháp Luật Plus",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbVF2al9PVkZ1OHpsTnpNMEp4eUFYNkFnMEVNSG95M2plLXBjclluUjlkajN0S3JXNkdYVGZDNGxRek9rck1FX1JSVUkyY2toTlg2cUFvWko2TGRwQnExQUJwQzNYTzJoQjFBUGl2cm4tb0ZHeFQzUjZYQk91LTA3dm1VZjB2d0JjdWxMZjJXUmNXbmQ1ZFFNSG5yUFo0V3dJcFRtRG5jd0NOMUwtX0xoMkRsUXYtSFBiWDBlRTBsV1R6UQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 00:04:00 GMT",
-      "outlet": "Pháp Luật Plus",
-      "source_name": "Bao Phap Luat",
-      "country": "VN",
-      "domain": "baophapluat.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
     }
   ]
 }
