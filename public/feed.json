@@ -1,12 +1,250 @@
 {
-  "generated": "2026-10-30T09:23:07.425291+00:00",
+  "generated": "2026-10-30T16:14:33.935490+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 2210,
-  "n_relevant": 86,
+  "n_items": 2354,
+  "n_relevant": 88,
   "new_this_run": 0,
-  "archive_total": 2689,
+  "archive_total": 2848,
   "items": [
+    {
+      "key": "china says stealth attack drone makes first takeoff landing on amphibious ship",
+      "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTFlNlRHaUJqUHVYYXVSWnI5ZE5ENTBmeS1WWENEOWN0ZVBNLW5VeE9VV3p2Q25tZkRyLWMxWUJVNy0wcTF4cWRyd3JjaFBwQVUzVWRkVmktaFB4eVhaUVlqYW90SW1lMk5vcXJxSkNETV9sYXpPNzd3NGxRSnJQOXZNM3ZTcDVBRy0tRUZIcFJmcWVvVDlHOG1nVGNadE9zQjQxZGFKUzNLcTIzcV9CXzl3?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 15:51:00 GMT",
+      "outlet": "The Straits Times",
+      "source_name": "Strait Times",
+      "country": "SG",
+      "domain": "straitstimes.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "video momen saat kapal patroli china tegur nelayan nelayan filipina",
+      "title": "Video: Momen saat Kapal Patroli China Tegur Nelayan-nelayan Filipina - 20detik",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQzRLNUJ0S003WlliTjNPbTVGTXdDT2hzWE1qcXZHZGluRVlDR0M1ZXVxaG9qTnY0RjBodV9Wc1J2TnQyNXp2ZVlWdl9VU1c5bVdhVmlNTVZQUHV3ZnI2SmdBR1ktcGd0WEllVW5CRlN6NW1lNlI2QklYaDVhd2Y4djlNTW9VZVFmUk5OUktuZ2Y0Y3B4ekE4YXd1MjYtelhxaURCY3JIb3JTbHA3bjUxVHBxbENGLW43ZENN?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 15:10:50 GMT",
+      "outlet": "20detik",
+      "source_name": "Detik",
+      "country": "ID",
+      "domain": "detik.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "malaysia receives first fa 50m light combat aircraft from south korea",
+      "title": "Malaysia receives first FA-50M light combat aircraft from South Korea - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVFM4UkNuSmdUMzRkSk9GY3lRTW8tSTE1X28zVXR0Zk5jcndoYjFsWmZvbjZZZTRsSVF6X2t4WTNNV05vOGNrWHlDM0dDWmpMNkxfMVZHTHd3RXBSeXhNNmp2X3h4dGtPbHREYloxRFdpdmNLRVFWc2tSYVVPT0ppVmVJSzNFOXlDbldHTlBRY181MjB0SEFKaHhCUXVnaGd2RUJfdGJENXkwRkFnR3dpYktPWHpPX3FJYjdz?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 14:38:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "gone in 20 minutes how the biggest heist in crypto history unfolded",
+      "title": "Gone in 20 minutes: How the biggest heist in crypto history unfolded - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM1Rmb2RtNmFkU05Yc3pUTlkwdmEyMllIY01kTTVPQ1A5SFRBRmt6NTR1MUl2b0tMZDRsR1dVMTFWZjRIOTNnYWV3TFYzdDQyQThELW95bUlkaFJlSkwtTmpqdElyaWVHSWt2U0paQ0xPZkdiTnlEZE5WbXhlRzdVeG1hV2NiVkFUM1pwdGNUcnBManBNRUhPRVBKa2EwQXlXUlhPR2o2d0lCSkxDYmY4?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 14:05:49 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pope leo becomes first pope ever to vote in us election submits mail in ballot",
+      "title": "Pope Leo becomes first pope ever to vote in US election, submits mail-in ballot - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUXZqZkNMbURIbDhXYWYwajE4ZDhkaU5GOTR1bDZCaGllOG1xV3N1NzlCV3BHZzdOdkFYamM4bklUQXRwZENWMWVvYlNRVWFCWVFxX1Znbzd4Tlo4bzNwNFlyaTZLUkR0Ni1tY2I3OExObHIwcTYwcnBGNEYxVXI1cXdLNnBEcFA5bDQ5WkRRY1JnM05PcU1PaDh2VTVIb3ktZUhNaGg1SUNJY1VRMWRzZTdCYl8xNm5Udl9WdDh1Z1Y2RnNjbTd1X2JSWlAwVGFGbmxwdtIB1AFBVV95cUxOUXZqZkNMbURIbDhXYWYwajE4ZDhkaU5GOTR1bDZCaGllOG1xV3N1NzlCV3BHZzdOdkFYamM4bklUQXRwZENWMWVvYlNRVWFCWVFxX1Znbzd4Tlo4bzNwNFlyaTZLUkR0Ni1tY2I3OExObHIwcTYwcnBGNEYxVXI1cXdLNnBEcFA5bDQ5WkRRY1JnM05PcU1PaDh2VTVIb3ktZUhNaGg1SUNJY1VRMWRzZTdCYl8xNm5Udl9WdDh1Z1Y2RnNjbTd1X2JSWlAwVGFGbmxwdg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 14:02:26 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china and us expand military drone flights near japan and the south china sea",
+      "title": "China and US expand military drone flights near Japan and the South China Sea - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmMzWWZVOHFqTm9zU3hRSTFha0tnT0s5N0ZNQWk1OXNsNUF3bDU4SzU0YXVWZDFETGtyZExVSTFJMGFqV0ZDZnl4RC1KZEppNFdpUTdPSlFTdUpXZmRnTnNBVzRqN2dqSmpGX2ZmS1Q4Z19XaTF3cHJhOEQxdUl3UXZsejZCY194X1FtamdKZV93ZFlDRDVoLWhkUXJzb3U1eGt4YnB6NlZGU1dvSlBNX1VZWmZpZ3F5VHI3bndNVkU4V081Z1FVUWFCVDE2UVhLaUdpLTFxTzZjOVk?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 13:54:47 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "why the philippines remains a hotspot for transnational drug syndicates",
+      "title": "Why the Philippines remains a hotspot for transnational drug syndicates - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM0N3SklMdmZwRkVnUTJqaHJ3MUJvNGlKNE41SkYwRVl4T0ExMnRnblpncEprTVFnNnMwekZnR0Y4QzlObHJlRnVocXlGQXh4ZVBFZ0xLZy1OUm9zYWVRQXBrMTFjWU5sQnZEa1hfVWZwOWVHajBwakFjZXhXOEN1a0x2TGNvME9rMFgzX29xdXhpZmJnaG1CWkt0cnZLRF82V2QwMkMzNTFZcVJ3anNUTFVRaEdDYTRn0gG4AUFVX3lxTE8zQ3dKSUx2ZnBGRWdRMmpocncxQm80aUo0TjVKRjBFWXhPQTEydGduWmdwSmtNUWc2czB6RmdHRjhDOU5scmVGdWhxeUZBeHhlUEVnTEtnLU5Sb3NhZVFBcGsxMWNZTmxCdkRrWF9VZnA5ZUdqMHBqQWNleFc4Q3VrTHZMY28wT2swWDNfb3F1eGlmYmdobUJaS3RydktEXzZXZDAyQzM1MVlxUndqc1RMVVFoR0NhNGc?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 13:27:02 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "dpwh execs suspended over ghost farm to market roads worth p94 million",
+      "title": "DPWH execs suspended over ghost farm-to-market roads worth P94 million - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSFk5RFhQWXZjYmZDdGs1eExsc1E0azI3Zmw5ODBwcGlRLWNRQ2Y5a1VvRUFQNE9uQkh5b2RBUkQ4b051NXp2cktmcXlpZ3o1NlFJRmN6NC05MzdSbFltQlNxMXBYbVR5cG5rMmdhVHo0RG9qQVdjWTNkT0JkcFdZTTZkUTFHZlNLRDRlVDBTLWVmdWtzU2pzWExnaGgxTHJXLXFGWlpMejdLN2ZDLWJmLU9jeXozanZ1bW54YllB?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:49:40 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "leasing program to ease classroom shortage",
+      "title": "Leasing program to ease classroom shortage - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa2dvN1RpcjVFamRhR0JLUGREUmlfQXd1SG16bjI3R2x6N3hlLVZUVmJvRnVaWlV2UWV5TUowZVRaVTlrU0l0N2Q3NEdBbzhoclZiSVk5am1aSlBhSmVzdm5qWXFfSXRnQkhoTVdwNFM1X29ZVThLUmNjRUp5a3RiTVRndWx6X2xWbVkwYXpGOUdXTHM0cW1EaNIBnwFBVV95cUxOT19WVTFYMFY1WUo4Wk9rS2k2N01mRElxLVA2d29fdUdRZW41VWVRS013WS1XYlFFTGZTRF9tWjh5VlVSYTc4OUJHVVFpNUNLeDRGSXpxZjdla2tMRnFTMWVNY2xaNms5TDJJTV9UTGlLMVkyTU5PdFJFUDVxOGJEZEVFVktXUklsc2RxeW15Ym9RUUg0LVBvWF9RZTRIYzQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:33:08 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pla conducts combat readiness patrols around china s huangyan dao",
+      "title": "PLA conducts combat readiness patrols around China's Huangyan Dao - CGTN",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjJMNkVGQ0I5X2RfRXUzV0tkWXd4aHhCQ3JCUnlEb1lGa25MaEt1cTFoeDROQ2ozU0t2ZFpFNjdSRkdIZ05iam1wXzRZU3hhelZSTlNRLV9SaEExMk1RRDMtTDJiNWJ3SnBZaGpINmlyWVpxNTNkMDFPQlp5TlhzM25vRy1TMDZ0ZU9MWXE0ZzlybU8zVndWLTcyYlY3T1pBcWk0VjM1ZVQ3RVctcXYxQ0NjdXFBUGFFVFBOVHBVRQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:07:41 GMT",
+      "outlet": "CGTN",
+      "source_name": "CGTN",
+      "country": "CN",
+      "domain": "cgtn.com",
+      "relevant": true,
+      "tier": "feature",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "beijing drills water cannons and drones near disputed south china sea shoals",
+      "title": "Beijing drills water cannons and drones near disputed South China Sea shoals - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdk1WT0hVUTZLOFh5eXFvSXVRWEEyUGwtUTJqZUtYRUxzR1dRUWdTMTlsWDQ0OGFQLUxkZWgxb09wZXhHeDBLV1BXSWlVb25KbnRMUnZHRk51blg4WkpsamNlSzJCVHR0S1VTNmM1WjhpNkhVUVBWTEEtSDNXVzZ2V21nMTdHaGpuZnMzdHpNQlVrRUE2WHZYQWs3ME5wY09Qb0t3NXZlaHB3Smh2MW02Mm90QXZTQUlCZHFVdjlPclFvSTVvQm92N2k4bDNNM3fSAc8BQVVfeXFMT0NjdjlCMXhJcHQ3UTBqNEkzeFh5OGJHUjBEajhPUkd6OXhLMnJQX1N2ZFBUelh6eXpkRkFkY3kwRXFWSVFLdVlHOFFvU1oxZll0VV80dk92eDFlaXhMa0h0UExjM25ITjNZd1dyNnVIQmlxYlVLdzFRTVl4VkFTYWtXdk42QTFGVE9ZTkNESTQ2aVZvUXR6bkEtMkxaZTBxSVVJa3M4WW1Weml1amF6cGJFdEV1RmlFNmRRN2pqNVNEYWZLT1U0eVJ5cTVCTUE4?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 11:39:56 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": true,
+      "tier": "sea",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "cathay pacific says amadeus breach affected 53 000 bookings",
+      "title": "Cathay Pacific says Amadeus breach affected 53,000 bookings - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY21ablZ6S0REUC1UdlFVR2ltTFRxMVV0V1o5N296TmZPSnRnOGpLMUQ2a1o3b0ZNWEVCanlkTWsta0VHYVJIcmxiUVNvZlpGSmkwNW5ndmZmaVdlLXFmd1QwQ01NQjVmamlJTXZfeTZkR1pDZkwtcS1nWTlTUXZoX2VYdm5tLW8zWlRIOXh2WGJZTW9XbmZvdXFyOUV6RExwam51dk0yWjlpVkluUjl3Rw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 11:39:44 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "trung quốc ông tập cận bình tiếp tục thanh trừng ở thượng tầng quyền lực hướng tới nhiệm kỳ thứ tư",
+      "title": "Trung Quốc: ông Tập Cận Bình tiếp tục thanh trừng ở thượng tầng quyền lực, hướng tới nhiệm kỳ thứ tư - RFI",
+      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPT29CSjljcmJGdGhSaVFRRHJmazhHb29uZWFSSVdiYnFQMGpBYU1QWkRaTk56QnVqcEZUZERKRmxOX1RZWWlmSnZiUFJtRkItQ1RqMGRUcWhjNFhqLW5RemhWOTNDekwwTDh4Nm1OU0VEMDZLUVNGX2pRSGpDYlo1SXU2NVNZeHhHQ2pfTHRYZW94SUhoYk1MN0VaZE1qTERPbXlkaHhPV185bDNwZFBGVWctUlg4eE1QVWt3b01Cai1sdF9Ua21odWU0ZUdwWGN4YXJGYVI1X2dENEZEa0lLWWtwNmdhN3JnQ2xoUndESWRFRE14RGRRaDktRkpUR1pNel9wTjRLdUozU20wSUhTcmdaX3JmZFVBUDdtVWhfMXhKMW1wQzF0a09GX3ZjYmd1bnNvczlMcnJ1MkxnSGpuRVRnckJzZUczemdZY296ekU2a3BrWXJ5ZnJaODgwX1lHWmQtenRVOE8xVGp2RURRTUlGdlhCX1lBLWIwZWpNcHhYQ2t0SlZ4dTJIMURac1BKU1liY2RMbUNpVU1EXzZwd0RtdVVhTUpWZ2Iw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:59:32 GMT",
+      "outlet": "RFI",
+      "source_name": "RFI VN",
+      "country": "VN",
+      "domain": "rfi.fr",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "馬來西亞接收首架韓製fa 50m戰機強化空防戰力 國際",
+      "title": "馬來西亞接收首架韓製FA-50M戰機強化空防戰力| 國際 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94T3hVMHRlc1A4MkNESlNpQldoMERDZ3V6elU2V2J4eHdQZ3dyUThGckZTUE1HU1Q2ck1sMU1PRVFOWmwxOE95RS1VWmJpck5VVkZQS2RZVng5XzdiRnBj?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:27:00 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "chiến tranh ukraina xung đột trung đông là trọng tâm cuộc họp cấp ngoại trưởng g20 tại mỹ",
+      "title": "Chiến tranh Ukraina, xung đột Trung Đông là trọng tâm cuộc họp cấp ngoại trưởng G20 tại Mỹ - RFI",
+      "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPNlJWa0RfQnhKOTlJMGlwWGJSUVZUb1NfcmN6V3ZGQmJnbkdmeng2RHRsV0pIY0l1TTNlVXMwY3lVTHRpZ1lHXzRUeGV0RTR0dzRMcWdiaHp1cUx6Ml9GenFvUEpTZHVrUmtzbTdUQTM1dXdKcTJ6aHFnd1ZuT2VGRGlWUGhhN0s5VXRyeldWVDFjbEFvZnZVZHNzM3J0M1FISFB4TzVTWWtidmFrQnpka0NlcjZqbjczZkJOemFOMDFCTDFxQXVhSGFQRUFmd213Q1RNaUd6emNod3lsNFBrdi1MRUZXaV9MYW9NM2lkSFdIemFvMlhPOVdxRXZUbm9WZG5henQtOHVzejk0Y2UwUHZvNzNycllhMjN6cENPYUdRbXFueGZ1S0p2dzIyNFU5bnRXSnpXXzR1YTc5bWEwbW5YUFNTWExDcEloQTdjeS1rcFNlazJsUGRFYVZPb2V3TTRIVlEyN1Boa3J5WnQw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:23:55 GMT",
+      "outlet": "RFI",
+      "source_name": "RFI VN",
+      "country": "VN",
+      "domain": "rfi.fr",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "菲防長不排除2028參選總統以對中立場強硬聞名 國際",
+      "title": "菲防長不排除2028參選總統以對中立場強硬聞名| 國際 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoUW9RbUQyOTVBOU5fQ3E4WmhVM0FOTlEzdU9ZdDh6dDVGSlpyLWdCeldpR3FNRHY5TTh5TUFNUldlazVoemRKbERmTWVOT2k0b0o3UmRhYmYtSGtjMl80?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 10:21:00 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "フィリピン バンサモロ自治政府が正式発足 首相にマカクア氏選出",
+      "title": "フィリピン、バンサモロ自治政府が正式発足 首相にマカクア氏選出 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wYm1QS2lUTmNKZ2tiU3NDV2N2SHZQN2ZIbjNncWtzdUZZRDRHaGFtcmYwNFNZRGl6V3NFdG4ydkdibHc0RTk0UmZhYVo0dEJ1OXBNVU80N21kRFBraEh5cFJGUUtBSnBCRlhITg?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:17:53 GMT",
+      "outlet": "日本経済新聞",
+      "source_name": "Nikkei",
+      "country": "JP",
+      "domain": "nikkei.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
     {
       "key": "germany s merz to relay asian partners protectionism concerns to brussels",
       "title": "Germany's Merz to relay Asian partners' protectionism concerns to Brussels - Reuters",
@@ -274,6 +512,20 @@
       "text_archived": false
     },
     {
+      "key": "dating tatay ng pnp police urge bato dela rosa to surrender as deadline lapses",
+      "title": "‘Dating tatay ng PNP’: Police urge Bato dela Rosa to surrender as deadline lapses - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPejZoV2ZHaENjTzJHMlgxUWNYX3REQTlsdktraTJiYjJpRGhYZ0pEaEM3bFZUZEZ4MGVKeEZRUGRPN2taa1FmYmpkOUEwNHhDT3JzTF9KeHZ3ZHpOTElkVi1udHg1clZYczg2aElESkU4bWowb2dCeWYzX1dwZGtiUWNpcGhtTVhOZ19vRmtobGh0c3lFRm0xYUFKVklyem5mSDdrN05rUUdhVnozRWpXUzk2WWhYZHoyWUNGUkpEcmg5VkVC?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 06:43:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "it s macacua barmm parliament picks region s first elected chief minister",
       "title": "It’s Macacua: BARMM Parliament picks region’s first elected chief minister - Rappler",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaS1kODRNS1ZxbUdSaUhKN1ZGYTFSZ0JSWmlsVC1HdTlpQWR5VFBncmswbUxETXBVQlU0XzJ5amltUFpXaUxFUEJGN2FFRXdoSWdpVjZ5dDJlcF9OeU93ZlpsQzkwV0pvMDE1a2x5dUd3UGptWlQ0OFVZdVJzSVRUb1NEc1dHTDNwdjNJYVNIcFlZRFMyZlBVNHFnbUhKR0Zo?oc=5",
@@ -327,6 +579,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "escudero on sara s recent tirades vs marcos unbecoming of a vp",
+      "title": "Escudero on Sara’s recent tirades vs Marcos: ‘Unbecoming of a VP’ - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWlHWkt0dTVBTzF2UURpLTJUdmZDWUFDVlNyZ1lVdEN1SFZvTklwQVF0VnJsVFVpak1GNUlEYWUtd05JYVNFUktTRXhBeDV6QUQtRW85N29peHFpeHpNRjAtNVM0UVdSUzZCOWMzczFDYUM0bzIwU1U4NEdyTGZXOXlHbURtU0wzclJSX243UV8yUzViM0wxelNEOE5fRW9tVkhCQmNCUWd4cjRsOWZsSFpFUFZJMG9CS1Y4?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 05:24:24 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -414,6 +680,20 @@
       "text_archived": false
     },
     {
+      "key": "catholics urged not to keep ashes of loved ones at home ahead of undas",
+      "title": "Catholics urged not to keep ashes of loved ones at home ahead of Undas - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMFBFdUpoVnZ4OXYwRE5OcTViZ1Z1dmVKZ1U2SmpCYWxfeVh2SFF3TnJ2MmlIZDZRZFFHVi0wcUpkTnIwallVb2FENDU1em5wZXFzWGRlNE53Zk1NOWZHY2VjVDN4cUFOZTdjLVpqTDZqNUgxWjByb3p1N2ZwWE1telJjcHlRakx5VTlUWXRKX1NNaEpDMFFDQlRVTUNrUDY4X3ZLUFdGNURVSkxDMUZic3BB0gG4AUFVX3lxTE0ta2pFY1pSRHpjZjV3MV9uN2FlR1d1cl94UjFseWlSdEo3c1pua2h2UnpyQ3FQU2dlN0dsaEVmczhOd295Znh3OE12d3RuRV92Sk1NaXRUdUhXcnNtNHVBamZOZFhWV185Qjh1NVlFR09MTXlsQUd6b1dYMC1JcV84RURTLU1qTm9tUGJxcTdFUWx0SXhPcmdORXlaZ2tFeUVRS2VSdFhYX0ZsZl9TTXdFOEtPYnRKNC0?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 03:50:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "rappler recap marcos jokowi meeting in manila touches on defense energy cooperation",
       "title": "Rappler Recap: Marcos-Jokowi meeting in Manila touches on defense, energy cooperation - Rappler",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY3ZKXzZJTEp2bjdfQkM2YjVacWdOclI5S2hhdVh6THR3VTB3QzdOZ1FTcmhaYUVEOGk4T3liclQ5XzlEYUg4UkxRV0NGRWRXVXVOZ2dlbGV0WThlWnlmYmdrVGdjRnJCSEl0QUVIRE1VclhBeHVKOS1zX0d5azFfQXZnSi04YXF6dEdFTG5qaE9WcGg1eVJ4ZEFQOVlONlpCbFlIWWd3?oc=5",
@@ -425,6 +705,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "marcos chinese envoy s taiwan statement just lost in translation",
+      "title": "Marcos: Chinese envoy’s Taiwan statement just ‘lost in translation’ - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFU3VF9PZnhNcmQ3ekNLZ0F3YWpnLXNJMWRjYjhBOWpSRkdsUWk0T1BqSWpsSEZteGNldkd0eHVWbS1GbzFDbjRtYkFaS0REWHpudThQc3dVNmsyUklXbHBHMlJJMXc4QmRaTjFPYzVFUXFrS0h6dDltNDVWMGNvM3hicU5PaElGWDctcDh1OXVIN053SlN0bW5OR3RnU3Vs?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 03:11:38 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -484,6 +778,20 @@
       "text_archived": false
     },
     {
+      "key": "tech giants spending spooks investors and drives bonds rally",
+      "title": "Tech giants' spending spooks investors and drives bonds rally - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODMxOENneGV3TmZjN25YblpGTWpPOWRUV3Boay12aGxXWENUbUFLTnJzUURrYklnTkZjUHVOTTFCNkM5V0luRXRLcExGdXJxSEt4SzhFNzNSZG9qQ0F2c3RWclhFVnMySTNvRkJITU9OTVZfZUZ1NFEwX2x2enZVNFhuX2x5bGxRMnA3NElR?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:45:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "kris aquino on relationship with marcoses they ve been very respectful",
       "title": "Kris Aquino on relationship with Marcoses: ‘They’ve been very respectful’ - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVm9MX1Y1RXpYWTdIeC11RVFsOTBkNVZWOHhqRXQ0cW42VFlSTVlpV3BFME5BdXV2dW9teFJ2UHdhNkJCVFJrOFNEQklZWUdXcHpNS2NkMnRMMFhkbTJHMXpXNDdLTTNGaXVEcUxkU0RhQ3hBZ0JCcGhDb3dpUllWYVZaeGVFVENTUGM1Nk9GMUdMakhDclpfQkFvN1JXY0NEanBuQUswTE9mRDhGSmlBRNIBtgFBVV95cUxNc0RNTVM5RkhQRjg1UUtMZnk5eVJ0d3J5WnBKbE82dXowSjl2MVRHdURTWHllSjh4bENJZW5uM1d5SHl1VkFnU0xXanFtRHEtNHZmWHlCRmlPWFJhRWxOOG5lZEpfTE9oZG5SOU9nRWhzdXRtT1VaZUpTN1lDajlsOVlmZk1IcE9FYTJCOUYtOUN1cFdBSjdhaks2ZmhlOUR1V3BVUWRCc1R4d2tUbGdHYlVtbG8wZw?oc=5",
@@ -495,6 +803,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "east asia news china japan korea",
+      "title": "East Asia News: China, Japan & Korea - CNA",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jYWpWNUllY3paZjk0TEZXV3dSc3VqU3JNVTlkQWlXNHcyYWhOSmlMRlFJVElXN3J1V1pqUF8zMng0YVh2cXVfQnZLcG5Hdm02bW5N?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:29:50 GMT",
+      "outlet": "CNA",
+      "source_name": "Channel News Asia",
+      "country": "SG",
+      "domain": "channelnewsasia.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -523,6 +845,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "vp camp rejects new cash suitcase allegations as tanim witness propaganda",
+      "title": "VP camp rejects new cash suitcase allegations as ‘tanim witness,’ ‘propaganda’ - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNnFMQjFiSV9WSFN6MHdYRk1YX19iSl9Hc240RnJpVUh5cktUSkVPdUJpdDhtaU9FQkEwSDNkcFhJQXhzTklySTZGUGVDWkR1b00zT3ZYNWZmcnFIQ2NYaGNvZDAxWG5iZHJCMlNreW1fZmgtQkZ1WThpYXE5cWFkX2x3MXJGUkdLRkZQbVN1bFh4Q09pWG84Zmo1emRKc3ZMTDZmcnpvWVhDRGVVZEpQZ1NsNm5NRmI0QWlvZzR3M0VKUdIByAFBVV95cUxQMVhka3N5bExDQnRmVENSdnJNLVd4Y2JjQVZWanpVUEt4ZGoyMWxvTTZxbloxaFNMbDNiSDQ1ak9LZ0JwVmpnRTNiQ0VTOGluX21GRXdCUFRVTXAtT3N4b1o3Q2l4LWlVa1AzRFotU0VSSHRZYkRYUHFUbEpybGNPWDhSOTNJVjZzRmU1MzBUcTZGQjJEM3Z1cTF3NkV3LUYteTVGSXhscWk4TjlzOUtESWltWDVYLTYxakFzMDdJOVNFRGs0YVNQUA?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 02:16:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -677,6 +1013,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "marcos champions unclos in first un speech",
+      "title": "Marcos champions UNCLOS in first UN speech - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWEpwTmY3YWRfb3VrOVlESWxpbks5SlMybTlSMndTdW5xMHNBdERHeHhxZmVXYUhYcnJ2TFctaHpZdE1rX1hId2JSMF9EY2hjSWVJRF9VZnk3WDFZbWZWTFgtbFE0SkFRc3lDeVhYZnhGWGYtcGpWU3UwMGhLR3JObG10cHAwZ3c5MzFGYzhEa2tnLTNJ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 23:37:26 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -988,6 +1338,20 @@
       "text_archived": false
     },
     {
+      "key": "uk will reduce unsustainable welfare costs healey says",
+      "title": "UK will reduce 'unsustainable' welfare costs, Healey says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVldZV2tJTldvaEUxLUtpclNnVFFfQ1N6azg4NjVnbFUtakRJTG8tai13bVBtdGZPdWM2QlpTRHhIOFVlaWhicTh0bHppb0h3bm11bE9oZkdDRUZ2bGN5eC1BNjZlVmp1TTljaGVOTUNXWEMxeVlzZnVaa3NNdlVjbVowWkQ5M1Zocmo1N0RnQ3FveTdmQlZsZjB3a1pPblVSV1pwOQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 18:56:15 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "senior us general fired accused of leaking classified information",
       "title": "Senior US general fired, accused of leaking classified information - Military Times",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeGR4SjY4OVU1QzZVSGY3RkV6dUYzZzRJdzVPbUtaMUNuUmo1TEllNzNSZ2RNNnNRS3lwaTNIbVp5dl9XLTVIUjdEdmZnczI4WXFyRW5oaWk5Skt1VXVyM2pUaldmOFNEb3FyWkJVTEIzLUhUaUwyMUFYeDVyd3lBM2dFRUJTMlJJQzgxdThzcnE5RnNNbUZKbkJUTC1lbGotWDdoSkhiSHJ2S1VtdUJQUFlR?oc=5",
@@ -1223,6 +1587,48 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T19:20:17.301995+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "shortlist of cj associate justice bets submitted",
+      "title": "Shortlist of CJ, associate justice bets submitted - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUmVBRHVOVzduUlVNN2tmdDhybXZ3WWREQWQzUzBQV0RGUXJfRnFGX2c1N19DV3kyc1BtWnBCYWFGOUtHVkNGYWhOdFp5MG5Wa0d2bjdPeXdEdGZ1QlQ1cHNwOHpnN3F0dmdfd2UtVEdfNEdoUk1RNmVocmVZX2RFMjZ4WEVUTV93VUdOUVp2UmtkdGQxbXNOaVBxRDNEeUpU0gGnAUFVX3lxTE9HMDNPekNGWl9sUE9Vc0I4WURRMlRaVnUwUDhSWWlZMUhOeG5jOFNGRjNWYWNONTBQZURWam9XQ2l2QVRDZjFRcG83QW14b3liQ1pacFlZd1RiRlVuUnpvX0JXZjZqc21XZmJqb19qMEhGNjE4TVJMU2cxZ3NyWWVnb1RUSFk2QmxNNVRSR3hXZXZjdmdGX24wTVh1WnRKSko3MThmT1hR?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "palace world getting smaller for bato",
+      "title": "Palace: World getting smaller for Bato - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRlRGemczd0FobjYwcmEwQ1FpbmhkWHhadG1IYlJCeXpnVWhzZ09Qbm8zMEgwT1JKNXltb0lFWWlvUC1ja1E3TmNBMGY5SDcwWVU1N0FaTnY5d3V5YjgyUXlhZzJPaTNEZFpLQ0FGYk5Xa3c4Z2g4WHY0cGVKQnNUUDVKb0xDXzVZcFJsdE5lWEE?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "bernardo only ping not involved in infra kickbacks",
+      "title": "Bernardo: Only Ping not involved in infra kickbacks - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbFEtc3RxQnVBcDloanBrM1B5WGYyYmtkRW9yblg5YlFOTnNVdWc1UU11d1JDejhDdUpDZ3NzdVdMczRBVGh0TDBUaEhWYVhPMWU5QkcwaElRZ19KMF85TmVSUlRrcmhUbjRwNVNEZElEV2tOR0dSck43VVlQb0RJSjQ2OF9EUTV3bkJTYVRwR21tSFM3b3NpZ2NlWl9FYTFSYUpB0gGqAUFVX3lxTE5OVzMydUhDZlYtaDAyMUpvLUM5LW5OOF9sMnVDUnktZmVLem9ja3pCdU1YdW5wMUVhSUJhNnpUWkN2VHVKTFV0WER5cngtZlRCaHRFQkxTbjQxUHFMY2NKSXI2MmdlQ1BYbXNYNUhhWktJdlJwWEhTVWtadlRTdlg3RTRCUEdaR3BMVFFLNGRWNFMyUTZIM0ZOTjVtSVdlXzlwU1R0Y21BSWdn?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -1492,6 +1898,20 @@
       "text_archived": false
     },
     {
+      "key": "india s blue star posts quarterly profit rise on strong air conditioner demand",
+      "title": "India's Blue Star posts quarterly profit rise on strong air-conditioner demand - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWhnSjhXQ0dXbHYtdHlOYzVfcHhEbVU2cGhVa29vNkRNZlBJMmxvZVg3RzZ1S0piRlkzcm4zT3YwTnFyM1o4MnpaUnVBeGE4Rm9pVWw5Z1ktUDllVG1LM2pvT2xRcGVhUjZObjEwQm9xMEFPcEN5OFo1VGtxSWJPekxGMXNiUTVsTkFEaDRrVnZ6VklzOGhLd3pNWW9hNnQxMFVIM09JdDFlUFhpRFdrQklSQnBsZ1FGbi1TNTc0Yw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:47:20 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines china tensions resurface at the close of asean defence gathering",
       "title": "Philippines-China tensions resurface at the close of ASEAN defence gathering ​ - Reuters",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlpNUVZydmhPLWpKam5sVDc3aHJaang1akJ4QnRMT2k0aktqTHRxaGZSV0JoZFJ6bDcwem1TcXl5cTdfYk84bGxGYkFFNzQwTXBXZy1qMUhCVUVrekc0eXFyRWYzUkFaUGdVemthalBvaTZYakd6TGhfWHdBU01PdS10QkE3VHJVVUdRWWZ2YV9nLVNWc0t3R2w0YUJMQTM2Tjg0cTVnWEIxbEhhNlNiZkhQRndoNThrd25OTTcybw?oc=5",
@@ -1517,6 +1937,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "air china s third quarter profit tumbles as rising fuel costs competition bite",
+      "title": "Air China's third-quarter profit tumbles as rising fuel costs, competition bite - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU1U0R3R6eGpEQjRmaXZDZ0VDVFlLaWdsdU05ekN5dmhhb1Y4V3lUVlZ1MkZpanJJZjl3azhfREdLOVZ3TjFCSDZnYUNOWE5vUDhHSU14RTJ3dkRZQWhwcjU1T0pCbEJubGdoSlh0RmlkcUVZVngzR3hNS3BZeGoxSVppYWlBM3AwNmc3elYxVk1UdGs1UVk5dkhUYkN1RTctaWpmbjZsdVhKS1hoNHU2djRzaDd1RlNjd1NrczV3?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:34:47 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -1618,6 +2052,20 @@
       "text_archived": false
     },
     {
+      "key": "macc issues asset declaration notices to brothers nazir hussin and mubarak hussain",
+      "title": "MACC issues asset declaration notices to brothers Nazir Hussin and Mubarak Hussain - The Star",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdjh1UzNVUHZxZVVTeEVsWjRJSm5FaFFkV2VPdlBwM0RVeWl4OGtGNDljY2pWQUxtM1pfRHFINTFhOGRFM1RIUjJMOFA0dVNXamk4MEJzVUxYRzFwTTJzNTVhX3lOaEdMRTF5UDFFaGtXTkMybW5EYm9SSDVramFiZV96cXlSc2gxUGZwVHVZdlhUYTViMjdKdTd5SzhUMDY0V1VHNDJZV3YyNVJ0TjB4Z3Q0bFJmX1RYblVPN0pTY0NucnBrZXlDc0tqQXE?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 10:21:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines defence secretary teodoro rejects china s claim of abuse of asean chairmanship",
       "title": "Philippines Defence Secretary Teodoro rejects China’s claim of abuse of Asean chairmanship - The Star",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVDNMRVFESWktM1F0UDN4ZzNKeTVFSGNUYUtGenZHNUZ6Yzdhcy1PRGhud1VpbGx3X0oyUXBISFJQeVFGZ3NRamEySjV0YVNKRVdMNGNhSmRfZmpOTWMtUWNpMDZFYnM1cTNJNDZrZHk3dExtUzh1QTRWLUdGS3pfbUtPTlV6Q21ZNmR3WWQ5bmZkLUo0RDg0N0YwRnBTVS1RTW9BYzVlSlJRMTl3cnc5MktaRVJYM3JHVlBhdHFhQjdpQ2g3aHlCM1BKYl84OGM3bnAyT2ZNRjJyOGU0a3Z5VVRfSFAyWWM?oc=5",
@@ -1643,6 +2091,20 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "defense chief gibo teodoro calls out china official for gutter level talk",
+      "title": "Defense chief Gibo Teodoro calls out China official for ‘gutter-level talk’ - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNjJZREdDU3JtUmN5S0luaElBTmJtUHBiNVZEYjB6TEVLMjhNbnpSbVltYl9JM0kwcHl5N1VHSnpaRURVOURzei1sMGZMX25ubjZTMHc4UHFPakc5c0NEank0YXlXUkJSSWdNUkNNY2hhRXMtTnc4eFVWSUxPR3NkbUZTU3pWcGpDeWRoaG8tRmp3SzA4NlN3a2NOTEdSejdESHBJN293V0FBRThXelhv?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 10:12:15 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -1713,6 +2175,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china blames self serving ph politician for scaled back asean defense presence",
+      "title": "China blames ‘self-serving’ PH politician for scaled-back ASEAN defense presence - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLVVYYTdVcTFLMU9GLTRYVDR3b0NxME1pQlBWUnhEU2FCRHNNX2VOVG5vMm9LaUtFUnVpTWJmYmEtcERVYkp3Skd1WTNnWVhkUEUyd29rOFkzUTNlNnctdDhQUEg1RTFpT2NWQkN5cDFVSEpBdVVBT01JUmJsaHZBTE13N0haNEJqV1dKYXR5VVZTODFLVG80QkMxWXRpUFdXODhld0lnZmF1Q3hrX3FHcmFSbGZiSkJid0N6cjFQcGVUMFBBWnE0?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 09:12:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -1884,6 +2360,20 @@
       "text_archived": false
     },
     {
+      "key": "global stocks hold gains after fed decision oil prices rise",
+      "title": "Global stocks hold gains after Fed decision, oil prices rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZl9HX1lrU1RCazV4ZHJxc1o3YkwyUXcyWmtXUVZwUjE1X2ZWQ0tCY3hkckptWlRUbVJ5RVB4ZUd3bUtxdktMVXpsSnU2MDlzVmQ0TDhWU0ZyeE1FN1dDSzBFckpNbm1OZVJjWHRZeE1mN1RPOUJXME1UcFNpQVhmSkVRbw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:53:01 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "ph boosts defense ties with us australia india",
       "title": "PH boosts defense ties with US, Australia, India - Manila Bulletin",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV2ZXVXZ2bmxOZnZWWEw5ZFJqQ21VT3l6cXFLcjFRVV9iUmxnb2lwZ2hpdlMxMWZHVl9QdzZxWVBYV2FkVmpTdXlUNm9udEJ2N2hiWnktSGlmRnJfN2NOTGNablMxNldXQWg5eDVvNzR6S2o3NzM3U1NpcE9MV1lQZQ?oc=5",
@@ -1937,6 +2427,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "germany s steinmeier says china must avoid one sided benefits in economic ties",
+      "title": "Germany's Steinmeier says China must avoid one-sided benefits in economic ties - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUs5T1hqWThVX1hLRlNZR2NKc1Z0SjdxaHBBVjcyZDBCM201UURyQlRXaEtPX1F2QzBHNTNUM194aWhLQlBGMlEwcU92WU1ZZkhQUjY4bzZmMDJvcU1rZ2ZyTEYtTk5WZzh5WDBVWDJvb2M0ME1fT0JTRWhJMWtud2hueVRIQnVrY1RYVWZBakRTelJhSGxzT2NQbE9uWU93WktDMW81SjYyYXgwY2tHVVlKZl8wZXRNR1JWUUFUTQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:24:36 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -2052,6 +2556,34 @@
       "text_archived": false
     },
     {
+      "key": "jbc submits shortlist for chief justice sc associate justice posts",
+      "title": "JBC submits shortlist for chief justice, SC associate justice posts - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMk1FbHNwaEVPMjJ6MDR4dlZuUHZXVExrRFF4QzB0SUc2d3R2ZlB5ZjlaSGRMa3JLTW5pVVoycjVhVkp5TFpiLUZGS1VwbHRVTlhucEVFMDJ4XzA5NUFDSVhWU05vSy1nTE9lV290cW9jaGN5c1FTXzFoSmdDN1lFUXI4SWZid0xQV3ZDZ241MS1vNGNVQXFONkFqODg5aXdyOHlHX3kwMHNVa0Q0RVdLYnVOQnZOVUnSAb4BQVVfeXFMUGJpb2had2dySnZXX01yckFPei0wYWRNX2FRTDlMbFJXM2cxVUlFdTVOTXNpbUZfeTlENk1HaWlyVzJfd2lyN1RvVDNxWE9oUlIxdEk3d3p2Z3VZMUlTNDRIZ2N0ZFY3TzlVZE5ndHpfRnJqQzQ1ejVacGZlank3cXBlM3hEVFhZN0FTZEU1VzlRWDJpdkRwaVBIR3otZFF5Y3A4X0xqSWYtVGRTM1JCdDhwdU9VSnVmdHVZUW11QQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 06:57:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "asean summit in metro manila road closures flight changes",
+      "title": "ASEAN Summit in Metro Manila: Road closures, flight changes - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONm1zdWFZWS01N2ZBazlKVUJkdktsN2RzUjJpdG03NWFFU2NMQ1RsNjdUWHNVWkw2TXE3clZfSkc2YkRPOXJiWTNjRWdwRnBZaDdaNXUzTllfUEVhZHQyOXB4M2dwQmRIdlQ4Q3ZPMG5DS1JiaDVWcjd1eDRybmg0TnMzY3ZRaHpLN3Zic0swUldTeksySmVEeHNPdUdETmM0NDlja3JJcTJPV2RJ0gGzAUFVX3lxTE95aEtWSW9vVjYwVEMwYVh0VDBWODBOZHVjUDB5MmdMSkwwVHlnZ0wxZm93aWpodFc0am9IUDdrNmJydG40Tncxb3VhU0UtU2lrOEJGbHo1QTIxaTdOMV9KZ1U5YlhYd05ZYkU0eHc0YlJPc1Vhbnc0N2F3UlpIMkVsOEFEbE1SMW5IZGMyc2l4eml5Z01qWlFtWHJOSnc0LW5jQnZPVmRlR2hfcmJWcVBrdTF3?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 06:48:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "singapore runners swap streets for a shopping centre as haze chokes city state",
       "title": "Singapore runners swap streets for a shopping centre as haze chokes city state - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTDRUYnR6NzNLd3dicHk3R1JIdTVTZWRLOGN0V1dPTDYxcGRTU3RCWlNiM2tvNTJ2c0x0ZkhLX2pQaFFxd3d5M1B3UWp2NXpSYWRibWdnZFk1ZE9UcnFjOGNkeTJYVDN0Y1ZWVjJ6NFR1ak1zZG5jWU1ERmhDNjhnbFZwTER0bVU1YUZfcV9BVjU4dzZZNGRwRC1VNnU0b1c4VndDY1ZjQXBtNEp0czRfRERTNjRpbzFweUhUajVNbzViUDJJcnloaVphNDdkSjUtOHM5ZUZ6bkxXTEU?oc=5",
@@ -2147,6 +2679,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "quickcheck are unlicensed trishaw services being offered in jb",
+      "title": "QuickCheck: Are unlicensed trishaw services being offered in JB? - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPei1oT3hydUNSeFJFc3dOaGVQdmdGOXZvMEs5Ny1LZUhob0NMVUhTdWJTcXRVbHpwV2xUM0F6Q1RsMTZLMmdxc3dHV0h1ZmRFSUxfNGRBZ1QwaVpYeWlCUGpuOVdTSmFuNHdrcEUwRllSWHhIcWRXM3MxMlZaejkybnFqZEZ0N0s0NFR1QmNNYXRlbVJOd2tFYjV6bkJIeU4tWElxSDNJQ3BNVER0Vy1xVkRzVkxaOXJQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 06:02:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -2273,6 +2819,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "sc seeks senate house comments before acting on impeachment vote threshold plea",
+      "title": "SC seeks Senate, House comments before acting on impeachment vote threshold plea - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSnpWTU9DbGZDdnBOS042c1hDaGk0MWgwWGlkLWpFbzdOdDJ5blpnSUJZTk1JRlAtQW9rNTdvRlFpNnZzZ1ZIMHp3YkROUHdzNVYtLUZSV1BZSXhqeUZjSENram4xdUVGc2RWUy02TXpBWlRBT2NiSm9JNzZZX1lnRl9sSmU3S1RKUUVPbUp2dWdXbTg4Q25aaTF0cGU1Z3RLb0VQdmFqNHhMQks5QjVSekdaa3NSeEEtUFQweG9VZXbSAccBQVVfeXFMTmpoYUMxTGJfOC10MlphbGlpYWFMd2pNcUZEblhJUXhWbkJlXzhOUXkyY2lUNVJXOXFsMzg2QXIyWWJUNXVpVHpHRUZ1VmE1TWVwWDF4WG1kNy1EZWxJaDNLTW9Kck1TOHFOWGU2ZG5Pc3ZWWWN4a3N6TVZRODF4M0U5NUNwMER3NmtVY3ItU1pSOW5RMVhQTWdPNVdsYnhkUGY4LXByU0JNY095bU1pclZSRG5CQUY0THE1cFltUUhxTXk2ZDlXQQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 05:34:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -2878,6 +3438,20 @@
       "text_archived": false
     },
     {
+      "key": "equities and bond yields dip with ai jitters and economic data in focus",
+      "title": "Equities and bond yields dip with AI jitters and economic data in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 02:28:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "taiwan flags obvious threat from 50 chinese vessels in wide sweep of waters",
       "title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters - Reuters",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRKZ21DWjJBX09xRTJyZnBicWsyLWJTQk1CcmVoVFJYLXBIcWt6LWpwdDRyeGhzbFpNaUFmV0ZhM0NuWmNVRXpKd2s2QnY3bTdwTUFJSFBoUEVUNjlWbThFLXpxN0dkRklMYy1JQVZhWW5abUNtQlZYc21la2htWWVzUWVBMjhTMHc5OF80V3EzLWVPQmFhZnFyOExtWEVfeFhsMnVOYzdfakc1NHdIMjN3?oc=5",
@@ -3029,6 +3603,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "hegseth pushes us asean defense framework as china scales back at talks",
+      "title": "Hegseth pushes US-ASEAN defense framework as China scales back at talks - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQmJuX3dGZFozU0JQb0ZweUlBQnFOa1RDTUdELWFiT2pTR01wNDg3RFY5N2t1enlYWVptNlFkNDNkVmZaaTJfZ1piRVdvdXhPZjY1cWdEMk5Eek5xNGNTekZURWNCZjNGdTFwTlY2SHBDM3IybFJqazVvY2IzOGM2SjYzWGhnVWVGVlBNUHRTaERLblBoMEUzb3pSRV91SUxJTk5GN2lZZ1laUGJTd2x4NkR4ZXBUVE5WcjU40gHCAUFVX3lxTE5sTzV6d3JCTTEtVDdOc2xiS1c1ZkVXb0lfMENCSjJDUHJvX2JLZkxEaXpsZTV5TzJJQXUzcFRPZ1o1V05QTlZWdGZ1U3JxNW1FOEdEWEFDaHRDczJBZjNzRmhvRHlrZVhNM3ctNFR2TXM1NWxaTW05dk01WnpzWk1MaThaOFc5Tk93ZzBES1pXekRvUnMzVGtCM3BFODZseHZfSkhfRDZ3RlBKNFJtY08tUUpTeXNINmRNVmoyelUzbnBB?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 01:23:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -3326,6 +3914,20 @@
       "text_archived": false
     },
     {
+      "key": "mcmc over 47 000 cyberbullying posts removed",
+      "title": "MCMC: Over 47,000 cyberbullying posts removed - The Star",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1E0ZjlYN0RQVmdjWjhCaFNVMnA5T25uSTk3cUUzci1nUmFXOE1wSzVRMXcwSmpNeFJLa2FQZGFHdzdUMWF6YUNqWVBON1JGenRMbUZtTXpfQWc5ZE8tb2tJbFBQM2VMLTJLaFM4ck10cHZIMUx1bzR0UW1pcmdGWXE1d0JFcHk4YV9IelZsd2pNMU1DMFRsRQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 23:49:51 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "don t take muscle injuries lightly kidney expert warns",
       "title": "DON’T TAKE MUSCLE INJURIES LIGHTLY, KIDNEY EXPERT WARNS - The Star",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQllGMmlTazBXekJJMVZVS2lucE1tbFFEVmNYSmRWVFNvWHdxdU5pckstc0U1allEVkFYZmJxNm5fdnVucFJOR0Q2Y2lUaFRidEJEMk9LU1hQb0tPTjRUOVNURTNBQUJjVG1ZS0sxcmNHY01fdWx6Vk1TMTFEV3lhQ3VSZ0RiTlh6TTNPYUdveGo5SlM1dFlGdWJsLWxMT3ZReFJyRUZJZlk0QWRP?oc=5",
@@ -3435,6 +4037,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "malaysia us trade surges despite extra tariffs",
+      "title": "Malaysia-US trade surges despite extra tariffs - The Star",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnRKVTk4N2pSaDlpdzNqZGpIMFBhWG9xNDdvSFB5TTV1Z2JyMmsyMTF0R0V6OU1qRUdoMGg3b2hxT0FKc1I4Tzhsc0MtVFVIS2pWWERNbC1URUJBOFRuWXlBM0NNY2ZnbmNmYnJxaENBWUdEVkZzQllNSEh3c3JIM0ZnYk1IRkswWTRrQkFzbUZKVTREeEwyNHhpaDc?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 23:23:50 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -3760,6 +4376,20 @@
       "text_archived": false
     },
     {
+      "key": "putin woos african leaders says russia a better partner than colonial west",
+      "title": "Putin woos African leaders, says Russia a better partner than 'colonial' West - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnpMOGgtNnRZazVKZ1ItVDVLZnVlaWt5WDRvSUp4dGF0MmN1azBUM3pSWFRObWpCaFg2R3pETm9oNUd1dFJTQmFqOUtsWHdZdnViSWxJZUNIamp3cHZBRUhVcmRsS2tTY1RKVHFYTGNWckVlazRtNVFwOTFvWGtTS1poN2ROb2dKUW04SzEzQWJLSUNNVkQ3ZFNuZXVIQnVYRm1JWjFDUjBvdDEtRGh2Vkt1dUpMMHNEM0sybjI3ZDJhdklZ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 20:16:09 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "flavio bolsonaro declares himself rightful president elect of brazil",
       "title": "Flavio Bolsonaro declares himself rightful president-elect of Brazil - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYWxyOENKWVdrbnhkd21SeEw1WmtqanpZUU5OQ1ctZ0xWamdfYnQyUC00N1VzYkF1akNBR2dHSVJEWmhSbFppV3ZndC1rWmZ5R2cyR1BYeS1OZDlkdkY4T3I3V1hBR240eWUtd2dUdERQZURYa0hPNkFfTEFfV1hmVTV2MHlsQloxSEN6VHEzSTRQWFFhME1UeUIzdzd0Zk95b1R6c21nNUtQYk05SGRST2t2Sy1DZUU?oc=5",
@@ -3998,6 +4628,20 @@
       "text_archived": false
     },
     {
+      "key": "harassed by russian drones ukraine s trains keep on rolling",
+      "title": "Harassed by Russian drones, Ukraine's trains keep on rolling - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUJNY3U4X2RGNzIwQU1lVkItd2Q5RlNjUENyaDhfd0F5YndWcFJqVWg1Z21DeVZrY2x3UXpxYmFrcG11aGhVbFQxekdDVFRyVEkyaUZZenJVUndKMXhmRGM2a3VMZnhmMGlYX1R1ZVZDQXNpVnF3ZXNUYVNXMFlHX0pua2xGczgzMnE1bG1TbkVOdURua2ZYY0IxVDVUUnd2X1NZU192UQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:14:10 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "germany brigade in lithuania to monitor kaliningrad belarus with electronic warfare",
       "title": "Germany brigade in Lithuania to monitor Kaliningrad, Belarus with electronic warfare - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZjdiUWRsR1FsbjJUVjZLbTlocVo3cjNRZnZtcDRZY0NUbU5WR0hjYzhwRENEV3N4ZlhGVDZzM0hyS09yc2ZTc0V6MlFydjl5UVZCdGRVZWNjcDAxYmZWZmlkZUUzcUpjX1VMaF82RmdhZ3plV1FvcTdlUmlTbGxWLVFUdnR2VG14MnRSOTdYSUtLM1JTa3ZHZ1FERkRlVXg5ci10SVJJQWpQTFRRY0RzbXVHVnF3bUI2dVZV?oc=5",
@@ -4065,6 +4709,62 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T20:39:47.623933+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "us japan seen as philippines vital partners",
+      "title": "US, Japan seen as Philippines’ vital partners - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0tfS0xiRXJqckFGdlRaTXdoSjNGdl9LSkw4dmtwb2tJOURWUTN1UW5oaHdBSHc2bVVBMy1sR1pVMGZqZ3NfMTR3Q2RYNjdMbE1DeFYyVmEyMjQ3LUphQVU3VmtxaXZiNG9QTnY5QlE0REdnVWEyRFhnNDNWRG5lTVVPMXRBSmhXQTBkbUd0a1JxTHRFc215dUN30gGgAUFVX3lxTFBOSEdta2d1cVNIenR2T0pqcW5XcHpwX1JaZE4xMnZQS3FqemFqQkI3aE1yS3lfbnRpODN3OENXSlFZcnNTQWFLRkY4TW9HTmw3U0ZYVHBDTXZ1V2hyRmwtNTczZlB4bFFObHd0WU1rbHNVa2hSd2RVZ0FNT3FIcUEwWlE2cmY1V0ViN0dQSEduTWZBalAzMWVLYlVCc3YzejY?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "dbm nca utilization rate at 96 6",
+      "title": "DBM: NCA utilization rate at 96.6% - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTRkRGhaVXQ1dW1pZThGbWpLQ3RPU0xTSHdHTHJSenhkd3RtVjQ5dkVsNEVPSVFodTVTUWFSOXRVUTIwNnlRemlCX19IYURjU1pUUG5CTEFBclZxTEctai1DRzBiTGpzSUN1dEJLVElVMjBKaXBicWhwUVVMcDdJMk8tSkRRcEVSQmfSAZABQVVfeXFMTjhVWE5kNmh1R2ZZX080QmxNaTJVQzR5eXRkTFVfQ1RKMEZTWVM2OUxLcWE3OUl1YXZ5dV9IWmpjVVI1RDlGak9mVzJ4UTJqYnlHZTE1bUZDVXFlMnNISHpyX0t0U2Rrdm1kdHVZN0ZDbk9YbjRHSnZ5czlTTkhxRnB5S1Bvd0ZvTUxZcmdlUGZL?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "bernardo jinggoy got p573 million in kickbacks in 4 tranches",
+      "title": "Bernardo: Jinggoy got P573 million in kickbacks in 4 tranches - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWUJVS1FfbWt5RlBQVHpMODlCMVVhU29JamF1b0Y0c3d4WE1NaTRvLWV1SjJRZkJaaFlUSlBJYWViZlMxQ3o3ZVdJSUVVQTNxalBxQ1VpUEZ6WHlCUURrajkzR0xxWWJFM3JQUTU2dTVGUXg3ZUpsTE45bnNwQ1ltWDZMbU9ma2txcFp3QXFMa21xREVXU0xDZ0FnaEVNaVViMTkxTnJ4R096d2lL0gGzAUFVX3lxTFBnMUV0TkF5TWhOajExdnFuM2xfSkZNbDlfeUNxTVVKSDZma1pia2ItSkQydmVmU2JraFAxdkZ1ZlVGOHRIWEd2RzY3V1BsbmtTV3JLaHNsb3VUS0VLeW9KbVVZOXBLZE1Cb0R0eU5iN3YwdkxnS2JiWDJROWtYLW1wSlV0OVRKNnNWUjJkTkdnOW9aRXZQN2pMLVpJUW9HZnlLbEZ4bklrNFBRV0VxT295MkxZ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "editorial reading slump",
+      "title": "EDITORIAL — Reading slump - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYzdvOWdOYzlLNHRobWo5Q3JDNm1CYndNSlh4UEtQX2JaMTBEdFBzZHJoMHcyTmtWZzdrcXA3eFRvNktaNWZUOC1qbUZ2ZTJ1bkJZS3VSTy15bGlCdXRwN2hQRzhneDByM05sT2xGRUdKZVVWdFBaQjZ2NWNUQ0pBMjhDN081cDJ2T1Y1X0k3VnDSAZcBQVVfeXFMTkdrbVhxX3Rxbm94eTFNYVRzNGx1Z2JJX3BPeHNKektWS1pBdDZ0VGg3UGNIb2pXR2wzWmxfbU5BZUstYWxPc29sSTZQc0ZXTWlfeWxZUXB0TFVoX0J4ME51R2czbTNmak1RbW5laWVnUF9QTnJ5WHB6V3hiTUFkSlFKRFY4MkVqc1FzMTdSdkJvZmFuNGZJRQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -4138,6 +4838,34 @@
       "text_archived": false
     },
     {
+      "key": "dutch pledge 500 million in military support to ukraine",
+      "title": "Dutch pledge €500 million in military support to Ukraine - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdkdOSG5pN1VNWjdabjJ2N1A2YUIyYTlkaGM1YnlZRHFBaDJxVVJlQUNnZzU5ZFFObzBXblNkWmVhQ2x2MkJ1VzduazZ1NnV2Zlc0Z1BCRmpqUF9fcHhnMDA5aHVFQjJSekNqX2JtNjIyT042dzVIS0xxWFRnaTc0cDdVdEF0TTNrTjItc0V1SnlKQUpaZXVPNEFlWVY3X1FraWVDNw?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 15:15:44 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "uk anti islam activist robinson convicted of harassing two journalists",
+      "title": "UK anti-Islam activist Robinson convicted of harassing two journalists - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWpBdnVyNjR6eDJpNzBRa3ptQk91Vk1wUnAxWTI2OTdvWDJDQjRHZFJQaHp2bWFRUUp5MElGT0tUSFFfVGNLZmpWZnhkZlJEb2tyUTZaT29GTjBhRkVmSVJkNy1JLWtKWTkzUUdXcFRoN2ttVWwyMExBUFlMRDUycHlBT0l6U2pKOXFDbmQycXRMOF9udUN0MXdnRkVaLU00ek5GblNzRFVlRzBXcUpjNmFn?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 15:05:45 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "motorsport motor racing antonelli ready for final push to become f1 s youngest champion",
       "title": "Motorsport: Motor racing-Antonelli ready for final push to become F1's youngest champion - The Star",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORk5mQnlYUWxQaEFGRDVVNmdzYm1xME4zeGNCbGJLc3FSZXY1V3Nyd3BlVHBFQWluM3gzSjNMc3NudWxYTEg2TUJJUkJCUG9xaWdZV3VnWXZOeHVFNkJFYkJkUXAyMDhqT1pNcG1FckpKeVZ5TGl6RjVMLVNHd3BVMEVUWnpOX0N5LV92NGU5WDBUVGVacUh5STBsNWpfTXBpdGd4WkxoRUtINEZxakZHNFB5OEFmaUhJZ2RsM0x4Z25KNWtuaFE3UTFjdGpmdw?oc=5",
@@ -4177,6 +4905,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T20:39:47.623933+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "stellantis shares leap on bullish cost cuts cash flow comments",
+      "title": "Stellantis shares leap on bullish cost cuts, cash flow comments - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcy04bFRZODBHbmRnMHpGWWVIcW1ab0NoLWZVeXFkdWszd0dHYWwyQVI4dFJLVVdGTy1KbHZTa0lUYi1NNGtIVWg5eWlxcktWQ0lDMDR3VFd1al83ZFB5TlBnX1ZMdGlpVmhUNGJzNmVSQWUwbEFFcXluaWlQZ0NyUUtrXzlNMHJRZ2ZuNWJFeUpfS0VQTDd1T1hicWcxTzlSR0x5bDNjWmRoTGc?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 14:49:56 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -4264,6 +5006,20 @@
       "text_archived": false
     },
     {
+      "key": "uk s healey says britain will give extra 10 billion of support to ukraine",
+      "title": "UK's Healey says Britain will give extra £10 billion of support to Ukraine - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYS1QNnZMLS1SNHhHMXJKZ2hMN0p6RkpFQTRHSlV0UlUybHBPM2ZxMEQ0ZmdkQ2JlT24tUERlMFh0RGM3NFpuVnFwa0FzU1N4X2F0ZmhBbVdUNWg3WFNSa1NESkVjbTZ0VEllVEhldVdHZzZBRzh2YTJEcmZieTV1MmJ0ZzZxckd1cm13a0NDTVo2cF9tMW1PamtWS2hiejMtcDA1a2t1VFA4SkM0X1FYUw?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 13:57:44 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "early winter chill grips south korea",
       "title": "Early winter chill grips South Korea - The Star",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaTJGWC04R01nUGpGVEp6TEJMOFJPRTJzejE4cC1YNEtFajhTNnZHcW9FZG5sQUpSRDZLRzZwNWY3VXRxalhNLVFjQlJIUUdXWU9PYmIwYldWSFBjRlJMeDVickQyNWRKRWpSM3lVZkl0eklGazJPbFdCZmFMUC1MSHNQdF9qdWZWN2t4YUYyMHNRZVYtQWNJY29SYTVVblJz?oc=5",
@@ -4275,6 +5031,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china latest news coverage",
+      "title": "China latest news & coverage - CNA",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5dFRKenVYaC1OY1dpVjVHRUtYT0ZYdzY3T2k0TjdmaGxDNG1SamUwV2ZrVF9UQjlyRVV5UW5RckpnWkNwQmR3SWlaSkVLV2Q0TVFPTGpB?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 13:51:36 GMT",
+      "outlet": "CNA",
+      "source_name": "Channel News Asia",
+      "country": "SG",
+      "domain": "channelnewsasia.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -4544,6 +5314,20 @@
       "text_archived": false
     },
     {
+      "key": "over 4 000 jobs expected from 27 approved data centre projects",
+      "title": "Over 4,000 jobs expected from 27 approved data centre projects - The Star",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzdydTRka0xWRXVxLVlTUWdNOXByQUhVX0NJb2thRWp3ejlPVWNwSmNfcXNBSXRBSFgyYUxuY01aLVBmN3ZURkxVdExycldxSGlEdlJXRE9NTnhYQ2JOeVRDZWQ5NGZBMngzMkdjVW9VSGZpMmttajVxMzI3aVpOcGMwd0xEUGMwRFZBTl9QVnVUd3ppdDNEeWxadDlyTkZsMGowak5iZ3BZd3p1MDFpRg?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 11:55:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "đề nghị 13 tỉnh ven biển ứng phó gió giật cấp 9 sóng cao 4 m",
       "title": "Đề nghị 13 tỉnh ven biển ứng phó gió giật cấp 9, sóng cao 4 m - Báo Thanh Niên",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTW9Sa1VvRW5XZUlaUnhnXzVvTHZQdUlpT05ud1lEc3ozRVVjcFhMWDMtOFpBTTVJNHBCR1JUUlpwSTM2YmVvalVfZWNFVmJPSDdXWVpIYjRyT2YyWlRZMWdQSHZCTXVqU0o2bldVOGZjVzVoUGszckF4RFNDUmp4TWNBU2NaMGdkNkVXNlFjRTBXdEYyY2ZVX3VVZmlRWF9ZUlZ6X3B4Zw?oc=5",
@@ -4653,6 +5437,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "taiwan s umc approves additional 3 2 billion for capacity expansion",
+      "title": "Taiwan's UMC approves additional $3.2 billion for capacity expansion - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSEhQTFNBdjVUQ3c1cUg0NnQ0ZXk5SERHTjZ0eXBWMXUxekRsSjFhenBSN0ZvbXVXc2lTNDZVZTR0dGpfYzI1Njd2VmpMNE9pNzV4ZjFhMktpcS15QUhDRDRwOFg5XzBuVnJURFMyZk1KeVZoM2N2YzJsQy1kX1k2aTdFYjg0bzJYSTl1c2Fwc21yVGQ0MnJiX2ZtUjlBY05RQWtYc2xMOTdXUjZKMDhDZHdQejRzS2c?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 10:49:44 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -4782,6 +5580,20 @@
       "text_archived": false
     },
     {
+      "key": "hungary carries out dawn raids over covid era purchase of 17 000 ventilators",
+      "title": "Hungary carries out dawn raids over COVID-era purchase of 17,000 ventilators - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPckROMER1cGc4cEhFREF3RmN1dVNhZThJV0Q1bVJwZFlVb3ZEQmZob1JnM1B2U0NRLUpFSzdnY2NCZHRNLTBCanA0ZEJ1dmJQejR2Ti1uVXc1Ml8tcWc2THNkWlBpOHRBS00zMFh4OXQ3ZFdSNFJQUWdBcTdwV2Q2dnZua2JTNDFESjZ5elV5Z3VXc29hUzZQQ1QwNEwweVlPdmFQZUVQYWNILThVWjFfVl9ZRGk?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 09:51:49 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines nêu vấn đề biển đông và tranh chấp thái lan cam bốt tại các cuộc họp asean",
       "title": "Philippines nêu vấn đề Biển Đông và tranh chấp Thái Lan - Cam Bốt tại các cuộc họp ASEAN - RFI",
       "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNUTNqbUdyWUhSZktOTDZfRXZyUnhaQUtQUzIwQlcxZTljbnpFbjhNTHpUS1NXbnY0WEpIc1lfbFFlaFhrZlo5YkU3US1teEhmeDhvQzdZVFViS1E0WGdDYzZVejEybHRYdl9SVHBsZWlGVlh1Sl9EZ2pNVm1SV01pNnBDenVpLXZlQ1hPdlUzT001VXBwaWhPOHR2UUtHeXBNRFo4RzlpdjJEakhneEREanBsS3JhT0dRTjBGTEtBbndEQ1pyWUU3MmpKYUtoelBqcVY4bGstYUd5VkxqSmE1eXpYbFNKUFBMNjJDZ1BxeVRLTk5EcGN1blBuZU0xUXRKa3Z1bXlRenY4TjJfNF9ZcEVMYWgzTWdqSzRMelpWZDR6TUZkLVVwQXB1X0tqNU9WRzZlaXdiMWZDeHFGNzlrcG9sSWJLa3NHTlZVa1lFMmw?oc=5",
@@ -4807,6 +5619,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "indian stocks could see november rebound oil ai trade pose risks",
+      "title": "Indian stocks could see November rebound; oil, AI trade pose risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcVN4U1J2anUxVmFraWd2aGNPNFJ0ajVTNk5GOVVUQ1MxbmtqUmtsd195X1lQWWhwRlNUcS1WcnJlRFEyUTN4b2JUWFZnSTd2WDFFS1NSWV9PeFlOTU9YUmJtb2ZIbHBVdE0tNUI1TUtOT2RSOHpsdHJLdFFwYmszQW5YcDdSLWdoWVRCSEJwYUZ3MU8xdHVGYjlpTHZDUEVyV2JLN2NKVFZBRG8ydU5wR3B3?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 09:34:52 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -5734,6 +6560,20 @@
       "text_archived": false
     },
     {
+      "key": "china s old age dependency ratio overtakes children for first time",
+      "title": "China's old-age dependency ratio overtakes children for first time - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3pUZTR4N3JoWDREVnl5cDA4bW1nWXJ5NUtuR0dlNDJscE1ycmRPVXBwT3Yxa3l1UUVjVjY2Ukcxd2F0YVRzRm1wcldxZGtmUmpzTzVlTXkyUU0wdnhXaTlSaWVuZ3hOTXdWckhaTzFrTWVBX3RtQjNyRVVzYWVGMnVtRVBuaGFIN2lnNmQ4cThVb3Q1ZTA0RlZQUTd0MUk2Sy1PcXdTTXZjaFhrbUE?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 06:01:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "bursa malaysia reports healthy participation in 9m26 net profit rises to rm214 81mil",
       "title": "Bursa Malaysia reports healthy participation in 9M26, net profit rises to RM214.81mil - The Star",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcjAyUnJ1S01xcGdwSk1VWmE3QUZzOXNYLUxONnl2bkRZRmVJZmh3ZV95SDlXVlFKbzIwb3BES1J0SFV6R0NZTW9Ea2t4a2l6ZF9meW9iNzBMeTNqcHZZcU9nQmU5bmdNZEhBZ0dIZk5RY3ZSamhubWlURV85b2RncXBraWlDdFdQUFRXNWhqVFZvMFVpemlaYk02TDYxRmdJMXpHSm1Bblo4cXZXakYtc2lIc25qa2xGX3BnVW1mMWotZw?oc=5",
@@ -5916,6 +6756,34 @@
       "text_archived": false
     },
     {
+      "key": "morning bid rbnz throws markets a curveball",
+      "title": "Morning Bid: RBNZ throws markets a curveball - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWQTFRLUlZZ0F6UWxpNlVzLW5BUzhHZnMyWkQ2LXdLNGFMZmJJa0lTYjNQLUplTVQ4dVY3Yjl0SmJQNXBiU1FUbnhlbElLQlJNamtfODczTTRaM1RwUE5uSzBwWVFqdFEweXEyNHJxWFA3Sl9yNy1nWHpuQU4tcEU?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 04:35:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china s aluminium producers push abroad as domestic growth hits ceiling",
+      "title": "China's aluminium producers push abroad as domestic growth hits ceiling - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSUNKZ0Rhb1U3R1pjc3FCOFAxeldub3hpdUVMNmk5alpTWkMyb0h1UUd2azYwN2ZycHU2NnFVVHdMRVZNWHRwdXRkNWNhV1UyNTJrSHJrczVrYjZfWExFVWRoX3dpelRHLTZicGduUGt0ZUp3cWl1OGgtV216UEpHa2Q5T3MtUE1CRzFqVk9aeWxKem1FbDJmalJjd3U5eEpVZTZfZDJFaWx5YzUtZ1BoZFRNRTJZMWUwWWJlZlJQdw?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 04:05:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "nba reigning champ knicks earn first win against pistons",
       "title": "NBA: Reigning champ Knicks earn first win against Pistons - Cebu Daily News",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZEZtbWFib3d4ZTJUazhTekZvQlhCOUVnRFBDM3FXRkdfVUxxcWVVdC1TU2VmdGhPMG4zT01oYzFnZDR2NGdUd3FhRHlWTWJlMHRjNDlXSjlLbUFaaUlreWoxQndxdUJRUkp2UHBLdG9iYjlHUzc1MWZURmJlenVoNmMwODRFX3oxV0R3QmhhdGVQNUlLNEtsU3N3LVJGc1nSAaQBQVVfeXFMT2VQOVlrLUZCZHJJRDRBSmwwUDZpN0ZpSUZzXzE0aXRzVm5HUzhMbktJaUNCajBHRkZhZFk4ZHZjeXBKNEpINFRoV25aZWktOE9ESjlUVDVNc2dJVlVkWWRwLUN2cE16R1Q4dnJvWTVna3ktTTBWWlFVNnpaYVgtRENadUo0ck1mYXNXVmhDSmU3VDV1ZVVINHFlOS1oam5mLUVNNFo?oc=5",
@@ -5941,6 +6809,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "watch us doomsday plane lands in cebu with hegseth aboard",
+      "title": "WATCH: US 'Doomsday Plane' lands in Cebu with Hegseth aboard - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUENHblF5RC14eXdWbVpJQ01yQmlQekNnUzRsUjZ4NjFNcGUtTmxxODNiWk9HQmh2SWJZUERaVmZLdnEtQll4dDJROE9sUUhOcUhaLVRpdEwwMmZVZG0tM1ZTcUllZXBhMi1xYVJhb0l1dUJDSUpHNWpPZHNDcGV2TVpkWGV3MXhOOWZDaUM1OWw1bHc3ZHcyS2N5amgxeVVxUWpTczV30gGsAUFVX3lxTE1HdmdpaW8ya3hJanBVRlVhZVBBSWZZQmsyRjZGZTZ3amRoZFExSHpkekdleGZyWFdrQXZLZW42TTVDQlotcmMyWnNyR3hybXpHVEFYOW1tbE5Fcmw3NEN2SU9JN3N4S0trYjJyUUZDS1MyWnlDZDVqSjdjSkg5bXpiVm9WN3dHeS16Z3dVcHdKUUdXTEd2aWdVNUpaUUxlRjhXdEtKcm1yS19Yc1o?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 03:47:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -6154,6 +7036,20 @@
       "text_archived": false
     },
     {
+      "key": "red hot pang ron keeps himself grounded ahead of hylo open",
+      "title": "Red-hot Pang Ron keeps himself grounded ahead of Hylo Open - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTy1JRV9tNHB3VzBzOGpaVWNHbHpVN3JHQkN6aGdMX21Jd1ktenRnek9KcGpwc1NhT2VkejRycktCVVJvOXp4QzlocVJ2OS1FTFBKXzNfb1ZHRFFYWWQ4QWRFTFZiSzltTDV3NXpMNUcwa25hVGNWQ0JSc1dtWVJIdnM3NHJnOC1aV2hWWUhhWnN2ZVRWWHM1aEoxZm1BSGNhZW5yYlJtOTJJeXVmY194RVY4RTdyVnEtbmc?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:46:41 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "airfare hike set for early november",
       "title": "Airfare hike set for early November - Cebu Daily News",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZS1ybDRZdFAzWkFwa3pBV2NBVXU5RFVhYXEyM1RZSThrdEppZVg4QTJwQ3lId1Q5dEJyaTJ5NTFLQVVpNFRHWDFsM1BZd3Nwb3pTT1ZvSmhwR1p6QW54NWZmdWRMdXJaZlB0dFY3WENNQ2ZLOTBSdjJYc3J5aENpWWo3b9IBiAFBVV95cUxQV3JoSkoxVEhWY2twU1BsTGZtSHA0akc3T2RKNm1EUkNGNmtFSDhBbVJrMXRPUm9aWnY4ZFRxdkxjWGVyMkIteWRadWM1emdqV1dGZ2hqTGJfaG5TWU9rYmEwX09NWWExOHlFZjlSajhsZ1RlOWpTYi1pV2E2VGR0MFZoSVFvdllE?oc=5",
@@ -6249,6 +7145,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "three south korean financial firms including bithumb report data breaches yonhap says",
+      "title": "Three South Korean financial firms including Bithumb report data breaches, Yonhap says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaG1KU3lMLUUxUmFqT1NrWk5iSFNUdzhHQW8wQnhpa3ZNRkVyR1VOVUlXNXFfdG1Za1BsYml1cUxoY1ViOGU4bGhGTkM4X3pHaVhhWktpTHZ2NDlEeDZLRjBFVlIxa3VMSkIwb1BTTFlXZE5UQWF1dkM4V28temZxWTd6RDRhUGxJekdfR0I3YlQwLVJTQl9KRmZ2dU9lRTRnR0JNS2tLWnpjM2kzNzBKeHBDeVNCeC16Y204SkdkUkJPTWVuTHNHSEFHOGJWQQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:03:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -6840,6 +7750,20 @@
       "text_archived": false
     },
     {
+      "key": "dollar rises as markets eye central bank meetings",
+      "title": "Dollar rises as markets eye central bank meetings - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVDhUYWVaR1lyeGFScDAxOG1INFBuME5XaHhvOFNZTnhjUXFCTHVGX2k1cEJzSUMwUmpQblFZWE1WU2Z6Q0dnZTRmc2lCSEE1RklYN3VZdWV3aVRLblJ4aTFudW1aUkxUVWZXWUl6Ql8zQkVEaDBJakY4SnhyUmRwb1BQcHpKSHlOWG5DeDN3QVFIb1MyMU5mcDlESEdQS1BwdHhpaThFZjZDMDIweVVYX1VQX1VEdVdh?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 20:41:36 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "us air force awards lockheed martin 694m hypersonic missile production contract",
       "title": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract - Military Times",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT1JLOGxTZEp1c2ZTTEZycms2em9mS2VpNWNuVk9pQWU4cGk2M21zNk12VjhaQnRGUzZoV01VMWt6MkMwbXo2bmRMSWJ2ZUk1WktSc3NTYldmeWkzWW9rWm9PY0NxRWltQm14VzRBME8telV0RmgzOWVUSEJoS3Z6NG44dXBvQWRiWWVrYjR5N2NFUG11aEVzZTZRcG84UTN5OWF2Q0x2TlNhOUZkZW96d3NUXzh2Z1dCWUZGdXBjWVA1RTFJREdnT094QlJSNExLeEVXU1Qwcw?oc=5",
@@ -6966,6 +7890,20 @@
       "text_archived": false
     },
     {
+      "key": "belarus russia sign agreement on common electricity market rules",
+      "title": "Belarus, Russia sign agreement on common electricity market rules - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1JENm1RdWJ0MlRmaWQ4N3c3aDNmRUlKbnJnSEdZTEZDOXJFWm5EbG9fdWU3ODRBMTBhdGZhbC1kbTlFeXYzRGo0Tm5LR0NVLUZBUkdnQjNLMlZwVzRjMkRzUUxJNEhURmFOMWNNMlFLcV9hck9Eb254OTJ6Wk0zcFBRWURnTVhqbzdIQ0MyZWxMQTI4THg0MVB1TTZyeVloMlBUVXpjNDJHOUJocWRlaVN5bw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 18:13:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "congressmen launch bipartisan military range test facility caucus",
       "title": "Congressmen launch bipartisan military range, test facility caucus - Military Times",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeU5Fd0luRWdLQUF5R3d0RXhyRG5UcjJNSUd2NU1KMW9CUTh5OXJpQXRqMmNjWm5qLTlKeW9FdGdpVi1TYjVONWJsamhBNTdQMEJud0k2YndSSkdNYi0wYmk4N2FqMS1UTVh6LV9rUVctUXhzR0ZIWENPNG8tUWI2MFpvR1hlcTRRZlNqU21SWUZWcWo1aXYtaTRaYXhOOXNSZFFTVnFjeGp2NUd2OEN1NmU2Q3FxajB3Q1ZQNm1ScFl4R2FsWEVsdkJB?oc=5",
@@ -7050,6 +7988,20 @@
       "text_archived": false
     },
     {
+      "key": "ftse 100 falls as hsbc weighs budget caution persists",
+      "title": "FTSE 100 falls as HSBC weighs, budget caution persists - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmt0akYtOWlCcVV3NjM0el9ReHE3X0lrNVRiSWJ5QUVtU0dpYW92OUhPYTgzc1Ezc0NDSHRUYS0yUS01cGN1Y0lpZW5udGYxV2Iybk5lSF9xVmJkOXRxQUhPSG1VOS05ZTA3MVhGVTJYcjJ5dUR3MnYzelFSRWJrb0ZBTWo4ZHFMeDQ2QmNjc3JQbnVGYnc?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:53:33 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "oracle expands chip supply deal with nvidia adds google and cerebras offerings",
       "title": "Oracle expands chip supply deal with Nvidia, adds Google and Cerebras offerings - The Star",
       "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNNkZwNzlIWFVIUUg0dnVmaVFudUctWFhOdGFjWkpTdDZCTnhOck1QeTZqRldvdExCMmhlRzBJQzNjOGdCOEI1akJKWWJlZWpEVThCdmtxZWkyb0JMZG00RVd6Tl9jNzhhUHdWN0MtTlpJWkcyVDktQl9feF9nTktRQ3JfQUxWTHpJVWZBYTBpWi1Cdm5EU3NvXzFUMDIwODhqcW9DUEFZdndrOHFVOXdOaWRCemt2a29teFd1YWZBZm1ITlQzQUJPbjFTRThkRFZ0dU9oUklLc2VrN09vbFZfTDlZOFo2dC05dFlDMFdCN3JSbDlEdWpPS1NaWEtXQjhXNEtlWExiSzUxQ0RfNDlfZzBUUExsNWhvazVWNjFPcm90SzlvSE43Sk8tcHUwNUwtMWt3?oc=5",
@@ -7061,6 +8013,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "congo opposition rejects armed rebellion calls for inclusive dialogue",
+      "title": "Congo opposition rejects armed rebellion, calls for inclusive dialogue - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFB6Zk05RkNXM29mSmUzc2wzZDFUdWJra0RYT0lhUmRZdko0UGZTZ05scFppUnJ0QzZGMFJtNDh1VXd1ejhNSzJqaE5vWERYLTRBc1B6MGxxVS1JSVUtVXd5ZTFWV1M4M3JBZGg2ZDFlUlFhSFlUUExzRy0tQmZLM0FNTWxLYkpOOU1pZ2ZKVnB1UHpZUEtCYkQ3a0ljNkJWOVRsWE5ZdkxpUGdYa0Q1OXFvRFk?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:11:33 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "first lady melania trump says ukraine russia ceasefire expanded within kherson",
+      "title": "First lady Melania Trump says Ukraine-Russia ceasefire expanded within Kherson - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWI5XzRBZkxjUTFKVVhqZmVHVkU4NmZVRGdWak5SRUhZN1ZIMEdzMzRzQjI3eW9zeC1UakhZZmZuNF9hS0VtV2J0YVF4bDVad2kyUklyYnNVOVNlWXBES29JUk9iVHJhTld2NEVSSE9Wa0F6UUwzM3pCQmVTTFlUNm43ZUEwLXZHbHoyTmRYX29oREFfdGZrUjhwZmx5UVprM3owTmR0N2FhLXlkalVzd1JUbjgybTdWbVREMEVwb3dHUkdRM2c?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:10:26 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -7260,6 +8240,20 @@
       "text_archived": false
     },
     {
+      "key": "beyond the balde",
+      "title": "Beyond the balde - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DVjBfVlBPN1JJUGhFeWFzLXZkUU1WQkk2Z1VtZkpwY1RXNzRMUDc0SzV1OTYxS01oRDAxTUstRmo4ZTBTemU1UXNMdW52RTMwbWhuTEZfTlVQOV9yTEt5RzlBanhtYXIyMWZyaDA1SE5Tdw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "flavio bolsonaro and family to receive us visas after leaving brazil state department says",
       "title": "Flavio Bolsonaro and family to receive US visas after leaving Brazil, State Department says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaUpaNGJkUU9FeDRxVTFGcVljX3VfUHhKM1p2bm82UjZ3bW5aUUprejByam9oWGpoeWllcC0wRUlNZi1yRlV2YVcwY2tYODVJWXZ0ZVZvMm85eEN4VC00NmJKTTk5enF1TTRZZmZRelpUMzhmY0NiUzNQRVVFdmc3amptbjZFWHJuUHdRSDZkZVlNakZWQks2WWRIVXhWdw?oc=5",
@@ -7271,6 +8265,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "judge orders spanish government to declassify more material on ceuta border surge",
+      "title": "Judge orders Spanish government to declassify more material on Ceuta border surge - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeHBKQ3IxN1Q3cHZWdmViUzVYM1J2QmZGcTlBMUZqbWxEX2FiT1dNbHltRkw4SzcwcWZXQ09MUWlGT2wwM2Fad25ya2tJNVJ2NkxFWld2QVFlMEduc3lFZjcyVVdKWmpmcGhlUDFVQnRqMUtUSjlKaHFMODR0MDk2MFBiOHhGR2t2VHhCb2ZCaW5LWmFya1kzOXhtbURTbEFJNUdWMlR1ekZUNXdOTlNza3NkMlN1cmo2REsxOC1VTjl5UWd2Wmw5TUxB?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 15:45:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -7372,6 +8380,20 @@
       "text_archived": false
     },
     {
+      "key": "most gulf bourses advance as saudi defence pact countries push for peace",
+      "title": "Most Gulf bourses advance as Saudi defence pact countries push for peace - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWG9tLV9mV2h5cUZBVmtpdmdNWEFHcUhXR1IyNWJXSGJpY1ZFRTVVdEhEX0l4aWtXRjBBMlBsYU5SSXBISk43OHVfcmFYemVmcm03YndWYzE2OXg4MkRqbnNhNUhnOG1BeDFuQjB5SWp3STNvSWZtMFBaTGNOeWM2a3lDeGROenNGZ19wdDJCaktmc3dOdmZRbGJNZHUySk5BS3hITDc1bkVLMlpfRW1kZw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 13:27:03 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "asean s security not an alliance road show china daily editorial",
       "title": "ASEAN's security not an alliance road show: China Daily editorial - China Daily Global Edition",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOekZ3bUlfaGVXTkdyQlZfdmdJMU1HS21nNTR2WE9kbWRHRVdUN0MweVdxa0c0dXpNaUFlZjdrN1ZaNEZ5ekFINDQ4cHhVNjdIRmJGdHVuM05pVXlwaHFWaFFfVjlhZGJ0emlXOU04MDRsZlJfOXlZc2U5bHd1U2E3WlRn?oc=5",
@@ -7397,6 +8419,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "colombia announces withdrawal from hague group citing body s actions over israel",
+      "title": "Colombia announces withdrawal from Hague Group, citing body's actions over Israel - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckhjWGxOU2JrMmdQNF9EcVJqWGdXd1JvODF2V3dtZHFDRV9LUkRFeDE4bF82TVRxQzhidWtOX3FZQmpVcFFCd1hSY1JaWWJ6RlY4VnJEMGhQWVFxUzRkenRLYXR6RmdxSWxiTVZwOTdyX3lpMEROZWl1dHBRU2EyWUNzd2hXY2ZJSWdoRzR5VXAtVUhOWG1ONlFYQmJDanFVaVpHLU9oS3AwNWZnSmRmX2ltcE1aVUlycWg5SmVtNnBMS0k?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 13:06:46 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -7666,6 +8702,20 @@
       "text_archived": false
     },
     {
+      "key": "dancesport team cebu city hauls 8 golds in pdsfi q4 championships",
+      "title": "Dancesport Team Cebu City hauls 8 golds in PDSFI Q4 Championships - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmpWYnJHNEZMaHhJcXpOeGRLd2IwQ0NGSFE2WGhHUm9qV1dvbzdFXzlSdl80MEFtcXUxZWptbDFiaFdPZVJINWthbmZLQ2VkcDMtVkROcWtBQk1Yd0VkWUhCZWxkVVgzRDBQTDhPMjVJblhmNWo1YkZKamhudzJRczYtQWkwT0MzUlFoRUlrT2V4eHBYWE01a2ljYTNfc0NhZWtUQzdxd243YjDSAbABQVVfeXFMUHZpZUpPZWxTMlVyeE5mbERkX3ZWbVRzVC1hcjA1eWtwREthUUhiX0hOYi1hUmp2TFUtWHNsX19KOFBiUnBZdnFIaDV3bkJoaVlCY1Y5YWJwX3RteWgzR1IxdTdraUFEeFY1MEFTNF90dnVqbDdKamtPWm1JVzdzREtGVXVWbl82a2d4Z2tMMmdHcEN2ZGo3Z0NUNlRrdjRxeS1rdk1wWEotWm5tWFlUcHI?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:55:00 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "pagasa amihan season officially begins cooler days expected",
       "title": "Pagasa: Amihan season officially begins, cooler days expected - Cebu Daily News",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWR4Unc2TEdoVF9sMXpZRHlXMEJjbTRlNXNSRzc0aEx1Qno3RjlQU3IwWTFpVG5ldDZ4d1BTZGVjWU9MTnZoSF9mZ2ltcFBhel9KN3JZam56NjJ6UUFULTlrN1FYS0hsOU5XLXJYU3U1dzlLTUxwMVpJRU54dUtNNkM3X1Z5dGQ1bEYwbjd6SGJqWWPSAZgBQVVfeXFMUFhlQUVoTnhFdm5fOHRQX2tkWHNJUnpSRXVnTmtTaFJlN05Vd2pTZGlTLWlTSjZsWjlmc0FKTmNKS05idkFjVE1NQzczTDVHTlNsSGhTcEFabmtZRUM2QWlhT2Fyc0pvb2hSRXlmYjM5Si0xM0J3bXl6N29iYWZQeTFpVzVlTi1qUEVtdUhpb0R1R2ppYWhxa0Q?oc=5",
@@ -7705,6 +8755,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "french teachers say government education measures to quell protests fall short",
+      "title": "French teachers say government education measures to quell protests fall short - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzFfNzNzdUIzMkFmd19MREVVQjF6MXlmSmVzY28zNjlwUHNLbjd3Sk4tYzhkMkNJNTVRTzRlZ0hpWHdtLUF0dG9mWkFOckJsU3doLVFtM09UcWlqUFVWcHJCRFMyV2ZiZjBFUVpfQngyM2M0ZVpPUUJBdElSVE9xTU9jenQ1dUpsOUFRcGluZWJpUkNOemdGdXNDTWpScHZpSlM2ekVjNEh3RmFQY2Q3bEhmeERhOWEw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:31:43 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -7946,6 +9010,20 @@
       "text_archived": false
     },
     {
+      "key": "nik nazmi gives statement to jais over khalwat case",
+      "title": "Nik Nazmi gives statement to Jais over khalwat case - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmpPUVg4OE9IQnlWdUJpTUpZemZkSDRWUndlOXFvZi0zQlBYM1h4a3luTmV3RVBDSFFha29qQXo4WFh0VlZlaGYxT0xnWkROYUJweERhZmxYWEoxdjBxdWliYlNxZG1QektMYUkzNmg1VTlUdHEtZW5JYjlXaWhjMVRFVVdNN3FqRTdUZGVlZGwxSnNuMVRvY1J0MXJ3ZS1UbzVj?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:54:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "mùa mưa ở nam bộ kết thúc sớm 20 ngày nơi nào hết mưa trước",
       "title": "Mùa mưa ở Nam Bộ kết thúc sớm 20 ngày, nơi nào hết mưa trước? - Tuổi Trẻ",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaGNwbkRVVG9yVDExcy1hLVVCSWNQV2lUTFNDcVoyZXNteWZpa3c1UzU2MTV0SmhzWGVSRkd4Z2owT05SN0s4emRnc1JDTzlNMlRHcXVOU1lqZkhRWk4zc1o1QmpCVXdnekdTY2pFZTF4M1hlTGdUei0tU2l4WXV5bndoRHFOSXlvaVpBOFlNQWFxU1Yzd1lXRHB4clUwVmZ0Qmpz?oc=5",
@@ -8055,6 +9133,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "quickcheck was a 4wd caught dragging cable through a kluang housing area",
+      "title": "QuickCheck: Was a 4WD caught dragging cable through a Kluang housing area? - The Star",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmFjSXBGUHRJZlhHQWZhUTZrNjJsaWx1QVpFTnFiNVh4R3pSNnR5dm54SHQ3dV9ydG9LMFFvQzBNb0lpQmZKYXdYUzF3UHRWSTU1U2VqaGZSc29iVXM5dXRSV2pseERLOW9VRDd3WkZ4N0s3WkpaclpwTEg4eGhRN3pUWnVUak11UFNROVNaNlZISXZyTnNMM1g0X0JJSkNaUUg0OFp3VDMwbElBd1ppQzhrZXFyRk0tb1BPMDJCZ3NOTVFrZ3c?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 07:39:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -8240,6 +9332,20 @@
       "text_archived": false
     },
     {
+      "key": "india to implement changes to goods and services tax from november 1",
+      "title": "India to implement changes to goods and services tax from November 1 - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWXNibU5pSTUzT0lzWkRlZlNwS0ZHOS12dDUydHZaUmIxOFNQdW92Qmg0UUpuVG82MnlkZnI1cU5XRVA2TEZkTFA5TUxpanJiclVQaVpTQ0tYNEkwQnBqTHNpU0Fiak9sbzIxTzZCMzlJWjFrNmh2Q3lJMm9xRkxMVW95UlNQb2JxWXd1R3BKbDQyQ0NfblpNbk5paXdXS3Bjc2JJ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 06:31:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "syngenta and kyoyu agri partner to distribute innovative rice herbicide in asian markets",
       "title": "Syngenta and Kyoyu Agri partner to distribute innovative rice herbicide in Asian markets - Philstar.com",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDZIMldPZ3ZubTFiWi1uTkxyOU93U3RHWmVod01yMnUwMFBvbE5XZndUQVpJNnE5RXRnREFPcmwwZjZBbGdVQ2xHZkVEdlQ1eWUwRy11NENnRXcyb0NabEpUUlFXZFJPdmJ0ZGFQUWJoVlV6T3lzUG0zM0Uyejk0d1lEQjZIQVk5N0VQYlJ5Mk9GVWZRcVRqallGYVFJWEV1YWVOcjVaSWJSU1A4MWJtOF9yeThlSFFKR1pUbWRzVHFQS2J2cnBFZjViWTbSAdMBQVVfeXFMUE44ekU2enh1dnlCSkQ2UzlrbDB5V3ptdjhjMDBHcVJfSW9FMVBSNl9rcFMyVDQwazNtcjhpUkRrT1d0RkVFT1pOQndEUXA3UzNqczFuZG5hQVVIa3pRbWd4d0h2QUkyVnMwU3lBTkRSUTM5cWhJd3VCYXMxc3dBZTU0UzhlcW5DdGFNOFVKbkpjZmJTMTFoYXkxaW12Mnp3d0J1WVFyODdobU9OUzBBek5pck12eXFudjJQbUNvWUZyWEtIdE90eU50Z214RTZ4RHJOSQ?oc=5",
@@ -8282,6 +9388,20 @@
       "text_archived": false
     },
     {
+      "key": "indonesian wildfires fuel emissions",
+      "title": "Indonesian wildfires fuel emissions - The Star",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWF2NGhhVV9RbURMeWZvdFU5eDR3UlNhaDBYMnIxVFBLZUV6Y2tVZlJhVWd6WUZGSTV0a3J4aFFlQk54V3lOX0Q3UG5STDhaM3k0MDJHb2R4eWJ6dDkzdVBic0xmMnBMRF9YYk1Gd3p6RWdZSzZhbUR0OGRIcnpBV0laWGpFbDFKMzJQdGxpMU5OdG00UWxqT0NZQkpPNXdRUGJuM28xZlJTbElmZ21FQzhOcDNkQjZBZUlXQ0pYUWtZSm54dWc?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 05:53:41 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "việt nam ba lan nâng tầm quan hệ đối tác chiến lược mở ra giai đoạn hợp tác mới",
       "title": "Việt Nam-Ba Lan nâng tầm quan hệ Đối tác Chiến lược, mở ra giai đoạn hợp tác mới - Znews",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWFZc21BNGhqdmxhOEVJSmxic3lqQTRIaDhEcVpfTGpHYXk4YjZEaFZDc2J4RkZ3WVJIaWhGX0NoZnA3VmNmYmxVN1NXVHpzRHI0SlNaRzR1Q1VLaHpaaHNUTE4waTNFelBtb1VBWjdxU1dDYzNzU2hjLTdJRDJycE1QdmxKZVQ3UEFoRllNZ1BtUkRXSjEyU1JfTTU0SzA3Y2tiMXNxdEhXcWhBdjZESU1MbFI3VWZya3FyQnNQVnA0SXd4?oc=5",
@@ -8293,6 +9413,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "too many mouths too many bills",
+      "title": "Too many mouths, too many bills - The Star",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3lQWGNUbFYzRzllV2pkZ1RuNE43V2g2MEVKXzI5RVZqOVVPbXBEdTNxMXRIOVh1UEM5clhXMXNyTF9kQldtaVJ5Z2h4YTBMUFRyVUlzTTUyQ19MREdzRlRDTzc5R3gzc3RhM3JZS3hvdm5lY0pualNqZHFwMUgteFdsUmRzdmJ5WUtxQWRlRld2d1QwdmoxMG5YTmR5VGlxYWlmV0MtelpaWU9oWUtDSUNnQURiTlNaYko3alJnbw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 05:49:14 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -8531,6 +9665,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T06:36:54.032313+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "philippines urges more equitable un security council as global conflicts on the rise",
+      "title": "Philippines urges more equitable UN Security Council as global conflicts on the rise - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVElEMVF2MGQwS0l6NXZ3MEhpSmpMMEFlMUxJQmV6TW9UaWZRNTh0ZFdoSENKR3FEeHlvOXFtelNWSm42YzRkeEdmMWd2MTlIOHNNN2NWSlZNeEVVejV4VVF1czhaUEE2bC05UTNRdlY0QUNRZ1BYVTV2RnlfMzVQaXNNQ1pQdHdBZ3FjR0l2S2h1ZDIwSmpWanJabVhGdzU0bC1PWjNzMXVvYU5iSmtiaTdTUVdwMXpCRDkwcmhVUFo3Q0pNbVcw0gHOAUFVX3lxTE5tZXctNWtNbjRMd0tmSHVnOUZyVGg2ZWU2TEp4TThZaDR1cl9XYmp3R0dINi11bnNLX09LdEd4YnM1ekl1YTl0S1BxZ0I1bVE0RHRlSElSMldEWldQUlFQUEtxaHNyOWk0VUNLa2FyZTEtQkFjV2dqYlhFTThqWWE1X1NhWF80Q0lnQXRLN2JLeTVyb3FhMGlkc1JtV1dfZ3hkU1JYQy1TUVNNczRDcnc3NzVwZWZ4N1I4U0FsWHdENHBkZl8waWM1bWRLSXF3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 02:36:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -8842,6 +9990,20 @@
       "text_archived": false
     },
     {
+      "key": "drug mule faces rm2 7mil fine",
+      "title": "Drug mule faces RM2.7mil fine - The Star",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGhfSFBjTGpMMHlJRTRCTUwtR1hkZmdQeGxIQmJLRG1HYVJuWmlqVEFwdWVELTdRakl1SFFGV1VaOHpWeHJfUEo4ZTE1ODFTTEhpbFRLdVpnRUJMbVVGWFk1QmtaTURzNFN6T1FBcUVVQkpxaWZTbGsyLWhhUlQwaXNoX1c?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 00:33:26 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "selasa bmkg prakirakan mayoritas wilayah indonesia hujan ringan",
       "title": "Selasa, BMKG prakirakan mayoritas wilayah Indonesia hujan ringan - ANTARA News Jambi",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVENTSEpTUUwxbjdLcl9IT0k1d0dnS2VuaGQ0NWxQbHhmMlF6TEVfZ1NNQTFRZ29HUEVrdGdidGx4dTV5OUQ2RnRLOXhIWWg2U0I0UUdMWjlYYnNNMXpvaUxfQ0FlRmZLQktIUS1nbjRLWWxxb3IzbkcyN3NObjJIMEZvaHpDeFh3aGdTRWVOWGpMYnc3djZzOERDX18wS0gxWlowbTJ6R2lIQdIBrwFBVV95cUxQVEpxS2xQMzM3ZHZJVzEtSXROWXhCa09scGdKVmZmSG51dlltLWxUT08zRVhla3VvM1Fua1BSVkkzMG5fTjZrTkd3MjBPMUd2U3FNcWpBU1ZTemh4Y1ZSM3ZLeXF2VFRYa0NnVlZ4NkhTRFplZXJLdGtLdDVJeElxMXgzaFl2UlhyRUZ0UGRLODdrM3FQOGtrVENxNllvaEpFQ3NZYzZIU1hFcGZpTU5v?oc=5",
@@ -8853,6 +10015,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "husband tried for officer s murder",
+      "title": "Husband tried for officer’s murder - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYW1QUkZjbHkycFBqOE01bmZhYWtsUTJTUVVPR3ZmSUdKQWUzemptNVh6anFZLVVIMlVtdWY0Mi0wZlJtZkV1YmpPTjB4R3U2ekN1WWFBdjBmbVlMbWdUZlRFQWlQMXFXb1k4X3ZtZ2FFcVNDU0p1QlFqdDhjN3haNzVPTnZCQmYyLVhJ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 00:30:43 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -8895,6 +10071,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "defence ministry nearing decision on missile options for navy says mohamed khaled",
+      "title": "Defence Ministry nearing decision on missile options for Navy, says Mohamed Khaled - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWFdTVVcyb2EyZThkX1lJd1RIUU4tdy1CN1NESmNvbFNNbkJXSDk1YzFNTzJSeUhPNDlyTEd4QXIyU1lzczdENHJIX1paV1BOa2xDWWNzdTFSXzkwYUotc2FudUFCZllVdjhmU2VkcHprb2xEckVzS2x4Z1JOX3ZSNU1kcDc2cXFWVTAxRDFyMnZrLTE0NGFrdDh4ZHRVZjhqcE9qa3FENnFOT2ZXcUNHOEEybTR0MkJkVWt4U3BWbUtMNkh5RHBzcWZiVQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 00:19:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -9108,6 +10298,20 @@
       "text_archived": false
     },
     {
+      "key": "separate state polls here to stay say analysts",
+      "title": "Separate state polls here to stay, say analysts - The Star",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHByaEQ4NjJVVmNwcWVOMXVqMlhoLThPWV96ZkpLMEJkZG9QRS1Sa3pOZ2tBNngwQy04dHpzU0ZMM0hTSEJpN2QtV1k1RHJWSkpOT1ZUODd4T2N2TFlRc0Jtc1dKRHREbmdVQXAtOFRrdlVXMktJQ1hTWXBhaUp2NGFLVEt4LTVFblBjMHFJejRMdlg3eDlFSGxvVHJGdGQ1OC0zbUp6VEhrS0VRbG1nVko4SS0?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 23:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "malaysia mencermati isu penahanan pengungsi myanmar yang dipulangkan",
       "title": "Malaysia mencermati isu penahanan pengungsi Myanmar yang dipulangkan - ANTARA News",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZnVtQklXclJYUGNGLV9vODBHc2psY3l6MmRvWHRJVEp6TEhySzRQLTBNR21fU1RLNlk2ckZoOUowZnMxSk4wZEttRHVHTU55NkdUalNFQmZvUUZYcXJLb1R6UlNveWpzOTF3THoyVFBPbmh5cVNRU2kweXh5Mk5vanhDOW1nMU94Sk54YUZRVXJSNXJwb2l1YnE1Y25FY1VGLUh5RUFpdm5lWWR6MHNoSUd3?oc=5",
@@ -9248,6 +10452,34 @@
       "text_archived": false
     },
     {
+      "key": "flavio bolsonaro says brazil federal police asked for his passports",
+      "title": "Flavio Bolsonaro says Brazil federal police asked for his passports - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ1NCbTlmNmZLNExNcGpTbFJUdWt6TGdHOTlhUkt1c0YxN21DajR3Q1FZM1pBWjRhMGVROGZsZlNnMFVrRlowWF80YkNmU291N084eUw1NGtFUy1WbTBnemxUZUtyVDVFSXAtWFh2YUlWTGZuUzVyR3VOSTVCcnVVb3ZzN0lIOUpxVl82Sl9KQ2lyVzJsSTk5Qzd0S1lFclhWRXI4UmVTbFVRZmEwSTVtTHB0TEg?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 20:37:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "rubio says venezuela s electoral infrastructure must be replaced before a vote",
+      "title": "Rubio says Venezuela's electoral infrastructure must be replaced before a vote - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeERxblhleVNZSXNfYlB6WWVmWVlKLS1pZ1lpRDJYd04tTFFIVzE0ZmozZFltUEhMTmxpVWZud0dYY3ZMVVNtcnFiWDR6SEI4bk8xdFVUdWZGMVFoQmlNRmZwejFDZ0w3OVpNa2UzajROR2diU1BybXFkeEtqeW96YXZYQ1BPODBYcDFGUGd6c0pobERZS0V6MEFCeW1YY2pLcUV1akFVVXo0cVBOeUFMbVk3ZnRaQ2pGcno2ZGZJV1dPLVA3?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 20:36:19 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "villegas urges palace to stand firm on west philippine sea",
       "title": "Villegas urges Palace to stand firm on West Philippine Sea - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQk5YX3FIeHFWN2hhdjlEdk1sMnZuNDRPQjE2NHZWQ21LQ3JCQkNRTWVMUkNkWXVBSzN4WkZJYXlOZEZZb2F0bXhVVnM5cGp5MWpaYm9qWHZibXBPejhBVnVWcUVCd19oLW4takpSQzRuVVh0Y0hGXzF4LWplOEhPbEY4Q3BoR3NkSkhjZlUyczZBRTZQV0RFcjZ0UWLSAaIBQVVfeXFMTnp0TTN1UFFIM3ZOSDNpTWhsbS1fWFlyS1ByNlYwSm4wYnFoWGViQ1pjRzVWRkNlZ2k1TWs5ekt3U2x1NTlnMVdOZ3c4VWdhN0dGeUpaVHY5ZGIxY3g3OGZMMGFnamNWbGwxSDMwVTFldnVEMFhsSHdXeWx0VDNzV0wtbnZHellGYTBhMTJDMWVrazlDYUgzVlZsc1h6ZlNZV0hB?oc=5",
@@ -9304,6 +10536,20 @@
       "text_archived": false
     },
     {
+      "key": "trump says without citing evidence that brazil election looks rigged",
+      "title": "Trump says, without citing evidence, that Brazil election looks 'rigged' - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNThzOE4yaVVRWTBtaGNOZTRMVGhFc1JsWmF0YVQ4Zmwyc3FOTHRkdnUxRjVYNDhLRW95UE9rUWFLVURlT2JrRU96cXU4Mm5yVmZERjJFOGRpVDhFWTRWQnF2R2Z2bDQwc3Rlc0xEWTdvVEg0Mm45WEtSVE5RdFlaNkRyS3l0SThNUWQ4QXRYSVh3QzZMV01YcDVXX1JOcV82TUp4cGRJaWpTajJIQlVVN2JQV1RKc1ZIMWpF?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 20:01:43 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "golf golf liv golf appoints former taylormade ceo mark king as senior adviser",
       "title": "Golf: Golf-LIV Golf appoints former TaylorMade CEO Mark King as senior adviser - The Star",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFJFVmtvY3FJZWxSR0JTdlZ6akhZMmZTdkhVWGtya2lXSmNfeTlQdU1qRnpscWlwTVhZMjY4MFhqT1BwUUNvMHB6UkZDUEFiSmxsb2RTZi1oMlA0WXl0eS1FUVZxWWhGTDVoTVliWjhHRXRjcTJNZzJ6N3REVHIzbmNHY2RNeWFXbElTUkgySU91R0pPaC1nWVdLdExFVkRPVVV1aTAySkpfMnAxT0FWRFgwNFVIVFpQd1JIQ213?oc=5",
@@ -9329,6 +10575,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "mindful of the markets uk s healey is set to deliver a careful budget",
+      "title": "Mindful of the markets, UK's Healey is set to deliver a careful budget - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1FFNVNXLU1fbUd1NzRQT2wxeWUwRWlQU1M2X21RSGhMMzB1dzl2NmpZVG1HQ0I4RzZHRHA5elBfSHRvUmFDdWZLb1AyTERDVkxmdXJsR1ZORkQyZ29LVjZrWVl1TzcxNXFqNTRXOGp4cDZiSllBY1UzRnFsNWM2bkJwd1FUSlZDUzFoS2RRWE9XZHExUUUtSzBrcWNIUDVpZjRZ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 18:58:30 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -9584,6 +10844,20 @@
       "text_archived": false
     },
     {
+      "key": "10 percent of pupils in grades 1 3 are struggling readers",
+      "title": "10 percent of pupils in Grades 1-3 are struggling readers - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNGhqTzQ3Y3FHS1Q0V3BNcERpQ2VhTzRsS0NFZ1ZtdUo2MGs4cGZFd0hFMnRHM3l5R19ZX1JGd29YNGJMYkgwRzF6STVkLXlNYWxHUXVLdUZ0bWdZR2tEaUxMbDNGNXdaOTJtUDRoZmg0aGZ4aGlzb2FQQThic01nVUtTTnpBc2h0Q0hBYUQ5bTQ1NG1oeGtGVS1oMFZnR1psTGo4a0l0dGvSAa8BQVVfeXFMUE1mZjhhYTFpN01DTXdyNTVzVVRPMTloZ3hEeThVUnlnMnRGSHphbXpmRnBVd2ZseWRmRzNVT042d01kai1oU08zVzFET2kxc1dacDhoME1fUlhFT2pRa1JBMGxQcUFIZHFoZXJ1YmN4bHlJRS1lWVd2bjlvNGF4cENWazhpMDRnV2RaNDRjQ1NjWXJlNUlqV1JCa21qZENyMUdqdU5mX2xPZDh4a3dBRQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "ai stocks rise as anthropic nears wall street debut amid investor caution",
       "title": "AI stocks rise as Anthropic nears Wall Street debut amid investor caution - The Star",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTFaTnZoU0dTaERJVVMwN21aRWxvamprZFZzdG9LVC0wNFA4ejBzcHZ1NlViSWozeGV3TE5xWmRuU0pYdG5tTmhkcWR6M0Z5MGwySWhzZkZnd3BHblJ1ZDNITGRTb3hfa2Y2bktseTlZeVloWHoxempCUDhLQUVnWjBjamEwMDlaeUVaU01zZ2JFRzIxRXAtNXZydTBEbTEwYm9TSFA2WDJXMFhnYmhBSUpEd2tURjJJX2xuYTJnd3BqTWtu?oc=5",
@@ -9595,6 +10869,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "euro slips ahead of central bank meetings real tumbles",
+      "title": "Euro slips ahead of central bank meetings, real tumbles - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlRGQXNlMDJDS0ZlQnJqVlI0Q3FOUUhyZmpfcUY2TDJNOTA5a0NDMEc5QWpKZ3NrQlZ0QWJSMERlU2wzQlFxcWF0OVFRVlNOSUYydEdiaU5LaTFvVDMxTk5NWTF6NVVFZEdRcW8tOHpZRnlmWDhiRnV3QlllYnVtVldqTGllWmY2RnF1MWVlMFRBT0xWbHliN3pWM3NhQnNzRV80ZHJ5T0M?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 15:36:12 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -9804,6 +11092,34 @@
       "text_archived": false
     },
     {
+      "key": "most gulf bourses rebound on iran diplomacy hopes egypt falls ahead of saudi defence vote",
+      "title": "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDhPSnA1U2M2cUI1ajJYZy1COWI1WG1mNUx1ajhqR0ZaZWw2OHhTZGxISHFCa01lZUlNMlFpMFktREVjQ0NUTGNWbGF6V2hOSndpWm10djdnNHpwa01ObUc4ZjBHQzU3ZnNkSm5HTDBlOTFPLXJVejlvalhOOEZRY3Y2b3JzdjRJNnRBZHFyTXo2Zmo0UHBzRVFRcmJFS0NlMjdxazZFZEJoREtRcmJjZENtay1Xd1VraWdSQ1BYQ0pYSUhVWFE?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 13:12:16 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "egypt approves military support for saudi arabia after houthi attacks escalate",
+      "title": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 13:08:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "chess toledo xignex trojans again split matches in pcap wesley so cup",
       "title": "Chess: Toledo-Xignex Trojans again split matches in PCAP Wesley So Cup - Cebu Daily News",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaHFYbm9IbDYtQzM5VjJmU3hxSTc5UzV0cmdRTDRuYWI1U3R3RnUzUFdRYU1NZjBaa2M3cDhmVzZYM1lpLS1nUjgwVURtZGhkVVJJc0JaOFJhQXY2MVNUdHJIQS1yNWU3SHBMWkdWek5mVVRYOHQ3a1hDempjOVBRU2oxOXAxYTdwNTlSSGlGS1Z2MDlsTl82cElnVTZZQWxEWVBYTVFLSTNlbWZUdVM2ZNIBtgFBVV95cUxOVDY2bmZRYXdaUVZrXzhJc1ExYTl2ak94UlAzVFMxRXFGcWtQSDFIc05mT2ZCZmZMeTNOOEpvOWF1N1ZsVWhYTjFDak9vbDlXNEFwU1V1UzkzRGM2a0lpRExXaEVMMjctaThzNXNOUE9qNzJxQmU2SUxGdzhCZUZxWDN6eDI5Wk9GU1ZXLUYwcnFobVoxUVlOWlI2QUNhdHQxMUJ4YTlFZXkwc2lxUWsyWFN3MHQ0dw?oc=5",
@@ -9829,6 +11145,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "oil spill off uae widens satellite images show prompting more beach closures",
+      "title": "Oil spill off UAE widens, satellite images show, prompting more beach closures - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHhFSkdqM0dlc3lWWVViWVlQMDNlNnRVQkxSUWttcWR5R19wV3dvclAyOGtmNVFZMEI2YVVheGVlLUlJNTB3bzZGeDlqRTEtMGZiRk5ZN0x1dWs4a2VNaElUUW1Yd0lxaFRpTjhtVDdael9uaEpHa2kxTllSWVRHSjVIMUVLQmJSNUlGZDF5S0JEOXJ0Rk5GR1lFN0thcWNqSW15RmVsMUFrOUpGeE9lMm1oNVZVNFdjaVQ2VFJielNUM29rMG1BZUd3?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 12:53:44 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -9986,6 +11316,20 @@
       "text_archived": false
     },
     {
+      "key": "how houthi attacks have grounded flights across saudi arabia",
+      "title": "How Houthi attacks have grounded flights across Saudi Arabia - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVEZPbnlhelpsZk1yY3U0YjhJSVRGNUF0aGFIdGo3NHZCVUhMbzl2VnhVclJlM250SFN4c3RiRzBMZ2o3cXNLNVpOSkpwOTdMVHczWS1pT0JnaWRObW8xMzJzQ0xjbWk3XzJBRUd6dEt6ZXlxWHZXNHR5VUdiMVBzbmM5VjBVTWNiSDRSSUtpaUlRMXhLWXZ0ZUQxeVA0QVdadHhGa0pyNGpSNy1NWG1rZE1xVUw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 11:35:25 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "kumpulan berita kasus sengketa",
       "title": "Kumpulan Berita kasus sengketa - Antara News jatim",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCMktrSjliTV9HYkN3LThnUWdmby1yUFVCTGVHWWNjODJKLWtMTTlkNy05T1kyMDZzOWZKVHpndjlRcFZ2dTF4Q3pyT1RhZkJYdmFZMUtXVk51OWdUZWdV?oc=5",
@@ -10025,6 +11369,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T19:20:17.301995+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "borr drilling shares fall after rig sinks offshore gabon",
+      "title": "Borr Drilling shares fall after rig sinks offshore Gabon - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLXJUVFI3SlI4RURDYmJzVjhTTXRvS2FMWlZFSGhVU2s5eFhaVVRZNEZpb2xJdVdGblVEY1BoVDdUN1VhYmthZ2M2ZkZlMXlnLVoxa0NQekhGYnNPcXdQTTlHZ2l2V25DdW4wOFl5MW9mN0xWdXdOck9TSnhPZFMzZUhXNlNwZGJ0bXRzTVEtQ0NEbDRQZl80eEhLTWtOZURTckRzZDRIWGk?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 11:22:10 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -10123,6 +11481,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "sterling drops against euro and dollar ahead of uk budget",
+      "title": "Sterling drops against euro and dollar ahead of UK budget - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG1zRmxKejNRVlA2Mm5HTHNDb0g3T3lWVTdYLVRlQWhDamFWbDZrMXp2MmNyZnMtOS1uUDVqZ0RYX2VxWkRwTm55LTAyX0MzUVBWUGE0RVBwRW1LQi1zZ25DX0I2em5jamZRV0lkQWxIS3lyV2VodjJGTldOdzlOLTM0SWdORlBhV2JuNzd1cnFrUDRKZm9SYmNvZw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 10:49:43 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -10361,6 +11733,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "mans carpio is complainant behind journalist s irregular arrest says lawyer",
+      "title": "Mans Carpio is complainant behind journalist's 'irregular' arrest, says lawyer - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRFRUaUVaal9nTlNJaGVfR2JnaWRyR1lZTkctU0hkNUVZZzNvUW9Mbk9sVjhvM3dzWXV3QUZySEFWcWNObnpRYjJWYUE1aEc5WmhLUFRKazBuQ2dfYVljdlp6YlBaYzF1V0ZLRnM2dWo3a3NfT29qcXhYd3dUNC1YQ2J6Qkh0RW1GNmhacVN1c055ak5YSmJEQWpHd1JyM1hrXzJtVW1HX0dmRW0tc2pzM2xDOWlaeHdva0JuUkxnTVpYcDg?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 09:35:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -10976,6 +12362,20 @@
       "text_archived": false
     },
     {
+      "key": "china national held in hk over cocaine from penang allegedly promised rm1 200",
+      "title": "China national held in HK over cocaine from Penang allegedly promised RM1,200 - The Star",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc1h4M3FzZkxGeGJqSzByNngzd1VNOTkwZUtCOVRXWW1IMnlMTlV1cUt3cEh5dTNLNFNrVWpqOEFSRFYtY1VxcHVHSHpROTV2aHRjZG9tZ3UyTnNxT0pab0ktS29WaDFHZHc3Zks3RDJVVEd6MVI5NnFneFE0U1Q3QzhJdV9nX3VkRFprZG8wbzFVSDA0WjlOdGhNc2J2V3VSRUN5M3pYdGZ4LTdJQ09JZ09sYml0SE5UTG1ZR25vZmVTRUFh?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 05:45:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "indonesia dan penguatan respons terhadap kejahatan transnasional",
       "title": "Indonesia dan penguatan respons terhadap kejahatan transnasional - ANTARA News",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnktN0dna0lFaEVhNWgxTFpuMVUxX3dRcFBkLU9OSzZyX1daT2VyWEpjbEJKQTJzazdGTzgzbzF6VGVnRGZFSHFKUVh1Qjd2cHJSRUwwWDdtanBGcXJMQ0ppTUZJQWNKM3F4c0QzelVweDU2MlpjWkQ0TlpHSzVtVjVpTTFzQzJFZXVmeWI0c21jT1FVYXNJdVdlTERiZjdZcVlWZnplOUF3OHBX0gGsAUFVX3lxTE12eS03R2drSUVoRWE1aDFMWm4xVTFfd1FwUGQtT05LNnJfV1pPZXJYSmNsQkpBMnNrN0ZPODNvMXpUZWdEZkVIcUpRWHVCN3ZwclJFTDBYN21qcEZxckxDSmlNRklBY0ozcXhzRDN6VXB4NTYyWmNaRDROWkdLNW1WNWlNMXNDMkVldWZ5YjRzbWNPUVVhc0l1V2VMRGJmN1lxWVZmemU5QXc4cFc?oc=5",
@@ -11151,6 +12551,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T19:20:17.301995+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "indonesia strengthens measures against stock manipulation after market rout triggered by msci",
+      "title": "Indonesia strengthens measures against stock manipulation after market rout triggered by MSCI - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUE9yTXpNTi04M0d2WkhjaGJGMHN2amxERHk0TVpPWjY4S2xGN2tIOU05eGxudUcyWW5iSXFIUUJWOUlYZlZFVmlBcGNibk5XQ29XR09lNW15LUZhenNKejJ0TlowVE9zMS1HWW5tQUJMcnNzNWtiVFc3LUZVcThyXzJ2RU4weGdVU3dJbTRXVHBzMmRZT1B3TERGNjBTU3Q3WThOZldPcG9CTFcyblF6WE81LVZ6UWdmeFQ1Y1pnTTR0TmUwaTIyWm5R?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 04:16:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -11654,6 +13068,34 @@
       "text_archived": false
     },
     {
+      "key": "squishy toys seized for failing safety compliance",
+      "title": "Squishy toys seized for failing safety compliance - The Star",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNVBXYThsOTlqR09Va0RTVTRuUjgyMUdkclVyTW5wZXFzeHE0UzI1cGJtbEJFV2FpaXljemRKalpObkxubWczcFRSeTZHVm41b09Nelp1OEdjSDI5QzJVekRCdVh4WG5RZWF2NGVSVDZ6NjVCRlVDOWRYU0tKa0V4RERYblpvVk9MT3pMUkFQX1FJU0N1TkdWak1FQmUxX0ZQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 23:49:03 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "don t wait for disaster to act on safety says bomba chief",
+      "title": "Don’t wait for disaster to act on safety, says Bomba chief - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZE9NeF9nN1dDX0xCRjFHSG5OQjdWb0Vnc0lHT0JGRkRmNF9qVktnemYzMjJVRHZaSkczUXA1dFhFc2lYYVFmMk9UX3pMV2N6bkdLODA1b3JWNUJKWnJfZjVWQmJObzhqTEFhOFRXai1wYzZkMUdRdVEzeTVLYUdZSFlFUnN6THNhdHpadlRPQzBsRnRXQU83c2JSLXJ1c3AtUTE5enlfSU4xQQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 23:47:03 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "bmkg ungkap 22 wilayah berpotensi hujan hari ini",
       "title": "BMKG Ungkap 22 Wilayah Berpotensi Hujan Hari Ini - CNN Indonesia",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd1B6VGUyLXRJdi1FRWhjTDhBV2trQ0NFeXFPMGVsODd0OGZuMFgxMFNtU2RKSHJrLWJYUWR1QUk3TG5Kc2R3eG9TOXB6RUNhY3QwTDN0TXV4X2VnSzRMMDR0aGNTNEstcmVhcC0wRUVfX1NjekpvQWF1YnVra3hhWTJxX0QtaWgzeE1jNXplTUUyRzhRYTJ6cnpxSmYzZTQ4d0ZxT2JaRkZMcS1CMFlleUN0cWXSAboBQVVfeXFMTk9LSldjRHV1WVNEVURKcThBZ0h2WWFuUG1fWUJNc3g3Uy11RU43eGt2S01YeXpEenMxcUtMWEtNa3pXR2piOS1UME9JUlk5bXZNeTIyU2k2a1k3QkppeTBqd0ZCaERaZDFFd0M5dzFaSFZyLWdBcnN5b01kMWtQV0ZkLWdzVm5LRGVKeG1uaWpwR0NuS2wycEZsZjNhNzdGaFBiaFJCemloMEltQ01YSktBLXR1TXNKeWpB?oc=5",
@@ -11749,6 +13191,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "uk commits to further 432 million to end rough sleeping",
+      "title": "UK commits to further £432 million to end rough sleeping - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObU9wN0VzVEZ2U2NKcEtmbHlGcW1UeV9jMngwNFZCRVMzS1RZUnJfQjNWWVNEWFZmRENrR2JULU1fQldSMFZ1V2kyVVhPRmxSd1Z0OXRUcnFuYXVyMmZ3c1NoeF9pMEV2WlFTdklkRnRObi1yNkFFNnhJUXlsdUtWVzQ1WEgtZDBLTWtQWXN6MEk1alJUeWxseUNB?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 22:32:09 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -11861,6 +13317,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "early voting opens in new zealand for november 7 election with no clear frontrunner",
+      "title": "Early voting opens in New Zealand for November 7 election with no clear frontrunner - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNDF6UDVIcm9fdTR2Ym93S2hLaThHX0hyRTZnQ1J4bFRfRFkwSlBScXF0b054NmVJeTJld0ZneWwwRElhQTVoeGRZcDBwVmxqbWJMWDVaS1hKUDIybzZ5SzdSMmtMc1pYcmEtdVc4bUV0SFNBeW5GTFdPbTZtT1dfWVlFTkVaRFdfdU15ZUVfRld5TUFRLTZiV2Q4TnhVUnBLU25RNEFCX0ZYMEU1NjlROS1iWEEyWmk3UXN2MWxMa2ZNRWs?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 21:48:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -12158,6 +13628,20 @@
       "text_archived": false
     },
     {
+      "key": "italy s league leader salvini secures reappointment ahead of polls next year",
+      "title": "Italy's League leader Salvini secures reappointment ahead of polls next year - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjZoLVZjem5nSXRyaHlvY1ZrMU1xQjdUNWZrb2dXeUc5Rlg2ay05RGZRNUs2VXRiWjhwaU9TTkxaaXlYMWNDbU5IMi00dEV2bUhJYjRBdE1zRVdtbXZHWHJVQkc0RF9Qa2pScl9HLVJtcERPeDZ0NmZ1UEkyak5OeEpSbm9WcXZxLU9zUUlpNmZzZ3dJcWkyX0NvaEVIaDVRQjl5bU9OdEJGTGdFTERMSzhGWjg?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 16:12:36 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines japan us conclude west philippine sea drills",
       "title": "Philippines, Japan, US conclude West Philippine Sea drills - Philstar.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeTdjbllIRU05cV9rZU4yenZYTURfT1kxYW95Vlp6dHlIZjZmVFZ0VVJzLW5tNUloa3F3YXhrbzZTdnNCTGx0dzJmS202SldRdkQ1eW53cDVMZUhtQUtlRjl2U2lrTi1BdWg4MmF4clEtSktNNkxIRWJtdWZLek95U2h2OThac2tlQkxuUldaeWpoLWJSaXBGUmVsZ29TajZHQzFPb0M0RnJjcXd1N2JZ0gG2AUFVX3lxTE13RXhYelJTcXpXbXRhbmZrcVZ0U2tnQmlEWnVSRVVHd19qRjNwTVVnc2ZITmg0ZS10WjEzUXprUjFteTNxaExVdGQza0RGbUMwVm53dWZOUG12SklXNnd4NHZ0bWV5ODBRQnV5TkZJYkhnLUxoc0ZqaUZRbkRybVZZbHJkcHBUVHVTZ0huZTlFUHBCTkRGa2dUamVlREQ4YjZFNU55eXhKNzhtQXhWUjN0LTRGZWdB?oc=5",
@@ -12249,6 +13733,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T00:31:05.789920+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "sc justices p5 billion lgu fund in 2024 budget unconstitutional",
+      "title": "SC justices: P5 billion LGU fund in 2024 budget unconstitutional - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzRVVGtldW9FanF6VkkyaS1pZ2Y5enczRERydWRlYjNqaHVhVDh3b2dmQm5PUjFnZnFQVU5IWVZqME1wRTUtSmtod3BCNGhCOTFSZlN1OUk2enJ1b24waHpwTEl2bi1yNXFZd09PTlZTVlFXWDA0bVhndXdpQ2tZeTQwdDU3R1U5b1U0bzZqT0dGbUVPV1BhSU9WZnR3QUxiQ2JSZHhQYnAtQjhmczllQXJvYW0?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "p491 million row scam ombudsman sues 6 dpwh execs",
+      "title": "P491 million ROW scam: Ombudsman sues 6 DPWH execs - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2ZBMHlvV3ZiLXVNaHdWUjF4YnFGMjVnZEJsTUl6VXZGZ3U2MDZOMTdNX2N2RVJGM19IQ3lLSnJWNEp1MXMwOUdmYW1PMXJRQlFhUFEybk1Yenl3WGtNZDRlTmRKb1d1bTl0TFJQbDZVSk5yeXR3QkFiVWJOdjdnQWJIQjdZZ3JTSUg5X1ZiLXBQd3lJVUlwX0FycDFxeXh1R3Uzck9B0gGsAUFVX3lxTE90VE83NHYyTVZSME5GNzktdUZTMzBoSGttaFZLdEJsRWRXUU9oM3RGMG9KOXFVNkpkU3VRR3gxUHNNWWxyZXBwZU1tWlRXTjg0eFMwbUNGMXJGXzRWMmFRdDBIcnZrdjZqemYzaVNYWlFpdURiZ3piX1lhR19ZZDB3MEpPVC1QT2o2V0E1UEN3eWhPTnRfQXJoSXRFNDlaLVNMS0xnZ1NyZlBNYjg?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -12350,6 +13862,20 @@
       "text_archived": false
     },
     {
+      "key": "beirut s 13 chicken sandwich becomes symbol of lebanon divide",
+      "title": "Beirut's $13 chicken sandwich becomes symbol of Lebanon divide - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWERrNDJCWllyTDNzSWZjUVB2dHh5bGtoaU82c0tEWGUxclNVWm9MdVVSMTg2M1Z3eHdHdjJaNjRXd0FVdExMR3ktanhTNlF3MlRTbGhuelhQYzM2RWtwYWNiTmUwQWpUYWJzTlRiMGwxMFlpMWU5RUxQeldFTFlhdDJZR0tPeVAteXN5SC00VHJkQTdMbWYzdGhXaWJqT3QxTHFyVDBVb3kyQWVfclZKXw?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 12:48:22 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "comment",
       "title": "Comment - China Daily",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNci1GcDhlSklTNEVScC1jR240eUdjRklna1UwRWVfdnR1REF1YVVPS3JLOVlqb1dhRzMyaVlCYmZUc3BfUy1zTXpZYzctb19yRzRuZFBWZG1YcHlweExTMGpSSE9IYmRrRDlDQUJUakVNajY1NXdEV3liUld3OGQ2aEZ1QkJKY0gtSFM2MjczVXdwb0FfU1dvWl9EMXRLcS1hUFlIb0ZzMmdQLWpTT1lKb2drTFpEWmYzWHVn?oc=5",
@@ -12448,6 +13974,20 @@
       "text_archived": false
     },
     {
+      "key": "convene state assemblymen meeting to prove majority perlis mb told",
+      "title": "Convene state assemblymen meeting to prove majority, Perlis MB told - The Star",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTklqY0xVYml3V08tWlp6bkttaUZQWVVMNXBSd09hMGxwY3F1OGhWNm9CQ2dxMDk1NkNNVmJmZDNUa3N0TDZoVUdXbDVtY0lfMF9UUnJaTDFvOWdHTURCRDRQTTJkallqVFFxUWNKRzNKVm05cEs1Yi1DRWFvWXJ1TDA2dHF6TVNNZWFYb3YyTlI0aHk1SGdNbnhNcmplcEVqWHNoU3dReVBvUXl4bnJMTW5QekZKZzA?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 10:47:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "全日本吹奏楽コンクール 職場 一般後半の部 5団体が金賞",
       "title": "全日本吹奏楽コンクール、職場・一般後半の部 5団体が金賞 - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WdDhSYnZoQ3RUV2tZMlV5anc1QkdybGdKRmpqOHlEdUI5YlJSZjNmck5kZFFxd3BtVkdfR1YtMHhUSFJUUy00WW1JVmNsQUpoVEpIZ0I2TXhrMjE1SklLTGM3blhCYU1kcTJOekhR?oc=5",
@@ -12529,6 +14069,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "man found dead at cheras food stall",
+      "title": "Man found dead at Cheras food stall - The Star",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXNRVm8xRkNDUU5zTUtiV2RaNXBKdkQ5MHVqXzU1eUFkV1FBS09XUGx1QzdON1E3RlJTY1VaNlppUTl2aDgyWnZOQ0ZVeFNRTVZ1MV9RSlNBUjJUUU1Nd1h0LWdSTmlyU1BGUU15SzhhSGNqelhLQTJmSGIxM0x6aVlRNzZTQ1pqWVltdlBn?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 09:52:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -12641,6 +14195,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T20:39:47.623933+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "drone attack injures five people damages industrial facility in russia s perm region governor says",
+      "title": "Drone attack injures five people, damages industrial facility in Russia’s Perm region, governor says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQlpoQ2lWbHFpTkRvZUpZV1ZOVFlJNjY3RDY4UHBmS01keXdDNndROG1PY2lRRjJGWG5zVjRadmRua1hJNU1kUHZ1RUxyVHA4Z213eWN4Z3VjMnc0bVM3aW41eG9ucUpyZXFpQmtRNzJHM012TXBIa2tnZU5teFhpTnNwMWljQ01JMHZSdHNPUHFzUk5abDJBWXJWcEZ1UTdDbThaUE9PWTlGc3dWVmdDS3FrbVE2UGdiSGY0OURUWQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 08:01:54 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -12921,6 +14489,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "form six students to receive rm2 500 allowance next year says fadhlina",
+      "title": "Form Six students to receive RM2,500 allowance next year, says Fadhlina - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRS1aRENCTVpQZFhsT1FWSFRLUDk4LWZJUXc2aW9Ub1l0cTRHbGN3aURySnlPWjdFdHlxREFvMGU2TGROd1dna2tEeFlZR3Z2RkRLbHItOXFlX2NZMmpSTmZSc01UWklIV2FCWWZ5bDZPYjBSMXlLOHAxODV2N2pJSHl1Z2hUeXhWVDQwVWVXVnpRWlJINVlBTzVsa2RMci1GRmdSM2p3elQwSjE4UEl3RHh0SDhPZDl3M1pnTWMxRDBBaWs3VDBMWk45Tkl3cUhSX0g1YktjYW9DV2xjazZFQ1dHUjFLNmpzeEh3ZHRDMlNTN3M?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 06:02:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "husband to be charged with murder of border agency officer wife in seremban",
+      "title": "Husband to be charged with murder of Border Agency officer wife in Seremban - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRkR2U19SckJfTFJndVBvUzlYLVlFQk5jRlZjZ1hZSjZOanpFRWl0OWhtamd0NGk0eWl1RlB5RVJmbUlCTnFoQUJmZHVzOVlkVzhvQnYxTTQyOGt1ZXI0cGZZSVVfVXdQV2lsTV8zdnFhVFJBQXkwOXhQUmstalRoWF9tZHNHTGxKVVZQN2ptd2V5Y0QyV3hhajdzc0dzZzc0WlE4bXdxNFdMRERpdUhWY3c2ZVJ2c0IzTGFOV1ZGMGg4cEE?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 05:57:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -13316,6 +14912,20 @@
       "text_archived": false
     },
     {
+      "key": "earthquake of magnitude 6 16 strikes vanuatu islands gfz says",
+      "title": "Earthquake of magnitude 6.16 strikes Vanuatu islands, GFZ says - The Star",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSXcyNWY1VU5FN0JQUmlvRVpMTWt3THFPTmFzOXIwdGd3Q04td2U3dER3TkI0WWthemd0S0xlQXdLV1pQYUhEM3NaWGRyRzB6VG9XODNscXRMSUZydUlsZW1salo4elJOdFJSNUdhUkZmMl9rNGp3S0VWcDNtOHphUXZ6Y0xpc2hySnl3bzVjYnVRdnl0OGlrcTdRcWg5eEk2OHphR1lNVUd6QkZfcUE?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 02:53:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "石川さゆりコンサート 亡き仲間の分まで 水俣病患者ら福岡で講演 福岡県",
       "title": "石川さゆりコンサート「亡き仲間の分まで」 水俣病患者ら福岡で講演 [福岡県] - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5udmdWaHlNdmp6ZVJac0JnTFNDNmY3cU5xRkZjSm4wV21NQVQtWDlmQVlyRF9wbDZRMXB1emREV2l2ZDJiZW5nX29wajg3ZlBxMURheFNtT3NGN3E0RDl2Tmc2MkxIUHhYdzZDVlRn?oc=5",
@@ -13355,6 +14965,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "starspecial a majestic 25 year reign",
+      "title": "StarSpecial: A majestic 25-year reign - The Star",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTkhLWUdlU0JOclQ4UU1URk5WOTlIX2hPMDNlX0MwQzEzdFV2OFJhMHZrRlFERFUzUDQ1LUN1bFh0SzFZZ3FZOURyUVFQOWhPN2JiSzV3TW1HZ1Z3MnkwOGc1NWtzMjM1S0xGUjNXb1FUbUY5U2hHOHpoT3FXc245d255eGVyd2o0ajA1T1FyQQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 02:17:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -13761,6 +15385,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "itcz to bring scattered rains thunderstorms over visayas",
+      "title": "ITCZ to bring scattered rains, thunderstorms over Visayas - Cebu Daily News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeUE4Mi1ZVDR6aHRULXV2WXM4Skxpc29SWE4wUFNWWFNkVFdTWGJ2WlRFcFN0S21hb0gyakZkZ3I0U1FOc2VzMnlEb21ZY2dENWpoaklEemRXdmlsY0ptTVp3ZEw3bHdBQ05iSmhYVjc3Y2xXY1o2SXRld2xRaTJIcmtVWjR1SDBJVjdhcUxObkladE1uTHFXZkk2aU1CNEHSAaQBQVVfeXFMUDZtX0NfcFJjU1hzUDRKZjcyR2NTdDdyLVEtcEZrQWJ6aE5ReDJwWXJvTlBhLW50dnFiREZmcVdXdWF6WnpyLWlUYkNEVlVtc0wyMm5wVzZlZVRNMy0zaFVXYTNsbjJzWWJGZElHS2d6US1QUU14S3V2T2tOazlhakhYNWVlWEZyOVM5MlhtWXUzX01jQmRHRmtVZVVvbDlzQk81a2s?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 01:32:00 GMT",
+      "outlet": "Cebu Daily News",
+      "source_name": "Inquirer",
+      "country": "PH",
+      "domain": "inquirer.net",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -15734,6 +17372,20 @@
       "text_archived": false
     },
     {
+      "key": "protests sweep italian cities amid heavy security presence some violence reported",
+      "title": "Protests sweep Italian cities amid heavy security presence, some violence reported - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnQxYXRDekY2Y0hSaUtpR2x5ZjFMYldPWE5RV3RSc0lSemZmU2RDMkRSQ2lZRmFhN242NER5eFk1MmZ1bnU2dGljeWFyc1F6bzlkNGUtTTJ1LTdWNGtRWEQ0V3NDU3F0SXpxVF9nX3NEd3VqQ3JKRmFHRXpyaE0yZGJydjdXd040RGJ2aUs5YzJfc0EwMzJacTNVR1ZsbzJLRy1ZZWd6UDBZaDF1OGstNHFCYnpLbXBiYktDdm5BeDg0SWJTcjREMWN3?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 18:34:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "abang johari ai cannot match human wisdom in preserving heritage",
       "title": "Abang Johari: AI cannot match human wisdom in preserving heritage - NST Online",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94eGVUT1NfS3JneUN5eHQ0Q0d1UjJ5S1BoM2tGRzdIVVV2OTNkdWdlb1RIZzQyYnFuQkVnSkpzN2VBYTh4LTRabld0eGpmOUJjYndJNE9qbTB2THRjSVRmX1JWc21iVVQ3cXlZQTlrTG02ZzhQVnJNRnJQLTVVY2c?oc=5",
@@ -16280,6 +17932,20 @@
       "text_archived": false
     },
     {
+      "key": "belgian protesters and police skirmish at anti government demonstrations in brussels",
+      "title": "Belgian protesters and police skirmish at anti-government demonstrations in Brussels - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWRmTGozX08xMlVRbHEtbWNESTBRVUg5eVNVR2dJTnh2UTNoU1F1aktWc2FYZVh6N0hkcFJxN05OS1hmNmQzLWZZODBIVFRBYlQ1SG5BUzJvUUdxMmFsRWJlcFdlR3pSRTdJT0pDWk1XYUl6UENiTzNja0ExT0VFbWZvU01iTmpjY0R4bnF1RmRscUtDSnJUQTFJeUtLeF9BZ2kzcWxQOGlOZUhyUThmY29IOTY5eWc?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 16:06:20 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippines government chinese embassy urged talk don t post",
       "title": "Philippines government, Chinese embassy urged: Talk, don’t post - Philstar.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGNMWHFuMG5QT1F6M1NzRVVLTmE0bjRicHNkV3dyNTBJWkN5aDJMNUZsbWJwWDlTUlVCUjlFRDlicEE2TTlNa0VCMVUxTl9TSy1ncmUzOHpXckVYcVZ3enBDdDRYcFUtVVdTRUNEYlRZcmlmbnVHRVBSa09BZzluQWJ6RnNLMDNmLTdEZnRONG5ibmdZV3RqRXdIMkpGZk5IQlc2aWQ0dEw5Q1cwZU5rWDFKWdIBugFBVV95cUxQM255dEc1U2xoY19mSTg1a01LSEFKcTA1X0ZsTWJ2YWdMMFQyTTVPVVk5enhZcEs4RGFqX2NjVmRVaXFnY2lLbUJ3eVl2bXVRQUI1YUd6LUk4c3J0ME9IRGJCMzBRM1BLaDJTR04ta0Q4WlZYM2Q4dndOcmhsdE5QTXk2aFkydUVTeXlRMWRqaVdBb1dyVU1NeUJFNE1SWHZ0Y0xLYVpTdG5GdHJnV1lqX2ZjNWgwOTFQdFE?oc=5",
@@ -16417,6 +18083,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T23:26:25.279351+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "4 paf pilots killed in training mishap",
+      "title": "4 PAF pilots killed in training mishap - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNjNWNUlpNk82a3NjcUxmR25qRjlHQ0JYbkJXbi04UEFzM0V2SlhGMTVtak9oYTFldmFXWnBmQWlQZXBKbVRsUVdhZ3kxOEVsWkFJUUttOExmR1JFYXk3WVVjRU1kcEN4eFRjc3VmTHYzSTZDX3hiTjVqTE9nSFMwcEwwR2ZJVlNYV0JxNGFVTDBuOXPSAZoBQVVfeXFMUExhVzBHXzJqTGpqR09ld1BoTUt5bTNmbFVkR3NOcFM0Vk5paUhVRXZXV2dBX2g0ajl2cXVtTGdvVTc2end2eVM0M2VPSTh4M3poZktWdlhfR1poMUM3VWhXcEVYMEdxUTFIZFc4cXJKb19mSDNPbnVWWk1CTzFPTWppSmxKN21BS05GaXkyQ29zU3FrbG1rbUdGdw?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -16602,6 +18282,20 @@
       "text_archived": false
     },
     {
+      "key": "north korea s kim crosses new bridge into china as trade ties warm",
+      "title": "North Korea's Kim crosses new bridge into China as trade ties warm - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTlLSVZQYy0tZFRieEJTYXU0WnM4NElhS29hMlJ4R3g1Mzl3Wmo4TzFRRlE1QXhsQ09SQWV0Uzg5LUdSdWpfdjI4LU1YSXRqY3pOSTEzbTA0cjdHM2MzVUpqbUdOSm13ZGZZdHN3VWlfbm1laGVQSmEtRklGaHhDejhUT2F4MUktamhqTS13ZHpNaERZekprMkp0TWdyX0t4bXhsOGJ1bUwzZw?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 12:39:09 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "中共中央 關鍵字新聞",
       "title": "中共中央| 關鍵字新聞 - 中央社 CNA",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5UbXY5aC12dExjZHM3aDVKNktDVFNIdEZRUm5uV1R0X3BtSVZMOThFZVl4LVpzTndyd2RGeWxPOHZLeUozN3U4?oc=5",
@@ -16711,6 +18405,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "five italian activists held in west bank have been repatriated ministry says",
+      "title": "Five Italian activists held in West Bank have been repatriated, ministry says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVHFld0Jrb0JFdUtvMk03TEh2TWZPSWJVY094YTRCY3pCXzUtX1VwU25HZFBRZG9LMF9PZXF6YjE4QkdGR2xBbkM2Z1lxUTh3c1NBbnJqSXlJUC1JRmNuUDJRMW4yVTl2Vk90Q1dVYlJDUVl5SnFQYXFBc3hmdUYzVlBzTE50anJ5R0NmZ1R5TVZYNlRkNEh4OHJOUmVkWWEyajhtUDJJbEM0MzRUX0xyOEhwNkRHcjVDbE5GY3dOMFpQQ0dJVmc?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 11:42:07 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -17187,6 +18895,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "innovating for a better future with shell nxplorers",
+      "title": "INNOVATING FOR A BETTER FUTURE WITH SHELL NXPLORERS - The Star",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdUtOZ0JkaTJ0SmVhWTVNMnQ3LUcwaWozWG1JelZwY2JyX2dEQkM4aV93SEpZVUpGQkhmclZvQjlzanY0bmFoQ2toakpXMElKdTIzUWJOMlI4VmRWaGpJVXBnZUhvQTVJVl9Ydnh4bVp5YWcxQndwRXlvbDFVLS1fVVdtbmpOeldWY055MXpOSS1fQzlFTk10U3IwVjl1dHdjM0xKc1BIdWw5QThxNTRHRUNFSjRNaEt1c3BsQ00yY3ZteE1SRldN?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 06:18:08 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -18240,6 +19962,20 @@
       "text_archived": false
     },
     {
+      "key": "storm austen injures several disrupts transport in belgium",
+      "title": "Storm Austen injures several, disrupts transport in Belgium - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRDJjV1I2TUd2NXl3c0lhVHNsODAwUEVBNzM2STFOM1lIUl9iX25kQmZQbUU1bENqeXRzNWthTjdST2dOT1lTUWhKbDZCbmduQXI3aHdzeHl4NFk3MDA4RXRhb0xuMXdnNHM1aEZxS1RDSUNuS2wzbWV4dDBON1dfTWxmakN4QnJWUk9yWkNuVk5yalIxTHNrbTVRMlA3VV9TWG1rUFdjZmhGOW8?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 20:17:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "marine sniper veteran visits ukraine to meet man behind 2 069 meter shot",
       "title": "Marine sniper veteran visits Ukraine to meet man behind 2,069-meter shot - Military Times",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmFyNWh4dEJpT25TMnRoTTgtUmpabU5CcDNuRjNQbWVQWm83bXlLRjROQlFybVVuQTJwWTdJd3ZMbHR0Qmkwam85RjRUSWxLMzNWWmJMckU2WlNINTRJXzkwZ0ZMNWNoQk40ZDZQZ2tkdkdmWWhkZm5hRGRKTndnVWp3WW1SeVFOamJCajBLLWRYM01Pemo3Nmd1eC1SeUttak1BVjdUNzlyMktwSVFpTWJ2b3hMWW1FRDNfNnFzdw?oc=5",
@@ -18352,6 +20088,34 @@
       "text_archived": false
     },
     {
+      "key": "zelenskiy says ukrainian russian and us negotiators to meet in early november in abu dhabi",
+      "title": "Zelenskiy says Ukrainian, Russian and US negotiators to meet in early November in Abu Dhabi - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUFpsT3JCZlkwblU1WFVQanptYWxJWHZTWnBkZHQyanA4bGd0ZWtyalhGYk13OVdiSmd6eDRyZHU0T1A3UXVYd21TMUpyQmFlelltOUpBVkxNVjRYaTNiWHpaYnBsT3libjhLSFZZY0J6LWpWd1JZX2RlcWtZVE9pcVhWbktFTVg5SDZQZnRzM1h6U3YxeEVwZVg5Nkg0WDUyeFJyWVItZFpEUEpkLUg5MVpXV0Q5SVdhUk1wQll3UlJjV0FH?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 18:26:54 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "trump says he will fix any starlink access problem in ukraine",
+      "title": "Trump says he will fix any Starlink access problem in Ukraine - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLUNicm5qVG13YWt5UVlLcXVWRmMwY2dfX2pkaU5EblVBbVh5WG1EMXZEVzM5NWZCRHVHYTJjcFRLYVhUcVpnSnJrdTlxOHlaRnZwU2htMVJ4cXBjRjAwWWhvOVNVbjlPR0Y1MUFLdmhYRG85by1QSHRLTHhSRmRDWk80aDl1YXZVbFEwOFh5QXhicGFKMndmYmZxbmR4TFVFMWVYNjFMN2JoX1k?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 18:19:28 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "the flight nurses of the pacific who saved thousands of marines",
       "title": "The flight nurses of the Pacific who saved thousands of Marines - Military Times",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONEk0MkJFa3hTR1BTUlJBV0NVcTNBYlZBeXcxTFBnRTJYOEgycEl0blRyT3M0SVBpUHcxVG5YVFZpYV9CYi1TUHRmZDJnNS1IdzdOa2RJNllTZktXRmZiMWh3T3Jvb1phZnF4c1JNMXBNYkQxVkZFQWx6OEFUWEFhWmtKQkNsaFdMaVFaWEVFVGdkWDVNUFRHQzdveHY5LS1qRWVqY2JMeXhzSkdsZzBXMTBBUk0?oc=5",
@@ -18391,6 +20155,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "us fines air france klm over flights in prohibited iraqi airspace",
+      "title": "US fines Air France, KLM over flights in prohibited Iraqi airspace - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRmlDdXhrR2VhUFlYLXFkR3JtSzlGYTZ2Sng0SUNucWQ3bmt3bGtyLUNoYnFOR3luc1FhdFFTTG5NdVAzdm1nay1iSE1RU3FKd0pmZ2JrYURHcV9XYWJwd3h1cjZxUURqRXl3RWxZUkplOU9vWU1lQUY2ai1zOUc1T010V2oxak1xSmJLR1ZNRk9Sd1NtRFFfNWFQR214UF9TN1R5UDFNOWl4aF93T0kwRi1nbTFwUU0?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:41:43 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "fighting in ethiopia border town kills nine thousands flee to kenya",
+      "title": "Fighting in Ethiopia border town kills nine, thousands flee to Kenya - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3lRSFA5ZHhuRE1lZWN3VzFCcDJaUVhnbngtMDZFc0dQejI4TXY5b1ZKNUo3cjJnUlBLVTRRUVI3aWlISl9QV3ZtV1VCdGNUVVVnNk1jTUg5eXlXeVZTUG5OdmFhMGpKdFhoalUwTnBhQUh3ZlZwdVJNc1U5SEpieHhwTEZJczZYTVBnNzJ6N1RFSk9UM0J5QjFnd24xdmtDUGFiYTlkV1Z1bWozUDFyZDh3TTNYZGhlN0doUHRrZw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:33:52 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -18601,6 +20393,62 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T20:39:47.623933+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "p50 million bounty up for bato s capture",
+      "title": "P50 million bounty up for Bato’s capture - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkpsQkhtcWlERmlybUNDSVcwU08xYUVsWWMySmh0S1ZHTVNyQ2M1VGhvQ0NNNzliMHhFVlUxQVRTa2M1eWcyV0JEXzZvMnI5MHFPSTZ4WnZSSlFTQWRUVHAwdTFQNnJhT0U1UkdVc0dkd1puQVc3aWF3cVRBaXdZdjZQSVJhNi0tOWF3cTNuVQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "diesel price hike looms rollback for gasoline",
+      "title": "Diesel price hike looms; rollback for gasoline - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONm9lTkY5Q3hXV25VX0ctMVhlT3p1T1ZIQnUyN3RGRFdtTTRROXd4QzU4UUt3WXE4R1VoM1BHMHNVNEZ6aExmZlRZbWFPWGU3VEtLWUlONy1mYTFqZ0pEWVdUMnVQWXRfanZ6NHF5NzAzVVUwTk00SDZyTjZ2VjNUakVyZDVsQnpFTGs2Zko0T1N3VkVzRVBvSGZhb9IBogFBVV95cUxNTThTeXJOVXhwN0Q4aS0zLWVEZ0pBd0FtNlkwSzlfTU5XTzRlZDg4Yk1tZHYwazFvbTV4N05wUEVBclgwOE9rYjFyY09vYk81eG1kWXhZMjk2ckUtb1lhTUNFWUJZc1NzUVlkaTRrV2hzNE5BWmpqUmRqRWdzcWJFTXNnclJJZlpPdXd3RmpSNWNocWpmeENJNm5DcnlZb0FOU1E?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "trump weighs quick end to iran war against letting conflict wither",
+      "title": "Trump weighs quick end to Iran war against letting conflict ‘wither’ - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGt4QW93RlZCRmRnTV9pMzVTeG55Ty1EbG1wcGU5M0VONm9wM3lEX0lvOEpVcW05OWNSWjJoOTJUSDF5cU1DSFhmZmp2OWdOc1ZPNURIRFF0M3ZzVGxteTRDd2ROZGplLUdWcjJSdUdNUkFoSzYwdDN0dy1yMmttWEdyWGVKeVNmRGE1ODRrcWMzRW9lQTVmMjdsT052QmVFN0Z2cmlRWWM?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 15:53:34 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kremlin confirms oleshky ceasefire says working with ukraine on evacuation timing",
+      "title": "Kremlin confirms Oleshky ceasefire, says working with Ukraine on evacuation timing - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcllsTk52c1A1a1lKOTR6T2N3aGMxRHAzYURpNl9VbWY4VEM2TlZOYlNGWE4teFJIU3ctb3JYNi1URkVJUUZnQ2ozbFJMeWRlcmZoQ3JYazd6cVdKZ0Y2OWxHR0pRNXFFbENzV05DOWFSa1VaMlZscGNIcXpXaExCeEE4ZmlWX3VZVnBqb3gtS0VaSXpsYVFPVncwalFKM1dXaXdrYmxRVDJkTGdJb2ZGVng0cUctQnZSd09VUERjbXVBLVVDZ3c?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 15:35:53 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -18922,6 +20770,20 @@
       "text_archived": false
     },
     {
+      "key": "india s tata motors posts second quarter profit on strong commercial vehicle demand",
+      "title": "India's Tata Motors posts second-quarter profit on strong commercial vehicle demand - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObHV6Slo5QWUxdGs0eTBHTVZSR0YwbWNuZDVSV1Q1alpsaXFfZ01JWTVwVGpCVFpkMkFQYThTREdxYm5kTFBYaEpHRFFjOW1GMVRKZ0Y0ZXZqcnp3bU1LckVmUV9Kcjc3UXZUR0VtMFBVTkFfVktVeHU0dzRSSUJDSjJDbTVpZUM0TXktU0ZYSTVmZTFoX09CeTFn?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 10:51:20 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "philippine peso sinks to 31st record low at p63 615",
       "title": "Philippine peso sinks to 31st record low at P63.615 - Philstar.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFdPZlYwZHlyWjgwZUpsZTY0Wlk2NjNMYURELXN2X2dJcWtjdFk0RVgzZnNJNVM1VkViYXJxRWhUZlV4QkFiSXFNdXRZRXRnWHJUOVNnNmtpaHBYVFFsMzl2WXU3Q0JDS0pUQTdhc0hvLWVER0VDa2xTRERwVWlSSVlpNTQ4ZUw4RVNCTmQ5aDdKRWt5NzJUMmhmM1MxWm_SAaYBQVVfeXFMT3R1cm9SZzhHWGJFdlZxcmhtdjk3bUVPcEVldnYzOHlHM3YtUXAwaWw5ZUw4UWVPREJTU1YxaVBCaG9Nd3pvQTRoOXdmWmpJODRQX3VLV1l2Skh2d2Zyb0RvQWJ6MjUweVFoRDkyZWRCSVZCM0dIYm5VWUh3M3EweEtXcjd4WDVXQTBnck84d0JNQ3FIelV5bF9xZmZ6cXN1blhNVUhfQQ?oc=5",
@@ -18989,6 +20851,34 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T19:20:17.301995+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "4 million travelers expected as airports brace for undas rush",
+      "title": "4 million travelers expected as airports brace for Undas rush - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTG9iTGhSdFFxMHVkWU9taDNGcE5IWFZFeXdCOV9NOWY1WTNES3d3MkNrQjlhekdPWjg0UGpOVVp5TU5JWE04X1FPeGF3emVad0MxdXFTZUN5ck1ueHNQTUVPTU9panc4cFVLV0VCMHd4TkxfR1NsaWRMYjVBNm5NRktBeVpsRThLdkwzbXE1eThDdy0xcXd3T1RZTDZId1NjWF9PVEdJVlNpNU1q0gGzAUFVX3lxTFA5Q1kxak8wcm5JTHdmMm1RTDFQU25TYl9ZT2lTSlJQMThIR0UxNTl0ZTBfRkdiNG5XNVRtakdnVlRqZHQxZzdyTVRTeEFxMmFJbmEtYmVHR3k3bFZmWS12N281MFM5dXZucjhBSTFtYTBTZXhvVHFOaTlxT0ZSN2xyN3ZhelllMjdURmNSNEw0S0wza1V4QlVDV3FjZThXckYxUXhCZzZCazFVSDFYdEhtczhR?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 10:14:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "new famine risk haunts war torn sudan with el niño driven drought",
+      "title": "New famine risk haunts war-torn Sudan with El Niño-driven drought - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd05QVnpyM1N2MkZaeUo5ZnJfRnRwbjFDYkF1VlRibHVZRGhWRXVoVXh1aFNxNmRfU1VMZm44MFQzUTBiWE1NSWtHTkRIS2hxRUQ1YkUyRV9tYmJHYjBSY2RVUmJiXzhycTMxRE9SNy1iWGxRQno5TG0yUnBaLXF0UFRHQk14TE1FNTZoMWpkQ0dDX3c5WHhNa3RmTGd5WXN6WU9UbHlGQXg0Zw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 10:10:27 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -19293,6 +21183,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "india s godrej properties reports profit slump on soaring construction costs",
+      "title": "India's Godrej Properties reports profit slump on soaring construction costs - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbFhHRlFLZ3JmZUctRFpVQjRfcnBRdUxaNkw5X3RjNHoxdS12bkNBLUtOOTFRTHo2MkVkbF9zYm9FdE9fMlFjcnh2eEFWcm9WQWFROTR2T3YtLThfX1dSSjJ2MmNPeEF5T19hd1liWjVRc0hhd3dJR2ZzbzNFQVZYS2gzY1YyVHpmQlk5Nms5cEdyeG1IUTg3TTlveEhrNk5zbE50WXBfaG8tMVRrTjRxZWtWTzE1dFR6eFRvRQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 07:31:27 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -21556,8 +23460,8 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-30T09:22:55.093260+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-10-30T16:07:17.321735+00:00",
       "resolved_url": "https://lifestyle.zingnews.vn/sieu-bao-champi-manh-cap-16-canh-bao-song-lon-tren-bien-dong-post1691255.html",
       "archive_status": "no_text"
     },
@@ -21950,6 +23854,118 @@
       "text_archived": false
     },
     {
+      "key": "venezuelans call for elections in first national protest in nearly two years",
+      "title": "Venezuelans call for elections in first national protest in nearly two years - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPai1xelZ4bWdFeTJCYWZJeHJxVFVRS3RXMklSdlV4aXI2cjN2bWpvczlDUWVndUl0ak5vb2IxMmREVmsxaVgxR1N4Qi04WXRNX2dSbW1jX3pZRi1KOXQ1RDdfMWdSSGdRak1nSGhGdTFSbjQ3U3VXenNSZDlWNlR4aklLUHc4TFRnbGtnaVdlazNOQkZ3cE9YNk4tOVpTVkhCQ0pFU1g3OXhBUk1BaDNXOEtJcndCRHJG?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "india october business growth hits 4 month high hiring stalls pmi shows",
+      "title": "India October business growth hits 4-month high; hiring stalls, PMI shows - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOVd1UzNhOV9iT2JldWFINDZ2Y3VrQTRuYXRCNzdpNjhpS2RLSW9WNmwyTVZOa0hlWEhoNXdSVU53cnowMENfRmJVbktqME9PNTRaTDlubVg1S2F2TnVoWm5aSXZ3b1prOGRBY1RiYnZFeVBMcFNoSnZLT0szTmVDT0tvREs4ZTloVWlPUmVrUUJCaUZGR0R3NlF1TDRjaklfWkhfNDZXRmcwRWZTenQxeWptemhGN2xwUjhj?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "north korean internet was hit by ddos cyberattack network monitoring firm says",
+      "title": "North Korean internet was hit by DDoS cyberattack, network monitoring firm says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdjBybXdvb01FSWlDRkY2NmViemhIVVVmN2FXZEhPU1BJLTZBaWhKSFYxclY3c0ptQ2hxLTFVQmdNSmt6NU9Fa2NtWllwVjU2OHFCalFWc09idGNaUkVtbzdsajB1bnpkWERiYTlfbnVRMjlra3drNUNYWjhFZXg0R2VrSHg1MjJoeDNURDZleHdraXhqM3VSUjk5elY0dExvNkE0RjhOSXltTVRjZmhxSTJiSFBDUFF6NHNSWXVKeVJDLTNQ?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "australia s rio tinto to invest 1 9 billion in queensland bauxite project",
+      "title": "Australia's Rio Tinto to invest $1.9 billion in Queensland bauxite project - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMXVPQlViT2ZTTzcyLWFwV01RTTlkWnh0ZjVZUllVT1lQY19SMS1SczRoQzFpLVVFSDduMDgtczhJQ1I0OFJ2Qks0djN3YUgxZlpYVjM0Y192SUVzTmJDdXR0dWNSblZOTElKLTZobEdtNGpSbDJmbGtzR2RiU21rSjZkS2hJUjcwb1BXdHpHR0trMlZOMjBJNjVzZEE0bG1maXR5eGtZY0JaNU9KQ2JCb1lHdVQ5T1liTE50Tg?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "trump ordered to sit for deposition in his 10 billion bbc lawsuit",
+      "title": "Trump ordered to sit for deposition in his $10 billion BBC lawsuit - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeEdESlAybnhYTFk5QmF1cXdLNGxzSHN3MEp6QWpMSjk2bUJXYzVySWtIZ3ljblNPeWpULTlYVV9sWnhKVWdoeHRNSUZzODZ5XzhqUV9TMGxwZzNyc19LZGtpQllIX25VVF9SZmdGZm1SUmJuekk1Qm8yWlllZ1NsaWE3ZDkzcmZBUm1jMzFiVXBJdmxuX1NEanh3SW5KMzJxQmp0aldGWl9SRWdS?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "yes bank unlikely to pay at1 bond coupons despite bond holders demand sources say",
+      "title": "Yes Bank unlikely to pay AT1 bond coupons despite bond holders demand, sources say - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXB4YkxOU29XMXU5cGN3U0Z3MzJzMVZTenpqUEZYa2FxTTJ2OEczV2M3UTU5WWZfZ1RSQk80OTJvbk1NOUo3YkNmajVMa0oxQ0szcWZDRnViWGZwZHBQU2N6NmNBYUtyVlZDdmc2bWx5VGlLWDhpUTQ1YURkdkd4ZW0ySjg2NVUwbU5oZ0F3RzgyU0cxWUZfTXd6cmpiQ2p2UXE1d19FYVBMdzJnczM4V2QyYzVTWTNnSGpkMlo1aEdJc3Z0?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "saudi aramco tells staff to evacuate dhahran as clashes with yemen s houthis continue",
+      "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china evergrande liquidators recover 1 of debt claims after 2 1 2 years",
+      "title": "China Evergrande liquidators recover 1% of debt claims after 2-1/2 years - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVzN0dTBZMTZadGROV3h5d2NiTjRQUXoxTHdVOGJ3OE5sR2g0Z1lYYV9nWDZPUlk0d241ZDJuMlVxbXk0bDUyR0ZVQklaT18yVHFicnYwNlZrdmVsMkQ0YkNXOUhqajlPN2c4QnFmOGhXQ1VMc25rZ28wT0xmTGlVZ0FYQTh3dWt0cWFZeTRhaTJLTVhreXB2TU5aRDMwT2pFbUhZMEkwbHp4VU1WdDlTUWJWRFpxd2hDaHQ2RA?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "sbs 2026 weaving a decade of youth action for sustainable development goals sdgs",
       "title": "SBS 2026: Weaving a Decade of Youth Action for Sustainable Development Goals (SDGs) - Rappler",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX25nb3QwTU1kTENabnFDeS12UWZ3cV9ZUDdneXMyT3QzOE90bTMxV3NWYWVoWE1TLWRVYkRHM2Y0aWFPV05vVFRYZHkyTWVibjBiNXhReGNjMmhjYnhjcndIS2paS2w5LUozbG9qOGEzTkZxRnhjcHQxd3F2c0pwVzE2Ty11U1Ewd0tFUERWVm1BeFk3d2VaT0tnSXZFOVFrSW5aSHNvWlc4YmJFUnJhdEw1SVZ3OWdueVB3?oc=5",
@@ -22269,7 +24285,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:07:28.926076+00:00",
+      "resolved_url": "https://vietnamnet.vn/sieu-bao-champi-bat-dau-gay-gio-manh-song-lon-o-dong-bac-bien-dong-2566065.html",
+      "text_file": "archive/text/f5ed2e90651446c6.txt",
+      "text_chars": 2399,
+      "text_relevant": false,
+      "text_scs_hits": 8,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261030160747/https://vietnamnet.vn/sieu-bao-champi-bat-dau-gay-gio-manh-song-lon-o-dong-bac-bien-dong-2566065.html",
+      "archive_status": "ok"
     },
     {
       "key": "cardinal tagle to lead macau diocese s 450th anniversary celebration",
@@ -22817,6 +24843,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "interactive heal ing malaysia one call at a time",
+      "title": "INTERACTIVE: HEAL-ing Malaysia, one call at a time - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVnJ5Ri1GcnhJX1NnbVE0dFUyV0ZlN0J1NzA2NzdVU3k4STRoMjNDNkdmSTdOQVJUeUtVUmlTWWxkSW5uY05ObHp6cHNtb1JkcUIzVFVid21jdkJtUjlPYktER1dPRTBhX0JfRHpMdGhqLTZrNm1XTGJWNWFJT2xxVzdpZmUwXzVLZWxWNmFKNElpcTZPXzJ5eXJybVFkdWhJa3lGUGwwX1RRNi1kcno3Rl92QWVnNGo1QXlSZTlFYTdOS294c2VnUnZLYzhJTDdsNXNVSmkzOGhOZFIxY1Noc05qRGFiQklQUzRvenhHbkJvSlFsOUhpQ09UX0I0UQ?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 23:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -24086,6 +26126,48 @@
       "text_archived": false
     },
     {
+      "key": "three issues defining the 2026 us midterm elections",
+      "title": "Three issues defining the 2026 US midterm elections - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWRpTF93cTF0cl9YYWU4bDBNcHRtSmlaR21FemFtZ3BFZkFOWng3NjhtTHhQNWhtSnRUbm5TZTNld3ZUTmxWSDFRVXRzQTNHUElfU0pibVAtQWxPc3NIcjNjWkVnNG5kb24tN0NvU0VCbDl4OFpxRjc3VC1pTlRXb2hrbkVpaGJjRTFSS1p3TTdSclhVX2NF?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "raffles family office aims to invest in rwanda",
+      "title": "Raffles Family Office aims to invest in Rwanda - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlVJWm80VHhDMXdYZnRKQzgteGRxX1pKVjJ2S0NLYzBjaVZRLXM1aWtBLWRrVXJZQ1BfMlFWamc0ZWtnN3ZSNHVGZHJEZU1WWnlDUklvZkhJUVB6WElJcVZDQk5UaUQ1d25CRkEzamNlUHBMdllkbVB5M0ZZS20wQ1FCMGJuNWo2YkxfTVFIcGNyN2RvYzl1cEFvaw?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "putin at talks with witkoff suggests he and trump could meet in china",
+      "title": "Putin, at talks with Witkoff, suggests he and Trump could meet in China - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaENGOEc3LXlxbThzSDVIZ3ZtSTMyd2VodlpOOEg0TjM0dHpJRkxTZ2xoWEhZUmk5WHVudmp4cGZBaUNtMnNCYzVjN3V3LWUxTjhfa0x4YjI0NXVURVQ2bkNkSlVfLUJ5aFV6eXJkRm5MOV9JRDg4aTdsT01nLWtlb3ZiLVF3TzhOTlVlcTRlaVQ5ZkNSbFJxVU13aVc1aG5TSTcwbnFsRjNseG8?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
       "key": "malaysia bans civil servants from using mapping app waze citing links to israel",
       "title": "Malaysia bans civil servants from using mapping app Waze, citing links to Israel - Rappler",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcWtYUExJRzR3WGlGcWE0VWhlQ0tZVV9SU0RPOFdwRU0wZ2kxVnRrNWVxeThhSFFDbWhnSVczNEJ5dWZ2cldad0JXUlZxMHpjc25jYTNZVl8wcFJ5bHBwUzFITkhwZlhUZlFIQmV5akVlMndaLTE2ZEsyZjdNbTN2RXZxXzY4bUZ2R1I0Q0ctYw?oc=5",
@@ -24507,7 +26589,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:08:55.320486+00:00",
+      "resolved_url": "https://vietnamnet.vn/tin-moi-nhat-ve-sieu-bao-champi-manh-cap-17-khong-di-vao-bien-dong-2566067.html",
+      "text_file": "archive/text/5253adec8db644fe.txt",
+      "text_chars": 2504,
+      "text_relevant": false,
+      "text_scs_hits": 3,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261022012024/https://vietnamnet.vn/tin-moi-nhat-ve-sieu-bao-champi-manh-cap-17-khong-di-vao-bien-dong-2566067.html",
+      "archive_status": "ok"
     },
     {
       "key": "malaysia japan to deepen defence ties through joint exercises procurement",
@@ -25707,7 +27799,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:14:33.529210+00:00",
+      "resolved_url": "https://www.rfi.fr/vi/ch%C3%A2u-%C3%A1/20261020-bi%E1%BB%83n-%C4%91%C3%B4ng-trung-qu%E1%BB%91c-%C4%91i%E1%BB%81u-l%E1%BB%B1c-l%C6%B0%E1%BB%A3ng-b%C3%A1m-theo-t%C3%A0u-m-v%C3%A0-%C4%91%E1%BB%91i-%C4%91%E1%BA%A7u-t%C3%A0u-%C4%91%C3%A0i-loan",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "hải cảnh thời sự podcast video và phân tích",
@@ -27723,7 +29819,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:07:23.251988+00:00",
+      "resolved_url": "https://lifestyle.zingnews.vn/sieu-bao-champi-co-the-manh-len-cap-17-anh-huong-the-nao-bien-dong-post1690726.html",
+      "archive_status": "no_text"
     },
     {
       "key": "un experts urge israel to protect west bank olive farmers",
@@ -28135,7 +30235,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:11:32.217440+00:00",
+      "resolved_url": "https://vietnamnet.vn/duong-di-sieu-bao-champi-con-nhieu-kich-ban-bac-bien-dong-sap-co-gio-giat-cap-10-2566071.html",
+      "text_file": "archive/text/c0912c50858d8966.txt",
+      "text_chars": 3035,
+      "text_relevant": false,
+      "text_scs_hits": 7,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261021023726/https://vietnamnet.vn/duong-di-sieu-bao-champi-con-nhieu-kich-ban-bac-bien-dong-sap-co-gio-giat-cap-10-2566071.html",
+      "archive_status": "ok"
     },
     {
       "key": "東京都がクマの緊急銃猟実地訓練を初実施 駆除まで時間かかる課題も 東京都",
@@ -28849,6 +30959,62 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pope leo urges zelenskiy to cooperate with russia on aid for oleshky",
+      "title": "Pope Leo urges Zelenskiy to cooperate with Russia on aid for Oleshky - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSW9IQmgyc3g5S1pkQnhhdDdwTUtYX3NBdWtHQ3M3b3FuT3NZQWhrcklpYmpWMnhTSUs1Nl9rV0h5dWpNR1Y5M2M5eHFnWHBucWwxVjFzRWZ4bmZMYmZLRDhsNVIxUndMOWl4ODFBNURiT2I3eG83ckgyYVllT2h0dDNxS0s1OTJzOThYZzUxZ3Z5eHFqUkFZSnozcXNaWUlSenc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "south korean sect leader gets additional 33 years in jail for sexual assaults",
+      "title": "South Korean sect leader gets additional 33 years in jail for sexual assaults - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM3B2bU5BdmdxU2lsZUN0cHZfUFU5R2htN01VTERoOG8yN195ZW94cnN4RDJrOVQtdl9SVEN4SnJRdVlYT0VXSG1YeW5RVWdtOHUzU0VBZWVGNGcwc3Q1dWZheXdscUVIUjRTSHRVY0tBYXYzSjBNanNlRmxqLVBkM0R2dWdxRHpsc3lqWkVhTGlRM1pSWGk0SnE0MXdyYTYyN1hpbWtzeW14bDd4V1R2dFl5d0ZtV3dmZ1FrZXAzTkRaNHc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kremlin says putin trump and xi could hold a three way meeting in china next month",
+      "title": "Kremlin says Putin, Trump and Xi could hold a three-way meeting in China next month - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVF3TGpvSmg1YmEyMnhhWXhnUFkwdS13ak14NldscXdsZm92dVkzbGdnU3lwd2VjY255bXJKeGZOX09ZM3AxN1JjWHRSbXRGNDdFaTVhMU9SMWxKZXRDNDd2bnBuaE5pSjJwbkgtVXF6dzJWNWFJOUw5X2U1TjJPQjdUaG1ldHRudHRVTF9FeWhOM3gxaTloUEcxaVdJdHg2M29sUHJwc2NFWFdRV0xjS3Y2UlZ6ZEJLOEw3ZEpR?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "india s bajaj finance posts quarterly profit rise on strong loan growth",
+      "title": "India's Bajaj Finance posts quarterly profit rise on strong loan growth - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNEFiTS1UZmQ2Wl9BWHBoTGItaVFqMzFjMTFrY1JNdld0Uy00WHJzRUdkZ3lGeWNCaGhiSjNPYUh6ei12M24wYm5DcW8tZjhGNmRGeGJqUmNYOEtIOTlEeXA2U2hNek5jRGV3Y3ZaY0h1Y1owTWc0d0lYSThKV0FvTnRNNkZib2RnUFJXSzl5YjlBOHJma2lYLWRJX0ZzdTRpZGh5M2I0UEc4dHhoUWRiUjJtdEVVQzVk?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -29587,7 +31753,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-30T16:13:10.159346+00:00",
+      "resolved_url": "https://vietnamnet.vn/sieu-bao-champi-huong-ve-dai-loan-trung-quoc-kha-nang-vao-bien-dong-10-20-2494730.html",
+      "text_file": "archive/text/7f145c35f23baa72.txt",
+      "text_chars": 2143,
+      "text_relevant": false,
+      "text_scs_hits": 7,
+      "text_actor_hits": 0,
+      "wayback_url": "http://web.archive.org/web/20261030161325/https://vietnamnet.vn/sieu-bao-champi-huong-ve-dai-loan-trung-quoc-kha-nang-vao-bien-dong-10-20-2494730.html",
+      "archive_status": "ok"
     },
     {
       "key": "labor coalition seeks faster action on p85 ncr wage hike dispute",
@@ -30261,6 +32437,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "china s new home prices fall again as recovery remains elusive",
+      "title": "China's new home prices fall again as recovery remains elusive - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVndWUGt0d00tOWNGS2lsS3c3WmZTcWFaeVZwNUJVZC0tNkpaR295ZkJpc3FiWGgyeEVUYkgwUi1OUXpiUUo3WG5xeDN3WnpXNlIzc3hSdWxPdkpPcVd4QjI0eTNtR19KX25FcmNRYjlBX2h1R2twRzlPeW1wb0t5QnJ6Q091bnpSMVpLa3cycXAxS2JlTU13YWw5TGhqREx2NGJ3bG5GTi16d0dNVmpzSkVfR3RqclJFd0J0MzdB?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
+      "outlet": "Reuters",
+      "source_name": "Reuters",
+      "country": "INT",
+      "domain": "reuters.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-30T16:05:29.835625+00:00",
       "text_archived": false
     },
     {
@@ -31328,142 +33518,6 @@
       "source_name": "Military Times",
       "country": "INT",
       "domain": "militarytimes.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "bộ công an đối thoại với nông dân lại nóng lừa đảo trực tuyến tín dụng đen",
-      "title": "Bộ Công an đối thoại với nông dân: Lại nóng lừa đảo trực tuyến, tín dụng đen - Báo Điện tử An ninh Thủ đô",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXd1ZmhrbmNHUndGbnh3akZ2UWV4dllUUUlURWdMNkY4LU9SclNNSVVIa0VuejZKbXFmbzRsR2NCeEF4MVkzalpaMGs1aU9rcE1fVm96WlBPNFZ5RThHZEg2VktRdW93cXlGVWE2eWtsYUhjdnBDSmVORzN3b002c1phc0RKUHdxUU8zU0JjV21QSFVodjdSOGZ3YmhSanAwWE5qX1J5X0gzYVNRRVcyY0d6OA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 14:06:45 GMT",
-      "outlet": "Báo Điện tử An ninh Thủ đô",
-      "source_name": "An Ninh Thu Do",
-      "country": "VN",
-      "domain": "anninhthudo.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "indonesian stocks see sharpest one day drop since 1998 after proposed msci downgrade",
-      "title": "Indonesian stocks see sharpest one-day drop since 1998 after proposed MSCI downgrade - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOGJsU0tMczFadU1wUWVWbUFOZ2NHVkVSV21CcTZIamxmRms4clF6R1UwYy13RFNSOTZfdnZubDQ5aDJDM05kcnUxanZsOURQZFlBeXE2WE1FNDFsMFdJbUZKOFk0UzZram9aUXdqTTNQTEZDS3ItU0FPZDRCUktURlpnRUItdnJPR0djYXIyTGdVcUZMclNyNmVoaHBKS0dYZjNZaTFYM3FJaHlTQnlpalJfbU5UN2FYT1BHTWV6OWxwX3haOHNlcVNUZFp4S1pDaFFXZHhiQnZETXJrWl9YOWhB?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:37:57 GMT",
-      "outlet": "South China Morning Post",
-      "source_name": "SCMP",
-      "country": "CN",
-      "domain": "scmp.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "china vows effective measures to deter any sabotaging moves in south china sea",
-      "title": "China vows effective measures to deter any sabotaging moves in South China Sea - CGTN",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1VtZnRMUmtkdkFZREVqaUZldnZHa0VNUFZ2R3pCWE9PSFFOMXZaRVQxaGVQdG9mMFBiVTQ2VXlmSXc5djJiZGFaUkhyOUdPTm14dUxzSl9pcjNWdGxSVmtFOGdtd1pZZ3BwOGY1RUFaX0N6MmlTOF9ndkl1YWs5TzhEVS1YMy1Tb3drOGxRbHktX3g4QngyWFlXdkd0LXFweGxTdm00YkV0dlZyV1RCTG5sTHZ5UkJVcWpSaA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:27:57 GMT",
-      "outlet": "CGTN",
-      "source_name": "CGTN",
-      "country": "CN",
-      "domain": "cgtn.com",
-      "relevant": true,
-      "tier": "sea",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": true,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-27T19:05:55.409754+00:00",
-      "resolved_url": "https://news.cgtn.com/news/2026-10-16/China-vows-to-deter-any-sabotaging-moves-in-South-China-Sea-1RichcX3GOA/index.html",
-      "text_file": "archive/text/faf7aafc3e1227d3.txt",
-      "text_chars": 2624,
-      "text_relevant": true,
-      "text_scs_hits": 15,
-      "text_actor_hits": 3,
-      "wayback_url": "http://web.archive.org/web/20261027190628/https://news.cgtn.com/news/2026-10-16/China-vows-to-deter-any-sabotaging-moves-in-South-China-Sea-1RichcX3GOA/index.html",
-      "archive_status": "ok"
-    },
-    {
-      "key": "gansu kindergarten operator sentenced to life in lead poisoning case",
-      "title": "Gansu kindergarten operator sentenced to life in lead poisoning case - China Daily",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kZk40UVQtczFIdmVMcE5ORE5oZGphaGN6OHJwN3A1SE5zTWZ4RmRhNDlwcG5Nc1Z5WXF4clhsNWh5YzVQUU9pU0JhSU9CUE9oQ1dOWnd2Z01XdDUxWERGeHZFazVtV3NidTFhM0VGckFLVlZfdk95dFdtYWFaUQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:26:38 GMT",
-      "outlet": "China Daily",
-      "source_name": "China Daily",
-      "country": "CN",
-      "domain": "chinadaily.com.cn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "guangdong releases probe report on shantou fire that left 12 dead",
-      "title": "Guangdong releases probe report on Shantou fire that left 12 dead - China Daily",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vSWpERW5icGRwYW02ZnVJRzA5OGZueXJpZC1MbnRqT0VpcHFkM1V5a3QyTTZVX1BCUWI3aDA0UmxheDg4M2t3eVhmSFBpQWY0NmcwUEM4OWdNWE9qNkVpNXRtQVdETlFBRmxCU01LN3kxUnFUWEdzRG1ZS3R0Zw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 11:57:36 GMT",
-      "outlet": "China Daily",
-      "source_name": "China Daily",
-      "country": "CN",
-      "domain": "chinadaily.com.cn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "from wall street to tiktok why learn mandarin",
-      "title": "From Wall Street to TikTok: Why learn Mandarin? - China Daily",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yeXVBQkxaNGRoc0tyYU9RNHE1c2VyNWZNYXJBYVFrbXQ2b3NSTzBxVGoxRk9ZQzJkcFJJdWU1T0c1M0p5SmNXYWFEaVVwOURidGhXMVFwQTcwSkZyQkJqdkN3amw5c0ROeWxfclU4a2xGVHhrNXdTNThjWTFHUQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:59:18 GMT",
-      "outlet": "China Daily",
-      "source_name": "China Daily",
-      "country": "CN",
-      "domain": "chinadaily.com.cn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "tiếp tục đề xuất giảm tuổi hưởng trợ cấp hưu trí xã hội",
-      "title": "Tiếp tục đề xuất giảm tuổi hưởng trợ cấp hưu trí xã hội - Báo Điện tử An ninh Thủ đô",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQU9KX1hYTGxNdExxTmE4OVhGbVphV3BISGJCMGdMUk5peTVyRWRFVzgzcE9KLTAzRHUxOG15bW5DeG05YTEyOGxzUWhJSjdmejJjVHktQkt0SkFfb1NLVzRQVGt2SVkxSnJyWTktSWZkVGdRcFFGd01iSWN3Um1ZdmxFaGY2ajJLUjEwekZ1TzJsbXVWOXVWekl3?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:42:25 GMT",
-      "outlet": "Báo Điện tử An ninh Thủ đô",
-      "source_name": "An Ninh Thu Do",
-      "country": "VN",
-      "domain": "anninhthudo.vn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "chinese scholar rejects china shock narrative",
-      "title": "Chinese scholar rejects 'China Shock' narrative - China Daily",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuUDltS2lkd3RIMmtQbGtpbVVzYjZFWDBDTklXbks5LTR5ZTBRTVpqNzJsaGxDNkRwUkVtT0VtejRqakR5b0lRQzVGQVNzcGhvOE1SU1p6WTZtSXdiWi1ZeGp5NFFhM25mZ0RpdUZweUVUcEhXa001cGdVOHBVZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:37:38 GMT",
-      "outlet": "China Daily",
-      "source_name": "China Daily",
-      "country": "CN",
-      "domain": "chinadaily.com.cn",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-27T23:01:57.886152+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "甘比亞外海移民船沉沒至少12人喪生 國際",
-      "title": "甘比亞外海移民船沉沒至少12人喪生| 國際 - 中央社 CNA",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qWEdUakNOamNobjBFOFVCN3JWbzJqdG8xQW9KUGRVRjRNcFRMcG8yRFh0OS1EeGd4SVBQZmlXTXZ3aFJWTDY3dmFnREZIN1ZPaU9KRzJDVDdwanhiakpB?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:35:00 GMT",
-      "outlet": "中央社 CNA",
-      "source_name": "CNA",
-      "country": "TW",
-      "domain": "cna.com.tw",
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
