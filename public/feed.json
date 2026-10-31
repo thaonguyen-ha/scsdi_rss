@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-31T17:33:18.824600+00:00",
+  "generated": "2026-10-31T20:37:19.514161+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 2453,
+  "n_items": 2467,
   "n_relevant": 89,
   "new_this_run": 0,
-  "archive_total": 3048,
+  "archive_total": 3068,
   "items": [
     {
       "key": "demo di italia memanas polisi tembakkan meriam air dan tangkap 8 orang",
@@ -246,6 +246,20 @@
       "text_archived": false
     },
     {
+      "key": "kumpulan berita dalam negeri",
+      "title": "Kumpulan Berita dalam negeri - ANTARA News",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IdFU3Zjk1bG5aa0lva3VTSHlpY3ZzaFBRSlpYRkNwT0t3eUVZM2I2VUZnMGx6NWd3VHdMOGoxc3BKbzBibkM1QTg0cnNzTDNFRmk3VmMzMlppeVZFWWc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 06:17:23 GMT",
+      "outlet": "ANTARA News",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "美日韓外長強調台海和平穩定重要盧比歐直指中國脅迫行為 國際",
       "title": "美日韓外長強調台海和平穩定重要盧比歐直指中國脅迫行為| 國際 - 中央社 CNA",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96ZE1nMWYzVFFJcFYwODVjNjVocUFoUjNMQWhTRlFfaG1uXzZtUTdGazhhNmpTYk9EZG5Ta2JyZ0xhdUlmNldqUjZiMFFEWmpLOHpQLTZNUEtwLW5zMmtv?oc=5",
@@ -411,6 +425,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-31T06:00:39.441177+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "list losers in the 2025 elections with new gov t posts",
+      "title": "LIST: Losers in the 2025 elections with new gov’t posts - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFVhUkM2bzgxVGoxSVRBMndyRlFSekRhODJ5TnpaVkNEWmV4VUpmUkVjSWRDdjAzT21STzBvb3pPd3kxTnRuMzNQZTZIcHp5Zml6UV9qNEdzdnYwdlZjMFdaQ1ZBNk50cmlGM0tyX1hMZzlDQXhIbHgxTGJCbGx0NWVtRThKN3R3d3ZDN0dWNHplWU9ieUpxNQ?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -1867,7 +1895,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-30T02:44:59.858088+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T20:37:00.903602+00:00",
+      "resolved_url": "https://www.thestar.com.my/news/nation/2026/10/30/khaled-south-china-sea-code-of-conduct-must-be-given-priority",
+      "text_file": "archive/text/7b1b9e73a25fb0e0.txt",
+      "text_chars": 3333,
+      "text_relevant": true,
+      "text_scs_hits": 2,
+      "text_actor_hits": 7,
+      "wayback_url": null,
+      "archive_status": "ok"
     },
     {
       "key": "fact check jinggoy estrada not acquitted of plunder bail hearing ongoing",
@@ -1937,7 +1975,11 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-29T23:26:25.279351+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T20:36:57.285158+00:00",
+      "resolved_url": "https://mb.com.ph/2026/10/30/kris-aquino-praises-marcos-over-west-philippine-sea-stance-admires-first-lady",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "china trade accord with swiss bucks wider trend towards protectionism",
@@ -2500,6 +2542,20 @@
       "text_archived": false
     },
     {
+      "key": "張又俠",
+      "title": "# 張又俠 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RNllFR0JQUFhBVTBqNkNmZHJOTHA0bERFcDhsVFNJSk5CcjlLUUNHd1d5WWJ5UERMLWs4cW42UHh0NEtIQUZ4dA?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 15:22:47 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "nst leader malaysia must build evidence before pursuing legal action over haze",
       "title": "NST Leader: Malaysia must build evidence before pursuing legal action over haze - NST Online",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQemdrOEFyTFI0YXV6RGpzanpYV1hKMDhXVGc0Y3dWM0VwWEt0dkVraVBtNWdZVS10bVBWUkZfXzRsZmxxV0JsVXhqMDdSakMzZXNfTnJzdXZ3ZmNnR2tEZnJvRlRrVnBpc1VDeU96YTBDbnAxM0p6aW53ZlBVMjJqUnlfWVR6UExULW5SVUNiYWxDdU84NHQ4bjZrNjhNUEVPSkFrd2xWYjhLVGVuX09yd09uVEEzWWdVTlVPdUs3S1g5VknSAcMBQVVfeXFMUHpnazhBckxSNGF1ekRqc2p6WFdYSjA4V1RnNGN3VjNFcFhLdHZFa2lQbTVnWVUtdG1QVlJGX180bGZscVdCbFV4ajA3UmpDM2VzX05yc3V2d2ZjZ0drRGZyb0ZUa1ZwaXNVQ3lPemEwQ25wMTNKemlud2ZQVTIyalJ5X1lUelBMVC1uUlVDYmFsQ3VPODR0OG42azY4TVBFT0pBa3dsVmI4S1Rlbl9PcndPblRBM1lnVU5VT3VLN0tYOVZJ?oc=5",
@@ -2917,7 +2973,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T20:35:21.279084+00:00",
+      "resolved_url": "https://www.rappler.com/philippines/teodoro-asean-defense-ministers-south-china-sea-frgmenting-world/",
+      "text_file": "archive/text/aa92ef8e8e31fe28.txt",
+      "text_chars": 6120,
+      "text_relevant": true,
+      "text_scs_hits": 8,
+      "text_actor_hits": 6,
+      "wayback_url": "http://web.archive.org/web/20261031203526/https://www.rappler.com/philippines/teodoro-asean-defense-ministers-south-china-sea-frgmenting-world/",
+      "archive_status": "ok"
     },
     {
       "key": "defense chief gibo teodoro calls out china official for gutter level talk",
@@ -3169,7 +3235,17 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-29T13:49:20.148567+00:00",
-      "text_archived": false
+      "text_archived": true,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T20:33:44.532144+00:00",
+      "resolved_url": "https://www.malaymail.com/news/malaysia/2026/10/29/south-china-sea-territorial-contest-a-test-of-aseans-unity-and-credibility-says-mohamed-khaled/241137",
+      "text_file": "archive/text/f083303fe7368a5f.txt",
+      "text_chars": 3262,
+      "text_relevant": true,
+      "text_scs_hits": 2,
+      "text_actor_hits": 5,
+      "wayback_url": "http://web.archive.org/web/20261031203435/https://www.malaymail.com/news/malaysia/2026/10/29/south-china-sea-territorial-contest-a-test-of-aseans-unity-and-credibility-says-mohamed-khaled/241137",
+      "archive_status": "ok"
     },
     {
       "key": "hajiji sabah allocates rm98 06m to empower youth boost role in policymaking",
@@ -3281,6 +3357,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "華爾街日報 關鍵字新聞",
+      "title": "華爾街日報| 關鍵字新聞 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tUTd6QVdVcFdrU1pLc1RibFd4YXE3V1pHcXpFVUdaLXpmYnQzR3FrRmJFSVZvM0poRTd6YnU0Tk51dUFBZlNpSw?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 07:30:59 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -6606,8 +6696,8 @@
       "tier": "sea",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-31T17:27:39.637280+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T20:33:37.178553+00:00",
       "resolved_url": "http://vi.rfi.fr/vi/ch%C3%A2u-%C3%A1/20261028-philippines-n%C3%AAu-v%E1%BA%A5n-%C4%91%E1%BB%81-bi%E1%BB%83n-%C4%91%C3%B4ng-v%C3%A0-tranh-ch%E1%BA%A5p-th%C3%A1i-lan-cam-b%E1%BB%91t-t%E1%BA%A1i-c%C3%A1c-cu%E1%BB%99c-h%E1%BB%8Dp-asean",
       "archive_status": "error: HTTPError"
     },
@@ -9868,8 +9958,8 @@
       "tier": "feature",
       "first_seen": "2026-10-28T20:39:47.623933+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-31T17:27:43.461793+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T20:33:41.054792+00:00",
       "resolved_url": "https://cebudailynews.inquirer.net/779391/pagasa-amihan-season-has-begun-cooler-days-seen",
       "archive_status": "error: HTTPError"
     },
@@ -11632,8 +11722,8 @@
       "tier": "feature",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-31T17:27:33.145270+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T20:33:29.950194+00:00",
       "resolved_url": "https://opinion.inquirer.net/195952/law-sovereignty-and-the-sparks-that-ignite-history-at-escoda-shoal",
       "archive_status": "error: HTTPError"
     },
@@ -12321,6 +12411,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita aksi militer",
+      "title": "Kumpulan Berita aksi militer - Antara News jatim",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yT1Z5aWFnNXRFNGNDOE9wUW1iVEg5Nm5QdVBKNElXNE5nZ3N2QlV0NHZiYWFiMGJCbWpEZkRwam9KYnZrRTlfMWQ1aFFYUjhsZkE4a2lBX2V5eGJR?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 14:13:10 GMT",
+      "outlet": "Antara News jatim",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -17540,6 +17644,20 @@
       "text_archived": false
     },
     {
+      "key": "it s just politics banggi s riches its people s struggles",
+      "title": "It's Just Politics: Banggi's riches, its people's struggles - The Star",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWTJXLURNejBUdW5vN3Qzdi1TQjIyMjI5OU1nNFVBY285ejlNWGdNTmhZelAyVkVhX09aNFdkRGpNeU1zU1h1T2hxX21EbmQ1OTNSUkRsc0RSU0JJeXg3bjBmSWJmUlF0cEt6ZjBsNm9TRFRTOWE5TEtQSFJjSG1QUklCR2FDOGk1RXN3T1lCM2drY2FwS2dqa3NtVnpUaUhJaUg2dmN5Q0RHV2M3dmZ3Uw?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 23:12:57 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "五輪解説 菅野範弘の目 台の違和感から負の連鎖",
       "title": "（五輪解説・菅野範弘の目）台の違和感から負の連鎖 - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkNlF0bVNUQUs3MF9PUUhLMFk0NDN5bGZuS21KX1hPNm1XTDZXc3BvbHlOcWY4cE5qaENySkF3RjM2RUZ1MnBMWHFsYTFuOVJqOEppZ0dKcHZSeU1kME1SS1VCXzJJdw?oc=5",
@@ -17874,8 +17992,8 @@
       "tier": "actor",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-31T17:27:36.427039+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T20:33:33.596081+00:00",
       "resolved_url": "https://newsinfo.inquirer.net/2329583/2-coast-guard-personnel-slain-in-cotabato-city-shooting",
       "archive_status": "error: HTTPError"
     },
@@ -20981,6 +21099,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "rm11 6bil sukuk proposed for water infrastructure",
+      "title": "RM11.6bil sukuk proposed for water infrastructure - The Star",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZWQyWmJlTFgwNjA3dEFYSTBxSnItVE03R2loSHYtRXFIVmhCTHRKV0RLSmV3U1R0cktucmtXeG85Mjh4V0pkTWFJVEVBdFFKamQ2Rnd6Zm9SWko3WEpwQ29wN2pHZUtWZllySU5kZzhPalRsU3cwOTlQQkV6Wk92U2ZCTHhtUUVWY2NRNTJsSXVDMzdXS1EyYmdCQ2g3QQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 00:43:56 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -25870,6 +26002,20 @@
       "text_archived": false
     },
     {
+      "key": "no plans for personalised vehicle plates says loke",
+      "title": "No plans for personalised vehicle plates, says Loke - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ21EQVZacGVNbUM5a25PWTIxS0Z2OEMydUM5TE92OXppb2ZtMUZQZGFuWC1RZmNaemJGZnJTWFV0M0pvODVMWVRNaURpQmJRd3dyWnRXYnllSFVrMi1keGQwLWc1Y01UaWNFRzlXc3cwMER3c2puVWJ3QTJVRDRkT0pEemxGUENTcXZuY3RWdjRqcG5aYXNRbDFSQTRhSV9XNEE?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 05:35:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "rhb bank gets bank negara extension until feb 2027 for tokio marine deal talks",
       "title": "RHB Bank gets Bank Negara extension until Feb 2027 for Tokio Marine deal talks - The Star",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUS1XY3A5c1hNa0VuLVBaaDBPZ3lKTlJwYVJ5QldjbGYtcHp1YnR0cUhwZ09HRTRjV0pKSm4xN3ZleEJnUUljSTdoYzlDd2xjaUNUWmJoRThtLTVHWEc0bmNESUx5R3FnMG82NnVqQjM3Wnd0ZFpCNWgxbHQ3ZTFpM0dzNWpJNUNnSWt0a3hzcmdpZFo1TldERU90NTZ0bXFnMXdQcnd2UEdXYW1lWGhQUE1Wblg0QUMyb1lwVHhnSzBHUzA2bDhYLVBDZUs3TG9JWHZrVUVn?oc=5",
@@ -27274,6 +27420,20 @@
       "text_archived": false
     },
     {
+      "key": "no reports of m sian students involved in impacted by france riots says higher education ministry",
+      "title": "No reports of M'sian students involved in, impacted by France riots, says Higher Education Ministry - The Star",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNazFtNE83b3hONnNaZHRtV283XzZvMGVVMGRhaXI3UjUtVEcwejF2WWR5am1fc0VLQ3hIWjg4TlZxa0EwcEdBdUlhTUVkdXJ4YnlOQXVUSWpaN1c1QTNvZjZId0VoYXFrM21pM2lWT0x0MWxBN2pGUnVnSnIxVzVpd25kMnB1dVA1OEtiaGdFaUxLRF9ZRmx1VmlvbnFESkdyYWtXNjQtcFlSeTRPeGxCU3ZBWXBGZnFXd1otdXpPZXhXYjhsNUxMRjViSXFYZlNhZmliUVJ4UGZaZVBRSGhvbjd1YndaUXZ3dUpDOXd5Rlg1X0duY2l2cTBONmZsRzBJM3dEVjVWei1lUmlqemxxU05iN1I1Zw?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 13:11:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "中國海警局宣稱允許菲律賓運送物資至仁愛暗沙船隻 兩岸",
       "title": "中國海警局宣稱允許菲律賓運送物資至仁愛暗沙船隻| 兩岸 - 中央社 CNA",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9haFZQcUtsenBxZDZibkhNcjdITEhROEVvN3NLVnpvdUxUUUZRc3RValo4amNyS09LcWxkc21VMVdlcXZjZkp3VU1YMnNCSklJcDVIUUpoVlFqdzVyVEE?oc=5",
@@ -28041,6 +28201,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-31T12:52:18.581854+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "woman injured after part of glass wall at kkia falls off",
+      "title": "Woman injured after part of glass wall at KKIA falls off - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWkgzdVNtX1pIVENsSV94TTV6WmJneHJfTEZiNG1iaE5iZkh3NnJ4dHpsTWlrZ1lrLXJ6ZEV0di1WUTlhRC1laXpyTzhIdWJIbTdZeVE3UVd6UDJpZTVwQnFZbnJxRmdnWm9TZVNOU1hFckE4OXdtRS0zZy16aE42RWVwTjhSQlZTcUF5b3RDdmN6bnlrb1ZicDU3cWhjeUxMa2pGTmEtYWI2a3k3YWpwOWo3VEhSQ0lLZmZ3ZFBnSlFncHQ3b1JmVGFqak1ZQ1RIM2JtcmFnTWtPVmhRWU5selZR?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -30511,6 +30685,62 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-31T17:25:41.122844+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pn has been deregistered says ros",
+      "title": "PN has been deregistered, says ROS - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbDVMcWZ1dGRhRUlNMXlmUE5ac2hPeGszczVnR3Z4cVNnOEhqa2RnSVVCOHpvbmZtVDRYTGJKQkFWblY2ZnY0eFZXSEk0Znpqemw2MWVLNFJvNW8tanZlWXhsdHVfU3ZxRUYycURab0Zvb245cVVBMmxPMEFjaVdOS3RoQ25Idkd1Y0RPVDBJcExvdHBGN2Q5ekQxYkwtOFhuX21YWHZaUEU2V2Zia3ZUajkwSHdLYXZFSldCdjkwYnJjems?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "syria s first dna based identifications offer hope for families of the missing",
+      "title": "Syria’s first DNA-based identifications offer hope for families of the missing - The Star",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUTd6bUV4dHotOW9CbG5CYllxZGFUaGFoVjBISm94Qno2bHlOOFJRbjZNTGRBdngxbmxXTjZjNkQxYlFmTG5uUlZtYXRVSTRTUUxpYlg0S0pZSnR4UFcyT3VaQ1p6Skk2M1NUOEpFRTVLUXJBLTRjS2xwc0RrMW15QVRtclJNZDFoVXh0cTZWSE9VZTRvQUlyRkVBT3BwN3lhMGlwNUVrYXpHUXNOd01TTEh5Y0NEVmlLbFg5OHFzTmJ4UnUz?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "dr sam questions pn deregistration ahead of melaka polls",
+      "title": "Dr Sam questions PN deregistration ahead of Melaka polls - The Star",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPZjEtNWtJUFRuWlV5RHZ6dEhUX3BwVERGTGdlSkQ5QzdDbTQ0eG1GMXE0aC15cmJpVldHcGtPOUhQbXlDbjZ6c3JDSGFFVE1hNVRucWxrQ1dYR2NOTWhIU2RUSFcyUzdDa0NDckpqODVZTHNCM1JGS1NwMkRuMUFkSXVJbXRSVEZScTlMLTgyTW9La2t4ZFhQeF9CYTRhdFhJS0NhS0o1VGEwejFYc0RKaWt3WFdpQWxRT0NhY2NLMnFVdFBiV25sMkpZMHFSX2RORno4YmFtVDBVajg1em5tV29pU3NGaWZ5X3ZXZkNsZEFZMzQzVmt4VDVQamZkVHNCTEd3RE01RF9Fb3JGWVlwN0JB?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "pm anwar congratulates bonnie for bagging malaysia s second asian para games gold medal",
+      "title": "PM Anwar congratulates Bonnie for bagging Malaysia's second Asian Para Games gold medal - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTTFWMjJUVGNkNDd6aVJCb0d6OTBEM1pvZzhLWldvZ0VhTDVUNXN0OXhKQ251ZHJIV21sWnFMWlJEMGJ0TnQ3ck9sSVRGYzZmTlRSY21EOVJSSVhwTEFsZ3RRWU9SMlNDQXQySVJsc1Frcnd3bk02SkpwWWx4bU5qVTREcFZUdmkxNExLUVAxVkxtOV9WaUJPVkVWejBsZXBKQkRDSGw1YkEyV1NmcVZYQmsyRXNUWHl6VVVuSEFLWE5Ba3drQlVnczBSeVNxMGJhRFFQRGNNTDNlUFlRdlRCSDAwUkJJZ0R0ZG5oVm13Ym54dw?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
       "text_archived": false
     },
     {
@@ -34788,6 +35018,48 @@
       "text_archived": false
     },
     {
+      "key": "anwar congratulates siti nurhaliza on soulful gema bumantara performance",
+      "title": "Anwar congratulates Siti Nurhaliza on soulful Gema Bumantara performance - The Star",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObkVtSklBcm5VS0djY0RBeHFudjEtVkxDQVpPcDVtTVpib3ZyV3VrZkppQl9KQ2EwdXdyWGxFZS05SFR0eGd1bXR4ZzNRQWNTVzJpNlZxVzFiU3dIYlFTZExZdXp6Sl9oay1rZHlucDZKUERCTjE5c010OE5Sam9FSzNpdWo2YWN5NHFiNE55Qjlac0dDaTBTTDViT1FTdmNGcGx1RG9XV21vZUJ3MWM3c25GU1dOUU9uRFNsNUxYTQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
+      "outlet": "The Star",
+      "source_name": "The Star (Malaysia)",
+      "country": "MY",
+      "domain": "thestar.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "sara para china",
+      "title": "Sara para China - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRy1DUFFNSVJQVHQ0anRSMG5DanpCYUNXRGVWZWJWZGlXVDZmMVZ0Y3BZNVlPeE1pa0dxQVdITTVrYlZDblNKX1pMeFVsSFAyeG5FbjhreHMzSm1jSl94RFFjbF82VHlFbHhnY0s3Tm9xc1NVeERsS3Nwb2g1dFFJTTYyM2xmd9IBjAFBVV95cUxOQlA0VFM1bHVOWWx0cFRNXzdDZ3RVRmt6SS1YazlYZEd3OWlVRVF5UzFMRE9jdk1iTWNrc2ZqVmVNSDFPaG85bXJUd0laV18xZkEwNW1HR2s3TlZSNGFlNG95SGlFemQtSlpqWHowNHVBVjFQYkUwVm54ODdjR0RKTmpVVDhqaHBrcXJ2Nw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "marcos must send china s troll ambassador packing",
+      "title": "Marcos must send China’s troll ambassador packing - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0tsVDdsVDFtS0JrZ1E4S3VLU29rLVY4NGRONm84dk93ZEp6SjF1UmRRME5WWmFoUzhoN2hqaGJLZ2xNZHo5enZpaWpHczhoVlVpUWVuMnVWeHExdGhxTTkwZjZadlZodi1xV2FHTFBVazZ1OGdYU0N3VHhDbHRqSXNJSGd6aGVTaEoxaFJzeUFOX3lGWEk3dTlIM21EM3NtUGc?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-10-31T20:31:40.670786+00:00",
+      "text_archived": false
+    },
+    {
       "key": "is china exploiting philippine political turmoil to advance wps activities",
       "title": "Is China exploiting Philippine political turmoil to advance WPS activities? - Manila Bulletin",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTMxX2JsZFRleWRoYUowZ2VTamNueG10a05NZFFxTXFIS2MxLVJBVGlEeDlNUWFXZmN0XzBqU3BWZUYyNVhjSzQ3T2xZcUZfQjI2MW80UkRSVHZvLUJjU2JXWk11N0xvcTJSZG11UUxtc1dBYmhaMnZzMnRHdHFoQlZ2OUdCT0tCRGxzVkZhNmtLcjV0c3lYc2h0LVFpMERIUjcyLVNR?oc=5",
@@ -34932,48 +35204,6 @@
       "title": "横浜高でコーチ かゆいところに手が届く存在に 技術面以外も目配り [神奈川県] - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00RXBqZ2Mza2U5VjAtdjkyZV9SRzVQSjBKckdvRlVrTER3cDY5b01vZWRjWS14SllLMXQxbER6T1NsZjM0b0FlVHVyVkFVMmZJMkR1Zk9VdDNtZ0JEeGtfaTJVMzNTems?oc=5",
       "pubDate": "Sat, 17 Oct 2026 22:00:00 GMT",
-      "outlet": "朝日新聞",
-      "source_name": "Asahi",
-      "country": "JP",
-      "domain": "asahi.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-27T19:03:29.810488+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "kumpulan berita situasi dunia",
-      "title": "Kumpulan Berita situasi dunia - Antara News jatim",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MT3ZLX3FvMGZhWkxMUm5YdzgxTm4xa3Nnc0UzZTRaZ1RTUE5sLWxMTmQyU21WSnJXTHhaUnhvQ0dhMVM2NGZQYk41X29sdzRJNjh4XzFMd3dYbENv?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 20:13:28 GMT",
-      "outlet": "Antara News jatim",
-      "source_name": "Antara news",
-      "country": "ID",
-      "domain": "antaranews.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "ロシア拘束記者と 大使館面会できず",
-      "title": "ロシア拘束記者と、大使館面会できず - 朝日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PbDg5aEgwZWpKTWdRNS1DVkJyZ29QYlZZdHM4Ulo3OTZpXzFOQUpXQVl5cjlTOURfcDZqeEQ4elBObC1qOGpaNnJfc1VCR2ZHd3U1bzYzVk5yVG4w?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 20:00:00 GMT",
-      "outlet": "朝日新聞",
-      "source_name": "Asahi",
-      "country": "JP",
-      "domain": "asahi.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-27T19:03:29.810488+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "フォーラム 優先席を考える ２ 譲るハードル",
-      "title": "（フォーラム）優先席を考える：２ 譲るハードル - 朝日新聞",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd29iWlkwTS1CSnRVZTQ5QjNvQ0Y4N1MxUFI3X3VqZkJnNGRrY0JUS21qdlJoN0w0R2tHeUJZYUdoM2ZFc2pHajJjcngwSlI0WW1na3FjTjBqLTliVVR0SktmWU9FZWNUOFZGQm9WeGQ3eUhBZjZGNUhIVERVaVd2QVlwTHd6QTJBWHEzeUtB?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 20:00:00 GMT",
       "outlet": "朝日新聞",
       "source_name": "Asahi",
       "country": "JP",
