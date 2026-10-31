@@ -1,0 +1,432 @@
+{
+  "generated": "2026-10-31T00:16:55.831795+00:00",
+  "window_days": 14,
+  "new_this_run": 0,
+  "new_relevant_this_run": 0,
+  "archive_total": 2918,
+  "per_source": [
+    {
+      "domain": "chinadaily.com.cn",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "cgtn.com",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "scmp.com",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "en.people.cn",
+      "country": "CN",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "takungpao.com",
+      "country": "HK",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "thejakartapost.com",
+      "country": "ID",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "cnnindonesia.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "search.kompas.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "gatra.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "kumparan.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "bbc.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "antaranews.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "mongabay.co.id",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "detik.com",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "tempo.co",
+      "country": "ID",
+      "hl": "id",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "reuters.com",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "abc.net.au",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "amti.csis.org",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "militarytimes.com",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "thedefensepost.com",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "nikkei.com",
+      "country": "JP",
+      "hl": "ja",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "nhk.or.jp",
+      "country": "JP",
+      "hl": "ja",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "asahi.com",
+      "country": "JP",
+      "hl": "ja",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "nst.com.my",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "malaymail.com",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "thesundaily.my",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "thestar.com.my",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "rappler.com",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "mb.com.ph",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "inquirer.net",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "philstar.com",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "pna.gov.ph",
+      "country": "PH",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "straitstimes.com",
+      "country": "SG",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "channelnewsasia.com",
+      "country": "SG",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "cna.com.tw",
+      "country": "TW",
+      "hl": "zh-TW",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "thanhnien.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "baophapluat.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "anninhthudo.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "tuoitre.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "viettimes.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "soha.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "zingnews.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "vtc.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "voatiengviet.com",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "bbc.com",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "vietnamnet.vn",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "domain": "rfi.fr",
+      "country": "VN",
+      "hl": "vi",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

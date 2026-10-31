@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T21:01:08.356629+00:00",
+  "generated": "2026-10-31T00:19:11.553147+00:00",
   "window_days": 14,
   "n_sources": 0,
   "n_items": 2412,
@@ -10782,8 +10782,8 @@
       "tier": "sea",
       "first_seen": "2026-10-27T19:03:29.810488+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-10-30T21:00:47.203964+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-10-31T00:18:57.111823+00:00",
       "resolved_url": "https://newsinfo.inquirer.net/2330663/villegas-urges-palace-to-stand-firm-on-west-philippine-sea",
       "archive_status": "error: HTTPError"
     },
@@ -12597,7 +12597,10 @@
       "relevant": true,
       "tier": "feature",
       "first_seen": "2026-10-27T23:01:57.886152+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T00:19:07.022254+00:00",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "kumpulan berita antara perubahan iklim",
@@ -28388,8 +28391,8 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-30T20:58:16.889539+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T00:18:53.785362+00:00",
       "resolved_url": "https://www.rfi.fr/vi/ch%C3%A2u-%C3%A1/20261020-bi%E1%BB%83n-%C4%91%C3%B4ng-trung-qu%E1%BB%91c-%C4%91i%E1%BB%81u-l%E1%BB%B1c-l%C6%B0%E1%BB%A3ng-b%C3%A1m-theo-t%C3%A0u-m-v%C3%A0-%C4%91%E1%BB%91i-%C4%91%E1%BA%A7u-t%C3%A0u-%C4%91%C3%A0i-loan",
       "archive_status": "error: HTTPError"
     },
@@ -30478,10 +30481,10 @@
       "tier": "sea",
       "first_seen": "2026-10-26T19:24:26.119013+00:00",
       "text_archived": false,
-      "archive_attempts": 2,
-      "archived_at": "2026-10-30T20:58:07.576491+00:00",
+      "archive_attempts": 3,
+      "archived_at": "2026-10-31T00:18:47.192096+00:00",
       "resolved_url": "https://lifestyle.zingnews.vn/sieu-bao-champi-co-the-manh-len-cap-17-anh-huong-the-nao-bien-dong-post1690726.html",
-      "archive_status": "no_text"
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "un experts urge israel to protect west bank olive farmers",
@@ -31183,7 +31186,10 @@
       "relevant": true,
       "tier": "sea",
       "first_seen": "2026-10-27T23:01:57.886152+00:00",
-      "text_archived": false
+      "text_archived": false,
+      "archive_attempts": 1,
+      "archived_at": "2026-10-31T00:19:10.887479+00:00",
+      "archive_status": "error: HTTPError"
     },
     {
       "key": "why wait just go home erwin tulfo tells china envoy",
