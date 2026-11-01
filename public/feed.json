@@ -1,12 +1,54 @@
 {
-  "generated": "2026-11-01T17:00:10.380333+00:00",
+  "generated": "2026-11-01T20:56:59.197555+00:00",
   "window_days": 14,
   "n_sources": 0,
-  "n_items": 2456,
+  "n_items": 2469,
   "n_relevant": 86,
   "new_this_run": 0,
-  "archive_total": 3165,
+  "archive_total": 3187,
   "items": [
+    {
+      "key": "日本の原潜保有 米国に肯定論 アジア広域の対中国抑止に役割",
+      "title": "日本の原潜保有、米国に肯定論 アジア広域の対中国抑止に役割 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hWi1hdnoydjdiRFJ5UzBLTno1aXFVUWxYc1J0UXIzMHczYk13cDdsX2owR2ctZUg5T2hOalM3c0EtSkdJNTZ5cFVhV2gyVGtoQTR2LTVQTVk1UlpsNDhCZWtPVU0tZ3BiQnkzOA?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 20:00:00 GMT",
+      "outlet": "日本経済新聞",
+      "source_name": "Nikkei",
+      "country": "JP",
+      "domain": "nikkei.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita kapal filipina",
+      "title": "Kumpulan Berita kapal filipina - ANTARA News Jambi",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SaFJIT2hPTHBDUWtWR1FMNFdINU81VXZ0cnhKZmdWUVJKUEhZcVpWc01TNVlkUGo3TXZMWEJqRHhXQU9OaWVkSDZqeWp4ZV9GQWVURTdydFUwTHMyMWc?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 17:56:06 GMT",
+      "outlet": "ANTARA News Jambi",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "gần 100 trạm khí tượng ghi nhận nhiệt độ cao kỷ lục không khí lạnh tháng 11 ra sao",
+      "title": "Gần 100 trạm khí tượng ghi nhận nhiệt độ cao kỷ lục, không khí lạnh tháng 11 ra sao? - Báo VietNamNet",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTVVPdmtpMWRBUUFoSFBjU1BXRTRzRURjMV9sMzJvZTFMM0xQYVFMcHpiX0VaSk9LeGh2QVRYRFhXUFRILWJQYzZTWl9vU3FhSkdKSjREemJqcnJfVUc4OXZjNWVBM3dKSzNsNExyZTZHQ3pfeGZ0elpmdWtkazJTZDZKSmYzS2tlYVNiZ1RBQ1ZXcVRWX0FUUEhPazk2MnhBUnliT3h0a1NDemFk?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 17:05:00 GMT",
+      "outlet": "Báo VietNamNet",
+      "source_name": "Vietnamnet",
+      "country": "VN",
+      "domain": "vietnamnet.vn",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
     {
       "key": "up to 2 tropical cyclones expected this month",
       "title": "Up to 2 tropical cyclones expected this month - Philstar.com",
@@ -106,6 +148,34 @@
       "text_archived": false
     },
     {
+      "key": "kumpulan berita pernyataan malaysia",
+      "title": "Kumpulan Berita pernyataan malaysia - ANTARA News Bengkulu",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEb2xNSTd0ZnUyY2kyMzMyb0VFSF9IYnQyRGdDdHhyemM5WEUyaUhYN0lmalFqUXhGRTUtbnp5RndHLUs2R0dsZmh1Tl9xdjcwUkREeUlZd09YTWduS2oydXN3NWE2cTlBcEE?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 09:48:46 GMT",
+      "outlet": "ANTARA News Bengkulu",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita asia tenggara",
+      "title": "Kumpulan Berita asia tenggara - ANTARA News",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhRzdtWldrVmQ4WWVfYlkycjdrakNEdFhXMnlacEQ3bmM1Ymd1bUQxWDNuQ0cyOFQzRnh3Rkh0R1VmTEVOR2lWc0xnbzlvdTh4YmEySVdVS1IydTZzcWww?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 09:37:41 GMT",
+      "outlet": "ANTARA News",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
       "key": "tháng 11 mưa bão diễn biến thế nào sau một tháng không có bão",
       "title": "Tháng 11, mưa bão diễn biến thế nào sau một tháng không có bão? - Tuổi Trẻ",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnFyTFlGTlJyamtiTUdsRVVKNkhzTHdlN3BjMk9zRVpSVEg3T1N0VmMyYnNMMXc5YnN6QWx6T20ya2xfdDI0dzVMWXBSQWVnd19oZ1k1cGtMZGJ0cnVLSXhIeGVuLTRmRl9hZ294b3IwOGFGN0xyTFgxdnh2LXFlZFNXRnBWY3JqeUxiVEcwRHJwZjA4Q1cyUG0ycFFyc090WW1SaGx3?oc=5",
@@ -131,6 +201,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-11-01T10:40:29.972792+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "beijing steps up maritime patrols around taiwan prompting taipei to shadow ships",
+      "title": "Beijing steps up maritime patrols around Taiwan, prompting Taipei to shadow ships - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWXlhb1pMeTNmRDdKUzZqbldDNUh5aWtxczZWamZpTGxfNTl2UXhMODJwcTFvOHI1S0trVjhBVDBzZHdySGNPZVVheXpkRmY2cnEzZ05mTjJRVXYzTFF1X2hvRzYyZmFhZnEwbG5xOWtlcV80MVNRTms3OTAxRmZjZUdLajFzdE04emQxdmJOd2toQ2FCMk9DYkRHS2xiV1lNUy0ycGliaHM3V21BRmMtRUROUkFkTWlYLVNYQS1FbHpDclpPMFpoWndua9IBywFBVV95cUxOQWZrUk56dE5tSnliTXJodDl2YnRLMkhhZ0dTaldXSExsTzVyaGRpREFQZllReEstUFhYcUFmMFl0cVZ3aGIxUmJsT3owWFB0NDVZTFMxX01LZTFrRTl2ZU8tWF9ILVZvRzcyemJhSmV2d3ExWWxTMktXMV9kWXRDeVdHbENrSkxoOVE4djlFV0xHQWY1c0dLaktCa2xlS01QRWRieU9wUjVXUTBqczdldTM5LXNLbDNfOWhZX0o1emM2b1hoU1Z1ckl2MA?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 07:32:10 GMT",
+      "outlet": "South China Morning Post",
+      "source_name": "SCMP",
+      "country": "CN",
+      "domain": "scmp.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -295,6 +379,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-11-01T03:00:31.435018+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita awang",
+      "title": "Kumpulan Berita awang - ANTARA News Bengkulu",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NRWFkaVVxQWhhUXBqT3JSaDJmT1lhMXFnWlp6QzBvcFJ4T0xSczZKTU1nYWZSZTBzNlRlQk1sZ2R2ZDNpaU5wNElnekZrNkx6Q3FBMjJ3?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 02:11:30 GMT",
+      "outlet": "ANTARA News Bengkulu",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -463,6 +561,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-31T23:50:35.511715+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita memberi",
+      "title": "Kumpulan Berita memberi - Antara News jatim",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lMkdoNUJldmFQM0VvQUk1WkhGZmZ4VVNJUEc3cnhZX013S204TnRmWlNPRU05M2FzZTZfZkZnQ3VYMDZKSEZYcldHazJITU5JVENad3F3?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 16:52:46 GMT",
+      "outlet": "Antara News jatim",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -1149,6 +1261,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-31T06:00:39.441177+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita kapal angkatan laut china berada dekat pulau jepang",
+      "title": "Kumpulan Berita kapal angkatan laut china berada dekat pulau jepang - Antara News jatim",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZmlBMV9mdDBFeGhUckFudkpQS0pnbjQ4SHNra1VIVTZIQjd0OU9GZGNUSFQzbW4taEdEU3FCRWNvSEY2cEZvVF9sWnBPVHRONnFDaERoSGhSZVVBZXRGVERUR29IbTZQZElydU5hN0ZBcFlmcGFjUGZlVEp4a3VtSG5fQ2l3RVNIdFdiRg?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:36:44 GMT",
+      "outlet": "Antara News jatim",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -2076,8 +2202,8 @@
       "tier": "sea",
       "first_seen": "2026-11-01T16:56:48.101263+00:00",
       "text_archived": false,
-      "archive_attempts": 1,
-      "archived_at": "2026-11-01T16:58:34.134912+00:00",
+      "archive_attempts": 2,
+      "archived_at": "2026-11-01T20:56:58.671240+00:00",
       "resolved_url": "https://www.reuters.com/video/watch/idOVCMXEVOF/",
       "archive_status": "error: HTTPError"
     },
@@ -2261,6 +2387,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T09:14:35.060631+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "巴基斯坦 關鍵字新聞",
+      "title": "巴基斯坦 | 關鍵字新聞 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1LMmQzWWZRUmctc1FtWnFsUzRJdHVuakN3SVpkOFVlMWxfR2VOSGtJYWNqR2hoWE9pUHhvV0lqbGtJekYwZzA0?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 04:17:12 GMT",
+      "outlet": "中央社 CNA",
+      "source_name": "CNA",
+      "country": "TW",
+      "domain": "cna.com.tw",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -2513,6 +2653,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita kebijakan ekonomi prabowo",
+      "title": "Kumpulan Berita kebijakan ekonomi prabowo - ANTARA News",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RMnZkZW5jNnNRREliRWdIM2hYRFBfdG4zMDREOHpJdlZiUE5yNzY2LWRJNjJnNFdTWWhaSnpUcEpTM29zclpHdDNCNFVwVFhmQkYzMGFYSVZZZGNfTXN5c3BUeHNPUk9OXy0xVDdPd3hvdw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 01:06:33 GMT",
+      "outlet": "ANTARA News",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -3641,6 +3795,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-30T02:44:59.858088+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "kumpulan berita prabowo ts",
+      "title": "Kumpulan Berita prabowo ts - ANTARA News Bengkulu",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ra21Kd0tKeXlTVzFrbFJmandmSnlfc2E4WUlMQ0R3VE1rUi1JYnRYQ0c3Q1N4djJuYjZERmtTSFg1UlVCeGI4UlQ1SEpwUGt2bnFxbW1PNkQxdjhv?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 11:18:08 GMT",
+      "outlet": "ANTARA News Bengkulu",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -15918,6 +16086,20 @@
       "text_archived": false
     },
     {
+      "key": "kumpulan berita kemampuan militer",
+      "title": "Kumpulan Berita kemampuan militer - Antara News jatim",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KeHVCNWMwVW9LbHhqd3hEYTRXS3NPbGpfOXhIZ3pGRVhFclpJQUtUVzBGNWJsRmR3RkYwWDdRQUJCQ00wYmJkRnd0ek9qcXFPNmMtMi1reF96TER3b3Y1Nmt4MA?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 18:29:20 GMT",
+      "outlet": "Antara News jatim",
+      "source_name": "Antara news",
+      "country": "ID",
+      "domain": "antaranews.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
       "key": "revolut keeps ph digital banking market in its sights",
       "title": "Revolut keeps PH digital banking market in its sights - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY2VLbEI2MUZEQUZCcnpCTkhSRnpZdlpIUE5Idkp0eXVwYml4RFJ4ZFYzcm9Qa0xwNTVQT2h5eVgtVWtGc2RXdWhZNWRJRXJoUWpQZmRhODdCSmJiZkpvaW8yS0xEVG5hWnJ5T1dHQ3hrQU82bGR1b25CZTFvRGp5T1d0dGk3VTlpenB6RVhVRWxQN0tH0gGaAUFVX3lxTE9OT19nLWdtTTg4T3lKOFoyYXc5UkhEaV9lVXJUbW1MY203eVJZaFhkQm05eUdZLU1mUGZQWlJjdXNxWnlBSmFMaHRxeUlGblVuMVkyblNIaEdoWnF5elVxYjF5MTExOXFIUjBFQlU4U1BQTmdPdTJTU1g1UUVaOTZQelA2YmtGVGVaTWhoeDNuV1ZCX1JaWVc4VWc?oc=5",
@@ -17132,6 +17314,20 @@
       "text_archived": false
     },
     {
+      "key": "drug suspect who rammed gof vehicle remanded for 4 days",
+      "title": "Drug suspect who rammed GOF vehicle remanded for 4 days - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RVndraHVSMFNERDFjbWUzQmMtWklMd3FZR08yTnRVXzFwYUpDYkpLb1NNNFhZRVlXYTk4QWU5YldmWGZOeC1LcTd6UXJCSzRqMGpNZQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 04:14:18 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
       "key": "tuyên bố chung về kết quả chuyến thăm chính thức của tổng bí thư chủ tịch nước tô lâm tới vương quốc bỉ",
       "title": "Tuyên bố chung về kết quả chuyến thăm chính thức của Tổng Bí thư, Chủ tịch nước Tô Lâm tới Vương quốc Bỉ - Báo Pháp Luật Việt Nam",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa21RVklYS014NDlGb25BeUtGY29DOHg5OUU4QVQ2d2hibjRad0VVdGNJSDg3OUNWR2Z5T3dLQlF1QUlSMXBzU01WM3dwanBzYWJiX19TRnNwTmlTcUdGRHNnakstTHhOQTh4S0I4RmNPU0F4T0pGamplN2hMbmQ5aW5XdVFKdWxqRXNvT2l3bGxZcjVmeXdLQVpRVEY5d3J6QUFwbF9ER1ZaenhlalNKVGpQQTZqU3FuVm5BU3NPTm9VelpWMG1TazZ2dw?oc=5",
@@ -17255,6 +17451,20 @@
       "relevant": false,
       "tier": "none",
       "first_seen": "2026-10-28T15:35:59.770847+00:00",
+      "text_archived": false
+    },
+    {
+      "key": "tuju navigation app plagued by technical glitches",
+      "title": "TuJu navigation app plagued by technical glitches - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PSWszSThpZ2JYOU12YTNVZWFkaXFLdG1sQnJuVnktOEw1NkJwN3l6eVhORlEwVHNDZTRESVAwam9UUnpwMGZVTzNzZXNhcmxHVEhpNHlqXzhDQjEwS2FFUUFqTU9pTlR4Si04ZWtkWUZrV3oxTHJ6Y3ZCLWtDaUU?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 03:28:18 GMT",
+      "outlet": "NST Online",
+      "source_name": "New Straits Times",
+      "country": "MY",
+      "domain": "nst.com.my",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
       "text_archived": false
     },
     {
@@ -29204,6 +29414,20 @@
       "text_archived": false
     },
     {
+      "key": "asean us china and geopolitics",
+      "title": "ASEAN, US, China and geopolitics - Philstar.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZGRTSzlIRkxMc09ESWJpUFB5LVV1V095N3FxQllhcmJqQ1lLeHFTZ2paUmEyV2R5SFdXZHFEekpPTTZRWnY1OF9pb19jUlFXbG1wYTYwMm9jU3pKbmVqQnJ3REVuZEd0MkQ3U0d6amRnbkppMV9NZzVjWkxZbHRfTU9nOHRnbGlhNy1GbWdiZGJvU2pEbzNXcXRB0gGgAUFVX3lxTE9ybjFwWjhqYnZZZXRKTWlaX3BhSXMwQVhJdnpWQThFRWhseDhfS2pScjA3d1EzMnhEZEVZbDEwLWd0WWgyck1Pb1I5d0dsR0VZMW1uYWNfR1Z4VWpsY0p1WkpoOVBiZGtfaDBsVnBISEZ5bktuOEgwQmxXVFZ3REZ6ejJBTDFmdGxxd2wtRFZwU1pOdC1fOXBHVEhVdEZMYlU?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "outlet": "Philstar.com",
+      "source_name": "Philstar",
+      "country": "PH",
+      "domain": "philstar.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
       "key": "malaysia bans civil servants from using mapping app waze citing links to israel",
       "title": "Malaysia bans civil servants from using mapping app Waze, citing links to Israel - Rappler",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcWtYUExJRzR3WGlGcWE0VWhlQ0tZVV9SU0RPOFdwRU0wZ2kxVnRrNWVxeThhSFFDbWhnSVczNEJ5dWZ2cldad0JXUlZxMHpjc25jYTNZVl8wcFJ5bHBwUzFITkhwZlhUZlFIQmV5akVlMndaLTE2ZEsyZjdNbTN2RXZxXzY4bUZ2R1I0Q0ctYw?oc=5",
@@ -34544,6 +34768,20 @@
       "text_archived": false
     },
     {
+      "key": "sandiganbayan suspends marcoleta as senator the wrap",
+      "title": "Sandiganbayan suspends Marcoleta as senator | The wRap - Rappler",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5neVNlQVVZVWpWWWVmM2FHSXBaRUVSMUNZV3NUd1hSYmFOUk9IY1k0eEFZMU9kWFF1YkJMd01PamQ5OWRwd2pxVk00eUZQUlRHZ3NJR0lrRUlyQVpJdDRLWWEzZWdTZlpt?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "outlet": "Rappler",
+      "source_name": "Rappler",
+      "country": "PH",
+      "domain": "rappler.com",
+      "relevant": false,
+      "tier": "none",
+      "first_seen": "2026-11-01T20:55:12.146417+00:00",
+      "text_archived": false
+    },
+    {
       "key": "indian festival events turn deadly with incidents involving stampede and an out of control truck",
       "title": "Indian festival events turn deadly with incidents involving stampede and an out-of-control truck - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ2JRZkxXdzN5RzRUMzZacjdBVk4xdUlfVnluSlN1SWFLdXhMWHBxLWJiZHh5OU9KbHFfWlluak0xUHdrRDQ2VWhfQWpIYUg1WEFyNDA2VGpCbWIxRWs4eDdleXNFUjNmRXFYRjJ0bDFyakRSaEY0RG9kNUtpX1NzQkl1bUFCd3ZwRnFYUGMxNEJJTlZQM0pfM3AtVmdLRTZnQ3hqU2pYRy1UVGlzSERUX1c5MS1VRk50aEFiQUszUDZ6dTFi?oc=5",
@@ -35024,62 +35262,6 @@
       "title": "排灣古謠唱進巴黎 口傳心授跨越隔閡刻劃文化記憶 - 中央社 CNA",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2R1FBS1l1dWx4Z29RN0tvZWl1RWtoXzdOMV9mUEszZHcxZVJqZGhKZWlTSHFlci02UVhrcEVZZDVlV2NBTXF5SkFUUEFEUklSdFRFMDY5aw?oc=5",
       "pubDate": "Sun, 18 Oct 2026 21:29:00 GMT",
-      "outlet": "中央社 CNA",
-      "source_name": "CNA",
-      "country": "TW",
-      "domain": "cna.com.tw",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "昆山媽祖回鹿港 台商盼定期成行",
-      "title": "昆山媽祖回鹿港 台商盼定期成行 - 中央社 CNA",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WSDY5WENENVhNek1jT3E4NEFPMXZmd2FZSTlhbGxfUnFRVHZCam9SaFMtMlNnSTNBRE9QWGh6S1o0akRrdkpkRDdKcXRnd3NhWHdGcVNpbw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 20:49:00 GMT",
-      "outlet": "中央社 CNA",
-      "source_name": "CNA",
-      "country": "TW",
-      "domain": "cna.com.tw",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "ラグビー 関東大学リーグ １８日",
-      "title": "ラグビー・関東大学リーグ（１８日） - 朝日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16ZDNHTml5U1pzcU9jSlFKV0pkbGFDTm9GZWdLZ3M5QUFCVmJJWVEyYkF3S0tVSzQ3YjNsdTBmNmF4WmZjVTNEcTRXZGZ3SXF0bnBBb0VxbjBBUEZm?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 20:00:00 GMT",
-      "outlet": "朝日新聞",
-      "source_name": "Asahi",
-      "country": "JP",
-      "domain": "asahi.com",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-27T19:03:29.810488+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "法國示威爆縱火劫掠 台灣餐廳店主 附近縱火至少8次 不敢開門",
-      "title": "法國示威爆縱火劫掠！台灣餐廳店主：附近縱火至少8次 不敢開門 - 中央社 CNA",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Ta2tCeU1ZR0ZHNjVldEp3aHFBb216eGF6QTEtbHlESVJHbTEyNlRPY2RaY28yX1VwbGV1a1dXYWJUMEl1LWZRVFI4RWhDd2RDYkVmYmhKaw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 19:00:00 GMT",
-      "outlet": "中央社 CNA",
-      "source_name": "CNA",
-      "country": "TW",
-      "domain": "cna.com.tw",
-      "relevant": false,
-      "tier": "none",
-      "first_seen": "2026-10-26T19:24:26.119013+00:00",
-      "text_archived": false
-    },
-    {
-      "key": "法譯新書問世 理解台灣與中國差異",
-      "title": "法譯新書問世 理解台灣與中國差異 - 中央社 CNA",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MdG9wb1RfTkdnUU9KYlZ1UU9OcExXVkxUYnp4OS1IYnZjdmtRVjhpaDBUR3JsNVhheHYyN2VfZ0pYZVdtQktYYU9qeWs5TlRDbGM1M2xuaw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 17:43:00 GMT",
       "outlet": "中央社 CNA",
       "source_name": "CNA",
       "country": "TW",
