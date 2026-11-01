@@ -4,7 +4,7 @@
 <title>SCSDI — South China Sea news watch (pilot)</title>
 <link>https://github.com/</link>
 <description>Relevance-filtered SCS articles from 0 tracked outlets, last 14 days. Auto-generated.</description>
-<lastBuildDate>Sun, 01 Nov 2026 10:46:14 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 17:00:10 +0000</lastBuildDate>
 <language>en</language>
 <item>
 <title>Taiwan warns of Chinese blockade threat as coast guard patrols intensify - NST Online</title>
@@ -53,6 +53,14 @@
 <category>INT / Reuters</category>
 <description>[INT · Reuters] match: sea</description>
 <pubDate>Fri, 30 Oct 2026 08:35:33 GMT</pubDate>
+</item>
+<item>
+<title>U.S. to back nations whose South China Sea claims China violated - Reuters</title>
+<link>https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CLU9xajNhYlA3cGI1S1h5SVF2SDJvTldoNDZPa1VqcFJEb0JCQ0x3MmRDdGRKOElBUWNXb1h4RDdZenJWbjNrZWRXWHpwSTdQLXhobTZjNWZuM3l0?oc=5</link>
+<guid isPermaLink="false">u s to back nations whose south china sea claims china violated</guid>
+<category>INT / Reuters</category>
+<description>[INT · Reuters] match: sea</description>
+<pubDate>Fri, 30 Oct 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
 <title>As the 2026 Deadline for Finalizing the Code of Conduct in the South China Sea - kumparan.com - Kumparan.com</title>
@@ -685,14 +693,6 @@
 <category>VN / An Ninh Thu Do</category>
 <description>[VN · An Ninh Thu Do] match: sea</description>
 <pubDate>Mon, 19 Oct 2026 01:44:57 GMT</pubDate>
-</item>
-<item>
-<title>Siêu bão Champi có thể gây gió mạnh trên Biển Đông - Báo Pháp Luật Việt Nam</title>
-<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxOZE9namVPdENLRGJhd01sVkVyNmxuaGdTLXJkZGlTQU1CMkV3ZGRrOGxKRWg0Y0dLUVMwbHlWWG12d2hQbUxBWHhFUXZSem16VjFrbTl6aXpseDh0WGV2T0VKdHZtSFNjY0w5S0FwbFRyTHBKNGNBZjVsYXg4N2tnZ0FONDk?oc=5</link>
-<guid isPermaLink="false">siêu bão champi có thể gây gió mạnh trên biển đông</guid>
-<category>VN / Bao Phap Luat</category>
-<description>[VN · Bao Phap Luat] match: sea</description>
-<pubDate>Sun, 18 Oct 2026 15:29:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
