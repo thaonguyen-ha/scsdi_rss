@@ -26,28 +26,24 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+import db
+
 try:
     from googlenewsdecoder import gnewsdecoder as _decode
 except ImportError:
     _decode = None
 
 HERE = Path(__file__).resolve().parent
-ARCHIVE = HERE / "archive" / "articles.jsonl"
 
 
 def load():
-    return [json.loads(l) for l in ARCHIVE.read_text(encoding="utf-8").splitlines()
-            if l.strip()]
+    return db.load_ordered()
 
 
 def save(rows):
-    """Atomic rewrite: write a temp file then replace, so an interrupted write
-    never corrupts the archive."""
-    tmp = ARCHIVE.with_suffix(".jsonl.tmp")
-    with tmp.open("w", encoding="utf-8") as f:
-        for r in rows:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    tmp.replace(ARCHIVE)
+    """Atomic full replace of the archive in Postgres (a single transaction, so
+    an interrupted write never leaves the archive half-updated)."""
+    db.replace_all(rows)
 
 
 def main():

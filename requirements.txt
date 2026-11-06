@@ -1,4 +1,8 @@
-# Feed generation (build_feed.py) is standard-library only.
+# Article archive (db.py): Postgres/Neon store, the source of truth. Every
+# script imports db, so these two are always required. Set DATABASE_URL.
+psycopg[binary]>=3.1
+python-dotenv>=1.0
+
 # Content archiving (archive_text.py) needs trafilatura for body extraction.
 trafilatura>=2.0
 

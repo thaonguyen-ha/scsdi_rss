@@ -19,6 +19,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # The article archive is Postgres (Neon), the source of truth for every
+    # script. Add the pooled connection string as the DATABASE_URL repo secret
+    # (Settings -> Secrets and variables -> Actions).
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,10 +35,10 @@ jobs:
         run: pip install -r requirements.txt
 
       # Dedup ON in CI: the cron runs every ~30 min, so without it the archive
-      # (the permanent dedup state) would re-append every still-current article
-      # on each run. --days 7 is the Google fetch depth (keeps us under Google
-      # News' ~100-result cap); the dashboard's display window is separate
-      # (--window-days, default 14).
+      # (the permanent dedup state, now in Postgres) would re-append every
+      # still-current article on each run. --days 7 is the Google fetch depth
+      # (keeps us under Google News' ~100-result cap); the dashboard's display
+      # window is separate (--window-days, default 14).
       - name: Build feed
         run: python build_feed.py --days 7 --delay 2.0 --dedup
 
@@ -48,13 +53,15 @@ jobs:
       - name: Refresh outputs with archive data
         run: python build_feed.py --days 7 --no-crawl --dedup
 
-      - name: Commit refreshed feed + archive
+      - name: Commit refreshed feed + text snapshots
         run: |
           git config user.name  "scsdi-feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # archive/ holds the persistent dedup state -- it MUST be committed or
-          # every run would see all articles as new.
-          git add public/ archive/ reports/
+          # The article archive (dedup state) now lives in Postgres, so it is no
+          # longer committed. We still commit public/ (triggers the Vercel
+          # redeploy), the extracted body snapshots under archive/text/, and the
+          # per-run reports.
+          git add public/ archive/text/ reports/
           if git diff --quiet --cached; then
             echo "No changes."
           else

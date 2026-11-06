@@ -10,7 +10,8 @@ Why Google News RSS: the coding notes show the team already fell back to
 Google `site:` searches whenever an outlet's own search was broken, infinite-
 scrolling, or undated. The below procedure aims to replicate this process. 
 
-Stdlib only -- runs the same locally, in GitHub Actions, or in a serverless fn.
+Stdlib for crawling/feed-building; the article archive lives in Postgres (db.py,
+needs DATABASE_URL). Runs the same locally, in GitHub Actions, or serverless.
 
 Usage:
     python build_feed.py                 # all sources, 7-day window
@@ -30,11 +31,13 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import db  # Postgres-backed article archive (source of truth)
+
 HERE = Path(__file__).resolve().parent
 SOURCES = HERE / "sources.json"
 OUT_DIR = HERE / "public"
 ARCHIVE_DIR = HERE / "archive"
-ARCHIVE_FILE = ARCHIVE_DIR / "articles.jsonl"   # append-only permanent record
+ARCHIVE_FILE = ARCHIVE_DIR / "articles.jsonl"   # historical snapshot only (archive now in Postgres)
 REPORTS_DIR = HERE / "reports"                   # one JSON per crawl run
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -203,20 +206,8 @@ def relevance(title: str):
 
 
 def load_archive():
-    """Return (records_by_key, ordered_list) from the append-only archive."""
-    by_key, ordered = {}, []
-    if ARCHIVE_FILE.exists():
-        for line in ARCHIVE_FILE.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                rec = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            by_key[rec["key"]] = rec
-            ordered.append(rec)
-    return by_key, ordered
+    """Return (records_by_key, ordered_list) from the Postgres archive."""
+    return db.load_archive()
 
 
 def build_rss(items, title, desc, self_url=""):
@@ -279,6 +270,7 @@ def main():
 
     for d in (OUT_DIR, ARCHIVE_DIR, REPORTS_DIR):
         d.mkdir(exist_ok=True)
+    db.init_schema()
 
     # Persistent state: `ordered` is the full append-only list (keeps duplicates);
     # `by_key` collapses by normalized title. Dedup is OFF by default (codebook
@@ -298,9 +290,7 @@ def main():
         sources = []
         for rec in ordered:
             rec["relevant"], rec["tier"] = relevance(rec["title"])
-        with ARCHIVE_FILE.open("w", encoding="utf-8") as f:
-            for rec in ordered:
-                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        db.replace_all(ordered)
         print(f"Re-tagged {len(ordered)} archived records.")
 
     for i, s in enumerate(sources, 1):
@@ -342,11 +332,9 @@ def main():
         if i < len(sources):
             time.sleep(args.delay)
 
-    # Append new records to the permanent archive (append-only).
+    # Append new records to the permanent archive (Postgres).
     if new_records:
-        with ARCHIVE_FILE.open("a", encoding="utf-8") as f:
-            for rec in new_records:
-                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        db.insert_many(new_records)
 
     # Rolling outputs are built from the FULL archive within the time window.
     cutoff = now_naive - dt.timedelta(days=args.window_days)

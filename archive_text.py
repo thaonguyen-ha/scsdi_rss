@@ -36,7 +36,8 @@ import urllib.request
 
 import trafilatura
 
-from build_feed import (ARCHIVE_DIR, ARCHIVE_FILE, REL_ACTOR, REL_FEATURE,
+import db
+from build_feed import (ARCHIVE_DIR, REL_ACTOR, REL_FEATURE,
                         REL_SEA, load_archive)
 
 TEXT_DIR = ARCHIVE_DIR / "text"
@@ -192,9 +193,7 @@ def main():
             time.sleep(args.delay)
 
     # Rewrite the archive with the updated records (pilot scale -> full rewrite).
-    with ARCHIVE_FILE.open("w", encoding="utf-8") as f:
-        for rec in ordered:
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    db.replace_all(ordered)
 
     total_arch = sum(1 for r in ordered if r.get("text_archived"))
     print(f"\nArchived this run: {done}  failed: {fail}  |  total text-archived: {total_arch}")
