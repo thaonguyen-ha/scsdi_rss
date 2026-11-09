@@ -34,11 +34,11 @@ jobs:
       - name: Install deps (for text archiving)
         run: pip install -r requirements.txt
 
-      # Dedup ON in CI: the cron runs every ~30 min, so without it the archive
+      # Dedup ON in CI: the cron runs every 6 hours, so without it the archive
       # (the permanent dedup state, now in Postgres) would re-append every
       # still-current article on each run. --days 7 is the Google fetch depth
       # (keeps us under Google News' ~100-result cap); the dashboard's display
-      # window is separate (--window-days, default 14).
+      # window is separate (--window-days, default 7).
       - name: Build feed
         run: python build_feed.py --days 7 --delay 2.0 --dedup
 

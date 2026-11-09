@@ -11,7 +11,7 @@ Intended for an RA to audit false positives / false negatives.
 Usage:
     python export_results.py                    # all records -> exports/scsdi_articles_<date>.csv
     python export_results.py --relevant-only
-    python export_results.py --window-days 14   # only items within N days (match dashboard)
+    python export_results.py --window-days 7    # only items within N days (match dashboard)
     python export_results.py --out path.csv
 """
 import argparse

@@ -248,9 +248,9 @@ def main():
     ap.add_argument("--days", type=int, default=7,
                     help="Google fetch depth (when:Nd); kept at 7 to respect the "
                          "~100-article/query cap (see codebook)")
-    ap.add_argument("--window-days", type=int, default=14,
+    ap.add_argument("--window-days", type=int, default=7,
                     help="dashboard/feed display window in days, built from the "
-                         "accumulated archive; may exceed --days")
+                         "accumulated archive; matches --days by default")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only", default="")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests")

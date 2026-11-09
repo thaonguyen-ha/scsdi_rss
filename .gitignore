@@ -4,5 +4,9 @@ __pycache__/
 .DS_Store
 *.log
 
+# Local secrets (DATABASE_URL for Neon) -- never commit
+.env
+.env.*
+
 # Regenerable CSV deliverables (fixed-seed, rebuilt by export_results.py / make_ra_batch.py)
 exports/

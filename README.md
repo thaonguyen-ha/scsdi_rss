@@ -88,8 +88,8 @@ We do not deduplicate for now. We want to make sure how duplicated news are gene
 ## Run locally
 
 ```bash
-python build_feed.py                 # all sources, 14-day window
-python build_feed.py --days 7        # narrower window
+python build_feed.py                 # all sources, 7-day fetch + 7-day feed window
+python build_feed.py --window-days 14  # show a longer window from the archive
 python build_feed.py --only scmp.com,rappler.com   # quick test
 python -m http.server -d public 8777 # then open http://127.0.0.1:8777/
 ```
