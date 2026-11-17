@@ -42,8 +42,11 @@ jobs:
       - name: Build feed
         run: python build_feed.py --days 7 --delay 2.0 --dedup
 
-      - name: Archive article text (incremental)
-        run: python archive_text.py --limit 8 --delay 3
+      # Body text for relevant articles (spaced retries, Wayback fallback when a
+      # publisher blocks us), plus a Wayback snapshot request for every relevant
+      # article whether or not we could fetch it.
+      - name: Archive article text + Wayback snapshots (incremental)
+        run: python archive_text.py --limit 8 --wayback-limit 8 --delay 3
 
       # Resolve a batch of Google News redirect links to direct publisher URLs
       # (best-effort, resumable; writes resolved_url back into the archive).

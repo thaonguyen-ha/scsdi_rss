@@ -11,7 +11,7 @@ this codebook.
 The authoritative lists live in the repository:
 - Source frame → [`sources.json`](sources.json)
 - Search terms per language → `LANG_TERMS` in [`build_feed.py`](build_feed.py)
-- Relevance terms → `REL_SEA` / `REL_FEATURE` / `REL_ACTOR` in `build_feed.py`
+- Relevance terms → [`term_dictionary.csv`](term_dictionary.csv) (tiers `sea` / `feature` / `actor`, plus `exclude` markers), loaded by `build_feed.py`
 
 If you change one, change the other in the same commit, and bump the version at
 the bottom of this file.
@@ -20,7 +20,7 @@ the bottom of this file.
 
 ## Stage 1 — Source frame
 
-We search a **fixed, vetted list of outlets** (not the open web). This is the
+We search a **fixed, vetted list of outlets**. This is the
 same list the team used for 2024–2025 coding. Each outlet is searched in **one
 language** (its primary publishing language). Canonical list: `sources.json`.
 
@@ -109,8 +109,10 @@ order — **SEA → FEATURE → ACTOR**:
 
 ### Term Dictionary
 
+The authoritative list is [`term_dictionary.csv`](term_dictionary.csv) (columns `term`, `tier`, `language`, `match`, `active`, `note`). The lists below are a human-readable copy; if they ever differ, the CSV wins. Edit terms in the CSV, not in code. `match = word` makes a short term (e.g. an acronym) match only as a whole word. `language` records the language the term is written in (ISO 639-1 code such as `en`, `vi`, `zh`; several joined with `|`, e.g. `id|ms`; `any` for a proper name that is written the same in every language). It is a label: every active term is still tested against every headline.
+
 **SEA** — the body of water itself:
-`South China Sea`, `West Philippine Sea` / `WPS`, `Dagat Kanlurang Pilipinas`,
+`South China Sea`, `West Philippine Sea` / `West PH Sea` / `WPS`, `Dagat Kanlurang Pilipinas`,
 `Dagat Timog Tsina`, `Laut China Selatan`, `Laut Cina Selatan`,
 `Laut Natuna Utara`, `Biển Đông` / `bien dong`, `南シナ海`, `南海`,
 `南中國海`, `南中国海`, `Philippine Sea` (the Pacific sea *east* of the
@@ -123,10 +125,13 @@ archipelago — a different body of water from the SCS, included by team decisio
 `Sabina` / `Escoda` / `Xianbin` (`仙宾`/`仙賓`), `Thitu` / `Pag-asa` /
 `Zhongye` (`中業`/`中业`), `Whitsun` / `Julian Felipe` / `Niu'e` (`牛轭`),
 `Reed Bank` / `Recto Bank`, `Natuna`, `Mischief Reef` / `Panganiban` /
-`Meiji` (`美济`/`美濟`), `Subi Reef` (`渚碧`), `Half Moon Shoal`
+`Meiji` (`美济`/`美濟`), `Subi Reef` (`渚碧`), `Half Moon Shoal`, and the generic
+word `island` (also matches `islands`; included by team decision, accepting some
+off-topic hits such as the Canary Islands or Phuket)
 
 **ACTOR** — a maritime actor / incident term, when no sea or feature is named:
-`coast guard`, `China Coast Guard` / `CCG` (`海警`), `maritime militia`
+`coast guard`, `China Coast Guard` / `CCG` (`海警`), `PCG` (Philippine Coast
+Guard; whole-word match), `maritime militia`
 (`海上民兵`), `water cannon`, `cảnh sát biển`, `dân quân biển`,
 `penjaga pantai`, `Bakamla`, `grey-zone` / `gray-zone`
 
@@ -141,10 +146,14 @@ Exclude Google News **index pages**, even if they match a term:
 
 ---
 
-## Stage 5 — What we record (archive schema)
+## Stage 5 — Archiving Rules
 
-Every recorded article is one JSON line in [`archive/articles.jsonl`](archive/)
-(the permanent, append-only record and the deduplication state):
+For posterity and reproducibility, every recorded article is one row in the Postgres (Neon) `articles` table, the
+permanent record and the deduplication state (see `db.py`). The full record is
+kept as JSON. 
+
+Note that the file [`archive/articles.jsonl`](archive/) is a frozen snapshot from
+before the move to Postgres (Nov 6, 2026) and is no longer updated.
 
 | Field | Meaning |
 |-------|---------|
@@ -158,6 +167,11 @@ Every recorded article is one JSON line in [`archive/articles.jsonl`](archive/)
 | `wayback_url` | Internet Archive snapshot (citable, link-rot-proof) |
 | `text_file` | path to the extracted body text under `archive/text/` |
 | `text_relevant` | **body-level** relevance: names a place **and** an incident/actor term |
+| `text_source` | where the body text came from: `publisher`, or `wayback` when the publisher blocked us and an exact Wayback copy existed |
+| `archive_status` | result of the last text fetch: `ok`, `ok_wayback`, `no_text`, `wayback_no_text`, `http_<code>` (e.g. `http_403`), `timeout`, `url_error`, `resolve_failed`, `requeued` |
+| `archive_attempts`, `last_attempt_at` | text-fetch tries so far (max 5, at most one per ~20 h) and when the last one ran |
+| `publisher_status` | the publisher's error when the text came from Wayback instead (e.g. `http_403`) |
+| `wayback_attempts`, `wayback_last_attempt_at` | Wayback snapshot requests so far (max 3, one per ~20 h). Requested for **every** relevant article, even ones we cannot fetch ourselves |
 
 ### Body-level relevance (stage 4b)
 
@@ -180,7 +194,14 @@ patrol, exercise, dispute, sovereignty, …).
    (currently: Ta Kung Pao, Kompas search subdomain, Gatra, BBC `bbc.com`,
    Mongabay, AMTI, The Defense Post, NHK, The Sun, VTC). These need a native feed
    or a per-site scraper.
+3. **Wayback Machine limitation**. 
 ---
 
-**Version:** 1.0 — 2026-10-26. Matches `sources.json` and the `LANG_TERMS` /
-`REL_*` lists in `build_feed.py` as of this date.
+**Version:** 1.2 — 2026-11-17. Added `west ph sea` (sea), `island` (feature,
+generic) and `pcg` (actor, whole-word) after reviewing RA-flagged misses. Frozen
+1.0/1.1 term list kept as `dictionaries/baseline_v1.0_pre-2026-11-13.csv`.
+
+**Version:** 1.1 — 2026-11-13. Relevance terms moved from `REL_*` lists in
+`build_feed.py` to `term_dictionary.csv`; term content unchanged from 1.0
+(verified identical flags on all archived headlines). Matches `sources.json`
+and `LANG_TERMS` in `build_feed.py` as of this date.

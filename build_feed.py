@@ -20,6 +20,7 @@ Usage:
     python build_feed.py --only scmp.com,rappler.com
 """
 import argparse
+import csv
 import datetime as dt
 import html
 import json
@@ -144,65 +145,126 @@ def esc(s: str) -> str:
 # Google News does not strictly enforce the exact phrase, so broad outlets
 # (e.g. Military Times) return off-topic items. An item is "relevant" if its
 # title contains a South China Sea sea-name, a named feature/shoal, or a
-# maritime-actor term, in any of the tracked languages. 
+# maritime-actor term, in any of the tracked languages.
+#
+# The term dictionary lives in term_dictionary.csv (NOT in this file), so the
+# list can be reviewed and edited without touching code:
+#   term    lower-case string to look for in the headline
+#   tier    sea | feature | actor | exclude   (tier priority: sea > feature > actor;
+#           `exclude` = Google News index-page markers, never an article)
+#   language  language the term is written in: ISO 639-1 code (en, tl, id, ms, vi,
+#           zh, ja, ...), several joined with `|` (e.g. id|ms), or `any` for a
+#           proper name written the same in every language (blank = any).
+#           Descriptive/label only: it does NOT restrict which headlines a term
+#           is tested against (every active term is tested on every headline).
+#   match   substring (default) | word   -- `word` requires non-letter/digit
+#           characters on both sides; use it for short terms (e.g. PCG, BRP)
+#           that would otherwise match inside longer words
+#   active  1 (default) | 0              -- 0 switches a term off without deleting it
+#   note    free text (why a term is in/out)
+# Keep CODEBOOK.md in lockstep with this file.
 
-REL_SEA = [  # the sea itself (strong signal)
-    "south china sea", "west philippine sea",
-    "wps",   # WPS = West Philippine Sea; common PH headline abbreviation
-    "philippine sea",   # the Philippine Sea (Pacific, E of PH) -- adjacent body of
-                        # water, included by team decision (distinct from the SCS)
-    "dagat kanlurang pilipinas",
-    "dagat timog tsina", "laut china selatan", "laut cina selatan",
-    "laut natuna utara", "biển đông", "bien dong",
-    "南シナ海", "南海", "南中國海", "南中国海",
-]
-REL_FEATURE = [  # named features / shoals / islands
-    "scarborough", "panatag", "bajo de masinloc", "huangyan", "黄岩", "黃岩",
-    "spratly", "nansha", "南沙", "kalayaan", "paracel", "xisha", "西沙",
-    "hoàng sa", "hoang sa", "trường sa", "truong sa",
-    "second thomas", "ayungin", "ren'ai", "renai", "仁爱", "仁愛",
-    "sabina", "escoda", "xianbin", "仙宾", "仙賓",
-    "thitu", "pag-asa", "pagasa", "zhongye", "中業", "中业",
-    "whitsun", "julian felipe", "niu'e", "牛轭",
-    "reed bank", "recto bank", "natuna", "mischief reef", "panganiban",
-    "美济", "美濟", "subi reef", "渚碧", "half moon shoal",
-    # NOTE: dropped bare "zamora"/"meiji"/"subi" -- ambiguous with a common
-    # Filipino surname, the Japanese era, and ordinary words.
-]
-REL_ACTOR = [  # maritime actors / incident vocabulary
-    "coast guard", "china coast guard", "ccg", "maritime militia",
-    "water cannon", "海警", "海上民兵", "cảnh sát biển", "canh sat bien",
-    "dân quân biển", "penjaga pantai", "bakamla", "grey-zone", "gray-zone",
-]
+DICTIONARY = HERE / "term_dictionary.csv"
+_TIERS = ("sea", "feature", "actor", "exclude")
+_MATCHES = ("substring", "word")
+_FALSY = {"0", "false", "no", "off"}
+_LANG_CODE = re.compile(r"^[a-z]{2,3}(-[a-z0-9]+)?$")
 
+
+def _parse_langs(raw, where):
+    """'id|ms' -> ('id', 'ms'); blank or 'any' -> ('any',). Rejects typos/mixes."""
+    codes = tuple(c.strip().lower() for c in (raw or "any").split("|") if c.strip()) or ("any",)
+    if "any" in codes and len(codes) > 1:
+        raise SystemExit(f"{where}: 'any' cannot be combined with other languages ({raw!r})")
+    for c in codes:
+        if c != "any" and not _LANG_CODE.match(c):
+            raise SystemExit(f"{where}: bad language code {c!r} (use ISO 639-1 like en, vi, zh; "
+                             f"join several with '|'; or 'any')")
+    return codes
+
+
+def load_dictionary(path=DICTIONARY):
+    """Read term_dictionary.csv -> {tier: [(term, match, langs), ...]} (active rows only).
+
+    Fails loudly: a missing/empty dictionary would otherwise silently mark every
+    article as not relevant."""
+    if not path.exists():
+        raise SystemExit(f"term dictionary not found: {path}")
+    out = {t: [] for t in _TIERS}
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for n, row in enumerate(csv.DictReader(f), start=2):
+            term = (row.get("term") or "").strip().lower()
+            if not term:
+                continue
+            if (row.get("active") or "1").strip().lower() in _FALSY:
+                continue
+            tier = (row.get("tier") or "").strip().lower()
+            match = (row.get("match") or "substring").strip().lower()
+            if tier not in _TIERS:
+                raise SystemExit(f"{path.name} line {n}: bad tier {tier!r} (use {'/'.join(_TIERS)})")
+            if match not in _MATCHES:
+                raise SystemExit(f"{path.name} line {n}: bad match {match!r} (use {'/'.join(_MATCHES)})")
+            langs = _parse_langs(row.get("language"), f"{path.name} line {n}")
+            out[tier].append((term, match, langs))
+    for t in ("sea", "feature", "actor"):
+        if not out[t]:
+            raise SystemExit(f"{path.name}: no active terms for tier {t!r}")
+    return out
+
+
+def _compile(entries):
+    """One compiled regex per tier; `substring` terms match anywhere (same as the
+    old `term in title.lower()`), `word` terms need non-word characters around."""
+    parts = []
+    for term, match, _langs in entries:
+        pat = re.escape(term)
+        parts.append(rf"(?<!\w){pat}(?!\w)" if match == "word" else pat)
+    return re.compile("|".join(parts)) if parts else None
+
+
+_DICT = load_dictionary()
+
+# Plain term lists (active rows), kept under the old names because archive_text.py
+# imports them for the body-level text check.
+REL_SEA = [e[0] for e in _DICT["sea"]]
+REL_FEATURE = [e[0] for e in _DICT["feature"]]
+REL_ACTOR = [e[0] for e in _DICT["actor"]]
 
 # Google News mixes non-article index pages into results: author profiles
 # (titles beginning with "#"), keyword/tag pages and reporter article lists.
 # These are never codeable events, so they are excluded before relevance.
-NONARTICLE_MARKERS = ["關鍵字新聞", "关键字新闻", "記者文章列表", "记者文章列表"]
+NONARTICLE_MARKERS = [e[0] for e in _DICT["exclude"]]
+
+
+def make_relevance(dictionary):
+    """Build a `relevance(title) -> (is_relevant, tier)` function from a loaded
+    dictionary (see load_dictionary). The live filter below is made from
+    term_dictionary.csv; compare_filters.py calls this with other dictionaries to
+    test them through the exact same matching code."""
+    matchers = {t: _compile(dictionary[t]) for t in ("sea", "feature", "actor")}
+    markers = [e[0] for e in dictionary["exclude"]]
+
+    def relevance(title: str):
+        t = (title or "").strip()
+        if t.startswith("#") or any(m in t for m in markers):   # index pages, not articles
+            return False, "none"
+        # Term lists are lower-case; Unicode .lower() covers Vietnamese diacritics and
+        # is a no-op for CJK, so one case-folded check works for every language.
+        low = t.lower()
+        for tier in ("sea", "feature", "actor"):   # first matching tier wins
+            if matchers[tier].search(low):
+                return True, tier
+        return False, "none"
+
+    return relevance
+
+
+relevance = make_relevance(_DICT)   # the live filter
 
 
 def is_nonarticle(title: str) -> bool:
     t = (title or "").strip()
     return t.startswith("#") or any(m in t for m in NONARTICLE_MARKERS)
-
-
-def relevance(title: str):
-    """Return (is_relevant, tier) for an article title."""
-    if is_nonarticle(title):
-        return False, "none"
-    low = (title or "").lower()
-    def hit(terms):
-        # All term lists are lowercase; Unicode .lower() covers Vietnamese
-        # diacritics and is a no-op for CJK, so one case-folded check works.
-        return any(term in low for term in terms)
-    if hit(REL_SEA):
-        return True, "sea"
-    if hit(REL_FEATURE):
-        return True, "feature"
-    if hit(REL_ACTOR):
-        return True, "actor"
-    return False, "none"
 
 
 def load_archive():
