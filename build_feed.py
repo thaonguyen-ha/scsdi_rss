@@ -150,23 +150,31 @@ def esc(s: str) -> str:
 # The term dictionary lives in term_dictionary.csv (NOT in this file), so the
 # list can be reviewed and edited without touching code:
 #   term    lower-case string to look for in the headline
-#   tier    sea | feature | actor | exclude   (tier priority: sea > feature > actor;
-#           `exclude` = Google News index-page markers, never an article)
+#   tier    sea | feature | actor | exclude | exclude_url
+#           (tier priority: sea > feature > actor). `exclude` = index-page
+#           markers tested on the HEADLINE (tag / topic / author / archive pages,
+#           never an article); `exclude_url` = markers tested on the resolved
+#           publisher URL path (e.g. /tag/), for index pages whose headline gives
+#           no sign. Index pages are tagged relevant=False, tier="index".
 #   language  language the term is written in: ISO 639-1 code (en, tl, id, ms, vi,
 #           zh, ja, ...), several joined with `|` (e.g. id|ms), or `any` for a
 #           proper name written the same in every language (blank = any).
 #           Descriptive/label only: it does NOT restrict which headlines a term
 #           is tested against (every active term is tested on every headline).
-#   match   substring (default) | word   -- `word` requires non-letter/digit
-#           characters on both sides; use it for short terms (e.g. PCG, BRP)
-#           that would otherwise match inside longer words
+#   match   substring (default) | word | prefix | regex
+#           `word` requires non-letter/digit characters on both sides; use it
+#           for short terms (e.g. PCG, BRP) that would otherwise match inside
+#           longer words. `prefix` = headline starts with the term. `regex` = a
+#           Python regex on the lower-cased headline (exclude rows only; use
+#           sparingly, e.g. `^#\s`). Terms are trimmed, so never rely on a
+#           leading/trailing space.
 #   active  1 (default) | 0              -- 0 switches a term off without deleting it
 #   note    free text (why a term is in/out)
 # Keep CODEBOOK.md in lockstep with this file.
 
 DICTIONARY = HERE / "term_dictionary.csv"
-_TIERS = ("sea", "feature", "actor", "exclude")
-_MATCHES = ("substring", "word")
+_TIERS = ("sea", "feature", "actor", "exclude", "exclude_url")
+_MATCHES = ("substring", "word", "prefix", "regex")
 _FALSY = {"0", "false", "no", "off"}
 _LANG_CODE = re.compile(r"^[a-z]{2,3}(-[a-z0-9]+)?$")
 
@@ -204,6 +212,13 @@ def load_dictionary(path=DICTIONARY):
                 raise SystemExit(f"{path.name} line {n}: bad tier {tier!r} (use {'/'.join(_TIERS)})")
             if match not in _MATCHES:
                 raise SystemExit(f"{path.name} line {n}: bad match {match!r} (use {'/'.join(_MATCHES)})")
+            if match in ("prefix", "regex") and tier != "exclude":
+                raise SystemExit(f"{path.name} line {n}: match {match!r} is only for exclude rows")
+            if match == "regex":
+                try:
+                    re.compile(term)
+                except re.error as e:
+                    raise SystemExit(f"{path.name} line {n}: bad regex {term!r}: {e}")
             langs = _parse_langs(row.get("language"), f"{path.name} line {n}")
             out[tier].append((term, match, langs))
     for t in ("sea", "feature", "actor"):
@@ -230,24 +245,59 @@ REL_SEA = [e[0] for e in _DICT["sea"]]
 REL_FEATURE = [e[0] for e in _DICT["feature"]]
 REL_ACTOR = [e[0] for e in _DICT["actor"]]
 
-# Google News mixes non-article index pages into results: author profiles
-# (titles beginning with "#"), keyword/tag pages and reporter article lists.
-# These are never codeable events, so they are excluded before relevance.
-NONARTICLE_MARKERS = [e[0] for e in _DICT["exclude"]]
+# Google News mixes non-article index pages into results: tag / topic /
+# author / section-archive pages and reporter article lists. They are never
+# codeable events, and their "text" is a list of other headlines, so they are
+# excluded before relevance (and skipped by the text/Wayback archiver).
+
+
+def make_index_check(entries):
+    """`is_index(title) -> bool` from the `exclude` rows (headline markers)."""
+    subs, prefixes, regexes = [], [], []
+    for term, match, _langs in entries:
+        if match == "prefix":
+            prefixes.append(term)
+        elif match == "regex":
+            regexes.append(re.compile(term))
+        else:
+            subs.append(term)
+
+    def is_index(title):
+        low = (title or "").strip().lower()
+        return (low.startswith(tuple(prefixes)) if prefixes else False) \
+            or any(s in low for s in subs) or any(r.search(low) for r in regexes)
+    return is_index
+
+
+def make_index_url_check(entries):
+    """`is_index_url(url) -> bool` from the `exclude_url` rows (URL path markers)."""
+    marks = [e[0] for e in entries]
+
+    def is_index_url(url):
+        if not url:
+            return False
+        path = urllib.parse.urlparse(url.lower()).path
+        return any(m in path for m in marks)
+    return is_index_url
+
+
+is_index_title = make_index_check(_DICT["exclude"])
+is_index_url = make_index_url_check(_DICT["exclude_url"])
 
 
 def make_relevance(dictionary):
     """Build a `relevance(title) -> (is_relevant, tier)` function from a loaded
     dictionary (see load_dictionary). The live filter below is made from
     term_dictionary.csv; compare_filters.py calls this with other dictionaries to
-    test them through the exact same matching code."""
+    test them through the exact same matching code. Index pages return
+    (False, "index")."""
     matchers = {t: _compile(dictionary[t]) for t in ("sea", "feature", "actor")}
-    markers = [e[0] for e in dictionary["exclude"]]
+    is_index = make_index_check(dictionary["exclude"])
 
     def relevance(title: str):
         t = (title or "").strip()
-        if t.startswith("#") or any(m in t for m in markers):   # index pages, not articles
-            return False, "none"
+        if is_index(t):   # index pages, not articles
+            return False, "index"
         # Term lists are lower-case; Unicode .lower() covers Vietnamese diacritics and
         # is a no-op for CJK, so one case-folded check works for every language.
         low = t.lower()
@@ -262,9 +312,19 @@ def make_relevance(dictionary):
 relevance = make_relevance(_DICT)   # the live filter
 
 
-def is_nonarticle(title: str) -> bool:
-    t = (title or "").strip()
-    return t.startswith("#") or any(m in t for m in NONARTICLE_MARKERS)
+def is_nonarticle(title: str, url: str = "") -> bool:
+    """True for an index page, judged by headline and (if known) resolved URL."""
+    return is_index_title(title) or is_index_url(url)
+
+
+def classify(rec):
+    """(relevant, tier) for an archived record: headline relevance, then the
+    resolved-URL index check once resolve_links.py / archive_text.py has
+    decoded the Google News link."""
+    rel, tier = relevance(rec.get("title"))
+    if tier != "index" and is_index_url(rec.get("resolved_url")):
+        return False, "index"
+    return rel, tier
 
 
 def load_archive():
@@ -351,7 +411,7 @@ def main():
         # the filter changed) and rewrite it; don't fetch or touch status/reports.
         sources = []
         for rec in ordered:
-            rec["relevant"], rec["tier"] = relevance(rec["title"])
+            rec["relevant"], rec["tier"] = classify(rec)
         db.replace_all(ordered)
         print(f"Re-tagged {len(ordered)} archived records.")
 

@@ -17,10 +17,13 @@ Separately, EVERY relevant article gets a Wayback Machine snapshot request
 (citable, link-rot-proof provenance), whether or not we could fetch it
 ourselves -- the Wayback Machine fetches from its own servers.
 
-Retries: a failed fetch is retried up to MAX_ATTEMPTS times, at most once per
-RETRY_GAP_HOURS, so a temporary outage gets several days rather than hours.
+Retries: a failed fetch is retried up to MAX_ATTEMPTS (3) times, at most once
+per RETRY_GAP_HOURS, so a temporary outage gets a few days rather than hours.
 Never-tried articles go first, so repeat failures don't hold up new ones.
 Failures are recorded with the HTTP status (``http_403``, ``timeout``, ...).
+An article that still lacks text or a Wayback snapshot after its tries is
+written to archive/recovery_queue.json (RECOVERY_QUEUE) and left to the weekly
+recover_archive.py pass, which retries it by failure type.
 
 Durability: the extracted text lives in the repo (your copy); the Wayback URL is
 the public citation. Raw HTML is not committed by default (repo bloat) -- pass
@@ -49,13 +52,14 @@ import trafilatura
 
 import db
 from build_feed import (ARCHIVE_DIR, REL_ACTOR, REL_FEATURE,
-                        REL_SEA, load_archive)
+                        REL_SEA, classify, is_index_url, load_archive)
 
 TEXT_DIR = ARCHIVE_DIR / "text"
 HTML_DIR = ARCHIVE_DIR / "html"
+RECOVERY_QUEUE = ARCHIVE_DIR / "recovery_queue.json"   # handed to recover_archive.py
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
-MAX_ATTEMPTS = 5            # text-fetch tries per article before giving up
+MAX_ATTEMPTS = 3            # text-fetch tries per article before the weekly queue
 MAX_WAYBACK_ATTEMPTS = 3    # Wayback snapshot requests per article
 RETRY_GAP_HOURS = 20        # min gap between tries; with the 6-hourly cron
                             # that is about one try per day
@@ -217,8 +221,8 @@ def raw_snapshot_url(snap):
     return f"{m.group(1)}{m.group(2)}id_/{m.group(3)}" if m else snap
 
 
-def extract_text(html):
-    return trafilatura.extract(html.decode("utf-8", "replace"),
+def extract_text(html, favor_recall=False):
+    return trafilatura.extract(html.decode("utf-8", "replace"), favor_recall=favor_recall,
                                include_comments=False, include_tables=False) or ""
 
 
@@ -265,6 +269,90 @@ def requeue_legacy_failures(ordered):
     return n
 
 
+def load_queue(path=None):
+    """The recovery queue as {key: entry}. Missing file -> empty queue."""
+    path = path or RECOVERY_QUEUE
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    return {e["key"]: e for e in data.get("items", [])}
+
+
+def save_queue(queue, path=None):
+    path = path or RECOVERY_QUEUE
+    items = sorted(queue.values(), key=lambda e: (e.get("status") != "queued", e.get("queued_at") or ""))
+    counts = {}
+    for e in items:
+        counts[e["status"]] = counts.get(e["status"], 0) + 1
+    path.write_text(json.dumps({"updated_at": now_iso(), "counts": counts, "items": items},
+                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def needs_of(rec):
+    """What an article still lacks after its incremental tries are used up."""
+    needs = []
+    if not rec.get("text_archived") and rec.get("archive_attempts", 0) >= MAX_ATTEMPTS:
+        needs.append("text")
+    if not rec.get("wayback_url") and rec.get("wayback_attempts", 0) >= MAX_WAYBACK_ATTEMPTS:
+        needs.append("wayback")
+    return needs
+
+
+def enqueue_exhausted(relevant, queue):
+    """Add articles whose incremental tries are used up to the recovery queue
+    (or widen an existing queued entry's needs). Returns the number added."""
+    added = 0
+    for rec in relevant:
+        if not rec.get("relevant"):   # turned out to be an index page this run
+            continue
+        needs = needs_of(rec)
+        if not needs:
+            continue
+        e = queue.get(rec["key"])
+        if e is None:
+            if rec.get("recovery_status") in ("recovered", "given_up"):
+                continue   # the weekly pass already settled it
+            e = queue[rec["key"]] = {
+                "key": rec["key"], "title": rec.get("title"), "link": rec.get("link"),
+                "country": rec.get("country"), "domain": rec.get("domain"),
+                "status": "queued", "needs": [], "queued_at": now_iso(),
+                "recovery_attempts": 0, "history": [],
+            }
+            added += 1
+        elif e["status"] != "queued":
+            continue
+        e["needs"] = sorted(set(e["needs"]) | set(needs))
+        # Failure context the weekly pass uses to choose its strategy.
+        e["resolved_url"] = rec.get("resolved_url")
+        e["text_status"] = rec.get("archive_status")
+        e["publisher_status"] = rec.get("publisher_status")
+        e["text_attempts"] = rec.get("archive_attempts", 0)
+        e["wayback_attempts"] = rec.get("wayback_attempts", 0)
+        rec["recovery_status"] = "queued"
+    return added
+
+
+def drop_index_pages(records):
+    """Re-check relevant records with the index-page rules (headline markers,
+    and the resolved URL once known); index pages become relevant=False,
+    tier='index', and lose any 'text' archived from them (a list of other
+    headlines, which would skew text_relevant). Returns how many were dropped."""
+    n = 0
+    for rec in records:
+        if not rec.get("relevant"):
+            continue
+        rel, tier = classify(rec)
+        if tier == "index":
+            rec["relevant"], rec["tier"] = False, "index"
+            rec["archive_status"] = "index_page"
+            for f in ("text_archived", "text_relevant"):
+                if rec.get(f):
+                    rec[f] = False
+            n += 1
+    return n
+
+
 def fetch_text(rec, save_html):
     """Fetch and store one article's body text. Tries the publisher first and
     falls back to an existing Wayback copy. Returns the status label."""
@@ -274,6 +362,8 @@ def fetch_text(rec, save_html):
         return "resolve_" + status_of(e)
     if not real:
         return "resolve_failed"
+    if is_index_url(real):
+        return "index_page"   # tag/topic/author page: nothing to archive
 
     source = "publisher"
     try:
@@ -293,7 +383,14 @@ def fetch_text(rec, save_html):
         if not rec.get("wayback_url"):  # older records may hold None here
             rec["wayback_url"] = snap
 
-    text = extract_text(html)
+    return store_text(rec, html, source, save_html)
+
+
+def store_text(rec, html, source, save_html=False, favor_recall=False):
+    """Extract the body from ``html`` and record it on ``rec``. ``source`` is
+    'publisher' or 'wayback'. Returns the status label (ok / ok_wayback /
+    no_text / wayback_no_text)."""
+    text = extract_text(html, favor_recall=favor_recall)
     if source == "publisher" and len(text) < MIN_TEXT_CHARS:
         return "no_text"
     if source == "wayback" and len(text) < MIN_WAYBACK_TEXT_CHARS:
@@ -331,6 +428,9 @@ def main():
     requeued = requeue_legacy_failures(ordered)
     if requeued:
         print(f"Requeued {requeued} articles that failed under the old retry rule")
+    dropped = drop_index_pages(ordered)
+    if dropped:
+        print(f"Dropped {dropped} index pages (tag/topic/author/archive) from the relevant set")
     relevant = [r for r in ordered if r.get("relevant")]
 
     # --- 1. Body text --------------------------------------------------------
@@ -354,6 +454,9 @@ def main():
         except Exception as e:  # noqa: BLE001
             status = status_of(e)
         rec["archive_status"] = status
+        if status == "index_page":   # found out only now, from the resolved URL
+            rec["relevant"], rec["tier"] = False, "index"
+            rec["archive_attempts"] -= 1
         if status.startswith("ok"):
             done += 1
         else:
@@ -369,7 +472,8 @@ def main():
     # Independent of step 1: an article we could not fetch still gets a citable
     # snapshot, because the Wayback Machine fetches it from its own servers.
     wb_todo = sorted((r for r in relevant
-                      if not r.get("wayback_url")
+                      if r.get("relevant")   # step 1 may have found index pages
+                      and not r.get("wayback_url")
                       and r.get("wayback_attempts", 0) < MAX_WAYBACK_ATTEMPTS
                       and is_due(r, "wayback_last_attempt_at", now)),
                      key=lambda r: r.get("wayback_attempts", 0))[: args.wayback_limit]
@@ -384,6 +488,11 @@ def main():
             real = resolve(rec)
         except Exception:  # noqa: BLE001
             real = None
+        if is_index_url(real):   # don't spend a Wayback request on an index page
+            rec["relevant"], rec["tier"], rec["archive_status"] = False, "index", "index_page"
+            rec["wayback_attempts"] -= 1
+            print(f"[{i:>2}/{len(wb_todo)}] -- {rec['country']:<3} index page, skipped  {rec['title'][:40]}")
+            continue
         snap = wayback_save(real) if real else None
         if snap:
             rec["wayback_url"] = snap
@@ -394,6 +503,14 @@ def main():
               flush=True)
         if i < len(wb_todo):
             time.sleep(args.delay)
+
+    # --- 3. Hand exhausted articles to the weekly recovery pass ---------------
+    queue = load_queue()
+    added = enqueue_exhausted(relevant, queue)
+    save_queue(queue)
+    pending = sum(1 for e in queue.values() if e["status"] == "queued")
+    print(f"\nRecovery queue: {added} added this run, {pending} waiting for the weekly pass "
+          f"({RECOVERY_QUEUE.name})")
 
     # Rewrite the archive with the updated records (pilot scale -> full rewrite).
     db.replace_all(ordered)

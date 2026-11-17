@@ -42,9 +42,11 @@ jobs:
       - name: Build feed
         run: python build_feed.py --days 7 --delay 2.0 --dedup
 
-      # Body text for relevant articles (spaced retries, Wayback fallback when a
+      # Body text for relevant articles (3 spaced tries, Wayback fallback when a
       # publisher blocks us), plus a Wayback snapshot request for every relevant
-      # article whether or not we could fetch it.
+      # article whether or not we could fetch it. Articles still missing either
+      # after 3 tries go to archive/recovery_queue.json for the weekly
+      # recover-archive workflow.
       - name: Archive article text + Wayback snapshots (incremental)
         run: python archive_text.py --limit 8 --wayback-limit 8 --delay 3
 
@@ -64,7 +66,7 @@ jobs:
           # longer committed. We still commit public/ (triggers the Vercel
           # redeploy), the extracted body snapshots under archive/text/, and the
           # per-run reports.
-          git add public/ archive/text/ reports/
+          git add public/ archive/text/ archive/recovery_queue.json reports/
           if git diff --quiet --cached; then
             echo "No changes."
           else

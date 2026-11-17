@@ -139,10 +139,28 @@ Guard; whole-word match), `maritime militia`
 
 ### Exclusions (not articles)
 
-Exclude Google News **index pages**, even if they match a term:
-- author/profile pages — headline begins with `#`
-- keyword / tag pages — contain `關鍵字新聞` / `关键字新闻`
-- reporter article lists — contain `記者文章列表` / `记者文章列表`
+Exclude **index pages** (tag, topic, author, section-archive and front pages)
+even if they match a term. They are not articles, and their extracted "text" is
+a list of other headlines, so they also cause text and Wayback archiving
+failures (`no_text`, `wayback_no_text`) or archive junk text. Excluded pages get
+`relevant = false`, `tier = index`. Two checks, both in
+[`term_dictionary.csv`](term_dictionary.csv):
+
+1. **Headline markers** (`tier = exclude`), e.g.
+   - CNA (Taiwan): `# 南海 - 中央社` (hash + space), `關鍵字新聞`, `記者文章列表`, `新聞專題`
+   - Manila Bulletin `Tag: …`; Philstar `+ Follow … Tag`; Rappler `Latest News`
+   - WordPress archives: `… Archives - …`, `… Archives | Page N` (Inquirer, Cebu Daily News, Military Times, Interaksyon)
+   - SCMP `…: Latest News and Updates`; CNA (Singapore) `… latest news & coverage`
+   - Indonesian: `Kumpulan Berita …` (ANTARA), `Berita dan Informasi …` (detik), `Berita Terbaru Tentang …` (Tempo), `Berita Harian …` (CNN Indonesia)
+   - Vietnamese: `Từ khóa: …`, `Tin tức, sự kiện liên quan đến …` (Tuổi Trẻ), `Tin tức 24h` / `Tin nhanh 24h` / `Tổng hợp tin tức …` (VietNamNet)
+2. **Resolved-URL markers** (`tier = exclude_url`): once the Google News link is
+   decoded, a publisher URL path containing `/tag/`, `/tags/`, `/topic/`,
+   `/topics/`, `/author/`, `/tu-khoa/`, `/keyword/` or `/page/` marks an index page
+   whose headline gives no sign (e.g. `Jairo Bolledo - Rappler`). The archiver
+   checks this before fetching text or requesting a Wayback snapshot.
+
+A headline that merely *starts* with a hashtag (`#SHOWBIZ: …`, `#AnimatED: …`) is
+an article, not an index page (the old "begins with `#`" rule excluded these).
 
 ---
 
@@ -169,9 +187,31 @@ before the move to Postgres (Nov 6, 2026) and is no longer updated.
 | `text_relevant` | **body-level** relevance: names a place **and** an incident/actor term |
 | `text_source` | where the body text came from: `publisher`, or `wayback` when the publisher blocked us and an exact Wayback copy existed |
 | `archive_status` | result of the last text fetch: `ok`, `ok_wayback`, `no_text`, `wayback_no_text`, `http_<code>` (e.g. `http_403`), `timeout`, `url_error`, `resolve_failed`, `requeued` |
-| `archive_attempts`, `last_attempt_at` | text-fetch tries so far (max 5, at most one per ~20 h) and when the last one ran |
+| `archive_attempts`, `last_attempt_at` | text-fetch tries so far (max 3, at most one per ~20 h) and when the last one ran |
+| `recovery_status`, `recovery_attempts`, `last_recovery_at` | weekly recovery pass (see below): `queued`, `recovered` or `given_up`; weekly passes so far (max 3) |
 | `publisher_status` | the publisher's error when the text came from Wayback instead (e.g. `http_403`) |
 | `wayback_attempts`, `wayback_last_attempt_at` | Wayback snapshot requests so far (max 3, one per ~20 h). Requested for **every** relevant article, even ones we cannot fetch ourselves |
+
+### Weekly archive recovery
+
+The 6-hourly job (`archive_text.py`) tries each relevant article **3 times** for
+body text and 3 times for a Wayback snapshot. Anything still missing is written
+to [`archive/recovery_queue.json`](archive/recovery_queue.json). Once a week
+(Sundays 03:30 UTC) the `recover-archive` workflow runs `recover_archive.py` on
+that queue, choosing a strategy from how the article failed:
+
+| Failure | Strategy |
+|---|---|
+| `resolve_failed` | retry decoding the Google News redirect first |
+| `http_401` / `403` / `451` (publisher blocks scripts) | skip the publisher; use an existing Wayback capture, else request a new one (the Wayback Machine fetches from its own servers) |
+| `http_429` / `5xx`, `timeout`, `url_error` (traffic, outages) | one slower publisher retry, then the Wayback route |
+| `no_text` (page loaded, extraction too short) | re-extract in recall mode, then the Wayback route |
+| `wayback_no_text` (capture is a JavaScript shell) | request a fresh capture and extract from it |
+| `http_404` / `410` (page gone) | look up an existing capture only |
+
+Each article gets up to 3 weekly passes, then is marked `recovered` or
+`given_up`. Given-up articles stay in the queue file with their full history.
+Each pass writes a `reports/recovery-<timestamp>.json` summary.
 
 ### Body-level relevance (stage 4b)
 
@@ -196,6 +236,11 @@ patrol, exercise, dispute, sovereignty, …).
    or a per-site scraper.
 3. **Wayback Machine limitation**. 
 ---
+
+**Version:** 1.3 — 2026-11-17. Index-page exclusion widened: headline markers
+for 11 outlet templates, resolved-URL markers, `#` rule narrowed to hash + space.
+On the archive this removes 18 index pages from the 405 relevant headlines and
+restores 27 real articles the old `#` rule excluded. Weekly archive recovery added.
 
 **Version:** 1.2 — 2026-11-17. Added `west ph sea` (sea), `island` (feature,
 generic) and `pcg` (actor, whole-word) after reviewing RA-flagged misses. Frozen

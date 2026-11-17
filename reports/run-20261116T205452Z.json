@@ -1,0 +1,45 @@
+{
+  "generated": "2026-11-16T20:54:52.993446+00:00",
+  "window_days": 7,
+  "new_this_run": 82,
+  "new_relevant_this_run": 9,
+  "archive_total": 8657,
+  "per_source": [
+    {
+      "domain": "thejakartapost.com",
+      "country": "ID",
+      "hl": "en",
+      "fetched": 48,
+      "new": 48,
+      "new_relevant": 4,
+      "status": "ok"
+    },
+    {
+      "domain": "malaymail.com",
+      "country": "MY",
+      "hl": "en",
+      "fetched": 33,
+      "new": 33,
+      "new_relevant": 4,
+      "status": "ok"
+    },
+    {
+      "domain": "amti.csis.org",
+      "country": "INT",
+      "hl": "en",
+      "fetched": 1,
+      "new": 1,
+      "new_relevant": 1,
+      "status": "ok"
+    },
+    {
+      "domain": "channelnewsasia.com",
+      "country": "SG",
+      "hl": "en",
+      "fetched": 0,
+      "new": 0,
+      "new_relevant": 0,
+      "status": "ERROR: HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

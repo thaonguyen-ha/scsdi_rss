@@ -1,0 +1,59 @@
+name: recover-archive
+
+# Weekly sweep of archive/recovery_queue.json: articles the 6-hourly build-feed
+# job could not archive in 3 tries (body text and/or Wayback snapshot). See
+# recover_archive.py for the per-failure strategies. Batching these weekly, with
+# slow pacing, keeps Wayback Machine traffic low.
+
+on:
+  schedule:
+    - cron: "30 3 * * 0"   # Sundays 03:30 UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "max queued articles this pass"
+        default: "60"
+
+permissions:
+  contents: write
+
+# Same group as build-feed: both jobs rewrite the whole Neon table, so they
+# must never run at the same time. This one waits for a running feed build.
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Recover failed archives
+        run: python recover_archive.py --limit ${{ github.event.inputs.limit || '60' }} --delay 10
+
+      - name: Refresh outputs with archive data
+        run: python build_feed.py --days 7 --no-crawl --dedup
+
+      - name: Commit queue, text snapshots and report
+        run: |
+          git config user.name  "scsdi-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/ archive/text/ archive/recovery_queue.json reports/
+          if git diff --quiet --cached; then
+            echo "No changes."
+          else
+            git commit -m "archive: weekly recovery $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase
+            git push
+          fi

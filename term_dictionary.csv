@@ -1,4 +1,4 @@
-﻿term,tier,language,match,active,note
+term,tier,language,match,active,note
 south china sea,sea,en,substring,1,
 west philippine sea,sea,en,substring,1,
 wps,sea,en,substring,1,abbreviation of West Philippine Sea; common PH headline form
@@ -83,3 +83,30 @@ gray-zone,actor,en,substring,1,
 关键字新闻,exclude,zh,substring,1,
 記者文章列表,exclude,zh,substring,1,
 记者文章列表,exclude,zh,substring,1,
+| 新聞專題,exclude,zh,substring,1,CNA topic page (added 2026-11-17)
+^#\s,exclude,any,regex,1,"CNA tag/author pages ('# 南海 - 中央社'). Hash + SPACE only: '#SHOWBIZ:' (NST) and '#AnimatED:' (Rappler) are real articles. Replaces the old hard-coded 'starts with #' rule (2026-11-17)"
+tag:,exclude,en,prefix,1,Manila Bulletin tag pages (added 2026-11-17)
++ follow,exclude,en,prefix,1,Philstar tag pages (added 2026-11-17)
+latest news -,exclude,en,prefix,1,Rappler 'Latest News' listing (added 2026-11-17)
+archives -,exclude,en,substring,1,"WordPress section/tag/author archives (Inquirer, Cebu Daily News, Military Times, Interaksyon) (added 2026-11-17)"
+archives | page,exclude,en,substring,1,paged WordPress archives (added 2026-11-17)
+: latest news and updates,exclude,en,substring,1,SCMP topic pages (added 2026-11-17)
+latest news & coverage -,exclude,en,substring,1,CNA (channelnewsasia.com) topic pages (added 2026-11-17)
+latest news indonesia: breaking headlines,exclude,en,substring,1,Jakarta Post front page (added 2026-11-17)
+kumpulan berita,exclude,id,prefix,1,ANTARA tag pages (added 2026-11-17)
+berita dan informasi,exclude,id,prefix,1,detik tag pages (added 2026-11-17)
+berita terbaru tentang,exclude,id,prefix,1,Tempo tag pages (added 2026-11-17)
+berita harian,exclude,id,prefix,1,CNN Indonesia tag pages (added 2026-11-17)
+từ khóa:,exclude,vi,prefix,1,An Ninh Thu Do keyword pages (added 2026-11-17)
+"tin tức, sự kiện liên quan đến",exclude,vi,prefix,1,Tuoi Tre tag pages (added 2026-11-17)
+tổng hợp tin tức,exclude,vi,prefix,1,VietNamNet topic pages (added 2026-11-17)
+tin tức 24h,exclude,vi,prefix,1,VietNamNet front page (added 2026-11-17)
+tin nhanh 24h,exclude,vi,prefix,1,VietNamNet front page (added 2026-11-17)
+/tag/,exclude_url,any,substring,1,"resolved-URL path markers: checked once the Google News link is resolved, for index pages whose title gives no sign (added 2026-11-17)"
+/tags/,exclude_url,any,substring,1,
+/topic/,exclude_url,any,substring,1,
+/topics/,exclude_url,any,substring,1,
+/author/,exclude_url,any,substring,1,
+/tu-khoa/,exclude_url,any,substring,1,
+/keyword/,exclude_url,any,substring,1,
+/page/,exclude_url,any,substring,1,paged listings (e.g. militarytimes.com/opinion/editorials/page/2/)
