@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-17T17:41:15.260957+00:00",
+  "generated": "2026-11-17T19:40:09.635406+00:00",
   "window_days": 7,
   "n_sources": 0,
-  "n_items": 2868,
-  "n_relevant": 152,
+  "n_items": 2856,
+  "n_relevant": 144,
   "new_this_run": 0,
   "archive_total": 8212,
   "items": [
@@ -3286,7 +3286,7 @@
     {
       "key": "pero archives",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zRW5CQkllc0NrNWRlQUV2Sm0wcUU4eUN1ZFE4QnhYelljcmJpRk5GTjllWmlWT09JUV83XzRKcUtuR3NnZjlYVkdMZnItajJLd1p3UQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Pero Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -3454,7 +3454,7 @@
     {
       "key": "best asian pop music performance categor archives",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmNwOVFkMndqX1ZWekhiZ0dnRDF0SVEwYkxKZDZWMlZfYzNITUxYQzhpa0RYZnVHQ2RiYlBrYlRrVGRHTGpXQzFQS2lJYTM2bHdXU002ZEM2U0lhVC1lR1BPUHBCTF9MV0xBdnRDT3BMSFp6ZVNYSWxOWElKN0Y5cWdyelQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Best Asian Pop Music Performance categor Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -3468,7 +3468,7 @@
     {
       "key": "grammy award nominations archives",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XUTdUdWE2T1lfcnJwZmIwa2o3Uk4tU2RJbGhDWWpsb2UyT290NGdOSktSYWZCZWNrSnhONlRlMlhNV1lvYXJQQU5XSkdZVTdTYlpibVZqa1AwWFhEMlRhTVV2cXUzUXlMQ3VRTGVsYw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Grammy Award nominations Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -7010,7 +7010,7 @@
     {
       "key": "berita harian ktt asean di manila",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZV01JSzE0bFlpbE41RWdweVBaakpvWFJHYmp3WGpjS09MeDVMTFQxN0lrNERYYURqSmZJLTlvcEtNWGw0bjB2V09PbGV3dVhqVk1QUnhQNUIwZ3hmZWVWcTZB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Berita Harian Ktt Asean Di Manila - CNN Indonesia",
       "domain": "cnnindonesia.com",
       "outlet": "CNN Indonesia",
@@ -7752,7 +7752,7 @@
     {
       "key": "timor leste prime minister archives",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwdDBkMDBjSFJkZXY0ZWdCWUVPeVhQTV9qM1RMbVRnTlhPS05xTFZIRVdJRGh2R1hQbm9pVUNxdjZLU3kxRk01aDJzUlA4S3VZUVNjZlAxOGVZeXRndVlXOER0clJGczB0R2FhNTNnNURLdw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Timor-Leste prime minister Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -8018,7 +8018,7 @@
     {
       "key": "kumpulan berita ktt ke 27 asean korea selatan",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4TkxRSVJSbkxaZWZ3VUU1cDNyMVVqZjVTZG9VYU9rYU9Ham0teUxiXzJJRjVfOWllMmtaWk93ZUpaZUpoeXlpVHZZZ1BweHR5eFphcHY1ZGVldTh0RHY3M08ydTVkNDJHZDBiZGE2SVVlVWRPcG40?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita ktt ke 27 asean korea selatan - ANTARA News Megapolitan",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Megapolitan",
@@ -9138,7 +9138,7 @@
     {
       "key": "南海行為準則 關鍵字新聞",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSTVJRdExoZTBoRlFVYkRtZFhQTUV2QjY5THVzaUtfeEJKdjViRkxmMDQ0c1dvWWxqOGY1MnlaR0R0c1lTZzNubw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "南海行為準則| 關鍵字新聞 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -9810,7 +9810,7 @@
     {
       "key": "kumpulan berita ktt asean china",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LQU5rcUZENEtOckIyMTdPeF9PUXJiQTlOSWRxR01MSlBEcXFnYzRSLUp2NWt0ekx3SEk1b2RqNm5OMmVMZnVlcGlWR0Z1M0tYa3hNcU5aZlItTF9n?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita ktt asean china - Antara News jatim",
       "domain": "antaranews.com",
       "outlet": "Antara News jatim",
@@ -10776,16 +10776,17 @@
     {
       "key": "tag south china sea",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DMkVpeUdROGlWY2pkcmVqM3pST3lZd2EtWGZJUC1kQkFYbmZtTkdtel9JZWFSaFlFNFN4TDFTNHdtNVEzYm1HMkNkOUo1WmRIQmFZc1Z5MUJWdw?oc=5",
-      "tier": "sea",
+      "tier": "index",
       "title": "Tag: South China Sea - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Mon, 16 Nov 2026 05:14:49 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "Manila Bullentin",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "marcos calls for stronger asean un cooperation to achieve sdgs",
@@ -11420,7 +11421,7 @@
     {
       "key": "latest news indonesia breaking headlines today",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vekw1NUxhci0xWXpNd00zQmdoUEJzQmtId19kc0JFT1dtb0ZyT1Mzd3FTVmp2MEZ0TWdtaElIamlVTU44Tm9pWDEzS2kxUQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Latest News Indonesia: Breaking Headlines Today - The Jakarta Post",
       "domain": "thejakartapost.com",
       "outlet": "The Jakarta Post",
@@ -11602,7 +11603,7 @@
     {
       "key": "nickelodeon kids choice awards archives",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Vc000N3lrWDl6MUo0OUxrVmhXdHRrVXVBWFl2NUU4elNBN1Q3V3FZZ1dfYWg4TGlUS09CM2JTdTBxNE54Mm9QdWZ5Qmd5WHY1elpwdUVMSXJhQk1HWkdaX1VZS25sZHQyb0lZN3dNQmxyX0h1akJR?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Nickelodeon Kids' Choice Awards Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -12120,7 +12121,7 @@
     {
       "key": "missionary sisters of mary archives",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85UW9DSDdTUjlyQU9qUnZOcmxvLWFKZEhVNk1tMHR0eTlLOUVQRlR3WlVlNVNEX1lMVDhBaExGTldCRnJBd0JybEM5bm05QzZicmc3ZVBHTno4WHp3MmpveDJRTVRwQXlvQ3RvbzB1cFhhZw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Missionary Sisters of Mary Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -13870,7 +13871,7 @@
     {
       "key": "collin koh archives",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pNWpFZjJJczFSVEJyc2xETkxmOTRwTFlXQmxNUldfLXZPRUVwVnRiNlgyTkVGaEpPanYyemRQbDdSVUxDeFoxcmZwNUwtUlh5aGt4ampkakhmYm1M?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Collin Koh Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
@@ -14290,7 +14291,7 @@
     {
       "key": "kumpulan berita asean myanmar",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tM29LMFBFYl83dmVmX1VlTi1tYk5yeDFWX0VHTTZqZlotN25rWEFsMmI4YVRPOHZBUnZPLTkyYTRjU1BwUnNLT3VQaENiRHhxVjZDZjJ2ZVN2QQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita asean myanmar - Antara News jatim",
       "domain": "antaranews.com",
       "outlet": "Antara News jatim",
@@ -15494,16 +15495,17 @@
     {
       "key": "south china sea code of conduct archives",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2YzFCV042cGpxYlI3ajlmTEJ5QkZfQlRtWm5pZjJwT3JpaUhQcm9abHlHZEROUVRlSVh4M1RHbXBET2VDeDR2UnlvRVVfX3BKVjNvNGRrekxsSHFwRks2djJERE1lcHhtNzRfSWVGeGRTNzctdUYzZg?oc=5",
-      "tier": "sea",
+      "tier": "index",
       "title": "South China Sea code of conduct Archives - Interaksyon",
       "domain": "philstar.com",
       "outlet": "Interaksyon",
       "country": "PH",
       "pubDate": "Sun, 15 Nov 2026 10:26:26 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "Philstar",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "nvidia bê bối của jensen huang khiến singapore vốn thân thiện với doanh nghiệp đau đầu ra sao",
@@ -16176,7 +16178,7 @@
     {
       "key": "tag west",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XSU9QeGVvRjBhcGpjVEhGbUI4YWRVcEVzci1ZaHVteEU5dTNIUXd4eW9uQWpId2ZFQ2FXQllLRUlVb0VWYmNKdzhQaw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: WEST - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -17408,7 +17410,7 @@
     {
       "key": "tag group",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE55QlgyZnBqMzhDTG52dXNNazJDWUtQNEhkaERJMUtBSFozYVNQaUdMTkQ4Z3JOX0stZF9qaThfY2pRbDNjLVlTdEwyVQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: group - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -17716,7 +17718,7 @@
     {
       "key": "tag economic zone",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZTFg0OHFtaXdTUmxiNU8xV0ZPeS1BelJjSlhaclhQR3I1TDhRQkNjSk1mT3pBX3BWdHRwdjBFRjRZYmJQWWY3REpiZmxjTEtCLXd3V3BB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: economic zone - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -17772,21 +17774,22 @@
     {
       "key": "tag philippine sea",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TVGpMdlAxVmduUTgwM0dlNTJXdXdxOUduaFZKTXZ6LUdkdU8xRGcyX1FSSHA3Rk9lYmY1QUI4R2IzMHJabVI0eVRyNnRpaWZubWNrcXpCWEQ?oc=5",
-      "tier": "sea",
+      "tier": "index",
       "title": "Tag: Philippine Sea - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Sun, 15 Nov 2026 02:49:43 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "Manila Bullentin",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "tag china",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxQV9SY2VnekI4bDFZU3ZMMFVDYnJ5TWtFcVJXdzVPTFdQNWl4a0c5YXcxcFJtbjBYNk94TG55Z2NVb2diSU13dFI3VHI?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: CHINA - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -17912,7 +17915,7 @@
     {
       "key": "tag sea",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9icnlMSlFJWmNEZjU0VXM5ZThvMS1sOHIwSTZqMmtHaTctODkxT2dwak1odWwxaTZaenNPcEZkX3dwdGhGWlJGNzFB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: sea - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -17996,7 +17999,7 @@
     {
       "key": "tag philippine navy",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Bd1E4MlVjYzRnYWxOWEticmxPamZCQlQ2MHpIVjVJMkxOaW9aNFIwbHdQczdIQXplYlZxZUJEdTREYzVJb3JTT3hmbW9NYnc0QnBTckxPM0I?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Philippine NAvy - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -18052,7 +18055,7 @@
     {
       "key": "tag chinese president",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xX2hPQXZKOGxVQTczWlJacy0wdk1YZVdkNHJMT2dHQnZDWWhsVmdlejNfUXdwcUIwYU9lSWJPRUkzRUNtMlFhR2VVcktKUEZKUzZkTklMamVHYzA?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: CHINESE PRESIDENT - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -18108,7 +18111,7 @@
     {
       "key": "kumpulan berita sesuai protokol covid",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SSE5acUU0M1czZFNqeXRWTk9qTVlCTnlVM3hPLWVhX2lKNlVmQkFORmRUX1VQbXpxUFp2WjMydE9jZXpacGJDWG80SUtyX0dmbldwbXRwT3VKd2NHa1BIRHBWdVpOUEFr?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita sesuai protokol covid - ANTARA News Jambi",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Jambi",
@@ -18472,7 +18475,7 @@
     {
       "key": "tag duterte",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fRWN3aHlFbFBmQ19QV3NhRTNrYlhJWmpTS0lEcEU4WU9weXdCYk5JaWZTMm91MERsaVRVenpkcFM2c0FBeW1QUzlWRWs4bkU?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Duterte - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -18864,7 +18867,7 @@
     {
       "key": "kumpulan berita keamanan laut",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OM0JWNTdBVVlfS0MzNGZjOExwSmFVUkVsNjE5ZVFKcWVWZmpQWlFMNnFvVGI4Nnllb3dibENCd1hXRUhob3Z0eVo4S2k4dDBidGVRTUtBVDZ1UGdqaXc?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita keamanan laut - ANTARA News Jambi",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Jambi",
@@ -18920,7 +18923,7 @@
     {
       "key": "military culture archives",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JZ0tLaTVvSW1lemVfU0Jka2NwaVJyaUFBY0JtdUZBTDVoNGgxOHF3bVR4TjFUaFpqTEFzQzZCQUo5UDR4dkQ4TXBwZ3hIQ1VDTDJ6UEEzRHN1M0dWcWlpVlBOWVcwWi1DMDFQS3lIbWU?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Military Culture Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -19008,7 +19011,7 @@
     {
       "key": "kumpulan berita kapal al",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByYWxmZ3RHcmdCMGlIN0V3aE9DbGNwbURVc0pvZ0FacU5iR3kzNEdSNW5ST2hiVXdQMkx4ZEZESHZhc2ZHNVJRYjZhR09TRnA5YjJpdWIyMA?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita kapal al - ANTARA News Jambi",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Jambi",
@@ -19036,7 +19039,7 @@
     {
       "key": "tag navy",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GS1l6SEdnck5Yc0F5Qm5vZ3VsTWkyNHlnWDZpSm9jdHJEM1lCLWM3MzNGVFZLeTJiY1BRS2E5S1ZhWm45YzJ5WQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Navy - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -19120,7 +19123,7 @@
     {
       "key": "kumpulan berita kawasan nelayan",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8ya042dEdDNHFlcl8yRk1FdWNLTHlaV0Y4T0ZlN0JRcjRGWFJFSVQtc0NlM0dOc0NFRmh0RG5CMFZ6MGcwck5kc3RhT0tjZ1cxTHk1M1NLTWh2bUVVbWYwTw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita kawasan nelayan - ANTARA News Jambi",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Jambi",
@@ -19512,19 +19515,19 @@
     {
       "key": "tag philippine coast guard",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ndHMwQVdsWS1sSTE5dnZuTXNCTGpvUmhNVF8yUTBJVWpyWlVwenBpUHVPX3ZfZ1RnMnFwLXRTc3kyYlByYW5ncDN2Sm9LRUJ6UWhUNGZldjJUM1hXLWZZTFljbw?oc=5",
-      "tier": "actor",
+      "tier": "index",
       "title": "Tag: Philippine Coast Guard - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Sat, 14 Nov 2026 15:11:50 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-15T04:21:52.811756+00:00",
       "archived_at": "2026-11-16T14:33:24.765488+00:00",
       "source_name": "Manila Bullentin",
       "resolved_url": "https://mb.com.ph/tag/-Philippine-Coast-Guard?page=34",
       "text_archived": false,
-      "archive_status": "requeued",
+      "archive_status": "index_page",
       "archive_attempts": 0
     },
     {
@@ -19698,7 +19701,7 @@
     {
       "key": "tag naval",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE90MWxlaWxkQ2E1dWhseS1DcUMtcElkS2JKcUJBVTZaUWZNaFZwcHgxREVieVNxaEJqREVLZXM0Tk0?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Naval - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -19992,7 +19995,7 @@
     {
       "key": "asean summit 2026 archives",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41bDdQQ2NoWEpHRXhVUXF4Sjk0MXdQWk9TMFJDSjB6ZUdQc0xUNWE2RWU4VHJCQmIxM05heFgwWDJRSTNubWJzcVlNTi1Da25JMXp2Q2pGSTNGdUU?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Asean Summit 2026 Archives - Inquirer.net",
       "domain": "inquirer.net",
       "outlet": "Inquirer.net",
@@ -20212,7 +20215,7 @@
     {
       "key": "kumpulan berita tabrakan antar kapal amerika",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HdFFRQjQwWlNHaHlEUTBEeGlWaWplbVdDeENPTlNaWjdwOXMwbUtUQkpmMTc3bV8teFlnd0VVM1NadUJ3UmxlcmJkcGpzYjV3aFdoVk0xLS1xRGxJWW4xaV9KUHZ6QVBRWmtkaEZB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita tabrakan antar kapal amerika - Antara News jatim",
       "domain": "antaranews.com",
       "outlet": "Antara News jatim",
@@ -20604,7 +20607,7 @@
     {
       "key": "từ khóa cộng đồng pháp ngữ",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XUUtyZGRQR2FtdE9VV1MxNkF4VGN5YjliUVZHNjlEWWJfYXQ5MGtBakp0RDBBSllFQUt5Mm9JLXJfYV93M3U2WkhpWUdZbEg2ZVVBa2pEUDZwdUdOcUFycTBjdmNRcWVuVEJkeVhhRFh5QQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Từ khóa: #Cộng đồng Pháp ngữ - Báo Điện tử An ninh Thủ đô",
       "domain": "anninhthudo.vn",
       "outlet": "Báo Điện tử An ninh Thủ đô",
@@ -20870,7 +20873,7 @@
     {
       "key": "tag jing quan",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwclNNX3pmRjJQY0Q5VHE3RXlBcDZWZU04ZDYtMlVkUWNiSWNBdThKbnhycTUwaE1ZcnRoS2VpUE5rQkdLQktvOEEzMnNsVUU?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: JING QUAN - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -20954,7 +20957,7 @@
     {
       "key": "tag cooperation",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LMnh5TEpSTmRlc3hHbjhwWmdLZjF1VFZmUzB6cUhacEY4Q3JUZTVCczY5NHpEUC02MUg4QUd0Rm14R25JeXU2TVNva1BYMHBLMVdB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: cooperation - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21290,7 +21293,7 @@
     {
       "key": "tag senate",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15S0U3SFRId3BwU0ttZjlwb2ptX0ZRSEl3R09sV0VXZDBVSm9Tb0xFU2tmNnlJMDlQaHNPeFk3b2M5Rk4yLXZveVJGSzVVdGs?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Senate - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21318,7 +21321,7 @@
     {
       "key": "kumpulan berita 41 juta lebih",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlZGJlbExzc1J3bGliRVB2b3dZV3oxQjhWNk9GdmhlTkl0NER0ME9zcHJILWRKVE1ka2lQejQ2WFdxTS0wZTROMHZpQWpkRDB3cXRXSTJ4VTJUUnc?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita 41 juta lebih - ANTARA News Kalsel",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Kalsel",
@@ -21472,7 +21475,7 @@
     {
       "key": "tag sherwin gatchalian",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xUG5meS1VUGlRRXpDZTNUdnQtb1oxVXBmWjVUZ1hmNGttODAyeDFSNVo2M3lIWUhkZlQyUGE0MndGSHU0bGsyVk4zdzB4S2I0MlZrczVPWFQxeGwy?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Sherwin Gatchalian - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21486,7 +21489,7 @@
     {
       "key": "tag national security",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52S0tESmE1VS1jVExPYThHUnBiNVVGSkZzb1hUWUg4OWx1bHowSXNmZlNjZFRRTXNmLS1iOEwydnJpWXNrN19iamFKX3pFZGgtRXg2bFE3Qmc0aE0?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: national security - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21500,7 +21503,7 @@
     {
       "key": "tag teodoro",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjU3RQME5TcGNEaHhSV3pad2hDWTdJZElvNjlwS05JbHVVVVVrSVRhT2kwb0tMelY1bTBYaVFnMVZXV3RTQnRUM2QtM3hzMUU?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: TEODORO - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21542,7 +21545,7 @@
     {
       "key": "tag nations",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3NVhJdVloR2o1MXI1Xy10QlhYbGF6X1RSU082OEo0Q0dvRG1ncGRaLUtLRW9aQ1VEWG5aNlk0WnVmX01pZk1DWHhiQndRN0E?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Nations - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21612,16 +21615,17 @@
     {
       "key": "tag west philippine sea",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yV0c5bzZXTG9qMlR4cUtmeXFQdGlNbHl2djZlOVNZWHMxdlhBczFCcW5jeDZqMzBySDJ1cWIwd3l5RUxTQ2FubVRXMnl2czRSZGs0bW5Sc3pXbE1nN2Jv?oc=5",
-      "tier": "sea",
+      "tier": "index",
       "title": "Tag: West Philippine Sea - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Sat, 14 Nov 2026 04:52:45 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "Manila Bullentin",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "thủ tướng tới philippines bắt đầu tham dự hội nghị cấp cao asean",
@@ -21640,7 +21644,7 @@
     {
       "key": "tag claire castro",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZLXdMZ0l6NVNLZ0VCTVZsTGxkb2o5RXhJN0VLeVY2ZmhqSnNsY1FJZl9vaGFCVkZWaUFPbUtDRVNZckltb2tRZ0RnOXpya3dmcVpRTDBn?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: claire castro - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21668,7 +21672,7 @@
     {
       "key": "tag robert ace barbers",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51YXlTOXgyV2FBQzRqWVg1Y1ZpN25zQVZydHVWeHZZX0YzLVBvY19pcmc1dWFETTdQbjhOV3FXWWhUdVdEVl9ac2pPWjVJT1J3dnZheXVhUkhBdFJG?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Robert Ace Barbers - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -21682,16 +21686,17 @@
     {
       "key": "tag pcg",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85MmcxbURISEYzb3hYQkxxWV9mSkYyRFBEajlHZS1ZVzhjMXhzQkZ1MjhtbGg3RmdFNEhTNkU5MUF3M3BYeFp2RA?oc=5",
-      "tier": "actor",
+      "tier": "index",
       "title": "Tag: PCg - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Sat, 14 Nov 2026 04:39:20 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-14T12:50:56.892092+00:00",
       "source_name": "Manila Bullentin",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "what is apec and who will be there",
@@ -22046,7 +22051,7 @@
     {
       "key": "tag defense",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OdnF6Q0ZTTHdXdjVCaTZTWnVsUHdhLVJWTVRJUnZ5SC1ENEs4U19BaHB4T2ttRUtWbFM5bHI5dzA3WVVaRm9EWk5GTW5Ndw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: defense - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22130,7 +22135,7 @@
     {
       "key": "tag china 1",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KNGg0LURndnFqZGZSYWRSMGJYMzBwb25ET1dqLWFGMXZBZGtsYUlYYkZMc3o0X3l1TzQ4c2tZV1RhMDh3R1BGakVnU3lNeTg?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: China+1 - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22214,16 +22219,17 @@
     {
       "key": "tag china coast guard",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mbWgxQ0FlUTl5VHdHYmkzcTdJYlNadUxqUkhqT283NWs4bXFuWDFHSG0yYlVVcHdLN3RUSGJwNVpxRWNMTkxYazJLalRlTkJXd0ZxWF9NX2hWM3pW?oc=5",
-      "tier": "actor",
+      "tier": "index",
       "title": "Tag: china coast guard - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
       "country": "PH",
       "pubDate": "Sat, 14 Nov 2026 01:58:21 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "Manila Bullentin",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "six family members among seven charged over parking dispute brawl",
@@ -22340,7 +22346,7 @@
     {
       "key": "tag gilberto teodoro",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HUHFPUFFuS2pURGdfdWJHUWk0MlMzdVkzV3E4MG5CMXhSMWd1QTkxa1NIcE1mWWI3TGhHbXZ0LXJNQUxabFZPN3hiZjBRcS01RXRidkpZLUFHQQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Gilberto Teodoro - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22578,7 +22584,7 @@
     {
       "key": "tag k to 12 philippines",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12blVrVW1hUGdrMWdhQS1pYlZzZ0R3cHBHbmxCQ0lPc25FNElwZ3Nyc0Z4X0lRVWdLNGhqMlJzdXhlVkg2Q2QtOXg4R1dlZmM4RXRnLV9Sckx4Z201d2RHeg?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: k to 12 philippines - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22662,7 +22668,7 @@
     {
       "key": "tag ma theresa lazaro",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4RXZjdXlRLXpYR0pUU215WFdnUXI4ek9ibkF6cUk0Y2NzckV4bVBUSjhCUnFTbG0ya0h4RFdYTnpRbmxQa0xZcU90azZhQmZvaHdBQ2l0ai1jM3o5?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: ma. theresa lazaro - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22732,7 +22738,7 @@
     {
       "key": "tag tito sotto",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZU11N2tkb1RUbzVLaWMyNUJVVkhPc2JZdWpOYXdNczJwaUdBRFI2S3JvaFZjWGxaZlNaZE44Qm5pSFlrV0ZhODgzR0NPUjdMZkE?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Tito Sotto - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -22970,7 +22976,7 @@
     {
       "key": "myanmar latest news coverage",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LS1hYMTN3WnVkeWZRWkZaYmFpMnZMa3A5c214Zmw3YW15VXlPUXBqNlEyc3JJQUtDUXZzWGNmVVc4QWpuclZjTkdJb3I3bGwwUnFYaS1Oalc?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Myanmar latest news & coverage - CNA",
       "domain": "channelnewsasia.com",
       "outlet": "CNA",
@@ -23068,7 +23074,7 @@
     {
       "key": "transboundary haze latest news coverage",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YNU4xWS0xZ3E1cnNuTVVCcGN2VlI0TXVDdmljTWdnT1ZxN1FsZVJBX2xjMXNFZm44YUEzZVptU2ItZVAxTXZsRjdTRjY0OU95QVZ2aGdONVRCYndRN1NXSFZDUDAxUW8?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "transboundary haze latest news & coverage - CNA",
       "domain": "channelnewsasia.com",
       "outlet": "CNA",
@@ -23274,7 +23280,7 @@
     {
       "key": "pentagon congress archives",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tSmNpRWd4WUNrV1ZNN2MybGJMaDAwQ0hWa21aclNDdXVxanQyamE3cEFudWxaYjJmZHJvVmlOcmZkRHFwSndyd3lZNVZNUmFINVVRUl94ZkRPMVJNNUhmUjI0Yw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Pentagon & Congress Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -23638,7 +23644,7 @@
     {
       "key": "veterans archives",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FZ0dDbmF1aG84MmpPeUd0MXRLR084Sm9UUWk3N2tMdGVhN3k3aTFxRUE3NnhxbkppTVNPcUJQaFRUUTd3VnVZRVlDTjVsajZy?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Veterans Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -23848,7 +23854,7 @@
     {
       "key": "opinion archives",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JRXdRSGUtUVpNN1QwSXV5UFlGMklDTkQ1M05wUmsyZ2gzcVVscXM4bFBYZEc4TlB5dUE0NFlvNzJCU3c5LVp3bXVIWmE2azA?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Opinion Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -25776,7 +25782,7 @@
     {
       "key": "tag 49th asean summit 2026",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FR3VMZk5pUklWbDBFSXJRclhVNHFhcDJsZ3doZlhiSW9fckIza2RodFEzM1dWUGRMTVE1aUgzNFExZE1vUG1RTnRxb2E5RmUyakRQMVBVMA?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: 49th ASEAN Summit 2026 - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -27064,16 +27070,17 @@
     {
       "key": "south china sea latest news and updates",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tWUlxSWo4T052bm9YYmVZZ0NEMi1PZmZ1dE9ycmF1ZnpMNHd1anFjVkxlYUdaUTE2MlNaS2FqNFVfT3NIckI2X3FXTU5sZm1BZ09ZbTJn?oc=5",
-      "tier": "sea",
+      "tier": "index",
       "title": "South China Sea: Latest News and Updates - South China Morning Post",
       "domain": "scmp.com",
       "outlet": "South China Morning Post",
       "country": "CN",
       "pubDate": "Fri, 13 Nov 2026 07:00:46 GMT",
-      "relevant": true,
+      "relevant": false,
       "first_seen": "2026-11-16T20:39:12.740903+00:00",
       "source_name": "SCMP",
-      "text_archived": false
+      "text_archived": false,
+      "archive_status": "index_page"
     },
     {
       "key": "iran says tanker carrying lng hit mine suffered explosion in hormuz",
@@ -28636,7 +28643,7 @@
     {
       "key": "北港分局 關鍵字新聞",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1IeUYydjlxb1J2Y0FIaEp6djFJNi1KdWg3LTlGUjU2T1EyTWxtNndKS2p3RG04VXZDbFRyZ1Z3UnhJSUZpcW1Zbg?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "北港分局| 關鍵字新聞 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -29070,7 +29077,7 @@
     {
       "key": "黃樂 關鍵字新聞",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Ud1lMVkV6eU9IazRZc3lmSGRlcUprMElCNGRmV05ONy1ja2NSb1laV2FtUHFRRnE3RmhmcVB3M1d1Mk51ZHBKUg?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "黃樂| 關鍵字新聞 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -29938,7 +29945,7 @@
     {
       "key": "news archives",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBudk9PRHRvRHExX2lNSjFueV83amFwaUZQRzdtb1dtMzN2Rm1HZ2hjVEpZNXpWN2ZRV2hyMWRURkZDZjhaODRMdW5KdVBuM0VQcWkwNQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "News Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -30092,7 +30099,7 @@
     {
       "key": "flashpoints archives",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HVmtZRUZRZ1BhTk9Wa2I0TmxqM3d3X1RwQjFkWFdnb0JzSGJKb1lWeW1oN0VRczFac3AyU0ZOUlVvbllHRHVtVWd6dFp5TkxVWDdDbw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Flashpoints Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -31100,7 +31107,7 @@
     {
       "key": "commentary archives",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2UElsNHQxdHI0N3lkN1NHYUQ0V2hlVmNoMlJwNTVyU29tT0pZRTNtVG05eVBTUW0tc3QwOFVnZkx0bTBRa3B3Um84U2dFbEtQTkoxWmRXRmZ4TVc4Y3c?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Commentary Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -32185,13 +32192,23 @@
       "country": "VN",
       "pubDate": "Thu, 12 Nov 2026 10:51:24 GMT",
       "relevant": true,
+      "text_file": "archive/text/8a5cfdc3d4bc5b87.txt",
       "first_seen": "2026-11-12T14:29:04.374616+00:00",
+      "text_chars": 19149,
       "archived_at": "2026-11-14T12:52:42.649869+00:00",
       "source_name": "An Ninh Thu Do",
+      "text_source": "wayback",
+      "wayback_url": "http://web.archive.org/web/20261113005553/https://anninhthudo.vn/ceo-hoang-sa-viet-pham-thanh-hung-va-tam-huyet-lam-thang-may-viet-post675492.antd",
       "resolved_url": "https://anninhthudo.vn/ceo-hoang-sa-viet-pham-thanh-hung-va-tam-huyet-lam-thang-may-viet-post675492.antd",
-      "text_archived": false,
-      "archive_status": "no_text",
-      "archive_attempts": 3
+      "text_archived": true,
+      "text_relevant": false,
+      "text_scs_hits": 20,
+      "archive_status": "ok_wayback",
+      "recovery_status": "recovered",
+      "text_actor_hits": 0,
+      "archive_attempts": 3,
+      "last_recovery_at": "2026-11-17T19:40:07.719362+00:00",
+      "recovery_attempts": 1
     },
     {
       "key": "ceo hoàng sa việt phạm văn hùng và tâm huyết làm thang máy việt",
@@ -32644,7 +32661,7 @@
     {
       "key": "黃仁勳婚外情 新聞專題",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zS0c1djB3Z1VXbHgyc2dyaFJWTGFnckU2N243MDhETWo5c3JrNTU5TjJXSGZvRU1rZ3dTekQwZkd4dlhNS2ZIZXppV2I2WnptNHJXTmlQMk1MMkVZ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "黃仁勳婚外情| 新聞專題 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -34044,7 +34061,7 @@
     {
       "key": "tag search and rescue",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tZHFuWVdtWlRScTVlVkdud0ZTQUFMMTMzYThuNm9KanQ5U0lKU19fQlcwcmNpMU1QYVlyZVlEZGd5eUt2RkFzTlRhZExnUmpB?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Tag: Search and Rescue - Manila Bulletin",
       "domain": "mb.com.ph",
       "outlet": "Manila Bulletin",
@@ -34296,7 +34313,7 @@
     {
       "key": "ukraine archives",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBramZHNEQ1X05OSkRHOHVJa0tEWVV0emRkT2I3SHFaNFE5RFFHbUctWlVkMWxRNmZiVXBCZXJiYjBuU3FpZkpFWDdfYUt1Zmp3OFp5WEZzdWZfcjlELTBwaHd1VVp3YkRS?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Ukraine Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -34352,7 +34369,7 @@
     {
       "key": "舍我學運 關鍵字新聞",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11ZEpLOXIxZGl3ZTA5Q1VQeWZGY0dmMmEweDFuUl81eEczX1g3NlVjejFHU19UNnE0Q0xRM0pHTURrMFk1TmNwOQ?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "舍我學運| 關鍵字新聞 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -36530,7 +36547,7 @@
     {
       "key": "kumpulan berita pendiri antara",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wMUI4THM0Vzl2TVdrUjZDV1ZiLUVRb1VseFQ3UUpYLW1fdTl1MHVtSUt1Wmd5ZHRlbDJvd245eTRxbk5Pb0tLZGo1Y0toVUcwd2dpWVdtT00xRG1iMktr?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita pendiri antara - ANTARA News Jambi",
       "domain": "antaranews.com",
       "outlet": "ANTARA News Jambi",
@@ -37062,7 +37079,7 @@
     {
       "key": "stop soldier suicide archives",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zWEo3S3lROVZpVEpaLTF6VXBUcmRidlBTcGQxUkVfS1hyaU9qVm5ZZ0d1V2MwalZPUHB4LTdqMWRfYjBfSERqUUdUc2RpNVZYejZWWm9adEd5SUcwdmlqTnkycmNYVjM2SWRSZFpVNA?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Stop Soldier Suicide Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -38504,7 +38521,7 @@
     {
       "key": "余曉涵",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkeGFxbGlxeUR4YnlYU0hwME1YaDdGNFZfajl6MnlUTVVUWWp6OGZtSDc3VXQyTEpVS1IzcXgxYzFZdUVWdkdic3Fxcw?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "# 余曉涵 - 中央社 CNA",
       "domain": "cna.com.tw",
       "outlet": "中央社 CNA",
@@ -38846,7 +38863,7 @@
     {
       "key": "hbs archives",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hOGt6dDFfTU5NaTNVNHZEeFNZYmhWOHBXSTlZelBUQkkwMG52YnQtUTZPdGRWaDBMbjhEd09nUEs1ejE3STJ6YnJva3pfc3ZoNFJwUnBHNS0?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "HBS Archives - Military Times",
       "domain": "militarytimes.com",
       "outlet": "Military Times",
@@ -38944,7 +38961,7 @@
     {
       "key": "kumpulan berita negara asia",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Xc1pPcS1Da3o1dWE3Yk1WRDNocG5WV19yZ0RjX1ZDWlVGaTdTbVdlSHN3XzJSQTduQ3YxaVNsTHVrV2hURVdKSkJpVHZYbXJ3cGZLTXdaZlZfNm1RZmc?oc=5",
-      "tier": "none",
+      "tier": "index",
       "title": "Kumpulan Berita negara asia - ANTARA News",
       "domain": "antaranews.com",
       "outlet": "ANTARA News",
@@ -40073,174 +40090,6 @@
       "relevant": false,
       "first_seen": "2026-11-17T17:33:12.598225+00:00",
       "source_name": "Reuters",
-      "text_archived": false
-    },
-    {
-      "key": "most americans want new democratic congress to end trump s iran war poll finds",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX3NNRTBiSmFROU01WjNnazUxNjlSbzNFQVI4YnFIRWJzdk44d3ZEc1lTOTFKNnV4X1htVks5dVBSdVZVOFp0X1VSNVNBTTFrYnFQTFpTRGQwbjh6dkhYY0hQNlU5SFBpM3pJQWJzcHk2SVdjb3gxRm9yN253enM4aTZHMWtMM25ORnF6eFBubDRrQVJJcl9mdzRvbjJGMjd4UDZkeW9wOFZBWVlXMm5nN0JHMGlTWWlKa2FHYWg0UTIzN2J6WUtuSDJVR0lkcUlwbDZQaHItWXc0dw?oc=5",
-      "tier": "none",
-      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds - Military Times",
-      "domain": "militarytimes.com",
-      "outlet": "Military Times",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 19:29:39 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T20:39:12.740903+00:00",
-      "source_name": "Military Times",
-      "text_archived": false
-    },
-    {
-      "key": "middle east archives",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xdUxfaTVkckxRclBfa3RVWWNpRm9BV2xYVWUwY3FZdmdaWUxzcU9vZnNycXFZTERIYmJBWDM1Z195MWhFT0Uzd3VkYzlycUJiT1lxSnJfME92Z1E0cW11MnJSTWQ?oc=5",
-      "tier": "none",
-      "title": "Middle East Archives - Military Times",
-      "domain": "militarytimes.com",
-      "outlet": "Military Times",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 19:29:39 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-17T15:22:17.844532+00:00",
-      "source_name": "Military Times",
-      "text_archived": false
-    },
-    {
-      "key": "盧比歐稱美國重創伊朗經濟暫無必要重啟大規模軍事行動 國際",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82WGxZM0s1TkpSek1Bc2doRzQxVFVOV1VtU0lTeFB0TFc5XzYtT2MzSXFjWjU2Z3VuU05Mc0hYTVowUnl1dUh5SHNYS0hSSktOUHc5blU5czNyY2IxekY4?oc=5",
-      "tier": "none",
-      "title": "盧比歐稱美國重創伊朗經濟暫無必要重啟大規模軍事行動| 國際 - 中央社 CNA",
-      "domain": "cna.com.tw",
-      "outlet": "中央社 CNA",
-      "country": "TW",
-      "pubDate": "Tue, 10 Nov 2026 18:59:00 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-11T13:25:14.925406+00:00",
-      "source_name": "CNA",
-      "text_archived": false
-    },
-    {
-      "key": "ukraine urges us to speed up interceptor deliveries as russia targets power grid",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmswT01XZmJsYjZpanlHcTg2WEttNUg5YWoxemtNbEpRanE5aVFhZUdxNDZCZHFDZFlwMkxEX2tGdm9FcnVwNjR0Z1dBTnd3aVBZVVpxLS1rQTNQeTZwTF9SZkppSURIMF9Pekwxak42bEI5bWpFZjZiSHFCaTZxS1RqTS10OFVqVmluWUgwY0ZqbVdacklkc3RycGZ1QzVaTnBMY3RVemFKZUY3dUlUazhyMVJwVFlqczB3QUN5aVAxbVB3WlJCcU56M2d4NUJMdS1Hdl91NGYxWG1vLXc?oc=5",
-      "tier": "none",
-      "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid - Military Times",
-      "domain": "militarytimes.com",
-      "outlet": "Military Times",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 18:57:04 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T20:39:12.740903+00:00",
-      "source_name": "Military Times",
-      "text_archived": false
-    },
-    {
-      "key": "黃仁勳出軌拖累輝達重挫逾6 市值急縮落後蘋果與微軟 證券",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtVGQtOTM5Zi1IRjRqYnAyNEoxM0dMdEJYekM1c1BwaG9EeVZvTDRHSmhXbVFJemdnbnFiVHYyampFUG4wOHVyNThPcXpLN001MC05dWFJdzhZUW8zeUE?oc=5",
-      "tier": "none",
-      "title": "黃仁勳出軌拖累輝達重挫逾6% 市值急縮落後蘋果與微軟| 證券 - 中央社 CNA",
-      "domain": "cna.com.tw",
-      "outlet": "中央社 CNA",
-      "country": "TW",
-      "pubDate": "Tue, 10 Nov 2026 18:36:00 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-11T13:25:14.925406+00:00",
-      "source_name": "CNA",
-      "text_archived": false
-    },
-    {
-      "key": "israeli fire kills seven including a father and son in gaza medics say",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVlyOWR1akxRUHIxVWhFWjNOU3RZcnVsMTk2WXdVZDFrY1Mzcm1KbWgwYVRvUG04bUx4ZVVnTktzUHlTcnNRbVFmT1I5WDRNNWUySWlZMGo0Q2NzVVczUDRLLVNKbEpUNUpwa2VYeWI0bEN3ZlMzX3c1QTVvVkd6X3J4YXlCWkZpblFBblBFS09ycThfMWNjdEJDQzYwbHJU?oc=5",
-      "tier": "none",
-      "title": "Israeli fire kills seven, including a father and son, in Gaza, medics say - Reuters",
-      "domain": "reuters.com",
-      "outlet": "Reuters",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 18:18:48 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T04:20:26.008941+00:00",
-      "source_name": "Reuters",
-      "text_archived": false
-    },
-    {
-      "key": "first ever collaborative combat aircraft fly in formation demonstrate air combat maneuvers",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWVNvei1MTlZ6cXl4WDVUZFRzRXFIZW1VeTd0akpTYmp6QVQ5cTlWdlNqd0VzVkFxUEFneUQ4S0ZabDRieDFad01TcHdoQXdNRFJhZXhfUEtnbHlwSkNwcmtDUkg4LS1aeDQxZnRGNmgtM3hkRGZqc25wSVBNR0p6TjRsTmN6X1dzMC1iY1NjdGVOX2xlT09yNUVVMm85WnpSaHpYdE41aDVSZkFOSnRRSU1xN09mSkVuNkkzSzdHVHlUSmRFTjJlSEd6UVlFTFlzWExLTnZjUTc4bzB2Vkt3eW05YjFWZw?oc=5",
-      "tier": "none",
-      "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers - Military Times",
-      "domain": "militarytimes.com",
-      "outlet": "Military Times",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 18:17:13 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T20:39:12.740903+00:00",
-      "source_name": "Military Times",
-      "text_archived": false
-    },
-    {
-      "key": "israel s parliament sworn in as eisenkot tries to forge a government",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVXZKMU1sQ21EaElhUnNZblNweVZxQWFZNFJUZVRNVzBRMW42WF8wY0k2YnRTSmRVVlFsYTZOcHhMOTVERUJuQUFlM3BfcVpJa01aMTFvdXg5ZEFJcWoyQndmS2UwcDI0a3ZKdEhwRXJadHZIRnFjLUIza1g5V2U1TmRzVWcxSUh1bEZENThRMDZnZUVJTFJSTW9qd2FSLVU?oc=5",
-      "tier": "none",
-      "title": "Israel's parliament sworn in as Eisenkot tries to forge a government - Reuters",
-      "domain": "reuters.com",
-      "outlet": "Reuters",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 18:17:03 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-15T22:23:41.605455+00:00",
-      "source_name": "Reuters",
-      "text_archived": false
-    },
-    {
-      "key": "antara news kuala lumpur berita terkini antara kuala lumpur",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLTRUZmY4akQ5MWNCd0p0VWpEMlZtUFBJSlFoOWdxOEFpdllsQ2JaTWdyd3RFSDRsZUlERWs5VlBFTkpWbkoxVkE1blh3dDQydTEtTWJnWTJUZ1hqYWNWd3BGaDlYZ1VyRV92akJRZXp3dFlFUTgxeS1HU05xaUtRTWwwR2VMTDhja3k4cUVEYzRRYng1QjY5WWNFTmsxYnR6S0J6ZHlONHMzZw?oc=5",
-      "tier": "none",
-      "title": "ANTARA News Kuala Lumpur - Berita Terkini Antara Kuala Lumpur - ANTARA News",
-      "domain": "antaranews.com",
-      "outlet": "ANTARA News",
-      "country": "ID",
-      "pubDate": "Tue, 10 Nov 2026 18:16:00 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T20:39:12.740903+00:00",
-      "source_name": "Antara news",
-      "text_archived": false
-    },
-    {
-      "key": "pass the cake father son duo celebrate marine corps 251st birthday together",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObDRUX2E0dWFsa2t5SlVwS19YOVdTZEFfazNXcmhiRkJjckk0dzB1NUowYTdDWkFVNkhQWTFRZUFBaWpGMldOMUZ3RkhheW44ekEtRmw4azZUQXdQbTRoTEktZG1ick1KbHJpZld5dWtTbERSeWQ5RjFUN3FESlZKckdyTXpjNjBXZmF3MmthYlN4enhnckxCQ1ZOSi1rekhqSHdFNGlLdE0yeTFtTkJmZG9Kekl4UEtBSUNZWDNleDNiY2dUWjJsZm44Y3h3YkVXWXc?oc=5",
-      "tier": "none",
-      "title": "Pass the cake!: Father-son duo celebrate Marine Corps’ 251st birthday together - Military Times",
-      "domain": "militarytimes.com",
-      "outlet": "Military Times",
-      "country": "INT",
-      "pubDate": "Tue, 10 Nov 2026 18:12:54 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-10T22:44:10.382557+00:00",
-      "source_name": "Military Times",
-      "text_archived": false
-    },
-    {
-      "key": "cna938 rewind new bahru s eca field trip collaborations eats and more",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMC1YMklaZjlsekhXeVBZVTl3aVc0NG1fZnJzT1hPaW9hazljR3dIdlF5TFlNOUtXVF93TEFfYkFaLW9RdDdCMG9zWnRYMlplQ3RfV3Z4R3R1NFFMMHh5Yy12ZHlWa0wwZHFGcjkwTE1WeTNJV3JoNG9FVTNiUWZuLVlKLW14RFUwU3dCM1BIN2hoUnl6X3N3ZjlMQXVPcUhZS3hBRGoxa3dmUGRaVmNrWUp3SFgtemVXM21jSDlIZ3dRSHAwSnZMamE3Y3h3ZHhyMWJlamtCZUU5VURCMmFjMy1oQQ?oc=5",
-      "tier": "none",
-      "title": "CNA938 Rewind - New Bahru's ECA Field Trip: collaborations, eats and more! - CNA",
-      "domain": "channelnewsasia.com",
-      "outlet": "CNA",
-      "country": "SG",
-      "pubDate": "Tue, 10 Nov 2026 18:10:37 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-11T13:25:14.925406+00:00",
-      "source_name": "Channel News Asia",
-      "text_archived": false
-    },
-    {
-      "key": "bsp seen extending rate hikes to curb inflation",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeU9FenZwb3B5OEs5YU52by1SQVVmV0VzanRUdzg2N3JGQ2lneFcwdUVpNGhiRnRTNVFEbHExVnhlOGdKcU9nV0JGRDY2eGY2X0d2SEZZeHdQY3dubW9GRjE0UmpPYjh0eG1oZTlBVm1iSC1wSk50UHBvb2pRRXgtemkyOWZBRmpJb0hwMtIBkgFBVV95cUxQMHVqSVZQeVNwYUFsRnlBaEVMRkx2RVlkMTVOdktyU1RGUTg1S1VrVmwyODRqZ3U1M0NPSTd3aEx4dEtMcTNSdXdId1NMOWFfb3pmbkxoajdqS2h1OHllbUhHU1haelI1NGpqdW5mSTlTWWEtdkxVWi1RQmxWR2xZZUlrLVEwSU91Ny0zSHhVS0ZKdw?oc=5",
-      "tier": "none",
-      "title": "BSP seen extending rate hikes to curb inflation - Inquirer.net",
-      "domain": "inquirer.net",
-      "outlet": "Inquirer.net",
-      "country": "PH",
-      "pubDate": "Tue, 10 Nov 2026 18:10:00 GMT",
-      "relevant": false,
-      "first_seen": "2026-11-16T20:52:24.578924+00:00",
-      "source_name": "Inquirer",
       "text_archived": false
     }
   ]

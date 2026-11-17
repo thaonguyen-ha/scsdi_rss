@@ -1,0 +1,13 @@
+{
+  "run_utc": "20261117T194008Z",
+  "worked": 2,
+  "swept_in": 2,
+  "by_class_and_status": {
+    "no_text|queued": 1,
+    "no_text|recovered": 1
+  },
+  "queue_counts": {
+    "queued": 1,
+    "recovered": 1
+  }
+}

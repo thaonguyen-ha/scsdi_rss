@@ -1,0 +1,65 @@
+{
+ "updated_at": "2026-11-17T19:40:07.722055+00:00",
+ "counts": {
+  "queued": 1,
+  "recovered": 1
+ },
+ "items": [
+  {
+   "key": "siêu bão champi mạnh cấp 16 cảnh báo sóng lớn trên biển đông",
+   "title": "Siêu bão Champi mạnh cấp 16, cảnh báo sóng lớn trên Biển Đông - Znews",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSzZHanJjNUNBZ2UwOF9KdmZQSVhmV2RIb19QaUs0TU5oU1hpTUk4elBnNF9xU2lwTGtrbTg0ZXoybVVfcFoyNVgxVG9ZeXlLQ2g5dEZFemNjWnRUeXdOY2pWSnowcUQ5Z3ZuSmRDVjRZaEZ3OXI0TXNZMHVuLVBIbEt3M0V6cnpOb2dFQ2NuWWdyWGdJa3ZKQkRXTjdjV2J2UEtqdlRnaDlqY2M?oc=5",
+   "country": "VN",
+   "domain": "zingnews.vn",
+   "status": "queued",
+   "needs": [
+    "text"
+   ],
+   "queued_at": "2026-11-17T19:38:01.162230+00:00",
+   "recovery_attempts": 1,
+   "history": [
+    {
+     "at": "2026-11-17T19:39:34.639900+00:00",
+     "class": "no_text",
+     "needs": [
+      "text"
+     ],
+     "text": "no_snapshot"
+    }
+   ],
+   "resolved_url": "https://lifestyle.zingnews.vn/sieu-bao-champi-manh-cap-16-canh-bao-song-lon-tren-bien-dong-post1691255.html",
+   "text_status": "no_snapshot",
+   "publisher_status": null,
+   "text_attempts": 3,
+   "wayback_attempts": 0,
+   "last_recovery_at": "2026-11-17T19:39:34.639900+00:00"
+  },
+  {
+   "key": "ceo hoàng sa việt phạm thanh hùng và tâm huyết làm thang máy việt",
+   "title": "CEO Hoàng Sa Việt Phạm Thanh Hùng và tâm huyết làm thang máy Việt - Báo Điện tử An ninh Thủ đô",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnV1TXRrY2VQNEM5aENCczNyWEg2emtmMWczam9UYjFLWkZlWnV4b2ozV2wyeW9KazB3a1MwMXk5TVJ6Z1V5LW9NbDR6dVRDSHFqWmlhbExGZmhyZ1VGaVBXRVRRU1l6cDNYbmYtQW1vcF9wU1RGSWxjeDY4QnZacmNaR1Z1ZVRkeXFnODZtOExTZDR6bk5QblJoZmItbExfQ2NRRm00Yw?oc=5",
+   "country": "VN",
+   "domain": "anninhthudo.vn",
+   "status": "recovered",
+   "needs": [],
+   "queued_at": "2026-11-17T19:38:01.162317+00:00",
+   "recovery_attempts": 1,
+   "history": [
+    {
+     "at": "2026-11-17T19:40:07.719362+00:00",
+     "class": "no_text",
+     "needs": [
+      "text"
+     ],
+     "text": "ok_wayback"
+    }
+   ],
+   "resolved_url": "https://anninhthudo.vn/ceo-hoang-sa-viet-pham-thanh-hung-va-tam-huyet-lam-thang-may-viet-post675492.antd",
+   "text_status": "ok_wayback",
+   "publisher_status": null,
+   "text_attempts": 3,
+   "wayback_attempts": 0,
+   "last_recovery_at": "2026-11-17T19:40:07.719362+00:00"
+  }
+ ]
+}
