@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T05:39:38.804396+00:00",
+ "updated_at": "2026-11-19T15:14:49.792869+00:00",
  "counts": {
   "queued": 1,
   "recovered": 1
@@ -31,7 +31,7 @@
    "text_status": "no_snapshot",
    "publisher_status": null,
    "text_attempts": 3,
-   "wayback_attempts": 0,
+   "wayback_attempts": 1,
    "last_recovery_at": "2026-11-17T19:39:34.639900+00:00"
   },
   {
