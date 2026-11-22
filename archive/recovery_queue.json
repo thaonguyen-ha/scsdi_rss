@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T04:50:44.867654+00:00",
+ "updated_at": "2026-11-22T11:45:12.903122+00:00",
  "counts": {
   "queued": 1,
   "recovered": 1
@@ -16,11 +16,19 @@
     "text"
    ],
    "queued_at": "2026-11-17T19:38:01.162230+00:00",
-   "recovery_attempts": 1,
+   "recovery_attempts": 2,
    "history": [
     {
      "at": "2026-11-17T19:39:34.639900+00:00",
      "class": "no_text",
+     "needs": [
+      "text"
+     ],
+     "text": "no_snapshot"
+    },
+    {
+     "at": "2026-11-22T11:45:12.899566+00:00",
+     "class": "transient",
      "needs": [
       "text"
      ],
@@ -32,7 +40,7 @@
    "publisher_status": null,
    "text_attempts": 3,
    "wayback_attempts": 1,
-   "last_recovery_at": "2026-11-17T19:39:34.639900+00:00"
+   "last_recovery_at": "2026-11-22T11:45:12.899566+00:00"
   },
   {
    "key": "ceo hoàng sa việt phạm thanh hùng và tâm huyết làm thang máy việt",
